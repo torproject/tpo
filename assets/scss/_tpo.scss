@@ -1,6 +1,10 @@
-/* Support Portal Styles
+/* TPO Styles
 *
 */
+
+.page {
+  padding-top: 7rem !important;
+}
 
 .section-nav {
   padding-top: 0 !important;
@@ -42,7 +46,15 @@ footer .border{
   border-bottom: 1px solid rgba(255,255,255,0.3) !important;
 }
 
+footer {
+  padding-top: 10em;
+}
 
+#wrapper {
+  width: 100%;
+  position: relative !important;
+  bottom: 0;
+}
 
  @include media-breakpoint-down(sm) {
    .display-4 {
@@ -53,6 +65,24 @@ footer .border{
        padding: 0.4rem 0 !important;
        font-size: 1.3rem;
    }
+ }
+
+ .defend {
+  color: #FFFFFF;
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  opacity: 0.699999988079071;
+  width: 822px;
+  text-align: center;
+ }
+
+.btn-shadow {
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.20000000298023224);
+  opacity: 0.699999988079071;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
  }
 
  @include media-breakpoint-up(md) {

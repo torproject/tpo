@@ -2,9 +2,9 @@
  * Base structure
  */
 
-/* Move down content because we have a fixed navbar that is 4.5rem tall */
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
 .page {
-  padding-top: 4.5rem;
+  padding-top: 3.5rem;
 }
 
 /* Reset */
@@ -58,37 +58,6 @@
   url('fonts/TorIcons/tor-icons.ttf') format('truetype'),
   url('fonts/TorIcons/tor-icons.svg?#tor-icons') format('svg');
 }
-
-.font-family-serif {
-  font-family: $font-family-serif !important;
-}
-
-.font-weight-light  { font-family: Source Sans Pro Light }
-
-.font-weight-bold   { font-family: Source Sans Pro Bold  }
-
-h5 {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: $purple;
-}
-
-h6 {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: $purple;
-}
-p {
-  font-size: 1.3rem; // We need at least 18px minuim +_+
-  color: $gray-900;
-  line-height: 2rem;
-}
-mark,.mark {
-  color: $purple;
-}
-
-
-/** Icons **/
 
 .ti:before {
     font-family: Tor Icons !important;
@@ -188,12 +157,54 @@ mark,.mark {
     content: "\f11e";
 }
 
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-family: Source Sans Pro Light;
+}
+
+.font-family-serif {
+  font-family: $font-family-serif !important;
+}
+.font-weight-light {
+  font-family: Source Sans Pro Light
+}
+.font-weight-bold {
+  font-family: Source Sans Pro Bold
+ }
+
+small, .small{
+  font-size: 90%;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $purple;
+}
+p {
+  font-size: 1.3rem; // We need at least 18px minuim +_+
+  color: $gray-900;
+  line-height: 2rem;
+}
+.display-5 {
+  font-size: 1.5em;
+}
+.display-6 {
+  font-size: 1.3em
+}
+mark, .mark {
+  color: $purple;
+}
+
 .bd-sidebar{
   border: 0 !important;
 }
 .bd-toc{
   order: 0 !important;
 }
+
 #components-nav .nav-pills .nav-link,
 #visuals-nav .nav-pills .nav-link{
   border-radius: 0;
@@ -206,11 +217,6 @@ mark,.mark {
   font-weight: bold;
 }
 
-
-.jumbotron {
-  margin-top: -50px;
-}
-
 /*
  * Nav
  */
@@ -221,7 +227,7 @@ mark,.mark {
 }
 
 .navbar-brand {
-  /*padding-left: 80px;*/
+  padding-left: 80px;
   span {
     font-size: 0.6em;
     display: flex;
@@ -231,7 +237,6 @@ mark,.mark {
 /*
  * Sidebar
  */
-
 
 .sidetopics {
   z-index: 1000;
@@ -258,6 +263,100 @@ mark,.mark {
 .toc-h4 {
   padding-left: 0.8em;
   font-size: 0.9em;
+}
+
+// Styleguide Nav Update
+
+// All levels of nav
+.bd-sidebar .nav > li > a {
+  font-size: 100%;
+  color: rgba(0, 0, 0, .85);
+}
+
+.bd-sidebar .nav > li > a:hover {
+  color: $purple !important;
+  text-decoration: none;
+}
+
+#bd-docs-nav{
+  padding-top: 2rem;
+}
+
+.dropdown{
+  display: block;
+}
+
+.dropdown-menu {
+    margin: 0;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    overflow-y: scroll;
+    max-height: 350px;
+}
+
+.dropdown .btn {
+    border-radius: 0;
+}
+
+.btn {text-transform: capitalize;}
+
+label {
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+
+#nav-toggle {
+  display: none; /* hide the checkbox */
+}
+
+.side-toggler {
+  float:right !important;
+}
+
+#menu-toggle:checked + .burger-menu {
+  display: block;
+}
+
+#nav-toggle:checked + .hamburger-menu {
+  display: block;
+}
+
+.navbar-toggler:hover .chevron-up {
+    display: block !important;
+}
+
+.navbar-toggler:hover .chevron-down {
+    display: none;
+}
+
+a.side-nav.active {
+    color: $primary !important;
+}
+
+.smalltopics {
+    display: none;
+}
+
+.chevron {
+    height: 50px;
+    width: 50px;
+    margin: -10px -1px 1px -1px;
+}
+
+.chevron-up {
+    display: none !important;
+    top: 10px !important;
+}
+
+.chevron-down {
+    display: block;
+    top: 10px !important;
 }
 
 /*
@@ -335,14 +434,6 @@ mark,.mark {
   margin-top: -.25rem;
 }
 
-// Code
-pre {
-  padding: 0.5rem;
-  margin-top: 1rem;
-  color: $pre-color;
-  background: $code-bg;
-}
-
 // Variations
 @mixin bs-callout-variant($color) {
   border-left-color: $color;
@@ -358,7 +449,6 @@ pre {
 
 // All levels of nav
 .bd-sidebar .nav > li > a {
-  font-size: 100%;
   color: rgba(0, 0, 0, .85);
 }
 
@@ -369,12 +459,6 @@ pre {
 
 #bd-docs-nav{
   padding-top: 2rem;
-}
-
-// Spacers //
-
-.anchor-spacer:before {
-  content: ''; display: block; position: relative; width: 0; height: 6em; margin-top: -6em
 }
 
 // stylelint-disable declaration-block-single-line-max-declarations
@@ -456,18 +540,8 @@ pre {
   user-select: none;
 }
 
-
 .text-primary-light {
   color: $bd-purple-light;
-}
-
-#topics {
-  margin: 0 auto;
-  display: block;
-  overflow-y: scroll;
-  height: 950px;
-  width: 97;
-  scroll-behavior: smooth;
 }
 
 .dropdown{
@@ -475,21 +549,54 @@ pre {
 }
 
 .dropdown-menu {
-    margin: 0;
     display: none;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    overflow-y: scroll;
-    max-height: 350px;
 }
 
-.dropdown .btn {
-    border-radius: 0;
+.mobile {
+    display: none !important;
 }
 
-.btn {text-transform: capitalize;}
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+    .mobile {
+        display: block !important;
+	padding-top: 50px;
+    }
+
+    .display-1 {
+      font-size: 4rem;
+    }
+
+    .display-2 {
+      font-size: 3.5rem;
+    }
+
+    .display-3{
+      font-size: 2.5rem;
+    }
+
+    .display-4{
+      font-size: 2rem;
+    }
+
+}
+
+// Footer //
+
+.footer a.nav-link {
+  padding: 0.2rem;
+}
+footer .border{
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+}
+.footer a.nav-link {
+  padding: 0.2rem;
+}
 
 label {
   cursor: pointer;
@@ -516,51 +623,53 @@ label {
 }
 
 .navbar-toggler:hover .chevron-up {
-    display: block !important;
+  display: block !important;
 }
 
 .navbar-toggler:hover .chevron-down {
-    display: none;
+  display: none;
 }
 
+
 a.side-nav.active {
-    color: $primary !important;
+  color: $primary !important;
 }
 
 .smalltopics {
-    display: none;
+  display: none;
 }
 
 .chevron {
-    height: 50px;
-    width: 50px;
-    margin: -10px -1px 1px -1px;
+  height: 50px;
+  width: 50px;
+  margin: -10px -1px 1px -1px;
 }
 
 .chevron-up {
-    display: none !important;
-    top: 10px !important;
+  display: none !important;
+  top: 10px !important;
+}
+.chevron-down {
+  display: block;
+  top: 10px !important;
 }
 
-.chevron-down {
-    display: block;
-    top: 10px !important;
-}
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-    nav.sidetopics {
-        display: none !important;
-	visibility: hidden !important;
-    }
+  nav.sidetopics {
+    display: none !important;
+    visibility: hidden !important;
+  }
 
-    nav.smalltopics {
-        display: block;
-	width:100%;
-	position: sticky;
-	padding-top: inherit;
-    }
+  nav.smalltopics {
+    display: block;
+    width:100%;
+    position: sticky;
+    padding-top: inherit;
+  }
+}
 
-
-
+.no-gutters {
+  margin-bottom: 0 !important;
 }

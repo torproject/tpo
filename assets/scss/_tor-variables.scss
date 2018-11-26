@@ -1,16 +1,20 @@
+// Tor Main Color Palette
+$purple:      #7D4698 !default;
+$purple-dark: #59316B !default;
+$green:       #68B030 !default;
+$gray-dark:   #333A41 !default;
+$white:       #FFFFFF !default;
+
+// Other Colors
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
-$purple:  #7D4698 !default;
-$purple-dark: #59316B !default;
 $pink:    #e83e8c !default;
 $red:     #EF243E !default;
 $orange:  #fd7e14 !default;
 $yellow:  #FFBF00 !default;
-$green:   #68B044 !default;
 $teal:    #20c997 !default;
 $cyan:    #00A5BB !default;
 
-$white:    #fff !default;
 $gray-100: #F8F9FA !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -23,7 +27,7 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 $primary:       $purple !default;
-$secondary:     $gray-800 !default;
+$secondary:     $purple-dark !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -54,12 +58,3 @@ $mark-bg:               $bd-purple-light;
 
 // Tables
 $table-accent-bg: $bd-purple-light;
-
-//// Code
-$code-font-size:                    80% !default;
-$code-padding-y:                    .5rem !default;
-$code-padding-x:                    .5rem !default;
-$code-color:                        lightgreen !default;
-$code-bg:                           black !default;
-
-$pre-color:                         lightgreen !default;
