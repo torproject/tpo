@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 17:09+CET\n"
+"POT-Creation-Date: 2018-11-27 21:14+CET\n"
 "PO-Revision-Date: 2018-09-24 16:29+0200\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
@@ -13,11 +13,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: templates/footer.html:5
+#: templates/footer.html:9 templates/hero.html:15 templates/navbar.html:41
+msgid "Download Tor Browser"
+msgstr "Bajarse el navegador Tor"
+
+#: templates/footer.html:18
 msgid "Our mission:"
 msgstr "Nuestra misión"
 
-#: templates/footer.html:5
+#: templates/footer.html:18
 msgid ""
 "to advance human rights and freedoms by creating and deploying free and open "
 "source anonymity and privacy technologies, supporting their unrestricted "
@@ -29,25 +33,21 @@ msgstr ""
 "abierto, el apoyo a su disponibilidad y utilización sin restricciones y el "
 "fomento de su comprensión científica y popular."
 
-#: templates/footer.html:24
+#: templates/footer.html:37
 msgid "Subscribe to our Newsletter"
 msgstr "Suscribirse a nuestra lista de correo"
 
-#: templates/footer.html:25
+#: templates/footer.html:38
 msgid "Get monthly updates and opportunities from the Tor Project"
 msgstr "Recibir noticias mensuales y oportunidades del Proyecto Tor"
 
-#: templates/footer.html:32
+#: templates/footer.html:45
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
 msgstr ""
 "Se pueden encontrar, la marca registrada, las notas de derechos de autor, y "
 "las reglas de uso por terceras partes, en nuestra"
-
-#: templates/hero.html:15 templates/navbar.html:41
-msgid "Download Tor Browser"
-msgstr "Bajarse el navegador Tor"
 
 #: templates/home.html:7
 msgid "Tor Project | "

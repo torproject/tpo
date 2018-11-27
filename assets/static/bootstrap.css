@@ -6858,6 +6858,12 @@ footer {
   border: 2px solid #FFFFFF;
   border-radius: 2px; }
 
+.oval {
+  background-color: #D8D8D8;
+  border-radius: 100%;
+  width: 390px;
+  height: 390px; }
+
 .oval-2 {
   background-color: #D8D8D8;
   border-radius: 100%;
@@ -6866,6 +6872,13 @@ footer {
 
 .oval-right {
   float: right; }
+
+.hero > p {
+  color: #484848;
+  font-family: Source Sans Pro Light;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: left; }
 
 /*
  * Base structure
