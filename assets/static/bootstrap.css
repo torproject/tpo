@@ -6858,6 +6858,15 @@ footer {
   border: 2px solid #FFFFFF;
   border-radius: 2px; }
 
+.oval-2 {
+  background-color: #D8D8D8;
+  border-radius: 100%;
+  width: 190px;
+  height: 190px; }
+
+.oval-right {
+  float: right; }
+
 /*
  * Base structure
  */
