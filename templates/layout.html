@@ -4,17 +4,22 @@
 <link rel="stylesheet" href="{{ '/static/bootstrap.css'|asseturl }}">
 <link rel="stylesheet" href="{{ '/static/fonts/open-iconic/font/css/open-iconic-bootstrap.css'|asseturl }}">
 
-<title>{% block title %}{{ this.title }}{% endblock %} | {{ _("Tor Project | Tor Browser Manual") }}</title>
-<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+<title>{% block title %}{{ this.title }}{% endblock %} | {{ _("Tor Project | ") }}</title>
+<body class="no-gutters">
   <header>
     {% include 'navbar.html' %}
   </header>
   <div class="page">
+    {% include 'header.html' %}
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
-	{% include 'sidenav.html' %}
-        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 {{ bag('alternatives', this.alt, 'order') }}">
-          {% block body %}{% endblock %}
+        <main role="main" class="mx-auto col-12 {{ bag('alternatives', this.alt, 'order') }}">
+          <div class="container py-3 preamble">
+            {% if this.parent.path == "/about" %}
+              {{ this.parent.body }}
+            {% endif %}
+          </div>
+          {% include 'content.html' %}
         </main>
       </div>
     </div>

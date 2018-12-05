@@ -1,0 +1,38 @@
+<div class="container-fluid bg-dark">
+  <div class="row flex-xl-nowrap {{ bag('alternatives', this.alt, 'order') }}">
+    <div class="container bg-dark pt-5">
+      <div class="row">
+        <div class="col-12 content-center pt-5">
+          <div class="row pt-5">
+            <h6 class="mx-auto text-white text-uppercase">{% block section %}{{ this.section }}{% endblock %}</h1>
+          </div>
+          <div class="row pt-5">
+            <h2 class="mx-auto display-3 text-white text-capitalize">{% block title %}{{ this.title }}{% endblock %}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid  border-bottom border-light">
+  <div class="row flex-xl-nowrap {{ bag('alternatives', this.alt, 'order') }}">
+    <div class="row col-12 justify-content-center">
+      <ul class="nav">
+        {% set menubag = this.section + '+' + this.alt %}
+        {% for id, item in bag(menubag).items() %}
+        <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+        {% if this.is_child_of(this.parent) %}
+          <a class="nav-link" href="{{ this.parent.path }}/{{ item.path }}">{{ item.label }}
+        {% else %}
+          <a class="nav-link" href="{{ item.path|url}}">{{ item.label }}
+        {% endif %}
+            {% if this.is_child_of(item.path) %}
+            <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

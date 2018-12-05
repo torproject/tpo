@@ -1,7 +1,11 @@
-title: About this Website
+_template: layout.html
+---
+section: about
+---
+title: history
 ---
 body:
 
-This is a website that was made with the Lektor quickstart.
+The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of “onion routing” began in the mid 1990s.
 
-And it does not contain a lot of information.
+Just like Tor users, the developers, researchers, and funders who’ve made Tor possible are a diverse group of people. But all of the people who have been involved in Tor are united by a common belief: internet users should have private access to an uncensored web. 

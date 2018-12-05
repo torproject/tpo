@@ -6781,6 +6781,75 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: inherit;
   color: #212529; }
 
+/* General Portal Styles
+*
+*/
+.content {
+  font-family: Source Serif Pro;
+  color: #333333 !important;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left; }
+
+.preamble {
+  color: #777777 !important;
+  font-family: Source Sans Pro;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left; }
+
+.section-nav {
+  padding-top: 0 !important;
+  border: 0 !important; }
+
+#sidenav-topics .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #7D4698;
+  background-color: #fff;
+  font-weight: bold; }
+
+.toc-entry a:hover {
+  color: #7D4698 !important; }
+
+.sidetopics {
+  background: transparent;
+  position: sticky;
+  top: 114px;
+  padding-top: inherit; }
+
+#topics {
+  min-height: 500px;
+  margin-bottom: 200px; }
+
+#topics h5 {
+  padding-top: 7rem; }
+
+.question {
+  padding: 0.75rem 0; }
+
+.footer {
+  position: relative;
+  z-index: 99999999999; }
+
+.footer a.nav-link {
+  padding: 0.2rem; }
+
+.border-bottom {
+  border-bottom: 2px solid; }
+
+footer .border {
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important; }
+
+@media (max-width: 767px) {
+  .display-4 {
+    font-size: 2rem; }
+
+  .toc-entry a {
+    display: block;
+    padding: 0.4rem 0 !important;
+    font-size: 1.3rem; } }
 /* TPO Styles
 *
 */

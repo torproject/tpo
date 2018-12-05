@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 21:15+CET\n"
+"POT-Creation-Date: 2018-12-05 18:52+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -41,12 +41,8 @@ msgid ""
 "found in our "
 msgstr ""
 
-#: templates/home.html:7
+#: templates/home.html:7 templates/layout.html:7
 msgid "Tor Project | "
-msgstr ""
-
-#: templates/layout.html:7
-msgid "Tor Project | Tor Browser Manual"
 msgstr ""
 
 #: templates/navbar.html:5
@@ -57,7 +53,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr ""
 

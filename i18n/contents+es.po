@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 21:14+CET\n"
+"POT-Creation-Date: 2018-11-29 16:19+CET\n"
 "PO-Revision-Date: 2018-09-24 16:29+0200\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
@@ -49,13 +49,9 @@ msgstr ""
 "Se pueden encontrar, la marca registrada, las notas de derechos de autor, y "
 "las reglas de uso por terceras partes, en nuestra"
 
-#: templates/home.html:7
+#: templates/home.html:7 templates/layout.html:7
 msgid "Tor Project | "
 msgstr ""
-
-#: templates/layout.html:7
-msgid "Tor Project | Tor Browser Manual"
-msgstr "Tor Project | Manual de usuario del Navegador"
 
 #: templates/navbar.html:5
 msgid "Tor Logo"
@@ -65,13 +61,16 @@ msgstr "Tor Logo"
 msgid "Search"
 msgstr "Buscar"
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr "Temas"
 
 #: templates/macros/topic.html:18
 msgid "Permalink"
 msgstr "Permalink"
+
+#~ msgid "Tor Project | Tor Browser Manual"
+#~ msgstr "Tor Project | Manual de usuario del Navegador"
 
 #~ msgid "Below is an outline of how to sign up and begin."
 #~ msgstr "A continuación aparece un resumen de cómo registrarse y comenzar."
