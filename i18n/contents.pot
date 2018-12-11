@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 14:34+CET\n"
+"POT-Creation-Date: 2018-12-11 15:18+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Tor Logo"
 msgstr ""
 
-#: templates/people.html:168
+#: templates/people.html:167
 msgid "Sign up for tor-dev"
 msgstr ""
 

@@ -18,10 +18,18 @@
             <div class="container py-3 preamble">
               {{ this.parent.body }}
             </div>
+            {% include 'content.html' %}
+          {% else %}
+            <div class="container py-3 preamble">
+              {{ this.body }}
+            </div>
           {% endif %}
-          {% include 'content.html' %}
+
           {% if this.path == "/about/people" %}
             {% include 'people.html' %}
+          {% endif %}
+          {% if this.path == "/about/sponsors" %}
+            {% include 'sponsors.html' %}
           {% endif %}
         </main>
       </div>

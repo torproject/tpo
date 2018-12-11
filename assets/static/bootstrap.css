@@ -6805,12 +6805,12 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 28px;
   font-weight: 300;
   line-height: 19px;
-  width: 297.73px;
+  width: 95%;
   text-align: left; }
 
 .human-name-small {
   font-size: 24px;
-  width: 168px; }
+  width: 95%; }
 
 .nick {
   font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -6824,12 +6824,12 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  width: 297.73px;
+  width: 95%;
   text-align: left; }
 
 .description-small {
   font-size: 16px;
-  width: 168px; }
+  width: 95%; }
 
 .section-nav {
   padding-top: 0 !important;
