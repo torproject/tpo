@@ -24,12 +24,14 @@
               {{ this.body }}
             </div>
           {% endif %}
-
           {% if this.path == "/about/people" %}
             {% include 'people.html' %}
           {% endif %}
           {% if this.path == "/about/sponsors" %}
             {% include 'sponsors.html' %}
+          {% endif %}
+          {% if this.path == "/about/reports" %}
+            {% include 'reports.html' %}
           {% endif %}
         </main>
       </div>
