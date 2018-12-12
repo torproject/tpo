@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 22:17+CET\n"
+"POT-Creation-Date: 2018-12-12 23:30+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -59,8 +59,4 @@ msgstr ""
 
 #: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
-msgstr ""
-
-#: templates/macros/topic.html:18
-msgid "Permalink"
 msgstr ""
