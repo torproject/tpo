@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 15:24+CET\n"
+"POT-Creation-Date: 2018-12-12 17:47+CET\n"
 "PO-Revision-Date: 2018-09-24 16:29+0200\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
@@ -50,7 +50,7 @@ msgstr ""
 "las reglas de uso por terceras partes, en nuestra"
 
 #: templates/home.html:7 templates/layout.html:7
-msgid "Tor Project | "
+msgid "Tor Project"
 msgstr ""
 
 #: templates/navbar.html:10
