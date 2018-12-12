@@ -1,11 +1,15 @@
-section: contact
+_template: layout.html
 ---
-title: Contact
+section: the tor project
+---
+html: contact.html
+---
+color: primary
+---
+title: contact
 ---
 body:
 
-This is a list of things:
+<h4 class="text-primary">Get Support <span class="oi oi-arrow-right p-1" title="icon arrow-right" aria-hidden="true"></span></h4>
 
-* Thing 1
-* Thing 2
-* Thing 3
+Need help? Visit our Support Portal for answers to frequently asked questions about connecting to Tor, circumventing censorship, using onion services, and more.

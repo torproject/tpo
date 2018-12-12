@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 17:47+CET\n"
+"POT-Creation-Date: 2018-12-12 18:10+CET\n"
 "PO-Revision-Date: 2018-09-19 22:39+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -11,6 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/about.html:7 templates/home.html:7 templates/layout.html:7
+msgid "Tor Project"
+msgstr ""
 
 #: templates/footer.html:9 templates/hero.html:15 templates/navbar.html:50
 msgid "Download Tor Browser"
@@ -47,10 +51,6 @@ msgid ""
 msgstr ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
-
-#: templates/home.html:7 templates/layout.html:7
-msgid "Tor Project"
-msgstr ""
 
 #: templates/navbar.html:10
 msgid "Tor Logo"

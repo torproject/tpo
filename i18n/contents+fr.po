@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 17:47+CET\n"
+"POT-Creation-Date: 2018-12-12 18:10+CET\n"
 "PO-Revision-Date: 2018-09-21 17:05+0200\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
@@ -12,6 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.8.11\n"
+
+#: templates/about.html:7 templates/home.html:7 templates/layout.html:7
+msgid "Tor Project"
+msgstr ""
 
 #: templates/footer.html:9 templates/hero.html:15 templates/navbar.html:50
 msgid "Download Tor Browser"
@@ -46,10 +50,6 @@ msgstr "Recevez les mises à jours et opportunités mensuelles du Projet Tor"
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
-msgstr ""
-
-#: templates/home.html:7 templates/layout.html:7
-msgid "Tor Project"
 msgstr ""
 
 #: templates/navbar.html:10

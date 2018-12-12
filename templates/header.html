@@ -22,26 +22,6 @@
     </div>
   </div>
 </div>
-<div class="container-fluid  border-bottom border-light">
-  <div class="row flex-xl-nowrap {{ bag('alternatives', this.alt, 'order') }}">
-    <div class="row col-12 justify-content-center">
-      <ul class="nav">
-        {% set menubag = this.section + '+' + this.alt %}
-        {% for id, item in bag(menubag).items() %}
-        <li{% if this.path == this.parent.path + '/' + item.path %} class="nav-item active border-active" {% else %} class="nav-item"{% endif %}>
-        {% if this.parent.path == "/" %}
-          <a class="nav-link" href="{{ item.path|url}}">{{ item.label }}
-        {% else %}
-          {% set link = this.parent.path + "/" + item.path %}
-          <a class="nav-link" href="{{ link|url }}">{{ item.label }}
-        {% endif %}
-            {% if this.is_child_of(item.path) %}
-            <span class="sr-only">(current)</span>
-            {% endif %}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+{% if this.section == 'about' %}
+  {% include 'pagenav.html' %}
+{% endif %}
