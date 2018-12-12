@@ -6868,6 +6868,9 @@ a.text-dark:focus, a.text-dark:hover {
 .question {
   padding: 0.75rem 0; }
 
+.border-active {
+  border-bottom: 3px solid #7D4698; }
+
 .footer {
   position: relative;
   z-index: 99999999999; }
@@ -6907,22 +6910,6 @@ footer .border {
 
 .toc-entry a:hover {
   color: #7D4698 !important; }
-
-.sidetopics {
-  background: transparent;
-  position: sticky;
-  top: 114px;
-  padding-top: inherit; }
-
-#topics {
-  min-height: 500px;
-  margin-bottom: 200px; }
-
-#topics h5 {
-  padding-top: 7rem; }
-
-.question {
-  padding: 0.75rem 0; }
 
 .footer {
   position: relative;

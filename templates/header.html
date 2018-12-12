@@ -1,6 +1,14 @@
+{% if this.color == 'primary' %}
+<div class="container-fluid bg-primary">
+{% else %}
 <div class="container-fluid bg-dark">
+{% endif %}
   <div class="row flex-xl-nowrap {{ bag('alternatives', this.alt, 'order') }}">
+    {% if this.color == 'primary' %}
+    <div class="container bg-primary pt-5">
+    {% else %}
     <div class="container bg-dark pt-5">
+    {% endif %}
       <div class="row">
         <div class="col-12 content-center pt-5">
           <div class="row pt-5">
@@ -20,12 +28,12 @@
       <ul class="nav">
         {% set menubag = this.section + '+' + this.alt %}
         {% for id, item in bag(menubag).items() %}
-        <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-        {% if this.is_child_of(this.parent) %}
+        <li{% if this.path == this.parent.path + '/' + item.path %} class="nav-item active border-active" {% else %} class="nav-item"{% endif %}>
+        {% if this.parent.path == "/" %}
+          <a class="nav-link" href="{{ item.path|url}}">{{ item.label }}
+        {% else %}
           {% set link = this.parent.path + "/" + item.path %}
           <a class="nav-link" href="{{ link|url }}">{{ item.label }}
-        {% else %}
-          <a class="nav-link" href="{{ item.path|url}}">{{ item.label }}
         {% endif %}
             {% if this.is_child_of(item.path) %}
             <span class="sr-only">(current)</span>

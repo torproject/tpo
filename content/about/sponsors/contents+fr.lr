@@ -1,5 +1,9 @@
 section: about
 ---
+html: sponsors.html
+---
+color: primary
+---
 title: Sponsors
 ---
 body:

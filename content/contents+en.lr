@@ -1,5 +1,7 @@
 section: home
 ---
+color: dark
+---
 _template: jumbotron.html
 ---
 title: Tor Project |

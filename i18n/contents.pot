@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 17:25+CET\n"
+"POT-Creation-Date: 2018-12-12 15:27+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: templates/footer.html:9 templates/hero.html:15 templates/navbar.html:41
+#: templates/footer.html:9 templates/hero.html:15 templates/navbar.html:50
 msgid "Download Tor Browser"
 msgstr ""
 
@@ -45,11 +45,11 @@ msgstr ""
 msgid "Tor Project | "
 msgstr ""
 
-#: templates/navbar.html:5
+#: templates/navbar.html:10
 msgid "Tor Logo"
 msgstr ""
 
-#: templates/people.html:167
+#: templates/people.html:168
 msgid "Sign up for tor-dev"
 msgstr ""
 

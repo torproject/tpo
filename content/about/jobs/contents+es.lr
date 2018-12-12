@@ -1,5 +1,9 @@
 section: about
 ---
+html: jobs.html
+---
+color: primary
+---
 title: Jobs
 ---
 body:

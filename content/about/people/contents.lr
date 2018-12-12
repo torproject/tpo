@@ -1,5 +1,9 @@
 section: about
 ---
+html: people.html
+---
+color: primary
+---
 title: People
 ---
 body:

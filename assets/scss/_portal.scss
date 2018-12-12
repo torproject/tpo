@@ -64,11 +64,11 @@
   list-style: none;
 }
 
-
 .section-nav {
   padding-top: 0 !important;
   border: 0 !important;
 }
+
 #sidenav-topics .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #7D4698;
     background-color: #fff;
@@ -77,22 +77,31 @@
 .toc-entry a:hover {
   color: $purple !important;
 }
+
 .sidetopics {
   background: transparent;
   position: sticky;
   top: 114px;
   padding-top: inherit;
 }
+
 #topics {
   min-height: 500px;
   margin-bottom: 200px;
 }
+
 #topics h5{
   padding-top: 7rem;
 }
+
 .question {
   padding: 0.75rem 0;
 }
+
+.border-active {
+  border-bottom: 3px solid $primary;
+}
+
 .footer {
   position: relative;
   z-index:99999999999;

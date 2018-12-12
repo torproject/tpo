@@ -1,5 +1,9 @@
 section: about
 ---
+html: history.html
+---
+color: primary
+---
 title: History
 ---
 body:
@@ -22,4 +26,4 @@ The need for tools safeguarding against mass surveillance became a mainstream co
 
 People’s awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom. We fight every day for everyone to have private access to an uncensored internet, and Tor has become the world’s strongest tool for privacy and freedom online.
 
-Now the network has thousands of relays and millions of users worldwide. The diversity of Tor users keeps it safe. 
+Now the network has thousands of relays and millions of users worldwide. The diversity of Tor users keeps it safe.

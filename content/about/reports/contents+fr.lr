@@ -1,5 +1,9 @@
 section: about
 ---
+html: reports.html
+---
+color: primary
+---
 title: Reports
 ---
 body:

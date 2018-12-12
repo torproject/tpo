@@ -1,5 +1,10 @@
+{% if this.color == 'primary' %}
+<div class="container bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary p-5">
+{% else %}
 <div class="container bg-dark">
   <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-dark p-5">
+{% endif %}
     <a class="navbar-brand" href="/">
       <img src="{{ '/static/images/tor-logo.svg'|asseturl }}" >
       <span class="sr-only">{{ _("Tor Logo") }}</span>
@@ -26,7 +31,11 @@
         </ul>
       </div>
       <div class="mt-2 btn-group dropdown pr-2">
-        <button type="button" class="btn btn-dark bg-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% if this.color == 'primary' %}
+          <button type="button" class="btn btn-primary bg-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% else %}
+          <button type="button" class="btn btn-dark bg-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% endif %}
           {{ bag('alternatives', this.alt, 'language') }}
         </button>
         <div class="dropdown-menu">
@@ -38,7 +47,7 @@
         </div>
       </div>
       <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/download-easy.html.en">
-        <i class="glyphicon-glyphicon-arrow-down"></i>{{ _("Download Tor Browser") }}
+        <span class="oi oi-arrow-bottom p-1" title="icon arrow-bottom" aria-hidden="true"></span>{{ _("Download Tor Browser") }}
       </a>
     </div>
   </nav>
