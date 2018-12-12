@@ -7295,6 +7295,11 @@ a.side-nav.active {
   .form-wide input {
     padding: 20px !important; }
 
+.text-tpo {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px; }
+
 .badge {
   text-transform: uppercase; }
 
@@ -7436,6 +7441,7 @@ a.side-nav.active {
 .nc {
   color: #0a8; }
 
+size
 .no {
   color: #360; }
 
