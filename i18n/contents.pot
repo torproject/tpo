@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 23:30+CET\n"
+"POT-Creation-Date: 2018-12-13 16:27+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -11,19 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: templates/about.html:7 templates/home.html:8 templates/layout.html:7
+#: templates/about.html:7 templates/homepage.html:8 templates/layout.html:7
 msgid "Tor Project"
 msgstr ""
 
-#: templates/footer.html:9 templates/hero.html:15 templates/navbar.html:50
+#: templates/footer.html:10 templates/hero-download.html:40
+#: templates/hero-home.html:13 templates/navbar.html:57
 msgid "Download Tor Browser"
 msgstr ""
 
-#: templates/footer.html:18
+#: templates/footer.html:19
 msgid "Our mission:"
 msgstr ""
 
-#: templates/footer.html:18
+#: templates/footer.html:19
 msgid ""
 "to advance human rights and freedoms by creating and deploying free and open "
 "source anonymity and privacy technologies, supporting their unrestricted "
@@ -31,15 +32,15 @@ msgid ""
 "understanding."
 msgstr ""
 
-#: templates/footer.html:37
+#: templates/footer.html:38
 msgid "Subscribe to our Newsletter"
 msgstr ""
 
-#: templates/footer.html:38
+#: templates/footer.html:39
 msgid "Get monthly updates and opportunities from the Tor Project"
 msgstr ""
 
-#: templates/footer.html:45
+#: templates/footer.html:46
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "

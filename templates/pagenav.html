@@ -4,16 +4,12 @@
       <ul class="nav">
         {% set menubag = this.section + '+' + this.alt %}
         {% for id, item in bag(menubag).items() %}
-        <li{% if this.path == this.parent.path + '/' + item.path %} class="nav-item active border-active" {% else %} class="nav-item"{% endif %}>
-        {% if this.parent.path == "/" %}
-          <a class="nav-link" href="{{ item.path|url}}">{{ item.label }}
-        {% else %}
-          {% set link = this.parent.path + "/" + item.path %}
-          <a class="nav-link" href="{{ link|url }}">{{ item.label }}
-        {% endif %}
-            {% if this.path == this.parent.path + '/' + item.path %}
+        <li{% if this.path == item.path %} class="nav-item active border-active" {% else %} class="nav-item"{% endif %}>
+        {% set item_path = site.get(item.path) %}
+          <a class="nav-link" href="{{ this.url_to(item_path) }}">{{ item.label }}
+          {% if this.path == item.path %}
             <span class="sr-only">(current)</span>
-            {% endif %}
+          {% endif %}
           </a>
         </li>
         {% endfor %}

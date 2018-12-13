@@ -6,6 +6,8 @@ _template: jumbotron.html
 ---
 title: Anonymity Online
 ---
+html: home.html
+---
 body:
 
 ######ABOUT US######

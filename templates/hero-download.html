@@ -1,0 +1,45 @@
+<div class="row pt-5">
+  <h1 class="mx-auto display-2 text-white">Defend yourself.</h1>
+</div>
+<div class="row pt-5">
+  <h4 class="mx-auto defend text-white">Protect yourself against tracking, surveillance, and censorship. </h1>
+</div>
+<div class="row col-12 p-5 mx-auto justify-content-center">
+  <div class="mt-2 btn-group dropdown pr-2">
+    {% if this.color == 'primary' %}
+      <button type="button" class="btn btn-primary bg-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {% else %}
+      <button type="button" class="btn btn-dark bg-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {% endif %}
+        Platform
+    </button>
+    <div class="dropdown-menu">
+      {% for id, item in bag('platforms+' + this.alt).items() %}
+        <a class="dropdown-item" href="{{ this.path|url(alt=id) }}">{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="mt-2 btn-group dropdown pr-2">
+    {% if this.color == 'primary' %}
+      <button type="button" class="btn btn-primary bg-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {% else %}
+      <button type="button" class="btn btn-dark bg-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {% endif %}
+    {{ bag('alternatives', this.alt, 'language') }}
+    </button>
+    <div class="dropdown-menu">
+      {% for id, item in bag('alternatives').items() %}
+        {% if this.alt != id %}
+          <a class="dropdown-item" href="{{ this.path|url(alt=id) }}">{{ item.language }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% set download = site.get('/download') %}
+  <a class="btn btn-shadow text-white bg-dark" href="{{ this.url_to(download) }}">
+    {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
+  </a>
+</div>
+<div class="row pt-5">
+  <a class="mx-auto text-white p-5 fade" href=""><u>Read the latest release announcements.</u></a>
+</div>

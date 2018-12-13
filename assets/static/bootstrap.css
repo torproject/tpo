@@ -6938,6 +6938,9 @@ footer {
     display: block;
     padding: 0.4rem 0 !important;
     font-size: 1.3rem; } }
+.fade {
+  opacity: 0.699999988079071; }
+
 .defend {
   color: #FFFFFF;
   font-family: Source Sans Pro;
