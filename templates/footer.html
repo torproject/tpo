@@ -64,7 +64,6 @@
     <script src="{{ '/static/js/popper.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/bootstrap.bundle.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
-    <script src="{{ '/static/js/collapse.min.js'|asseturl }}" ></script>
     <script type="text/javascript">
 
       $('.side-nav').click(function(){
@@ -89,5 +88,19 @@
           window.scrollTo(0, $(window.location.hash).position().top)
         }, 500)
       }
+    </script>
+    <script type="text/javascript">
+    var os = navigator.platform;
+    if (os.indexOf("Linux") >=0) {
+      $("#linux").attr('selected', true);;
+    }else if(os.indexOf("Windows") >=0) {
+      $("#windows").attr('selected', true);;
+    }else if(os.indexOf("Mac") >=0) {
+      $("#osx").attr('selected', true);;
+    }else if(os.indexOf("Android") >=0) {
+      $("#Android").attr('selected', true);;
+    }else{
+      $("#platform").attr('selected', true);;
+    }
     </script>
   </div>

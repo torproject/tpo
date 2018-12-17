@@ -99,7 +99,8 @@
 }
 
 .border-active {
-  border-bottom: 3px solid $primary;
+  border-bottom: 3px solid !important;
+  border-color: $primary;
 }
 
 .footer {

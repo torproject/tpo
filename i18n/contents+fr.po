@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-13 16:19+CET\n"
+"POT-Creation-Date: 2018-12-17 14:47+CET\n"
 "PO-Revision-Date: 2018-09-21 17:05+0200\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "Tor Project"
 msgstr ""
 
-#: templates/footer.html:10 templates/hero-download.html:40
+#: templates/footer.html:10 templates/hero-download.html:28
 #: templates/hero-home.html:13 templates/navbar.html:57
 msgid "Download Tor Browser"
 msgstr "Télécharger le Navigateur Tor"
