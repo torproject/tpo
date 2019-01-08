@@ -5,11 +5,14 @@ node_modules
 
 public
 
+contents+*.lr
+
 *.egg-info
 *.pyc
 __pycache__
 
-i18n/compiled
+### Lektor Temps ###
+*~*
 
 ### Emacs ###
 # -*- mode: gitignore; -*-

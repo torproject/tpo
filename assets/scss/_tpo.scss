@@ -2,6 +2,18 @@
 *
 */
 
+#sidenav-topics .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #7D4698;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+#wrapper {
+  width: 100%;
+  position: relative !important;
+  bottom: 0;
+}
+
 .page {
   padding-top: 7rem !important;
 }
@@ -9,11 +21,6 @@
 .section-nav {
   padding-top: 0 !important;
   border: 0 !important;
-}
-#sidenav-topics .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #7D4698;
-    background-color: #fff;
-    font-weight: bold;
 }
 
 .toc-entry a:hover {
@@ -24,9 +31,11 @@
   position: relative;
   z-index:99999999999;
 }
+
 .footer a.nav-link {
   padding: 0.2rem;
 }
+
 footer .border{
   border: 0 !important;
   border-bottom: 1px solid rgba(255,255,255,0.3) !important;
@@ -36,13 +45,12 @@ footer {
   padding-top: 10em;
 }
 
-#wrapper {
-  width: 100%;
-  position: relative !important;
-  bottom: 0;
+.onion-bg{
+  background: url("assets/circle-pattern.png");
 }
 
- @include media-breakpoint-down(sm) {
+
+@include media-breakpoint-down(sm) {
    .display-4 {
      font-size: 2rem;
    }
@@ -53,11 +61,7 @@ footer {
    }
  }
 
- .fade {
-   opacity: 0.699999988079071;
- }
-
- .defend {
+.defend {
   color: #FFFFFF;
   font-family: Source Sans Pro;
   font-size: 24px;
