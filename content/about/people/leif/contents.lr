@@ -1,0 +1,11 @@
+_model: person
+---
+role: core
+---
+name: Leif Ryge
+---
+nickname: leif
+---
+description:
+
+Works on security analysis, designer of "bananaphone" transport.

@@ -1,0 +1,12 @@
+_model: person
+---
+role: core
+---
+name: Sebastian Hahn
+---
+nickname: sebastian
+---
+description:
+
+Helps people around the world use and understand Tor better. Generally helps
+everything run smoothly. Runs one of the directory authorities.

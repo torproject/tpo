@@ -1,0 +1,13 @@
+_model: person
+---
+role: core
+---
+name: Marc Smith
+---
+nickname: mcs
+---
+pronoun: he
+---
+description:
+
+Developer on the Tor Browser team.

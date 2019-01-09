@@ -1,0 +1,14 @@
+_model: person
+---
+role: core
+---
+name: teor
+---
+nickname: teor
+---
+pronoun: they
+---
+description:
+
+Tor developer and chutney maintainer. Currently working on onion services,
+directory documents, and statistics.
