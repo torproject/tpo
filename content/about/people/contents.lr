@@ -1,3 +1,5 @@
+_model: people
+---
 _template: about.html
 ---
 section: about
