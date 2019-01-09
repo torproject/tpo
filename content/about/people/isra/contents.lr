@@ -1,0 +1,11 @@
+_model: person
+---
+role: core
+---
+name: isra
+---
+nickname: isra
+---
+description:
+
+Rewrote the [GetTor](https://gettor.torproject.org/) service.
