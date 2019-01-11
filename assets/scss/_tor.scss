@@ -21,6 +21,22 @@
   position: relative;
 }
 
+.dropdown-select select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none; /* remove default arrow */
+}
+
+.dropdown-select:after {
+    content: '⏷';
+    position: absolute;
+    left: 85%;
+    right: 0;
+    top: 15%;
+    bottom: 0;
+    color: $white;
+}
+
 /*
  * Typography
  */

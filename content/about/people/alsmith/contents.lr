@@ -1,0 +1,13 @@
+_model: person
+---
+role: core
+---
+name: Al Smith
+---
+nickname: alsmith
+---
+pronoun: they
+---
+description:
+
+Writes grants and fundraising proposals.

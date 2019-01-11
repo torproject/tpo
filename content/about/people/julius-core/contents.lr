@@ -1,0 +1,11 @@
+_model: person
+---
+role: core
+---
+name: Juga
+---
+nickname: juga
+---
+description:
+
+Contributed to OONI, bug tracker features, wrote tordyguards. Currently working on bandwidth scanner.

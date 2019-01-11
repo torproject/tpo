@@ -1,0 +1,11 @@
+_model: person
+---
+role: core
+---
+name: David Goulet
+---
+nickname: dgoulet
+---
+description:
+
+Tor development team focusing on onion services and our torsocks maintainer.

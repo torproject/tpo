@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -6869,7 +6870,8 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 0.75rem 0; }
 
 .border-active {
-  border-bottom: 3px solid #7D4698; }
+  border-bottom: 3px solid !important;
+  border-color: #7D4698; }
 
 .footer {
   position: relative;
@@ -6938,6 +6940,9 @@ footer {
     display: block;
     padding: 0.4rem 0 !important;
     font-size: 1.3rem; } }
+.fade {
+  opacity: 0.699999988079071; }
+
 .defend {
   color: #FFFFFF;
   font-family: Source Sans Pro;
@@ -6992,6 +6997,21 @@ footer {
 
 .content-scroll {
   position: relative; }
+
+.dropdown-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* remove default arrow */ }
+
+.dropdown-select:after {
+  content: '⏷';
+  position: absolute;
+  left: 85%;
+  right: 0;
+  top: 15%;
+  bottom: 0;
+  color: #FFFFFF; }
 
 /*
  * Typography

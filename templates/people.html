@@ -3,48 +3,11 @@
 </div>
 <div class="container col-10">
   <div class="row">
-    <div class="card p-3 m-3 border-0" style="width: 339px; height: 329px;">
-      <div class="card-body">
-        <h5 class="card-title human-name">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">Nickname</h6>
-        <p class="card-text description">Here a paragraph about this person's background. Lets keep the regular people two lines but we can go deep with leaders showing past achievements and roles. What do you think? Here a paragraph about this person's background.</p>
-      </div>
-    </div>
-    <div class="card p-3 m-3 border-0" style="width: 339px; height: 329px;">
-      <div class="card-body">
-        <h5 class="card-title human-name">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">Nickname</h6>
-        <p class="card-text description">Here a paragraph about this person's background. Lets keep the regular people two lines but we can go deep with leaders showing past achievements and roles. What do you think? Here a paragraph about this person's background.</p>
-      </div>
-    </div>
-    <div class="card p-3 m-3 border-0" style="width: 339px; height: 329px;">
-      <div class="card-body">
-        <h5 class="card-title human-name">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">Nickname</h6>
-        <p class="card-text description">Here a paragraph about this person's background. Lets keep the regular people two lines but we can go deep with leaders showing past achievements and roles. What do you think? Here a paragraph about this person's background.</p>
-      </div>
-    </div>
-    <div class="card p-3 m-3 border-0" style="width: 339px; height: 329px;">
-      <div class="card-body">
-        <h5 class="card-title human-name">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">Nickname</h6>
-        <p class="card-text description">Here a paragraph about this person's background. Lets keep the regular people two lines but we can go deep with leaders showing past achievements and roles. What do you think? Here a paragraph about this person's background.</p>
-      </div>
-    </div>
-    <div class="card p-3 m-3 border-0" style="width: 339px; height: 329px;">
-      <div class="card-body">
-        <h5 class="card-title human-name">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">Nickname</h6>
-        <p class="card-text description">Here a paragraph about this person's background. Lets keep the regular people two lines but we can go deep with leaders showing past achievements and roles. What do you think? Here a paragraph about this person's background.</p>
-      </div>
-    </div>
-    <div class="card p-3 m-3 border-0" style="width: 339px; height: 329px;">
-      <div class="card-body">
-        <h5 class="card-title human-name">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">Nickname</h6>
-        <p class="card-text description">Here a paragraph about this person's background. Lets keep the regular people two lines but we can go deep with leaders showing past achievements and roles. What do you think? Here a paragraph about this person's background.</p>
-      </div>
-    </div>
+    {% from "macros/people.html" import render_board %}
+    {% set items = this.children %}
+    {% for item in items.filter(F.role == 'board') %}
+      {{ render_board(item, this.alt) }}
+    {% endfor %}
   </div>
 </div>
 <div class="container py-3">
@@ -52,111 +15,11 @@
 </div>
 <div class="container col-10">
   <div class="row">
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
-    <div class="card m-3 border-0 border-bottom border-light" style="width: 200px; height: 200px;">
-      <div class="card-body">
-        <h5 class="card-title human-name human-name-small">Human Name</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">Nickname - pronoun</h6>
-        <p class="card-text description description-small">A quick paragraph about what are you doing at the tor project nowadays.</p>
-      </div>
-    </div>
+    {% from "macros/people.html" import render_core %}
+    {% set items = this.children %}
+    {% for item in items.filter(F.role == 'core') %}
+      {{ render_core(item, this.alt) }}
+    {% endfor %}
   </div>
 </div>
 <div class="container p-3 col-6">

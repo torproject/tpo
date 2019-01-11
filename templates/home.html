@@ -1,33 +1,92 @@
-<!doctype html>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="{{ '/static/bootstrap.css'|asseturl }}">
-<link rel="stylesheet" href="{{ '/static/fonts/open-iconic/font/css/open-iconic-bootstrap.css'|asseturl }}">
-<link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
-
-<title>{{ _("Tor Project") }} | {% block title %}{{ this.title }}{% endblock %}</title>
-<body class="no-gutters">
-  <header>
-    {% include 'navbar.html' %}
-  </header>
-  <div class="page">
-    <div class="container-fluid bg-dark">
-      <div class="row flex-xl-nowrap {{ bag('alternatives', this.alt, 'order') }}">
-        {% include 'hero.html' %}
+<div class="container pt-5 justify-content-center">
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-4 order-1">
+            <div class="oval-2"></div>
+          </div>
+          <div class="col-md-8 px-3 order-2">
+            <div class="card-block px-3">
+              <h6 class="pt-3 card-title">BLOCK TRACKERS</h6>
+              <p class="card-text">Tor Browser isolates each website you visit so third-party trackers and ads can’t follow you. Any cookies automatically clear when you’re done browsing. So will your browsing history.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row flex-xl-nowrap">
-        <main role="main" class="mx-auto col-12 {{ bag('alternatives', this.alt, 'order') }}">
-          {% include 'ilos.html'%}
-          <div class="container py-3 hero">
-            {% block body %}{% endblock %}
+  </section>
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-4 order-2">
+            <div class="oval-2 oval-right"></div>
           </div>
-        </main>
+          <div class="col-md-8 px-3 order-1">
+            <div class="card-block px-3">
+              <h6 class="pt-3 card-title">DEFEND AGAINST SURVEILLANCE</h6>
+              <p class="card-text">Tor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you’re using Tor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-4 order-1">
+            <div class="oval-2"></div>
+          </div>
+          <div class="col-md-8 px-3 order-2">
+            <div class="card-block px-3">
+              <h6 class="pt-3 card-title">RESIST FINGERPRINTING</h6>
+              <p class="card-text">Tor aims to make all users look the same making it difficult for you to be fingerprinted based on your browser and device information.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-4 order-2">
+            <div class="oval-2 oval-right"></div>
+          </div>
+          <div class="col-md-8 px-3 order-1">
+            <div class="card-block px-3">
+              <h6 class="pt-3 card-title">MULTI-LAYERED ENCRYPTION</h6>
+              <p class="card-text">Your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. <a href="">Learn more</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <div class="mx-auto col-12 py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-3 order-1">
+            <div class="oval oval-right"></div>
+          </div>
+          <div class="col-md-6 px-3 order-2 pt-5">
+            <div class="card-block px-3 justify-content-center align-bottom pt-5">
+              <h6 class="pt-3 card-title text-center align-bottom pt-5">BROWSE FREELY</h6>
+              <p class="card-text text-center align-bottom">With Tor Browser, you are free to access sites your home network may have blocked.</p>
+            </div>
+          </div>
+          <div class="col-md-3 order-3">
+            <div class="oval"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <footer>
-    {% include 'footer.html' %}
-  </footer>
-</body>
+</div>

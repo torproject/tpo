@@ -1,0 +1,14 @@
+_model: person
+---
+role: core
+---
+name: Karsten Loesing
+---
+nickname: karsten
+---
+pronoun: he
+---
+description:
+
+Primary researcher and developer into [anonymous metrics](https://metrics.torproject.org/)
+which started as a National Science Foundation grant.

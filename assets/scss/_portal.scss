@@ -10,12 +10,12 @@
   text-align: left;
 }
 .preamble {
-  color: #777777 !important;
+
+}
+.preamble p {
+  color: #777777;
   font-family: Source Sans Pro;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 35px;
-  text-align: left;
+  font-size: 36px;
 }
 
 .human-name {
@@ -99,7 +99,8 @@
 }
 
 .border-active {
-  border-bottom: 3px solid $primary;
+  border-bottom: 3px solid !important;
+  border-color: $primary;
 }
 
 .footer {

@@ -1,0 +1,11 @@
+_model: person
+---
+role: core
+---
+name: Matt Traudt
+---
+nickname: pastly
+---
+description:
+
+Matt implemented the KIST scheduler into Tor. He helps safely measure Tor and says helpful things on IRC.

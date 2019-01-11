@@ -1,0 +1,14 @@
+_model: person
+---
+role: core
+---
+name: Ian Goldberg
+---
+nickname: iangoldberg
+---
+pronoun: he
+---
+description:
+
+[Professor of CS](https://cs.uwaterloo.ca/~iang/) at the [University of Waterloo](https://uwaterloo.ca/),
+developing [Off-the-Record Messaging](https://otr.cypherpunks.ca/) among other things.

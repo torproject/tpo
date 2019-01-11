@@ -1,0 +1,13 @@
+_model: person
+---
+role: core
+---
+name: Matthew Finkel
+---
+nickname: sysrqb
+---
+twitter: mfinkel
+---
+description:
+
+Worked on tor, torsocks, and many other projects. Helped maintain and develop BridgeDB.

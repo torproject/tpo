@@ -1,0 +1,16 @@
+_model: person
+---
+role: core
+---
+name: Nick Mathewson
+---
+pronoun: he
+---
+nickname: nickm
+---
+twitter_handle: nickm_tor
+---
+description:
+
+One of the three original designers of Tor - does a lot of the ongoing design work,
+and coordinates and leads ongoing development.

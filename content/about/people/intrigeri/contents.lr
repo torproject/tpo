@@ -1,0 +1,13 @@
+_model: person
+---
+role: core
+---
+name: intrigeri
+---
+nickname: intrigeri
+---
+pronoun: he
+---
+description:
+
+He is one of our main interfaces with the [Tails](https://tails.boum.org/) project.

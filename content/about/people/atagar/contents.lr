@@ -1,0 +1,13 @@
+_model: person
+---
+role: core
+---
+name: Damian Johnson
+---
+nickname: atagar
+---
+pronoun: he
+---
+description:
+
+Author of the Stem python controller library and Nyx relay monitor.

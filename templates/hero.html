@@ -1,20 +1,7 @@
 <div class="container bg-dark pt-5">
   <div class="row">
     <div class="col-12 content-center pt-5">
-      <div class="row pt-5">
-        <h1 class="mx-auto display-2 text-white">Browse Privately.</h1>
-      </div>
-      <div class="row pt-5">
-        <h1 class="mx-auto display-2 text-white">Explore Freely.</h1>
-      </div>
-      <div class="row pt-5">
-        <h4 class="mx-auto defend text-white">Defend yourself against tracking and surveillance. Circumnvent censorship.</h1>
-      </div>
-      <div class="row col-12 p-5 mx-auto justify-content-center">
-        <a class="btn btn-lg btn-shadow text-white bg-dark" href="https://www.torproject.org/download/download-easy.html.en">
-          {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
-        </a>
-      </div>
+      {% include 'hero-' + this.html %}
     </div>
   </div>
 </div>

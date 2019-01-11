@@ -1,0 +1,14 @@
+_model: person
+---
+role: core
+---
+name: Hans-Christoph Steiner
+---
+nickname: _hc
+---
+twitter_handle: hansstatus
+---
+description:
+
+Works on Orbot, NetCipher, and integrating Tor everywhere possible, especially
+in Debian and Android. Also deeply mixed into Guardian Project.
