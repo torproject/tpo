@@ -1,5 +1,5 @@
 {% macro render_board(item, alternative) %}
-  <div class="card p-3 m-3 border-0 col-5">
+  <div class="card p-3 mx-auto border-0 col-4">
     <div class="card-body">
       <h5 class="card-title human-name">{{ item.name }}</h5>
       <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.title }}</h6>
@@ -10,7 +10,7 @@
 {% endmacro %}
 
 {% macro render_core(item, alternative) %}
-  <div class="card m-3 border-0 border-bottom border-light col-3">
+  <div class="card mx-auto border-0 border-bottom border-light col-3">
     <div class="card-body">
       <h5 class="card-title human-name human-name-small">{{ item.name }}</h5>
       <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">{{ item.nickname }}{% if item.pronoun %} - {{ item.pronoun }}{% endif %}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
