@@ -9,13 +9,11 @@
   line-height: 36px;
   text-align: left;
 }
-.preamble {
-
-}
 .preamble p {
   color: #777777;
   font-family: Source Sans Pro;
-  font-size: 36px;
+  font-size: 2rem;
+  font-weight: $font-weight-light;
 }
 
 .human-name {

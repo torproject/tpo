@@ -46,7 +46,11 @@ footer {
 }
 
 .onion-bg{
-  background: url("assets/circle-pattern.png");
+  background: url("images/circle-pattern.png");
+      background-color: rgba(0, 0, 0, 0);
+      background-position-x: -85%;
+      background-repeat: no-repeat;
+      background-size: 65%;
 }
 
 
