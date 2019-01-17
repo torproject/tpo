@@ -1,0 +1,15 @@
+_model: sponsor
+---
+active: True
+---
+time: 2010 - 2013, 2017 - 2020
+---
+name: The Handshake Foundation
+---
+logo: /static/images/sponsors/handshake.svg
+---
+link: https://handshake.org/
+---
+description:
+
+Handshake is a decentralized, permissionless naming protocol compatible with DNS where every peer is validating and in charge of managing the root zone with the goal of creating an alternative to existing Certificate Authorities. Its purpose is not to replace the DNS protocol, but to replace the root zone file and the root servers with a public commons.

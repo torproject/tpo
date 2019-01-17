@@ -1,0 +1,16 @@
+{% macro render_active(item, alternative) %}
+<div class="card border-0">
+  <div class="card-header bg-white border-0" id="headingOne">
+    <h5 class="mb-0">
+      <button class="btn btn-link bg-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <a href="{{ item.path|url }}">{{ item.title }}</a>
+      </button>
+    </h5>
+  </div>
+  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionJobs">
+    <div class="card-body">
+      {{ item.summary }}
+    </div>
+  </div>
+</div>
+{% endmacro %}

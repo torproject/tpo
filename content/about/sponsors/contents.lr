@@ -1,3 +1,5 @@
+_model: sponsors
+---
 _template: about.html
 ---
 section: about

@@ -1,0 +1,15 @@
+_model: sponsor
+---
+active: True
+---
+time: 2009 - Present
+---
+name: Team Cymru
+---
+logo: /static/images/sponsors/cymru.png
+---
+link: https://www.team-cymru.org/
+---
+description:
+
+Team Cymru has over a decade of experience and expertise at providing unparalleled threat intelligence and insight for security vendors, network defenders, incident response teams, and analysts.

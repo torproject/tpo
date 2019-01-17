@@ -1,0 +1,21 @@
+_model: sponsor
+---
+active: True
+---
+time: 2018 - 2019
+---
+name: DARPA via University of Pennsylvania
+---
+logo: /static/images/sponsors/darpa.png
+---
+link: https://www.darpa.mil/program/extreme-ddos-defense
+---
+description:
+
+DARPA’s Extreme DDoS Defense (XD3) program focuses on three broad areas of opportunity
+to improve resilience against DDoS attacks and aims to thwart DDoS attacks by:
+(1) dispersing cyber assets (physically and/or logically) to complicate adversarial
+targeting; (2) disguising the characteristics and behaviors of those assets through
+networked maneuver to confuse or deceive the adversary; and (3) using adaptive
+mitigation techniques on endpoints (e.g., mission-critical servers) to blunt the
+effects of attacks that succeed in penetrating other defensive measures.

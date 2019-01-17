@@ -1,0 +1,15 @@
+_model: sponsor
+---
+active: True
+---
+time: 2016 - 2018
+---
+name: Mozilla
+---
+logo: /static/images/sponsors/mozilla.jpg
+---
+link: https://www.mozilla.org/en-US/moss/
+---
+description:
+
+Mozilla was born out of and remains part of the open source and free software movement. Through the Mozilla Open Source Support (MOSS) awards program, Mozilla recognizes, celebrates, and supports open source projects that contribute to Mozilla’s work and to the health of the Internet.

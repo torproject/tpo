@@ -1,126 +1,32 @@
 <div class="container py-3">
   <h3 class="text-primary display-5">Past Sponsors</h3>
 </div>
-<div class="container col-10">
+<div class="container">
   <div class="row">
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
+    <div class="col-8">
+      <ul class="jobs-ul">
+        {% set items = this.children %}
+        {% for item in items.filter(F.active == False) %}
+          <li><a href="{{ item.link}}">{{ item.name }}</a> - <span> {{ item.time }}</span></li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
 <div class="container py-3">
   <h3 class="text-primary display-5">Active Sponsors</h3>
 </div>
-<div class="container col-10">
+<div class="container">
   <div class="row">
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
-    <div class="card m-3" style="width: 255px; height: 329px;">
-      <img class="card-img-top" src="{{ '/static/images/index.svg'|asseturl }}" alt="Card image cap">
-      <div class="card-body">
-        <p class="text-primary description description-small"><u>Sponsor Name</u></p>
-        <p class="card-text description description-small">Some quick paragraph about the projects we are working with this sponsor and a link to the trac.</p>
-      </div>
-    </div>
+    {% from "macros/sponsors.html" import render_active %}
+    {% set items = this.children %}
+    {% for item in items.filter(F.active == True) %}
+      {{ render_active(item, this.alt) }}
+    {% endfor %}
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <p>This sponsors page is based upon un-audited and un-reviewed financial and in-kind donations, contract, and other data. Further details about our audited and reviewed funding can be found on our Financial Reports page.</p>
   </div>
 </div>
