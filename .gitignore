@@ -4,7 +4,8 @@ node_modules
 .DS_Store
 
 public
-
+*.mo
+*.po
 contents+*.lr
 
 *.egg-info
