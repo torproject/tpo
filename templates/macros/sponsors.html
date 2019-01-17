@@ -1,0 +1,9 @@
+{% macro render_active(item, alternative) %}
+<div class="card border-0 col-6">
+  <img class="card-img-top" src="{{ item.logo|asseturl }}" alt="Card image cap">
+  <div class="card-body">
+    <p class="text-primary description description-small"><u><a href="{{ item.link }}">{{ item.name }}</a></u></p>
+    <p class="card-text description description-small">{{ item.description }}</p>
+  </div>
+</div>
+{% endmacro %}

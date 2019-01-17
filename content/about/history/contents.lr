@@ -10,22 +10,31 @@ title: History
 ---
 body:
 
-In the 1990s, the lack of security on the internet and its ability to be used for tracking and surveillance was becoming clear, and in 1994, the Navy Research Lab (NRL), funded by the office of Naval Research (ONR) started researching a way to communicate privately and securely online. They created the first research design and prototype of onion routing.
+In the 1990s, the lack of security on the internet and its ability to be used for tracking and surveillance was becoming clear, and in 1994, the Navy Research Lab (NRL), funded by the office of Naval Research (ONR) started researching a way to communicate privately and securely online.
+They created the first research design and prototype of onion routing.
 
-The goal of onion routing was to have a way to use the internet with as much privacy as possible, and the idea was to route traffic through multiple servers and encrypt it each step of the way. This is still a simple explanation for how Tor works today.
+The goal of onion routing was to have a way to use the internet with as much privacy as possible, and the idea was to route traffic through multiple servers and encrypt it each step of the way.
+This is still a simple explanation for how Tor works today.
 
-In 2001, Roger Dingledine, then a student at MIT, adapted code from an undergraduate Cambridge student’s thesis and began referring to the project as Tor, which stood for The Onion Router. Nick Mathewson, also a student at MIT, became involved in Tor’s development around this time, too.
+In 2001, Roger Dingledine, then a student at MIT, adapted code from an undergraduate Cambridge student’s thesis and began referring to the project as Tor, which stood for The Onion Router.
+Nick Mathewson, also a student at MIT, became involved in Tor’s development around this time, too.
 
-In October 2003, Tor network was deployed, and Tor code was released under a free and open MIT license. In order for Tor to work optimally, everyone involved realized that not only does the Tor network need to be decentralized, it should also be maintained by a transparently operating entity with clear separation from its then stakeholders, and it needed to be free and open licensed. By the end of 2003, the network has about a dozen volunteer nodes, mostly in the US, plus one in Germany.
+In October 2003, Tor network was deployed, and Tor code was released under a free and open MIT license.
+In order for Tor to work optimally, everyone involved realized that not only does the Tor network need to be decentralized, it should also be maintained by a transparently operating entity with clear separation from its then stakeholders, and it needed to be free and open licensed.
+By the end of 2003, the network has about a dozen volunteer nodes, mostly in the US, plus one in Germany.
 
-Recognizing the benefit of Tor to digital rights, EFF became a fiscal sponsor of Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)3 nonprofit organization, was founded to maintain Tor’s development.
+Recognizing the benefit of Tor to digital rights, EFF became a fiscal sponsor of Tor in 2004.
+In 2006, the Tor Project, Inc., a 501(c)3 nonprofit organization, was founded to maintain Tor’s development.
 
 In 2007, the organization began developing bridges to the Tor network to address censorship, such as the need to get around government firewalls, in order for its users to access the open web.
 
 Tor began gaining popularity among activists and tech-savvy users interested in privacy, but it was still difficult for less-technically savvy people to use, so in 2009-2010, development of tools beyond just the Tor proxy began, including Tor Browser.
 
-The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the Snowden revelations in 2013. Not only was Tor instrumental to Snowden’s whistleblowing, but content of the leaks also upheld assurances that Tor could not be cracked.
+The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the Snowden revelations in 2013.
+Not only was Tor instrumental to Snowden’s whistleblowing, but content of the leaks also upheld assurances that Tor could not be cracked.
 
-People’s awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom. We fight every day for everyone to have private access to an uncensored internet, and Tor has become the world’s strongest tool for privacy and freedom online.
+People’s awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom.
+We fight every day for everyone to have private access to an uncensored internet, and Tor has become the world’s strongest tool for privacy and freedom online.
 
-Now the network has thousands of relays and millions of users worldwide. The diversity of Tor users keeps it safe.
+Now the network has thousands of relays and millions of users worldwide.
+The diversity of Tor users keeps it safe.

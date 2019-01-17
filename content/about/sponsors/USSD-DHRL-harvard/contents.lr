@@ -1,0 +1,18 @@
+_model: sponsor
+---
+active: True
+---
+time: 2017 - 2019
+---
+name: U.S. Department of State Bureau of Democracy, Human Rights, and Labor via Harvard
+---
+logo: /static/images/sponsors/USSD.png
+---
+link: https://www.state.gov/j/drl/
+---
+description:
+
+The Bureau of Democracy, Human Rights and Labor leads the U.S. efforts to promote
+[democracy](http://www.state.gov/j/drl/democ/), protect [human rights](http://www.state.gov/j/drl/hr/)
+and [international religious freedom](http://www.state.gov/j/drl/irf/), and
+advance [labor rights](http://www.state.gov/j/drl/ila/index.htm) globally.

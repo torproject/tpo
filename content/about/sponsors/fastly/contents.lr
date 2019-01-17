@@ -1,0 +1,13 @@
+_model: sponsor
+---
+active: True
+---
+time: 2016 - 2018
+---
+name: Fastly
+---
+logo: /static/images/sponsors/fastly.svg
+---
+link: https://www.fastly.com/
+---
+description:

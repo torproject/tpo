@@ -1,0 +1,15 @@
+_model: sponsor
+---
+active: True
+---
+time: 2017 - 2020
+---
+name: Institute of Museum and Library Services via New York University
+---
+logo: /static/images/sponsors/imls.png
+---
+link: https://www.imls.gov/
+---
+description:
+
+Institute of Museum and Library Services  advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development.
