@@ -14,18 +14,21 @@ Internet Freedom Nonprofit Seeks Metrics Data Architect
 
 The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Data Architect to take our metrics work to the next level.
 
-Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. Racial minorities, non-gender-binary people, women, and people from any group that is generally underrepresented in tech are encouraged to apply.
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds; people from all walks of life.
+Racial minorities, non-gender-binary people, women, and people from any group that is generally underrepresented in tech are encouraged to apply.
 
 The team:
 
-Our Metrics Team has been collecting data since 2004 to help improve the tools we build and learn more about the Tor network. For example, we monitor the number of relays and clients in the network, their respective capabilities, the number of clients connecting via bridges, fluctuations in network speed, etc. Gathering this data results in huge data archives, so we are also working to develop tools to process this data and make it available to everyone.
+Our Metrics Team has been collecting data since 2004 to help improve the tools we build and learn more about the Tor network.
+For example, we monitor the number of relays and clients in the network, their respective capabilities, the number of clients connecting via bridges, fluctuations in network speed, etc.
+Gathering this data results in huge data archives, so we are also working to develop tools to process this data and make it available to everyone.
 
 How we achieve our goals:
 
-    Robustness (We want to avoid bugs and/or bad design decision that cause us to miss data)
-    Timeliness (users need up-to-date network status information)
-    Scalability (as the network grows, so does our data)
-    Transparency (our community rightly wants to know what data we're collecting)
+* Robustness (We want to avoid bugs and/or bad design decision that cause us to miss data)
+* Timeliness (users need up-to-date network status information)
+* Scalability (as the network grows, so does our data)
+* Transparency (our community rightly wants to know what data we're collecting)
 
 The Tor Metrics team presently consists of two full-time developers; this position will be the third. Our team works asynchronously on each person’s own schedule, but we sync regularly via Git, Trac, IRC, e-mail, and an occasional video chat.
 
@@ -37,38 +40,38 @@ The person in this position will work directly with helping us design and refine
 
 Our main five codebases:
 
-    Collector (https://gitweb.torproject.org/collector.git/ )
-    metrics-lib (https://gitweb.torproject.org/metrics-lib.git/ )
-    Onionoo (https://gitweb.torproject.org/onionoo.git/ )
-    Exonerator (https://gitweb.torproject.org/exonerator.git/ )
-    metrics-web (https://gitweb.torproject.org/metrics-web.git/ )
+* Collector (https://gitweb.torproject.org/collector.git/ )
+* metrics-lib (https://gitweb.torproject.org/metrics-lib.git/ )
+* Onionoo (https://gitweb.torproject.org/onionoo.git/ )
+* Exonerator (https://gitweb.torproject.org/exonerator.git/ )
+* metrics-web (https://gitweb.torproject.org/metrics-web.git/ )
 
 Requirements:
 
 Technical abilities/experience:
 
-    Have experience finding your way into existing Java/Python/R/PostgreSQL code bases and the ability to review patches and make changes to fix bugs/smaller enhancements.
-    Able to identify shortcomings in our data pipeline and suggest improvements to reduce complexity and future maintenance efforts.
-    Experience working with Git and Trac or similar issue tracking tools.
-    Ability to learn quickly and can adapt to our current processes; are able to improve future processes for releasing software and operating services.
-    Understanding of the inherent privacy implications of gathering data in an anonymity system, the security implications of gathering metrics data from semi-trusted relays in the Tor network, and the challenges of processing large amounts of data per day (specifically performance and scalability challenges).
+* Have experience finding your way into existing Java/Python/R/PostgreSQL code bases and the ability to review patches and make changes to fix bugs/smaller enhancements.
+* Able to identify shortcomings in our data pipeline and suggest improvements to reduce complexity and future maintenance efforts.
+* Experience working with Git and Trac or similar issue tracking tools.
+* Ability to learn quickly and can adapt to our current processes; are able to improve future processes for releasing software and operating services.
+* Understanding of the inherent privacy implications of gathering data in an anonymity system, the security implications of gathering metrics data from semi-trusted relays in the Tor network, and the challenges of processing large amounts of data per day (specifically performance and scalability challenges).
 
 Collaborative requirements:
 
-    Ability to work remotely 90% of the time, as most team synchronization happening via email and/or IRC.
-    Participation in weekly IRC meetings and monthly team video chats.
-    Willingness and ability to travel internationally up to four times per year, to semi-annual Tor meeting plus up to two team-internal meetings.
-    Language: write and speak fluent English.
-    Comfortable posting to a public mailing list or speaking up in a public IRC channel to ask questions, even when you think the question might be obvious or silly.
+* Ability to work remotely 90% of the time, as most team synchronization happening via email and/or IRC.
+* Participation in weekly IRC meetings and monthly team video chats.
+* Willingness and ability to travel internationally up to four times per year, to semi-annual Tor meeting plus up to two team-internal meetings.
+* Language: write and speak fluent English.
+* Comfortable posting to a public mailing list or speaking up in a public IRC channel to ask questions, even when you think the question might be obvious or silly.
 
 Bonus skills:
 
-    Data analysis: Ability to make sense of data sets and use data analysis tools to find and visualize interesting patterns.
-    Open source attitude: You're accustomed to a pattern of early and frequent releases without attempting to finalize things on your own and have contributed to open source projects before.
-    Scientific writing: Experience writing technical reports about data findings.
-    Mathematics: Knowledge of basic statistics.
-    Networking background: Experience working with networks and measurements in the past.
-    You support Internet Freedom!
+* Data analysis: Ability to make sense of data sets and use data analysis tools to find and visualize interesting patterns.
+* Open source attitude: You're accustomed to a pattern of early and frequent releases without attempting to finalize things on your own and have contributed to open source projects before.
+* Scientific writing: Experience writing technical reports about data findings.
+* Mathematics: Knowledge of basic statistics.
+* Networking background: Experience working with networks and measurements in the past.
+* You support Internet Freedom!
 
 This is a full-time position that can be done remotely/internationally or in our office in Seattle, WA. To apply, send a cover letter that includes a statement about why you want to work at the Tor Project, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. All documents should be in PDF format labeled with your name. Please send to job-metrics at torproject dot org with “Metrics Data Architect” in the subject line. No phone calls please!
 
