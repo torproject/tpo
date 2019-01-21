@@ -1,0 +1,16 @@
+{% macro render_document(item, alternative) %}
+<tr>
+  <td>{{ item.title }}</td>
+  <td>{{ item.description }}</td>
+  <td><a href="{{ item.link }}">View PDF</a></td>
+</tr>
+{% endmacro %}
+
+{% macro render_report(item, alternative) %}
+<tr>
+  <th scope="row">{{ item.date }}</th>
+  <td><span class="badge-pill badge-success">{{ item.tag }}</span></td>
+  <td>{{ item.title }}</td>
+  <td><a href="{{ item.link }}">View PDF</a></td>
+</tr>
+{% endmacro %}
