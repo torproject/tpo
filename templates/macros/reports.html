@@ -9,7 +9,10 @@
 {% macro render_report(item, alternative) %}
 <tr>
   <th scope="row">{{ item.date }}</th>
-  <td><span class="badge-pill badge-success">{{ item.tag }}</span></td>
+  <td>
+    {% for tag in item.tags %}
+      <span class="badge-pill badge-success">{{ tag }}</span></td>
+    {% endfor %}
   <td>{{ item.title }}</td>
   <td><a href="{{ item.link }}">View PDF</a></td>
 </tr>
