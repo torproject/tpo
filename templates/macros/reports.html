@@ -11,8 +11,10 @@
   <th scope="row">{{ item.date }}</th>
   <td>
     {% for tag in item.tags %}
-      <span class="badge-pill badge-success">{{ tag }}</span></td>
+      {% set t = bag('tags', tag) %}
+      <span class="badge-pill badge-{{ t.color }}">{{ tag }}</span>
     {% endfor %}
+  </td>
   <td>{{ item.title }}</td>
   <td><a href="{{ item.link }}">View PDF</a></td>
 </tr>
