@@ -1,0 +1,39 @@
+<div class="container py-3">
+  <div class="row">
+    <p>We need copy here. Tor Browser is made in large part by volunteers around the world. That’s why we offer it in 90 languages (and why there’s heart and soul in every.)</p>
+  </div>
+</div>
+<div class="container py-3">
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Language</th>
+          <th scope="col">Windows</th>
+          <th scope="col">MacOS</th>
+          <th scope="col">GNU/Linux</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% set t = bag('versions', 'torbrowser-stable') %}
+        {% for id, item in bag('alternatives').items() %}
+          <tr>
+            <td>{{ item.language }}</td>
+            <td>
+              {% from "macros/downloads.html" import render_windows %}
+              {{ render_windows(t.version, id) }}
+            </td>
+            <td>
+              {% from "macros/downloads.html" import render_mac %}
+              {{ render_mac(t.version, id) }}
+            </td>
+            <td>
+              {% from "macros/downloads.html" import render_linux %}
+              {{ render_linux(t.version, id) }}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

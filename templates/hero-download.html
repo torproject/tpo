@@ -9,7 +9,21 @@
     <div class="col-3">
       <div class="oval-2 bg-darker justify-content-center">
         {% set distro = 'static/images/' + id + '-logo/png/Shape.png' %}
-        <a href="{{ item.path|url }}">
+        {% set t = bag('versions', 'torbrowser-stable') %}
+        {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + t.version + '/' %}
+        {% if alt == 'en' %}
+          {% set alt = 'en-US' %}
+        {% endif %}
+        {% if id == 'linux' %}
+          {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt + '.tar.xz' %}
+        {% elif id == 'windows' %}
+          {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt + '.exe' %}
+        {% elif id == 'apple' %}
+          {% set download_link = download_prefix + 'TorBrowser-' + t.version + '-osx64' + '_' + alt + '.dmg' %}
+        {% else %}
+          {% set download_link = '#android' %}
+        {% endif %}
+        <a href="{{ download_link }}">
           <img class="shape" src="{{ distro|asseturl }}">
         </a>
       </div>
@@ -17,8 +31,8 @@
   {% endfor %}
 </div>
 <div class="row">
-  <a class="mx-auto text-white p-5" href=""><u>Download in another language</u></a>
-  <a class="mx-auto text-white p-5" href=""><u>Advanced Install Options</u></a>
+  <a class="mx-auto text-white p-5" href="{{ 'languages'|url }}"><u>Download in another language</u></a>
+  <a class="mx-auto text-white p-5" href="{{ 'options'|url }}"><u>Advanced Install Options</u></a>
 </div>
 <div class="row p-5 justify-content-center window-bg">
   <a class="mx-auto text-white p-5" href=""><u>Read the latest release announcements</u></a>
