@@ -6906,6 +6906,9 @@ footer .border {
   position: relative !important;
   bottom: 0; }
 
+.shape {
+  padding: 35%; }
+
 .page {
   padding-top: 7rem !important; }
 
@@ -6929,6 +6932,11 @@ footer .border {
 
 footer {
   padding-top: 10em; }
+
+.window-bg {
+  background-image: url("images/png/Group4.png");
+  background-repeat: no-repeat;
+  background-size: inherit; }
 
 .onion-bg {
   background: url("images/circle-pattern.png");
@@ -7014,6 +7022,9 @@ footer {
   top: 15%;
   bottom: 0;
   color: #FFFFFF; }
+
+.bg-darker {
+  background-color: #401753; }
 
 /*
  * Typography

@@ -4,36 +4,22 @@
 <div class="row">
   <h1 class="mx-auto defend text-white">Protect yourself against tracking, surveillance, and censorship. </h1>
 </div>
-<div class="row col-12 p-5 mx-auto justify-content-center">
-  <form action="/download/torbrowser" method="get">
-    <div class="form-group row">
-      <div class="col-3 dropdown-select">
-        <select id="platforms" class="form-control btn btn-dark bg-dark border-0 border-white border-active">
-          {% for id, item in bag('platforms+' + this.alt).items() %}
-            <option id="{{ id }}" data-style="btn btn-dark bg-dark">{{ item.label }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="col-3 dropdown-select">
-        <select class="form-control btn btn-dark bg-dark border-0 border-white border-active">
-          <span class="oi oi-chevron-bottom"></span>
-          {% for id, item in bag('alternatives').items() %}
-            {% if this.alt != id %}
-              <option data-style="btn btn-dark bg-dark">{{ item.language }}</option>
-            {% endif %}
-          {% endfor %}
-        </select>
-      </div>
-      <div class="col-6">
-        <button type="submit" class="btn btn-shadow text-white bg-dark">{{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span></button>
+<div class="row p-5 mx-auto justify-content-center">
+  {% for id, item in bag('platforms+' + this.alt).items() %}
+    <div class="col-3">
+      <div class="oval-2 bg-darker justify-content-center">
+        {% set distro = 'static/images/' + id + '-logo/png/Shape.png' %}
+        <a href="{{ item.path|url }}">
+          <img class="shape" src="{{ distro|asseturl }}">
+        </a>
       </div>
     </div>
-  </form>
+  {% endfor %}
 </div>
 <div class="row">
-  <a class="mx-auto text-white p-5" href=""><u>Read the latest release announcements</u></a>
-  <a class="mx-auto text-white p-5" href=""><u>Advanced Install Options & Other Platforms</u></a>
+  <a class="mx-auto text-white p-5" href=""><u>Download in another language</u></a>
+  <a class="mx-auto text-white p-5" href=""><u>Advanced Install Options</u></a>
 </div>
-<div class="row pt-5 justify-content-center">
-  <img src="{{ 'static/images/png/Group4.png'|asseturl }}" />
+<div class="row p-5 justify-content-center window-bg">
+  <a class="mx-auto text-white p-5" href=""><u>Read the latest release announcements</u></a>
 </div>
