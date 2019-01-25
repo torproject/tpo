@@ -44,14 +44,14 @@ footer .border{
   border-bottom: 1px solid rgba(255,255,255,0.3) !important;
 }
 
-footer {
-  padding-top: 10em;
+main{
+  padding-bottom: 5em;
 }
 
 .window-bg {
-  background-image: url("images/png/Group4.png");
+  background-image: url("images/tb85/tb85@2x.png");
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
 }
 
 .onion-bg{
@@ -102,9 +102,15 @@ footer {
  .oval-2 {
   background-color: #D8D8D8;
   border-radius: 100%;
-  width: 190px;
-  height: 190px;
+  width: 150px;
+  height: 150px;
 }
+
+ .oval-2 i{
+   font-size: 5em;
+   padding: 0.4em 0.5em;
+   text-align: center;
+ }
 
 .oval-right {
   float: right;

@@ -8,7 +8,6 @@
   {% for id, item in bag('platforms+' + this.alt).items() %}
     <div class="col-3">
       <div class="oval-2 bg-darker justify-content-center">
-        {% set distro = 'static/images/' + id + '-logo/png/Shape.png' %}
         {% set t = bag('versions', 'torbrowser-stable') %}
         {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + t.version + '/' %}
         {% if alt == 'en' %}
@@ -24,7 +23,7 @@
           {% set download_link = '#android' %}
         {% endif %}
         <a href="{{ download_link }}">
-          <img class="shape" src="{{ distro|asseturl }}">
+          <i class="fab fa-{{ id }} text-light"></i> 
         </a>
       </div>
     </div>
