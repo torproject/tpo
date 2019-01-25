@@ -14,6 +14,9 @@
   bottom: 0;
 }
 
+.shape {
+  padding: 35%;
+}
 .page {
   padding-top: 7rem !important;
 }
@@ -45,12 +48,18 @@ footer {
   padding-top: 10em;
 }
 
+.window-bg {
+  background-image: url("images/png/Group4.png");
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
 .onion-bg{
   background: url("images/circle-pattern.png");
-      background-color: rgba(0, 0, 0, 0);
-      background-position-x: -85%;
-      background-repeat: no-repeat;
-      background-size: 65%;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: -85%;
+  background-repeat: no-repeat;
+  background-size: 65%;
 }
 
 

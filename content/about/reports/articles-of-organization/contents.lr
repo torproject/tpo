@@ -1,0 +1,9 @@
+_model: report
+---
+type: document
+---
+title: Tor Articles of Organization
+---
+description: Articles of Organization for Tor Project, Inc.
+---
+link: https://gitweb.torproject.org/company/policies.git/plain/corpdocs/Tor-Articles-of-Organization.pdf
