@@ -9310,6 +9310,10 @@ a.side-nav.active {
   background-color: #FFFFFF;
 }
 
+.card-body p {
+  font-size: 1.1rem;
+}
+
 .table-striped td {
   border: 0 !important;
 }
