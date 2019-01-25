@@ -106,11 +106,22 @@ main{
   height: 150px;
 }
 
- .oval-2 i{
+.oval-3 {
+    background-color: #D8D8D8;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.oval-2 i{
    font-size: 5em;
    padding: 0.4em 0.5em;
    text-align: center;
  }
+
+.oval-3 i {
+  padding: 1em;
+}
 
 .oval-right {
   float: right;
