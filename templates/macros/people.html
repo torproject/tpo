@@ -1,20 +1,24 @@
 {% macro render_board(item, alternative) %}
-  <div class="card col-3 m-4 mx-auto">
-    <div class="card-body">
-      <h5 class="card-title human-name">{{ item.name }}</h5>
-      <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.title }}</h6>
-      <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.nickname }}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
-      {{ item.description }}
+  <div class="col-3 my-4">
+    <div class="card h-100 my-2">
+      <div class="card-body">
+        <h5 class="card-title human-name">{{ item.name }}</h5>
+        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.title }}</h6>
+        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.nickname }}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
+        {{ item.description }}
+      </div>
     </div>
   </div>
 {% endmacro %}
 
 {% macro render_core(item, alternative) %}
-  <div class="card border-1 col-2 m-3">
+  <div class="col-2 my-3">
+  <div class="card h-100">
     <div class="card-body">
-      <h5 class="card-title human-name human-name-small">{{ item.name }}</h5>
-      <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">{{ item.nickname }}{% if item.pronoun %} - {{ item.pronoun }}{% endif %}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
+      <h5 class="card-title human-name human-name-small">{{ item.name }}{% if item.pronoun %} <small class="nick text-primary">{{ item.pronoun }}</small>{% endif %}</h5>
+      <h6 class="card-subtitle mb-2 text-primary nick text-lowercase">{{ item.nickname }}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
       {{ item.description }}
     </div>
+  </div>
   </div>
 {% endmacro %}

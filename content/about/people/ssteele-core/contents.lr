@@ -1,15 +1,15 @@
 _model: person
 ---
-role: board
+role: core
 ---
 name: Shari Steele
 ---
-title: ------
----
 nickname: ssteele
+---
+pronoun: she
 ---
 twitter_handle: ssteele1234
 ---
 description:
 
-Shari Steele is on the board of directors for the Tor Project and needs a bio here.
+Shari Steele is on the board of directors for the Tor Project.
