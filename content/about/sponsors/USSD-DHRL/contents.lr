@@ -2,9 +2,11 @@ _model: sponsor
 ---
 active: True
 ---
-time: 2013 - 2019
+time: 2017 - 2018
 ---
 name: U.S. Department of State Bureau of Democracy, Human Rights, and Labor
+---
+key: 11
 ---
 logo: /static/images/sponsors/USSD.png
 ---
@@ -12,4 +14,4 @@ link: https://www.state.gov/j/drl/
 ---
 description:
 
-The Bureau of Democracy, Human Rights and Labor leads the U.S. efforts to promote [democracy](http://www.state.gov/j/drl/democ/), protect [human rights](http://www.state.gov/j/drl/hr/) and [international religious freedom](http://www.state.gov/j/drl/irf/), and advance [labor rights](http://www.state.gov/j/drl/ila/index.htm) globally.
+The Bureau of Democracy, Human Rights and Labor leads the U.S. efforts to promote democracy, protect human rights and international religious freedom, and advance labor rights globally. We used this funding to develop and deploy Tor Browser for Android.

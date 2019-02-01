@@ -1,7 +1,10 @@
+<div class="container">
+  <p> Thank you to all the people and groups who have made Tor possible so far, and thank you especially to the individual volunteers who have made non-financial contributions: coding, testing, documenting, educating, researching, and running the relays that make up the Tor network.</p>
+</div>
 <div class="container py-3">
 <h3 class="text-primary display-5">Active Sponsors</h3>
 </div>
-<div class="container">
+<div class="fluid-container">
   <div class="row">
     {% from "macros/sponsors.html" import render_active %}
     {% set items = this.children %}
@@ -15,7 +18,7 @@
 </div>
 <div class="container">
 <div class="row">
-  <div class="col-8">
+  <div class="col-12">
     <ul class="jobs-ul">
       {% set items = this.children %}
       {% for item in items.filter(F.active == False) %}
@@ -26,7 +29,10 @@
 </div>
 </div>
 <div class="container">
-  <div class="row">
-    <p>This sponsors page is based upon un-audited and un-reviewed financial and in-kind donations, contract, and other data. Further details about our audited and reviewed funding can be found on our Financial Reports page.</p>
+  <div class="container">
+    <div class="row border-bottom border-light"><p></p></div>
+    <div class="row py-5">
+      <p>This sponsors page is based upon un-audited and un-reviewed financial and in-kind donations, contract, and other data. Further details about our audited and reviewed funding can be found on our <a href="/about/reports" title="Reports" >Financial Reports page.</a></p>
+    </div>
   </div>
 </div>

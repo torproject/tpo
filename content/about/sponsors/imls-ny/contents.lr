@@ -2,9 +2,11 @@ _model: sponsor
 ---
 active: True
 ---
-time: 2017 - 2020
+time: 2017 - Present
 ---
 name: Institute of Museum and Library Services via New York University
+---
+key: 14
 ---
 logo: /static/images/sponsors/imls.png
 ---
@@ -12,4 +14,4 @@ link: https://www.imls.gov/
 ---
 description:
 
-Institute of Museum and Library Services  advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development.
+Institute of Museum and Library Services  advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development. This grant helps fund Tor’s affiliate project, Library Freedom Institute, which advances the use of practical privacy tools in libraries and their communities through the development of a privacy-focused train-the-trainer program for librarians.

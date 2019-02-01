@@ -6,10 +6,12 @@ time: 2016 - 2018
 ---
 name: Media Democracy Fund
 ---
+key: 06
+---
 logo: /static/images/sponsors/mdf.png
 ---
 link: http://mediademocracyfund.org/
 ---
 description:
 
-MDF’s deep expertise in media and technology policy and partnerships with public interest and civil society organizations around the world enable them to guide their funding partners through the rapidly changing issues and develop strategies that address priorities in digital equity and rights.
+MDF expertise in media and technology policy and extensive partnerships enable them to guide their funding partners through the rapidly changing issues and develop strategies that address priorities in digital equity and rights. These grants were unrestricted, general operating funds for both the Tor Project and the Open Observatory of Network Interference (OONI).

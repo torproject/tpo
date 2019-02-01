@@ -2,9 +2,11 @@ _model: sponsor
 ---
 active: True
 ---
-time: 2010 - 2013, 2017 - 2020
+time: 2018
 ---
 name: The Handshake Foundation
+---
+key: 07
 ---
 logo: /static/images/sponsors/handshake.png
 ---
@@ -12,4 +14,4 @@ link: https://handshake.org/
 ---
 description:
 
-Handshake is a decentralized, permissionless naming protocol compatible with DNS where every peer is validating and in charge of managing the root zone with the goal of creating an alternative to existing Certificate Authorities. Its purpose is not to replace the DNS protocol, but to replace the root zone file and the root servers with a public commons.
+Handshake is a decentralized, permissionless naming protocol compatible with DNS where every peer is validating and in charge of managing the root zone with the goal of creating an alternative to existing Certificate Authorities. This grant was unrestricted, general operating funds for the Tor Project.

@@ -1,10 +1,10 @@
 _model: sponsor
 ---
-active: True
+active: False
 ---
 time: 2016 - 2018
 ---
-name: National Science Foundation joint with University of Illinois at Chicago 
+name: National Science Foundation joint with University of Illinois at Chicago
 ---
 logo: /static/images/sponsors/nsf.png
 ---

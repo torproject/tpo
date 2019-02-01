@@ -2,12 +2,15 @@ _model: sponsor
 ---
 active: True
 ---
-time: 2016 - 2018
+time: 2016 - Present
 ---
 name: Fastly
+---
+key: 11
 ---
 logo: /static/images/sponsors/fastly.png
 ---
 link: https://www.fastly.com/
 ---
 description:
+Fastly’s global edge cloud platform processes, serves, and secures applications as close to users as possible, at the edge of the network. Fastly generously hosts our Tor Browser update downloads that can be fetched anonymously.

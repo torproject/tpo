@@ -2,14 +2,16 @@ _model: sponsor
 ---
 active: True
 ---
-time: 2016 - 2019
+time: 2016 - Present
 ---
 name: National Science Foundation joint with Rochester Institute of Technology
 ---
-logo: /static/images/sponsors/nsf.png
+key: 10
+---
+logo: /static/images/sponsors/nsf-rit.png
 ---
 link: https://nsf.gov/
 ---
 description:
 
-The National Science Foundation funds research and education in most [fields of science and engineering](https://nsf.gov/funding/index.jsp#areas). It does this through grants, and cooperative agreements to more than 2,000 colleges, universities, K-12 school systems, businesses, informal science organizations and other research organizations throughout the United States. The Foundation accounts for about one-fourth of federal support to academic institutions for basic research.
+The National Science Foundation funds research and education in most fields of science and engineering. We’re using this grant to improve our defense of website fingerprinting in Tor.
