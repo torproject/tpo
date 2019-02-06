@@ -2,7 +2,7 @@ _model: job
 ---
 _template: about.html
 ---
-active: True
+active: False
 ---
 title: Senior System Administrator
 ---

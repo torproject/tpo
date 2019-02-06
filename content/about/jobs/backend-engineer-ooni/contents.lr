@@ -1,0 +1,73 @@
+_model: job
+---
+_template: about.html
+---
+active: True
+---
+title: Backend Engineer for OONI
+---
+
+description:
+
+Backend Engineer for OONI
+
+January 31, 2018
+
+The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
+
+You will be working to improve OONI’s data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
+
+This is a full-time 12-month contract position, starting ASAP (no later than mid-May 2019); contract may be extended.
+
+The OONI team is based in Europe. However, this position may be performed remotely.
+
+Here are some of our code repositories:
+
+   https://github.com/ooni/api
+   https://github.com/ooni/pipeline
+   https://github.com/ooni/orchestra
+   https://github.com/ooni/collector
+   https://github.com/ooni/sysadmin
+
+Required skills and qualifications:
+
+   Extensive experience in python or golang.
+   Comfortable working remotely.
+   Self-directed, self-disciplined, but good at working and communicating with a team.
+   Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others’ code.
+   Experience documenting and designing protocols.
+   Be comfortable with transparency!
+
+Preferred qualifications:
+
+   Experience designing, implementing, and maintaining scalable complex network applications.
+   Working experience with data processing pipelines.
+   Possess the confidence to refactor code and write unit-tests.
+   Familiarity with the challenges of developing and scaling data processing pipelines.
+   Familiarity with the network measurement field.
+   Experience with open-source software development, including working with distributed teams across different time-zones containing employees and volunteers of differing skill levels.
+   Basic familiarity with distributed version control systems.
+   Contributed significant chunks of code to multiple open-source projects in the past.
+   Be passionate about internet freedom and interested in contributing to it in a concrete way!
+
+Other notes:
+
+Academic degrees are great but not required if you have the right experience.
+
+You should be very good at working remotely at communicating with the team on a daily basis via Slack, IRC, instant messaging, email, and issue trackers.
+
+Salary negotiable.
+
+How to apply:
+
+Please email a *PDF* of your resume/CV, and a cover letter explaining how your qualifications and experience meet the requirements of this job description. Please include the reasons why you want to work on OONI. Please also include link to one or several code samples (of which you are authorized to share), and also your GitHub or GitLab profile, and three professional references.
+
+Email should be sent to jobs at openobservatory dot org with "OONI Backend Engineer" in the subject line.
+
+About the project:
+
+The Open Observatory of Network Interference (OONI) is a free software project under the Tor Project. OONI collects and processes network measurements with the aim of detecting network interferences, such as censorship, surveillance, and traffic manipulation. Since late 2012, OONI has collected millions of measurements across more than 90 countries around the world.
+
+The Tor Project, Inc., is a 501(c)(3) non-profit organization that provides the technical infrastructure for privacy protection over the Internet. With paid staff and contractors of around 30 technologists and operational support people, plus many volunteers all over the world who contribute to our work, the Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. We only write free and open source software, and we don't believe in software patents.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
