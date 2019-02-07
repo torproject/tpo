@@ -1,5 +1,5 @@
 {% macro render_board(item, alternative) %}
-  <div class="col-3 my-4">
+  <div class="col-md-4 col-xl-3 my-4">
     <div class="card h-100 my-2">
       <div class="card-body">
         <h5 class="card-title human-name">{{ item.name }}</h5>
@@ -12,7 +12,7 @@
 {% endmacro %}
 
 {% macro render_core(item, alternative) %}
-  <div class="col-2 my-3">
+  <div class="col-md-3 col-xl-2 my-3">
   <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title human-name human-name-small">{{ item.name }}{% if item.pronoun %} <small class="nick text-primary">{{ item.pronoun }}</small>{% endif %}</h5>
