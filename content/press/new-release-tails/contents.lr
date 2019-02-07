@@ -1,0 +1,18 @@
+_model: post
+---
+active: True
+---
+type: release
+---
+title: New Release: Tails 3.12
+---
+link: https://blog.torproject.org/new-release-tails-312
+---
+summary:
+
+This release fixes many security vulnerabilities. You should upgrade as soon as possible.
+
+The biggest news for 3.12 is that we completely changed the installation methods for Tails.
+
+---
+body:
