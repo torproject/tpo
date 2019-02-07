@@ -1,0 +1,16 @@
+_model: post
+---
+active: True
+---
+type: release
+---
+title: New Release: Tor 0.4.0.1-alpha
+---
+link: https://blog.torproject.org/new-release-tor-0401-alpha
+---
+summary:
+
+There's a new alpha release available for download. If you build Tor from source, you can download the source code for 0.4.0.1-alpha from the usual place on the website.
+
+---
+body:
