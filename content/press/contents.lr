@@ -1,5 +1,7 @@
 _template: layout.html
 ---
+_model: press
+---
 section: the tor project
 ---
 html: press.html

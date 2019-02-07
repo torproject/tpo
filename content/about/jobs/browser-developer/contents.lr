@@ -6,7 +6,13 @@ active: True
 ---
 title: Browser Developer
 ---
+summary:
 
+The Tor Project is looking for a Browser Developer (C++ and Javascript)!
+
+As a browser developer, your job would be to work closely with other members of the Tor Browser development team on C++ patches to our Firefox-based browser, writing new APIs, altering functionality for privacy and security, and making improvements to our collection of Firefox add-ons (JavaScript code). Being a Tor Browser developer includes triaging, diagnosing, and fixing bugs; looking for and resolving web privacy issues; responding on short notice to urgent security issues; and working collaboratively with coworkers and volunteers to implement new features and web behavior changes. We also need help making our code more maintainable, testable, and mergeable by upstream. The person in this position will also review other people's code, designs, and academic research papers to make suggestions for improvement.
+
+---
 description:
 
 The Tor Project is looking for a Browser Developer

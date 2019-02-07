@@ -1,0 +1,18 @@
+_model: post
+---
+active: True
+---
+type: release
+---
+title: New Release: Tor Browser 8.5a7
+---
+link: https://blog.torproject.org/new-release-tor-browser-85a7
+---
+summary:
+
+Tor Browser 8.5a7 is now available from the Tor Browser Project page and also from our distribution directory.
+
+This release features important security updates to Firefox.
+
+---
+body:
