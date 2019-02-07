@@ -1,9 +1,9 @@
 <div class="container py-3">
   <div class="row border-bottom border-light"><p></p></div>
 </div>
-<div class="container py-5">
+<div class="container">
   <div class="row">
-    <div class="col-8">
+    <div class="col-md-8 py-3">
             <h3 class="text-secondary display-5 mb-4"><i class="fas fa-table-tennis text-primary pr-2"></i> {{ _('Chat with us on <a href="https://webchat.oftc.net/" title="Tor Project IRC" target="_blank">OFTC IRC</a>')|safe }}</h3>
       <p class="text-tpo"><span class="text-primary nick">#tor</span> - {{ _("Ask questions about using Tor.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-dev</span> - {{ _("Discuss Tor-related coding, protocols, and ideas are all welcome.") }}</p>
@@ -12,8 +12,11 @@
       <p class="text-tpo"><span class="text-primary nick">#tor-relays</span> - {{ _("Discuss running a Tor relay.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-south</span> - {{ _("Talk with Tor’s global south community.") }}</p>
     </div>
-    <div class="col-4">
-            <h3 class="text-secondary display-5 mb-4"><i class="fas fa-comments text-primary pr-2"></i> {{ _("Find us on Social Media") }}</h3>
+    <div class="d-block d-sm-none container py-3">
+      <div class="row border-bottom border-light"><p></p></div>
+    </div>
+    <div class="col-md-4 py-3">
+      <h3 class="text-secondary display-5 mb-4"><i class="fas fa-comments text-primary pr-2"></i> {{ _("Find us on Social Media") }}</h3>
       <ul class="jobs-ul text-primary">
         <li class="py-2"><i class="fab fa-twitter display-5"></i><a class="pl-3" href="https://twitter.com/torproject" title="@torproject" target="_blank">Twitter</a></li>
         <li class="py-2"><i class="fab fa-facebook-square display-5"></i><a class="pl-3" href="https://www.facebook.com/TorProject" title="Tor Project" target="_blank">Facebook</a></li>
@@ -46,7 +49,7 @@
 </div>
 <div class="container py-3">
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <div class="row">
         <div class="oval-3 mt-3"><i class="fas fa-spider text-primary"></i></div>
       </div>
@@ -62,7 +65,7 @@
         <p class="text-tpo">If you find a relay that you think is malicious, misconfigured, or otherwise broken, please check out our wiki page and blog post on how to report it.</p>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <div class="row">
         <div class="oval-3 mt-3"><i class="fas fa-lock text-primary"></i></div>
       </div>
@@ -87,11 +90,14 @@
 </div>
 <div class="container py-3">
   <div class="row">
-    <div class="col-8 p-0 pr-5">
+    <div class="col-md-8 p-0 pr-5">
       <h3 class="text-primary display-5">Email us</h3>
       <p class="text-tpo">For questions and comments about Tor the non-profit organization: trademark questions, affiliation and coordination, contract inquiries, etc, please email <a href="">frontdesk@rt.torproject.org</a>. For donor-related questions, contact <a href="">giving@torproject.org</a>.</p>
     </div>
-    <div class="col-4">
+    <div class="d-block d-sm-none container py-3">
+      <div class="row border-bottom border-light"><p></p></div>
+    </div>
+    <div class="col-md-4 p-0">
       <h3 class="text-primary display-5">Send us Mail</h3>
       <p class="text-tpo">The Tor Project <br/>
  217 1st Ave South #4903</br>
