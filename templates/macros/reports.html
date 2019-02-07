@@ -2,7 +2,7 @@
 <tr>
   <td>{{ item.title }}</td>
   <td>{{ item.description }}</td>
-  <td><a href="{{ item.link }}">View PDF</a></td>
+  <td><a href="{{ item.link }}">{{ _('View PDF') }}</a></td>
 </tr>
 {% endmacro %}
 
@@ -16,6 +16,6 @@
     {% endfor %}
   </td>
   <td>{{ item.title }}</td>
-  <td><a href="{{ item.link }}">View PDF</a></td>
+  <td><a href="{{ item.link }}">{{ _('View PDF') }}</a></td>
 </tr>
 {% endmacro %}

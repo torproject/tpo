@@ -1,8 +1,8 @@
 <div class="row">
-  <h1 class="mx-auto display-2 text-white">Defend yourself.</h1>
+  <h1 class="mx-auto display-2 text-white">{{ _('Defend yourself.') }}</h1>
 </div>
 <div class="row">
-  <h1 class="mx-auto defend text-white">Protect yourself against tracking, surveillance, and censorship. </h1>
+  <h1 class="mx-auto defend text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h1>
 </div>
 <div class="row p-5 mx-auto">
   {% for id, item in bag('platforms+' + this.alt).items() %}
@@ -30,9 +30,9 @@
   {% endfor %}
 </div>
 <div class="row p-5">
-  <a class="mx-auto text-white py-3" href="{{ 'languages'|url }}"><u>Download in another language</u></a>
-  <a class="mx-auto text-white py-3" href="{{ 'options'|url }}"><u>Advanced Install Options</u></a>
+  <a class="mx-auto text-white py-3" href="{{ 'languages'|url }}"><u>{{ _('Download in another language') }}</u></a>
+  <a class="mx-auto text-white py-3" href="{{ 'options'|url }}"><u>{{ _('Advanced Install Options') }}</u></a>
 </div>
 <div class="hidden-sm row p-5 justify-content-center window-bg">
-  <a class="mx-auto text-white p-5" href=""><u>Read the latest release announcements</u></a>
+  <a class="mx-auto text-white p-5" href=""><u>{{ _('Read the latest release announcements') }}</u></a>
 </div>
