@@ -6,7 +6,7 @@
 </div>
 <div class="row p-5 mx-auto">
   {% for id, item in bag('platforms+' + this.alt).items() %}
-    <div class="col-3">
+    <div class="col-sm-6 col-md-3 py-3">
       <div class="oval-2 bg-darker mx-auto">
         {% set t = bag('versions', 'torbrowser-stable') %}
         {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + t.version + '/' %}
@@ -29,10 +29,10 @@
     </div>
   {% endfor %}
 </div>
-<div class="row">
-  <a class="mx-auto text-white p-5" href="{{ 'languages'|url }}"><u>Download in another language</u></a>
-  <a class="mx-auto text-white p-5" href="{{ 'options'|url }}"><u>Advanced Install Options</u></a>
+<div class="row p-5">
+  <a class="mx-auto text-white py-3" href="{{ 'languages'|url }}"><u>Download in another language</u></a>
+  <a class="mx-auto text-white py-3" href="{{ 'options'|url }}"><u>Advanced Install Options</u></a>
 </div>
-<div class="row p-5 justify-content-center window-bg">
+<div class="hidden-sm row p-5 justify-content-center window-bg">
   <a class="mx-auto text-white p-5" href=""><u>Read the latest release announcements</u></a>
 </div>
