@@ -2,15 +2,13 @@
 <div class="card border-0">
   <div class="card-header bg-white border-0" id="headingOne">
     <h5 class="mb-0">
-      <button class="btn btn-link bg-white" type="button" data-toggle="collapse" data-target="#collapse-{{ item._id }}" aria-expanded="true" aria-controls="collapseOne">
-        <a href="{{ item.path|url }}">{{ item.title }}</a>
-      </button>
+      <a href="{{ item.path|url }}">{{ item.title }}</a>
     </h5>
   </div>
-  <div id="collapse-{{ item._id }}" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionJobs">
+  <div>
     <div class="card-body">
       {{ item.summary }}
-      <a href="{{ item.path }}">Read more.</a>
+      <a href="{{ item.path|url }}">Read more.</a>
     </div>
   </div>
 </div>
