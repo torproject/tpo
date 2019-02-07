@@ -4,10 +4,10 @@
 <div class="row">
   <h1 class="mx-auto defend text-white">Protect yourself against tracking, surveillance, and censorship. </h1>
 </div>
-<div class="row p-5 mx-auto justify-content-center">
+<div class="row p-5 mx-auto">
   {% for id, item in bag('platforms+' + this.alt).items() %}
     <div class="col-3">
-      <div class="oval-2 bg-darker justify-content-center">
+      <div class="oval-2 bg-darker mx-auto">
         {% set t = bag('versions', 'torbrowser-stable') %}
         {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + t.version + '/' %}
         {% if alt == 'en' %}
@@ -23,7 +23,7 @@
           {% set download_link = '#android' %}
         {% endif %}
         <a href="{{ download_link }}">
-          <i class="fab fa-{{ id }} text-light"></i> 
+          <i class="fab fa-{{ id }} text-light"></i>
         </a>
       </div>
     </div>
