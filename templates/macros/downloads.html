@@ -8,7 +8,7 @@
   {% set sig_link_64 = download_link_64 + '.asc' %}
   {% set sig_link_32 = download_link_32 + '.asc' %}
 
-  <a href="{{ download_link_32 }}">32/64-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_32 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
+  <a href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_32 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
 {% macro render_mac(version, alt) %}
@@ -32,5 +32,5 @@
   {% set sig_link_64 = download_link_64 + '.asc' %}
   {% set sig_link_32 = download_link_32 + '.asc' %}
 
-  <a href="{{ download_link_32 }}">32/64-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_32 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
+  <a href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_32 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
