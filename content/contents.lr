@@ -1,5 +1,7 @@
 section: home
 ---
+section_id: home
+---
 color: dark
 ---
 _template: jumbotron.html

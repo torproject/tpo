@@ -1,5 +1,9 @@
 _model: job
 ---
+section: about
+---
+section_id: about
+---
 active: False
 ---
 title: Developer Data Architect
