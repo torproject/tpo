@@ -2,6 +2,8 @@ _template: jumbotron.html
 ---
 section: download
 ---
+section_id: download
+---
 html: download-options.html
 ---
 color: dark

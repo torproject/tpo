@@ -4,6 +4,8 @@ _template: about.html
 ---
 section: about
 ---
+section_id: about
+---
 html: people.html
 ---
 color: primary

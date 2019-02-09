@@ -4,6 +4,10 @@ _template: about.html
 ---
 active: True
 ---
+section: about
+---
+section_id: about
+---
 title: Browser Developer
 ---
 summary:

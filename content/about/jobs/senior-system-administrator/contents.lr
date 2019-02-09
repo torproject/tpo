@@ -2,6 +2,10 @@ _model: job
 ---
 _template: about.html
 ---
+section: about
+---
+section_id: about
+---
 active: False
 ---
 title: Senior System Administrator
