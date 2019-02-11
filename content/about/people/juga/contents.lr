@@ -2,12 +2,10 @@ _model: person
 ---
 role: core
 ---
-name: Julius Mittenzwei
+name: juga
 ---
-nickname: julius
----
-twitter_handle: mittenzwei
+nickname: juga
 ---
 description:
 
-Germany-based lawyer and Internet activist.
+Contributed to OONI, bug tracker features, wrote tordyguards. Currently working on bandwidth scanner.
