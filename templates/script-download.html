@@ -1,0 +1,14 @@
+<script>
+$(".downloadLink").click(
+    function(e) {
+        e.preventDefault();
+
+        //open download link in new page
+        window.open( $(this).attr("href") );
+
+        //redirect current page to success page
+        window.location="/thank-you";
+        window.focus();
+    }
+);
+</script>

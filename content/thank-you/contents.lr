@@ -1,4 +1,4 @@
-_template: thank-you.html
+_template: layout.html
 ---
 section: the tor project
 ---
