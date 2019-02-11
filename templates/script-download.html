@@ -7,7 +7,7 @@ $(".downloadLink").click(
         window.open( $(this).attr("href") );
 
         //redirect current page to success page
-        window.location="/thank-you";
+        window.location="{{ '/thank-you'|url }}";
         window.focus();
     }
 );
