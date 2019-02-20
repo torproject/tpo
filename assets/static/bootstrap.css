@@ -6923,7 +6923,7 @@ footer .border {
 .footer {
   position: relative;
   z-index: 99999999999; }
-  .footer a:hover {
+  .footer a.text-light:hover {
     color: #fff !important; }
 
 .footer a.nav-link {
