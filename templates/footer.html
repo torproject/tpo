@@ -26,7 +26,13 @@
           {% set menubag = 'menu_footer+' + this.alt %}
           {% for id, item in bag(menubag).items() %}
           <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-            <a class="nav-link text-light" href="{{ item.path }}">{{ item.label }}
+          {% set link = site.get(item.path) %}
+          {% if link %}
+            <a class="nav-link text-light" href="{{ item.path|url }}">
+          {% else %}
+            <a class="nav-link text-light" href="{{ item.path }}">
+          {% endif %}
+          {{ item.label }}
               {% if this.is_child_of(item.path) %}
               <span class="sr-only">(current)</span>
               {% endif %}

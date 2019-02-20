@@ -4,7 +4,8 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 py-3">
-            <h3 class="text-secondary display-5 mb-4"><i class="fas fa-table-tennis text-primary pr-2"></i> {{ _('Chat with us on <a href="https://webchat.oftc.net/" title="Tor Project IRC" target="_blank">OFTC IRC</a>')|safe }}</h3>
+      {% from "macros/contact.html" import render_oftc %}
+      <h3 class="text-secondary display-5 mb-4"><i class="fas fa-table-tennis text-primary pr-2"></i> {{ _('Chat with us on') }} {{ render_oftc() }}</h3>
       <p class="text-tpo"><span class="text-primary nick">#tor</span> - {{ _("Ask questions about using Tor.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-dev</span> - {{ _("Discuss Tor-related coding, protocols, and ideas are all welcome.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-project</span> - {{ _("Discuss organization and community related topics: meetups, outreach, translation, or website improvements.") }}</p>
@@ -92,7 +93,7 @@
   <div class="row">
     <div class="col-md-8 p-0 pr-5">
       <h3 class="text-primary display-5">{{ _('Email us') }}</h3>
-      <p class="text-tpo">{{ _('For questions and comments about Tor the non-profit organization: trademark questions, affiliation and coordination, contract inquiries, etc, please email') }}<a href="mailto:frontdesk@rt.torproject.org">frontdesk@rt.torproject.org</a>. {{ _('For donor-related questions, contact') }} <a href="mailto:giving@torproject.org">giving@torproject.org</a>.</p>
+      <p class="text-tpo">{{ _('For questions and comments about Tor the non-profit organization: trademark questions, affiliation and coordination, contract inquiries, etc, please email frontdesk@rt.torproject.org. For donor-related questions, contact giving@torproject.org') }}.</p>
     </div>
     <div class="d-block d-sm-none container py-3">
       <div class="row border-bottom border-light"><p></p></div>
