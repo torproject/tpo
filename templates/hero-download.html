@@ -5,7 +5,7 @@
   <h1 class="mx-auto defend text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h1>
 </div>
 <div class="row p-5 mx-auto">
-  {% for id, item in bag('platforms+' + this.alt).items() %}
+  {% for id, item in bag('platforms').items() %}
     <div class="col-sm-6 col-md-3 py-3">
       <div class="oval-2 bg-darker mx-auto">
         {% set t = bag('versions', 'torbrowser-stable') %}
@@ -13,14 +13,12 @@
         {% if alt == 'en' %}
           {% set alt = 'en-US' %}
         {% endif %}
-        {% if id == 'linux' %}
-          {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt + '.tar.xz' %}
-        {% elif id == 'windows' %}
+        {% if id == 'windows' %}
           {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt + '.exe' %}
         {% elif id == 'apple' %}
           {% set download_link = download_prefix + 'TorBrowser-' + t.version + '-osx64' + '_' + alt + '.dmg' %}
         {% else %}
-          {% set download_link = '#android' %}
+          {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt + '.tar.xz' %}
         {% endif %}
         <a class="downloadLink" href="{{ download_link }}">
           <i class="fab fa-{{ id }} text-light"></i>
@@ -28,6 +26,13 @@
       </div>
     </div>
   {% endfor %}
+  <div class="col-sm-6 col-md-3 py-3">
+    <div class="oval-2 bg-darker mx-auto">
+      <a href="#android">
+        <i class="fab fa-android text-light"></i>
+      </a>
+    </div>
+  </div>
 </div>
 <div class="row p-5">
   <a class="mx-auto text-white py-3" href="{{ 'languages'|url }}"><u>{{ _('Download in another language') }}</u></a>

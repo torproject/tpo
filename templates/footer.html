@@ -23,10 +23,16 @@
       </div>
       <div class="col-sm-2 mt-5 d-none d-sm-block">
         <ul class="nav flex-column mt-sm-5">
-          {% set menubag = 'menu+' + this.alt %}
+          {% set menubag = 'menu_footer+' + this.alt %}
           {% for id, item in bag(menubag).items() %}
           <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-            <a class="nav-link text-light" href="{{ item.path }}">{{ item.label }}
+          {% set link = site.get(item.path) %}
+          {% if link %}
+            <a class="nav-link text-light" href="{{ item.path|url }}">
+          {% else %}
+            <a class="nav-link text-light" href="{{ item.path }}">
+          {% endif %}
+          {{ item.label }}
               {% if this.is_child_of(item.path) %}
               <span class="sr-only">(current)</span>
               {% endif %}
@@ -46,7 +52,8 @@
 
     <div class="col-12 d-flex justify-content-center">
       <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
-        <p class="text-primary-light">{{ _('Trademark, copyright notices, and rules for use by third parties can be found in our ') }} <a href="https://www.torproject.org/docs/trademark-faq" target="_blank" class="text-primary-light"><u>FAQ</u></a>.</p>
+        {% from "macros/footer.html" import render_faq %}
+        <p class="text-primary text-light">{{ _('Trademark, copyright notices, and rules for use by third parties can be found in our %s')|format(render_faq())|safe }}.</p>
       </div>
       <div class="col-sm-2 mt-5 d-none d-sm-block">
         <div class="btn-group dropdown float-right">
