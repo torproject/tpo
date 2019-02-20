@@ -609,7 +609,7 @@ a.side-nav.active {
 @include media-breakpoint-down(sm) {
     .mobile {
         display: block !important;
-	padding-top: 50px;
+	      padding-top: 50px;
     }
 
     .display-1 {
