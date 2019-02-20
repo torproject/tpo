@@ -52,7 +52,8 @@
 
     <div class="col-12 d-flex justify-content-center">
       <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
-        <p class="text-primary-light">{{ _('Trademark, copyright notices, and rules for use by third parties can be found in our ') }} <a href="https://www.torproject.org/docs/trademark-faq" target="_blank" class="text-primary-light"><u>FAQ</u></a>.</p>
+        {% from "macros/footer.html" import render_faq %}
+        <p class="text-primary text-light">{{ _('Trademark, copyright notices, and rules for use by third parties can be found in our %s')|format(render_faq())|safe }}.</p>
       </div>
       <div class="col-sm-2 mt-5 d-none d-sm-block">
         <div class="btn-group dropdown float-right">

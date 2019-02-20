@@ -33,6 +33,9 @@
 .footer {
   position: relative;
   z-index:99999999999;
+  a:hover {
+    color: #fff !important;
+  }
 }
 
 .footer a.nav-link {
