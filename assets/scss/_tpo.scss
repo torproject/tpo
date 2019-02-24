@@ -144,3 +144,10 @@ main{
  @include media-breakpoint-up(lg) {
 
  }
+
+.row--limit-overflow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  left: -($grid-gutter-width/2);
+}
