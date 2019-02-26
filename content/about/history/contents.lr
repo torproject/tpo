@@ -12,31 +12,30 @@ title: History
 ---
 body:
 
-In the 1990s, the lack of security on the internet and its ability to be used for tracking and surveillance was becoming clear, and in 1994, the Navy Research Lab (NRL), funded by the office of Naval Research (ONR) started researching a way to communicate privately and securely online.
-They created the first research design and prototype of onion routing.
+The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of “onion routing” began in the mid 1990s.
 
-The goal of onion routing was to have a way to use the internet with as much privacy as possible, and the idea was to route traffic through multiple servers and encrypt it each step of the way.
-This is still a simple explanation for how Tor works today.
+**Just like Tor users, the developers, researchers, and funders who’ve made Tor possible are a diverse group of people. But all of the people who have been involved in Tor are united by a common belief: internet users should have private access to an uncensored web.**
 
-In 2001, Roger Dingledine, then a student at MIT, adapted code from an undergraduate Cambridge student’s thesis and began referring to the project as Tor, which stood for The Onion Router.
-Nick Mathewson, also a student at MIT, became involved in Tor’s development around this time, too.
+In the 1990s, the lack of security on the internet and its ability to be used for tracking and surveillance was becoming clear, and in 1995, David Goldschlag, Mike Reed, and Paul Syverson at the U.S. Naval Research Lab (NRL), asked themselves if there was a way to create internet connections that don’t reveal who is talking to whom, even to someone monitoring the network. Their answer was to create and deploy the first research designs and prototypes of onion routing.
 
-In October 2003, Tor network was deployed, and Tor code was released under a free and open MIT license.
-In order for Tor to work optimally, everyone involved realized that not only does the Tor network need to be decentralized, it should also be maintained by a transparently operating entity with clear separation from its then stakeholders, and it needed to be free and open licensed.
-By the end of 2003, the network has about a dozen volunteer nodes, mostly in the US, plus one in Germany.
+The goal of onion routing was to have a way to use the internet with as much privacy as possible, and the idea was to route traffic through multiple servers and encrypt it each step of the way. This is still a simple explanation for how Tor works today.
 
-Recognizing the benefit of Tor to digital rights, EFF became a fiscal sponsor of Tor in 2004.
-In 2006, the Tor Project, Inc., a 501(c)3 nonprofit organization, was founded to maintain Tor’s development.
+In the early 2000s, Roger Dingledine, a recent [Massachusetts Institute of Technology (MIT)](https://web.mit.edu/) graduate, began working on an NRL onion routing project with Paul Syverson. To distinguish this original work at NRL from other onion routing efforts that were starting to pop up elsewhere, Roger called the project Tor, which stood for The Onion Routing. Nick Mathewson, a classmate of Roger's at MIT, joined the project soon after.
+
+From its inception in the 1990s, onion routing was conceived to rely on a decentralized network. The network needed to be operated by entities with diverse interests and trust assumptions, and the software needed to be free and open to maximize transparency and separation. That’s why in October 2002 when the Tor network was initially deployed, its code was released under a free and open software license. By the end of 2003, the network had about a dozen volunteer nodes, mostly in the U.S., plus one in Germany.
+
+Recognizing the benefit of Tor to digital rights, the [Electronic Frontier Foundation (EFF)](https://www.eff.org/) began funding Roger's and Nick's work on Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)3 nonprofit organization, was founded to maintain Tor’s development.
 
 In 2007, the organization began developing bridges to the Tor network to address censorship, such as the need to get around government firewalls, in order for its users to access the open web.
 
-Tor began gaining popularity among activists and tech-savvy users interested in privacy, but it was still difficult for less-technically savvy people to use, so in 2009-2010, development of tools beyond just the Tor proxy began, including Tor Browser.
+Tor began gaining popularity among activists and tech-savvy users interested in privacy, but it was still difficult for less-technically savvy people to use, so starting in 2005, development of tools beyond just the Tor proxy began. Development of Tor Browser began in [2008](https://lists.torproject.org/pipermail/tor-talk/2008-January/007837.html).
 
-The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the Snowden revelations in 2013.
-Not only was Tor instrumental to Snowden’s whistleblowing, but content of the leaks also upheld assurances that Tor could not be cracked.
+With Tor Browser having made Tor more accessible to everyday internet users and activists, Tor was an instrumental tool during the [Arab Spring](https://www.theguardian.com/us-news/the-nsa-files) beginning in late 2010. It not only protected people’s identity online but also allowed them to access critical resources, social media, and websites which were blocked.
 
-People’s awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom.
-We fight every day for everyone to have private access to an uncensored internet, and Tor has become the world’s strongest tool for privacy and freedom online.
+The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the [Snowden revelations in 2013](https://www.theguardian.com/us-news/the-nsa-files). Not only was Tor instrumental to Snowden’s whistleblowing, but content of the documents also upheld assurances that, at that time, [Tor could not be cracked](https://www.wired.com/story/the-grand-tor/).
 
-Now the network has thousands of relays and millions of users worldwide.
-The diversity of Tor users keeps it safe.
+People’s awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom. Today, the network has [thousands of relays](http://metrics.torproject.org) run by volunteers and millions of users worldwide. And it is this diversity that keeps Tor users safe.
+
+We at the Tor Project fight every day for everyone to have private access to an uncensored internet, and Tor has become the world’s strongest tool for privacy and freedom online.
+
+But Tor is more than just software. It is a labor of love produced by an international community of people devoted to human rights. The Tor Project is [deeply committed](https://blog.torproject.org/tor-social-contract) to transparency and the safety of its users.
