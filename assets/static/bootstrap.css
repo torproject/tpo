@@ -6968,7 +6968,7 @@ main {
 
 .btn-shadow {
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.200000003);
-  opacity: 0.699999988079071;
+  opacity: 0.8;
   border: 2px solid #FFFFFF;
   border-radius: 2px; }
 
@@ -7007,6 +7007,12 @@ main {
   font-size: 60px;
   line-height: 72px;
   text-align: left; }
+
+.row--limit-overflow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  left: -15px; }
 
 /*
  * Base structure

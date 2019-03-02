@@ -90,7 +90,7 @@ main{
 
 .btn-shadow {
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.20000000298023224);
-  opacity: 0.699999988079071;
+  opacity: 0.8;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
  }
@@ -144,3 +144,10 @@ main{
  @include media-breakpoint-up(lg) {
 
  }
+
+.row--limit-overflow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  left: -($grid-gutter-width/2);
+}
