@@ -8,6 +8,10 @@ nickname: _hc
 ---
 twitter_handle: hansstatus
 ---
+gpg: https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE9E28DEA00AA5556
+---
+image: /static/images/people/hc.png
+---
 description:
 
 Works on Orbot, NetCipher, and integrating Tor everywhere possible, especiall in Debian and Android. Also deeply mixed into Guardian Project.

@@ -6,6 +6,10 @@ name: David Goulet
 ---
 nickname: dgoulet
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=B74417EDDF22AC9F9E90F49142E86A2A11F48D36
+---
+image: /static/images/people/dgoulet.png
+---
 description:
 
 Tor development team focusing on onion services and our torsocks maintainer.

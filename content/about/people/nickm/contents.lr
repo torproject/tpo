@@ -10,6 +10,10 @@ nickname: nickm
 ---
 twitter_handle: nickm_tor
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=2133BC600AB133E1D826D173FE43009C4607B1FB
+---
+image: /static/images/people/nickm.png
+---
 description:
 
 One of the three original designers of Tor - does a lot of the ongoing design work, and coordinates and leads ongoing development.

@@ -8,6 +8,10 @@ nickname: robgjansen
 ---
 twitter_handle: robgjansen
 ---
+gpg: /static/keys/robgjansen.txt
+---
+image: /static/images/people/robgjansen.png
+---
 description:
 
 [NRL](https://www.nrl.navy.mil/) research scientist, [leading expert in Tor network performance](http://www.robgjansen.com/), and author of [Shadow](https://shadow.github.io/).

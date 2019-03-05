@@ -8,6 +8,10 @@ nickname: ramy
 ---
 twitter_handle: RamyRaoof
 ---
+gpg: /static/keys/ramy.txt
+---
+image: /static/images/people/ramy.png
+---
 description:
 
 Tor Board member, technologist, and privacy and security researcher.

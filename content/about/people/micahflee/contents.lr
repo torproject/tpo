@@ -6,7 +6,11 @@ name: Micah Lee
 ---
 nickname: micahflee
 ---
-twitter: micahflee
+twitter_handle: micahflee
+---
+gpg: /static/keys/micahflee.txt
+---
+image: /static/images/people/micahflee.png
 ---
 description:
 

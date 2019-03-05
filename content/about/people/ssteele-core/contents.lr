@@ -10,6 +10,10 @@ pronoun: she
 ---
 twitter_handle: ssteele1234
 ---
+gpg: /static/keys/ssteele.txt
+---
+image: /static/images/people/ssteele.png
+---
 description:
 
 Shari Steele is on the board of directors for the Tor Project.

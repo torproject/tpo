@@ -8,6 +8,8 @@ nickname: teor
 ---
 pronoun: they
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=C8556CED5D90A0C529F64D43450CBA7F968F094B
+---
 description:
 
 Tor developer and chutney maintainer. Currently working on onion services, directory documents, and statistics.

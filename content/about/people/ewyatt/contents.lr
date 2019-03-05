@@ -6,6 +6,10 @@ name: Erin Wyatt
 ---
 nickname: ewyatt
 ---
+gpg: /static/keys/ewyatt.txt
+---
+image: /static/images/people/ewyatt.png
+---
 description:
 
 Non-technical switchboard for people-related things: recruiting, onboarding, benefits, contracts, TPI policy questions, and baked goods.

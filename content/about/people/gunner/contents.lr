@@ -8,6 +8,10 @@ twitter_handle: allengunn
 ---
 nickname: gunner
 ---
+gpg: /static/keys/gunner.txt
+---
+image: /static/images/people/gunner.png
+---
 description:
 
 Executive Director of [Aspiration](https://aspirationtech.org/about/people/gunner), where he works with NGOs, activists, and human  rights groups.

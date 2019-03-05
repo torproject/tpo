@@ -8,6 +8,10 @@ nickname: haxxpop
 ---
 twitter_handle: haxxpop
 ---
+gpg: /static/keys/haxxpop.txt
+---
+image: /static/images/people/haxxpop.png
+---
 description:
 
 Contributes to core Tor and especially onion services.

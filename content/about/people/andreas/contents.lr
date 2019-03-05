@@ -6,6 +6,8 @@ name: Andreas Lehner
 ---
 nickname: andreas
 ---
+gpg: /static/keys/andreas.txt
+---
 description:
 
 Works at the intersection of security, privacy, data integrity and anonymity both in politics and technology.

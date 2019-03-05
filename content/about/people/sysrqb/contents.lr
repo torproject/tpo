@@ -6,7 +6,9 @@ name: Matthew Finkel
 ---
 nickname: sysrqb
 ---
-twitter: mfinkel
+twitter_handle: mfinkel
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=CE1782624600EE98764C6D9CCB8FC772D1AA1D30
 ---
 description:
 

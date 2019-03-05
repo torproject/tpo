@@ -6,6 +6,8 @@ name: Brade
 ---
 nickname: brade
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=F711FA29D61F88CE6879BAD0D91A345E56B01B25
+---
 description:
 
 Developer on the Tor Browser team.

@@ -480,6 +480,14 @@ a.side-nav.active {
   margin-top: -.25rem;
 }
 
+// Images
+
+.image-thumb {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
 // Variations
 @mixin bs-callout-variant($color) {
   border-left-color: $color;
