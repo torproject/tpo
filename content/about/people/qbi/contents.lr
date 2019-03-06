@@ -8,6 +8,8 @@ nickname: qbi
 ---
 twitter_handle: qbi
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=60D85B8D9A1CD2D1355EBE9F65B3F094EA3E4D61
+---
 description:
 
 Volunteer that helped translate the website, is part of TorServers.net, and Tor's sysadmin team.

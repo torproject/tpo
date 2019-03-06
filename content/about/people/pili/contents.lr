@@ -6,9 +6,13 @@ name: Pili Guerra
 ---
 nickname: pili
 ---
-twitter: mpguerra
+twitter_handle: mpguerra
 ---
 pronoun: she
+---
+gpg: https://pgp.mit.edu/pks/lookup?op=vindex&search=0xC6CB772EF0969C45
+---
+image: /static/images/people/pili.png
 ---
 description:
 

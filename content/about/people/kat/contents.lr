@@ -8,6 +8,10 @@ nickname: kat5
 ---
 pronoun: she
 ---
+gpg: /static/keys/kat.txt
+---
+image: /static/images/people/kat5.png
+---
 description:
 
 Volunteer on the Community Team. Helps with t-shirts for relay operators and other odds and ends.

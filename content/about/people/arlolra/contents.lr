@@ -8,6 +8,10 @@ nickname: arlolra
 ---
 twitter_handle: arlolra
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=4797E7E1069D84AC4040797A5E3A93B4D4DDCD8B
+---
+image: /static/images/people/arlolra.png
+---
 description:
 
 Developer for Snowflake, Tor Messenger, and Check.

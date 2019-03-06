@@ -8,6 +8,10 @@ nickname: arma
 ---
 twitter_handle: RogerDingledine
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=B1172656DFF983C3042BC699EB5A896A28988BF5
+---
+image: /static/images/people/arma.png
+---
 description:
 
 Original developer of Tor along with Nick and Paul. Leading privacy researcher, coordinating developers and researchers.

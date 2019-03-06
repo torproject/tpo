@@ -6,6 +6,10 @@ name: George Kadianakis
 ---
 nickname: asn
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=13C81580203AE18BB7C0424E09CC7F5315F271D9
+---
+image: /static/images/people/asn.png
+---
 description:
 
 Onion services. Security analysis. Used to obfsproxy. Follower of the onion.

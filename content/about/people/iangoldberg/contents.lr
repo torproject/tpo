@@ -8,6 +8,10 @@ nickname: iang
 ---
 pronoun: he
 ---
+gpg: /static/keys/ian.txt
+---
+image: /static/images/people/ian.png
+---
 description:
 
 [Professor of CS](https://cs.uwaterloo.ca/~iang/) at the [University of Waterloo](https://uwaterloo.ca/) developing [Off-the-Record Messaging](https://otr.cypherpunks.ca/) among other things.

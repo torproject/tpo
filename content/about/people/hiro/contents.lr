@@ -8,6 +8,10 @@ twitter_handle: nopressure
 ---
 nickname: hiro
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=6864C734AD972957FE938866A38425F1767BB67C
+---
+image: /static/images/people/hiro.png
+---
 description:
 
-Hiro builds and runs Tor Project's web applications and services.
+Hiro builds and runs Tor Project's web applications and services. Member of the sysadmin team. Current [GetTor](https://gettor.torproject.org) maintainer.

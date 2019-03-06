@@ -8,6 +8,10 @@ nickname: atagar
 ---
 pronoun: he
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=68278CC5DD2D1E85C4E45AD90445B7AB9ABBEEC6
+---
+image: /static/images/people/atagar.png
+---
 description:
 
 Author of the Stem python controller library and Nyx relay monitor.

@@ -6,7 +6,11 @@ name: meejah
 ---
 nickname: meejah
 ---
-twitter: meejah
+twitter_handle: meejah
+---
+gpg: https://meejah.ca/meejah.asc
+---
+image: /static/images/people/meejah.png
 ---
 description:
 

@@ -6,7 +6,11 @@ name: Mike Tigas
 ---
 nickname: mtigas
 ---
-twitter: mtigas
+twitter_handle: mtigas
+---
+gpg: https://mike.tig.as/pubkey_6E0E9923.txt
+---
+image: /static/images/people/mtigas.png
 ---
 description:
 

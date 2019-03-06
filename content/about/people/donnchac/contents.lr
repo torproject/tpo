@@ -8,6 +8,10 @@ twitter_handle: DonnchaC
 ---
 nickname: DonnchaC
 ---
+gpg: /static/keys/donnchac.txt
+---
+image: /static/images/people/donnchac.png
+---
 description:
 
 Onion services developer, OnionBalance developer, hunter of bad relays.

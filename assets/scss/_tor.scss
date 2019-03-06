@@ -441,6 +441,7 @@ a.side-nav.active {
 //
 .card-body p{
   font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 //
@@ -477,6 +478,14 @@ a.side-nav.active {
 
 .bd-callout + .bd-callout {
   margin-top: -.25rem;
+}
+
+// Images
+
+.image-thumb {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
 }
 
 // Variations

@@ -8,6 +8,10 @@ nickname: karsten
 ---
 pronoun: he
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=0CC8157C2578EEE92B0745D64EFD4FDC3F46D41E
+---
+image: /static/images/people/karsten.png
+---
 description:
 
 Primary researcher and developer into [anonymous metrics](https://metrics.torproject.org/) which started as a National Science Foundation grant.
