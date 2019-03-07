@@ -1,5 +1,5 @@
 {% macro render_board(item, alternative) %}
-  <div class="col-md-4 col-xl-3 my-4">
+  <div class="col-md-6 col-sm-12 col-xl-3 my-4">
     <div class="card h-100 my-2">
       <div class="card-body">
         <h5 class="card-title human-name">{{ item.name }}</h5>
@@ -12,7 +12,7 @@
 {% endmacro %}
 
 {% macro render_core(item, alternative) %}
-  <div class="col-md-3 col-xl-2 my-3">
+  <div class="col-md-6 col-sm-12 col-xl-3 my-3">
     <div class="card h-100">
       <div class="card-header bg-white border-0">
         {% if item.image %}
