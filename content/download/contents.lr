@@ -1,6 +1,6 @@
 _template: jumbotron.html
 ---
-section: download
+section: Download
 ---
 section_id: download
 ---
@@ -8,6 +8,6 @@ html: download.html
 ---
 color: dark
 ---
-title: download
+title: Download
 ---
 body:

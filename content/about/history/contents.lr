@@ -1,6 +1,6 @@
 _template: about.html
 ---
-section: about
+section: About
 ---
 section_id: about
 ---
@@ -16,11 +16,14 @@ The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of “oni
 
 **Just like Tor users, the developers, researchers, and funders who’ve made Tor possible are a diverse group of people. But all of the people who have been involved in Tor are united by a common belief: internet users should have private access to an uncensored web.**
 
-In the 1990s, the lack of security on the internet and its ability to be used for tracking and surveillance was becoming clear, and in 1995, David Goldschlag, Mike Reed, and Paul Syverson at the U.S. Naval Research Lab (NRL), asked themselves if there was a way to create internet connections that don’t reveal who is talking to whom, even to someone monitoring the network. Their answer was to create and deploy the first research designs and prototypes of onion routing.
+In the 1990s, the lack of security on the internet and its ability to be used for tracking and surveillance was becoming clear, and in 1995, David Goldschlag, Mike Reed, and Paul Syverson at the U.S. Naval Research Lab (NRL) asked themselves if there was a way to create internet connections that don’t reveal who is talking to whom, even to someone monitoring the network.
+Their answer was to create and deploy the first research designs and prototypes of onion routing.
 
-The goal of onion routing was to have a way to use the internet with as much privacy as possible, and the idea was to route traffic through multiple servers and encrypt it each step of the way. This is still a simple explanation for how Tor works today.
+The goal of onion routing was to have a way to use the internet with as much privacy as possible, and the idea was to route traffic through multiple servers and encrypt it each step of the way.
+This is still a simple explanation for how Tor works today.
 
-In the early 2000s, Roger Dingledine, a recent [Massachusetts Institute of Technology (MIT)](https://web.mit.edu/) graduate, began working on an NRL onion routing project with Paul Syverson. To distinguish this original work at NRL from other onion routing efforts that were starting to pop up elsewhere, Roger called the project Tor, which stood for The Onion Routing. Nick Mathewson, a classmate of Roger's at MIT, joined the project soon after.
+In the early 2000s, Roger Dingledine, a recent [Massachusetts Institute of Technology (MIT)](https://web.mit.edu/) graduate, began working on an NRL onion routing project with Paul Syverson.
+To distinguish this original work at NRL from other onion routing efforts that were starting to pop up elsewhere, Roger called the project Tor, which stood for The Onion Routing. Nick Mathewson, a classmate of Roger's at MIT, joined the project soon after.
 
 From its inception in the 1990s, onion routing was conceived to rely on a decentralized network. The network needed to be operated by entities with diverse interests and trust assumptions, and the software needed to be free and open to maximize transparency and separation.
 That’s why in October 2002 when the Tor network was initially deployed, its code was released under a free and open software license.
