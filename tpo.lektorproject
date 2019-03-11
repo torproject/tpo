@@ -45,6 +45,11 @@ name = Português Brasil (pt-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
 
+[alternatives.ru]
+name = Русский (ru)
+url_prefix = /ru/
+locale = ru
+
 [alternatives.tr]
 name = Türkçe (tr)
 url_prefix = /tr/
