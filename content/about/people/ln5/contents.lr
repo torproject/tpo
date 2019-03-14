@@ -8,6 +8,10 @@ nickname: ln5
 ---
 pronoun: he
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8C4CD511095E982EB0EFBFA21E8BF34923291265
+---
+image: /static/images/people/ln5.png
+---
 description:
 
 Software developer, sysadmin and co-founder of the Swedish Torservers.net partner :DFRI.

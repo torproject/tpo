@@ -8,6 +8,10 @@ nickname: egypcio
 ---
 twitter_handle: egypcio
 ---
+gpg: /static/keys/egypcio.txt
+---
+image: /static/images/people/egypcio.png
+---
 description:
 
 TorBSD Diversity Project (TDP); IPv6 Enthusiast, BSD Systems Evangelist, and Bridges/Relays Operator.

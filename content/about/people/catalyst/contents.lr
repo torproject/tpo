@@ -10,6 +10,8 @@ twitter_handle: argonblue
 ---
 pronoun: they
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=2C732B1C0DBEF678AB3AF606A32F17FD0055C305
+---
 description:
 
 Software archaeologist and keeper of C language arcana.

@@ -10,6 +10,10 @@ pronoun: he
 ---
 twitter_handle: tomrittervg
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8ACD146EA94CEB12E4EA691566A109189B79658F
+---
+image: /static/images/people/tjr.png
+---
 description:
 
 Maintains [Consensus Health](https://consensus-health.torproject.org/), runs one of the bandwidth authorities, and contributes to Tor Browser.

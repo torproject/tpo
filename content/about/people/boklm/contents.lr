@@ -6,6 +6,8 @@ name: Nicolas Vigier
 ---
 nickname: boklm
 ---
+gpg: https://www.torproject.org/images/pgp-key.png
+---
 description:
 
 Works on Tor Browser.

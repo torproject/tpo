@@ -6815,7 +6815,6 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 14px;
   font-weight: 400;
-  line-height: 19px;
   text-align: left; }
 
 .description {
@@ -7369,7 +7368,7 @@ a.side-nav.active {
 .card-body p {
   font-size: 1.1rem;
   line-height: 1.7rem; }
-  
+
 .table-striped td {
   border: 0 !important; }
 
@@ -7393,6 +7392,11 @@ a.side-nav.active {
 
 .bd-callout + .bd-callout {
   margin-top: -.25rem; }
+
+.image-thumb {
+  object-fit: cover;
+  width: 100px;
+  height: 100px; }
 
 .bd-callout-info {
   border-left-color: #5bc0de; }

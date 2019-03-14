@@ -8,6 +8,10 @@ nickname: gaba
 ---
 pronoun: she
 ---
+gpg: https://pgp.mit.edu/pks/lookup?op=vindex&search=0x180DB06C59CABD19
+---
+image: /static/images/people/gaba.png
+---
 description:
 
 Coordinates Network, Metrics and Anti-censorship teams.

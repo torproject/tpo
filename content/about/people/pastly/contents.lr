@@ -6,6 +6,10 @@ name: Matt Traudt
 ---
 nickname: pastly
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=B7E105FC4E6D9377F89CBA4C83BCA95294FBBB0A
+---
+image: /static/images/people/pastly.png
+---
 description:
 
 Matt implemented the KIST scheduler into Tor. He helps safely measure Tor and says helpful things on IRC.

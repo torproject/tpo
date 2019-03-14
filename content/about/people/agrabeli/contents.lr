@@ -10,5 +10,10 @@ pronoun: she
 ---
 twitter_handle: agrabeli_
 ---
+gpg: /static/keys/agrabeli.txt
+---
+image: /static/images/people/agrabeli.png
+---
 description:
+
 Maria manages OONI's Partnership Program and writes research reports on internet censorship around the world.

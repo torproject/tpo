@@ -8,6 +8,8 @@ nickname: intrigeri
 ---
 pronoun: he
 ---
+gpg: https://gaffer.ptitcanardnoir.org/intrigeri/contact/
+---
 description:
 
 He is one of our main interfaces with the [Tails](https://tails.boum.org/) project.

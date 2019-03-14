@@ -8,6 +8,10 @@ nickname: phoul
 ---
 twitter_handle: phoul
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=726824BE9D8D5CF009C5F039FF9D1C57779FB883
+---
+image: /static/images/people/phoul.png
+---
 description:
 
 Relay advocate, Outreachy mentor, and a member of the community team.

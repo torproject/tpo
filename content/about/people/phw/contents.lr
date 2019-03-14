@@ -6,7 +6,9 @@ name: Philipp Winter
 ---
 nickname: phw
 ---
-twitter: __phw
+twitter_handle: __phw
+---
+gpg: https://nymity.ch/openpgp_public_key.txt
 ---
 description:
 

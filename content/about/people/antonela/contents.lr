@@ -8,6 +8,10 @@ nickname: antonela
 ---
 twitter_handle: holantonela
 ---
+gpg: /static/keys/antonela.txt
+---
+image: /static/images/people/antonela.png
+---
 description:
 
 Designer working with the UX team. Making Tor usable for everyone.

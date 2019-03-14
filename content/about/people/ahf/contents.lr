@@ -10,6 +10,9 @@ pronoun: he
 ---
 nickname: ahf
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=FDB16F45A477B314E87432EC61A208E16E7CB435
+---
+
 description:
 
 Works on core Tor development.

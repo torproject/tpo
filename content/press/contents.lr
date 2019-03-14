@@ -2,7 +2,7 @@ _template: layout.html
 ---
 _model: press
 ---
-section: the tor project
+section: The Tor Project
 ---
 section_id: the_tor_project
 ---
@@ -10,7 +10,7 @@ html: press.html
 ---
 color: primary
 ---
-title: press
+title: Press
 ---
 body:
 

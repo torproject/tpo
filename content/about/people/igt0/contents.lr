@@ -8,6 +8,8 @@ nickname: igt0
 ---
 twitter_handle: Igortolivei
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=A78CBB964B8C351A8AB20A69609E5D4AEDCA83FF
+---
 description:
 
 Works on Tor Browser.

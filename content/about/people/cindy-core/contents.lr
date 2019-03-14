@@ -8,6 +8,10 @@ nickname: cindy
 ---
 pronoun: she
 ---
+gpg: https://www.eff.org/files/key_cindy.txt
+---
+image: /static/images/people/cindy.png
+---
 description:
 
 Tor Board member and [Executive Director of the EFF](https://www.eff.org/about/staff/cindy-cohn).

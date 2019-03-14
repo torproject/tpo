@@ -6,6 +6,8 @@ name: Juris Vetra
 ---
 nickname: juris
 ---
+gpg: /static/keys/juris.txt
+---
 description:
 
 Board member of torservers.net.

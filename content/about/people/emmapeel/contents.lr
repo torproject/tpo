@@ -8,6 +8,10 @@ pronoun: she
 ---
 nickname: emmapeel
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=B885D8DCE0173B42A402021F364E1DEA2C4F8835
+---
+image: /static/images/people/emmapeel.png
+---
 description:
 
 emmapeel coordinates the localization (translations) of the different Tor software.

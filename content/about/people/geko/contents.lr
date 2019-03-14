@@ -6,6 +6,8 @@ name: Georg Koppen
 ---
 nickname: GeKo
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=35CD74C24A9B15A19E1A81A194373AA94B7C3223
+---
 description:
 
 Currently lead of the Tor Browser team.

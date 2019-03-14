@@ -8,6 +8,10 @@ nickname: mcs
 ---
 pronoun: he
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=2602B0DD0EB238CCE037196A0E36124F8E990F6E
+---
+image: /static/images/people/mcs.png
+---
 description:
 
 Developer on the Tor Browser team.

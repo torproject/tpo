@@ -8,6 +8,10 @@ nickname: wseltzer
 ---
 pronoun: she
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=4263006A4506740FAD871430BAEBA2D7456CAD51
+---
+image: /static/images/people/wseltzer.png
+---
 description:
 
 [Techie lawyer](https://wendy.seltzer.org/) and former Tor board member.

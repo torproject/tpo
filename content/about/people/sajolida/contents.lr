@@ -6,6 +6,10 @@ name: sajolida
 ---
 nickname: sajolida
 ---
+gpg: /static/keys/sajolida.txt
+---
+image: /static/images/people/sajolida.png
+---
 description:
 
 Technical writing, UX, and fundraising for Tails.

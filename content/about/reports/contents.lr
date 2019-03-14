@@ -1,6 +1,6 @@
 _template: about.html
 ---
-section: about
+section: About
 ---
 section_id: about
 ---

@@ -6,6 +6,10 @@ name: juga
 ---
 nickname: juga
 ---
+gpg: https://juga.space/files/juga.asct
+---
+image: /static/images/people/juga.png
+---
 description:
 
 Contributed to OONI, bug tracker features, wrote tordyguards. Currently working on bandwidth scanner.

@@ -8,6 +8,8 @@ nickname: julius
 ---
 twitter_handle: mittenzwei
 ---
+gpg: /static/keys/julius.txt
+---
 description:
 
 Germany-based lawyer and Internet activist.
