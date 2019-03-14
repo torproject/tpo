@@ -1,6 +1,6 @@
 _template: layout.html
 ---
-section: the tor project
+section: The Tor Project
 ---
 section_id: the_tor_project
 ---
@@ -8,7 +8,7 @@ html: contact.html
 ---
 color: primary
 ---
-title: contact
+title: Contact
 ---
 body:
 

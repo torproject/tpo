@@ -2,20 +2,60 @@
 name = Tor Project Website
 url = https://www.torproject.org/
 url_style = relative
-locale = en_US
+locale = en
 
 [alternatives.en]
-name = English
+name = English (en)
 primary = yes
 url_prefix = /
-locale = en_US
+locale = en
+
+[alternatives.bn-BD]
+name = বাংলা ভাষা  (bn)
+url_prefix = /bn-BD/
+locale = bn-BD
+
+[alternatives.de]
+name = Deutsch (de)
+url_prefix = /de/
+locale = de
 
 [alternatives.es]
-name = Español
+name = Español (es)
 url_prefix = /es/
 locale = es
 
 [alternatives.fr]
-name = Français
+name = Français (fr)
 url_prefix = /fr/
 locale = fr
+
+[alternatives.id]
+name = Indonesia (id)
+url_prefix = /id/
+locale = id
+
+[alternatives.it]
+name = Italiano (it)
+url_prefix = /it/
+locale = it
+
+[alternatives.pt-BR]
+name = Português Brasil (pt-BR)
+url_prefix = /pt-BR/
+locale = pt-BR
+
+[alternatives.ru]
+name = Русский (ru)
+url_prefix = /ru/
+locale = ru
+
+[alternatives.tr]
+name = Türkçe (tr)
+url_prefix = /tr/
+locale = tr
+
+[alternatives.zh-CN]
+name = 简体字 (zh-CN)
+url_prefix = /zh-CN/
+locale = zh-CN
