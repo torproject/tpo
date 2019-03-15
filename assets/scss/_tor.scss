@@ -248,7 +248,6 @@ mark, .mark {
 }
 
 .navbar-brand {
-  padding-left: 80px;
   span {
     font-size: 0.6em;
     display: flex;
@@ -722,6 +721,15 @@ a.side-nav.active {
     position: sticky;
     padding-top: inherit;
   }
+
+// Mobile menu
+
+  .nav-link {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 150%;
+  }
+
 }
 
 .no-gutters {

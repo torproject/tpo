@@ -16,7 +16,7 @@
     </label>
     <input type="checkbox" id="nav-toggle"/>
     <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
-      <div class="mx-auto pt-2 pl-4">
+      <div class="mx-auto">
         <ul class="navbar-nav">
         	{% set menubag = 'menu+' + this.alt %}
         	{% for id, item in bag(menubag).items() %}
@@ -36,11 +36,11 @@
   	{% endfor %}
         </ul>
       </div>
-      <div class="mt-2 btn-group dropdown pr-2">
+      <div class="btn-group col-md-2 col-sm-12">
         {% if this.color == 'primary' %}
-          <button type="button" class="btn btn-primary bg-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% else %}
-          <button type="button" class="btn btn-dark bg-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block my-3 my-sm-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% endif %}
           {{ bag('alternatives', this.alt, 'language') }}
         </button>
@@ -53,9 +53,10 @@
         </div>
       </div>
       {% set download = site.get('/download') %}
-      <a class="btn text-primary bg-white btn-light pull-right mt-2" href="{{ this.url_to(download) }}">
-        {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
-      </a>
-    </div>
+      <div class="col-md-2 col-sm-12">
+          <a class="btn btn-outline-light pull-right btn-block" href="{{ this.url_to(download) }}">
+            {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
+          </a>
+      </div>
   </nav>
 </div>
