@@ -721,15 +721,16 @@ a.side-nav.active {
     position: sticky;
     padding-top: inherit;
   }
+}
 
-// Mobile menu
 
+// Tablet and Mobile menu
+@include media-breakpoint-down(md) {
   .nav-link {
     padding-bottom: 1rem;
     padding-top: 2rem;
     font-size: 150%;
   }
-
 }
 
 .no-gutters {

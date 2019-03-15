@@ -1,11 +1,11 @@
 {% if this.color == 'primary' %}
 <div class="container bg-primary">
-  <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary p-5">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary p-4">
 {% else %}
 <div class="container bg-dark">
-  <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-dark p-5">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-dark p-4">
 {% endif %}
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand col-sm-3 col-1" href="/">
       <img alt="{{ 'The Tor Project' }}" src="{{ '/static/images/tor-logo.svg'|asseturl }}" >
       <span class="sr-only">{{ _("Tor Logo") }}</span>
     </a>
@@ -36,7 +36,7 @@
   	{% endfor %}
         </ul>
       </div>
-      <div class="btn-group col-md-2 col-sm-12">
+      <div class="btn-group col-lg-2 col-12">
         {% if this.color == 'primary' %}
           <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% else %}
@@ -53,7 +53,7 @@
         </div>
       </div>
       {% set download = site.get('/download') %}
-      <div class="col-md-2 col-sm-12">
+      <div class="col-lg-2 col-12">
           <a class="btn btn-outline-light pull-right btn-block" href="{{ this.url_to(download) }}">
             {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
           </a>

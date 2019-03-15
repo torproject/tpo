@@ -8754,10 +8754,6 @@ footer .border {
   padding: 35%;
 }
 
-.page {
-  padding-top: 7rem !important;
-}
-
 .section-nav {
   padding-top: 0 !important;
   border: 0 !important;
@@ -9785,7 +9781,8 @@ a.side-nav.active {
     position: sticky;
     padding-top: inherit;
   }
-
+}
+@media (max-width: 991px) {
   .nav-link {
     padding-bottom: 1rem;
     padding-top: 2rem;
