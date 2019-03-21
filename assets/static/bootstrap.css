@@ -8798,28 +8798,6 @@ main {
   background-size: 65%;
 }
 
-@media (max-width: 767px) {
-  .display-4 {
-    font-size: 2rem;
-  }
-
-  .toc-entry a {
-    display: block;
-    padding: 0.4rem 0 !important;
-    font-size: 1.3rem;
-  }
-}
-.defend {
-  color: #FFFFFF;
-  font-family: Source Sans Pro;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 35px;
-  opacity: 0.6999999881;
-  width: 822px;
-  text-align: center;
-}
-
 .btn-shadow {
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.200000003);
   opacity: 0.8;
@@ -8865,8 +8843,8 @@ main {
 .hero > p {
   color: #484848;
   font-family: Source Sans Pro Light;
-  font-size: 60px;
-  line-height: 72px;
+  font-size: 4.5rem;
+  line-height: 5rem;
   text-align: left;
 }
 
@@ -8877,6 +8855,27 @@ main {
   left: -15px;
 }
 
+@media (max-width: 767px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .toc-entry a {
+    display: block;
+    padding: 0.4rem 0 !important;
+    font-size: 1.3rem;
+  }
+
+  .window-bg,
+.onion-bg {
+    background: none;
+  }
+
+  .hero > p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
 /*
  * Base structure
  */

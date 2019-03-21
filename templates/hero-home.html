@@ -1,15 +1,15 @@
 <div class="row">
-  <h1 class="mx-auto display-2 text-white">{{ _('Browse Privately.') }}</h1>
+  <h1 class="mx-auto display-2 text-center text-white">{{ _('Browse Privately.') }}</h1>
 </div>
 <div class="row">
-  <h1 class="mx-auto display-2 text-white">{{ _('Explore Freely.') }}</h1>
+  <h1 class="mx-auto display-2 text-center text-white">{{ _('Explore Freely.') }}</h1>
 </div>
 <div class="row">
-  <h1 class="mx-auto defend text-white">{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}</h1>
+  <h3 class="mx-auto pt-3 text-center text-white">{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}</h3>
 </div>
 <div class="row col-12 p-5 mx-auto justify-content-center">
   {% set download = site.get('/download') %}
-  <a class="btn btn-lg btn-shadow text-white bg-dark" href="{{ this.url_to(download) }}">
+  <a class="btn btn-lg btn-outline-light" href="{{ this.url_to(download) }}">
     {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
   </a>
 </div>
