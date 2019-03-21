@@ -19,41 +19,41 @@ As a browser developer, your job would be to work closely with other members of 
 ---
 description:
 
-The Tor Project is looking for a Browser Developer
-
-January 25, 2018
+##The Tor Project is looking for a Browser Developer
+*January 25, 2018*
 
 The Tor Project is looking for a Browser Developer (C++ and Javascript)!
 
 As a browser developer, your job would be to work closely with other members of the Tor Browser development team on C++ patches to our Firefox-based browser, writing new APIs, altering functionality for privacy and security, and making improvements to our collection of Firefox add-ons (JavaScript code). Being a Tor Browser developer includes triaging, diagnosing, and fixing bugs; looking for and resolving web privacy issues; responding on short notice to urgent security issues; and working collaboratively with coworkers and volunteers to implement new features and web behavior changes. We also need help making our code more maintainable, testable, and mergeable by upstream. The person in this position will also review other people's code, designs, and academic research papers to make suggestions for improvement.
 
 This is a full-time position.
-Required Qualifications:
 
-    Experience in C++ (and ideally, JavaScript). Five years of C++ experience is probably necessary for the level of expertise we want, though some of these years can be replaced with other Object Oriented Programming and/or C experience. If you meet this level of experience with C++/OOP, JavaScript can be learned on the job.
-    Possess a solid understanding of issues surrounding secure C++ programming and reference counted memory (at least to the level of avoiding issues).
-    Be comfortable diving into new, unfamiliar codebases, looking for ways to alter and augment their functionality in specific, goal-oriented ways.
-    Be familiar with web technologies and how the web works, especially the same-origin model and web tracking.
-    Willingness and ability to justify and document technical decisions for a public, world-wide technical audience.
-    Be comfortable working remotely with a geographically distributed team.
-    Experience interacting with users and other developers online, including experience being confronted with differing ideas and opinions (not always in a nice manner), while maintaining a high level of professionalism.
-    Comfort with transparency: as a non-profit organization who develops open source software, almost everything we do is public, including your name (or at least your business name) and possibly salary information.
+**Required Qualifications:**
 
-Preferred qualifications:
+- Experience in C++ (and ideally, JavaScript). Five years of C++ experience is probably necessary for the level of expertise we want, though some of these years can be replaced with other Object Oriented Programming and/or C experience. If you meet this level of experience with C++/OOP, JavaScript can be learned on the job.
+- Possess a solid understanding of issues surrounding secure C++ programming and reference counted memory (at least to the level of avoiding issues).
+- Be comfortable diving into new, unfamiliar codebases, looking for ways to alter and augment their functionality in specific, goal-oriented ways.
+- Be familiar with web technologies and how the web works, especially the same-origin model and web tracking.
+- Willingness and ability to justify and document technical decisions for a public, world-wide technical audience.
+- Be comfortable working remotely with a geographically distributed team.
+- Experience interacting with users and other developers online, including experience being confronted with differing ideas and opinions (not always in a nice manner), while maintaining a high level of professionalism.
+- Comfort with transparency: as a non-profit organization who develops open source software, almost everything we do is public, including your name (or at least your business name) and possibly salary information.
 
-    Familiarity and/or experience with writing add-ons and/or patches for Mozilla Firefox or other web browsers.
-    Familiarity with compiling software for the Android platform.
-    Familiarity with browser fingerprinting defenses
-    Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing.
-    Be intensely creative yet also ruthlessly pragmatic in your thinking.
-    Possess knowledge/familiarity of probability, statistics, and information theory.
-    Know enough about networking to be able to visualize what HTTP 1.1 looks like on the wire while encapsulated within Tor's network protocol.
-    Experience working with distributed (remote) teams across different time-zones with people of differing skill levels over multiple mediums, including email, instant messaging, and IRC.
-    Open-source experience: contributed significant chunks of code to multiple open-source projects in the past.
-    Familiarity with distributed version control systems, including Git.
-    Familiarity with rust
-    Genuinely be excited about Tor and its values!
-    Willingness and ability to travel internationally to twice-yearly team meetings (strongly preferred).
+**Preferred qualifications:**
+
+- Familiarity and/or experience with writing add-ons and/or patches for Mozilla Firefox or other web browsers.
+- Familiarity with compiling software for the Android platform.
+- Familiarity with browser fingerprinting defenses
+- Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing.
+- Be intensely creative yet also ruthlessly pragmatic in your thinking.
+- Possess knowledge/familiarity of probability, statistics, and information theory.
+- Know enough about networking to be able to visualize what HTTP 1.1 looks like on the wire while encapsulated within Tor's network protocol.
+- Experience working with distributed (remote) teams across different time-zones with people of differing skill levels over multiple mediums, including email, instant messaging, and IRC.
+- Open-source experience: contributed significant chunks of code to multiple open-source projects in the past.
+- Familiarity with distributed version control systems, including Git.
+- Familiarity with rust
+- Genuinely be excited about Tor and its values!
+- Willingness and ability to travel internationally to twice-yearly team meetings (strongly preferred).
 
 For a more detailed understanding of the full breadth and depth of the work you'd be doing, have a look at The Design and Implementation of the Tor Browser, especially The Design Requirements section at https://www.torproject.org/projects/torbrowser/design/#DesignRequirements.
 

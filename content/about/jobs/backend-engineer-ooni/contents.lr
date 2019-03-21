@@ -18,9 +18,8 @@ You will be working to improve OONI’s data processing pipeline and other backe
 ---
 description:
 
-Backend Engineer for OONI
-
-January 31, 2018
+## Backend Engineer for OONI
+*January 31, 2018*
 
 The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
 
@@ -38,16 +37,16 @@ Here are some of our code repositories:
    https://github.com/ooni/collector
    https://github.com/ooni/sysadmin
 
-Required skills and qualifications:
+**Required skills and qualifications:**
 
-   Extensive experience in python or golang.
-   Comfortable working remotely.
-   Self-directed, self-disciplined, but good at working and communicating with a team.
-   Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others’ code.
-   Experience documenting and designing protocols.
-   Be comfortable with transparency!
+ - Extensive experience in python or golang.
+ - Comfortable working remotely.
+ - Self-directed, self-disciplined, but good at working and communicating with a team.
+ - Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others’ code.
+ - Experience documenting and designing protocols.
+ - Be comfortable with transparency!
 
-Preferred qualifications:
+**Preferred qualifications:**
 
    Experience designing, implementing, and maintaining scalable complex network applications.
    Working experience with data processing pipelines.
@@ -59,7 +58,7 @@ Preferred qualifications:
    Contributed significant chunks of code to multiple open-source projects in the past.
    Be passionate about internet freedom and interested in contributing to it in a concrete way!
 
-Other notes:
+**Other notes:**
 
 Academic degrees are great but not required if you have the right experience.
 
@@ -67,13 +66,13 @@ You should be very good at working remotely at communicating with the team on a 
 
 Salary negotiable.
 
-How to apply:
+**How to apply:**
 
 Please email a *PDF* of your resume/CV, and a cover letter explaining how your qualifications and experience meet the requirements of this job description. Please include the reasons why you want to work on OONI. Please also include link to one or several code samples (of which you are authorized to share), and also your GitHub or GitLab profile, and three professional references.
 
 Email should be sent to jobs at openobservatory dot org with "OONI Backend Engineer" in the subject line.
 
-About the project:
+**About the project:**
 
 The Open Observatory of Network Interference (OONI) is a free software project under the Tor Project. OONI collects and processes network measurements with the aim of detecting network interferences, such as censorship, surveillance, and traffic manipulation. Since late 2012, OONI has collected millions of measurements across more than 90 countries around the world.
 
