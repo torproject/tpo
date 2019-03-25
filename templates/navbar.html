@@ -54,7 +54,7 @@
       </div>
       {% set download = site.get('/download') %}
       <div class="col-lg-2 col-12">
-          <a class="btn btn-outline-light pull-right btn-block" href="{{ this.url_to(download) }}">
+          <a class="btn btn-outline-light pull-right" href="{{ this.url_to(download)|url(alt=this.alt) }}">
             {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
           </a>
       </div>
