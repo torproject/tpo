@@ -5,12 +5,12 @@
 <div class="container bg-dark">
   <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-dark p-4">
 {% endif %}
-    <a class="navbar-brand col-sm-3 col-1" href="/">
+    <a class="navbar-brand" href="/">
       <img alt="{{ 'The Tor Project' }}" src="{{ '/static/images/tor-logo.svg'|asseturl }}" >
       <span class="sr-only">Tor Logo</span>
     </a>
     <label for="nav-toggle">
-      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3 col-1" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         {{ _("Menu") }} <span class="navbar-toggler-icon ml-1"></span>
       </a>
     </label>
@@ -23,7 +23,7 @@
         	<li{% if this.path == item.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
             {% set link = site.get(item.path) %}
             {% if link %}
-              <a class="nav-link" href="{{ item.path|url }}">
+              <a class="nav-link" href="{{ item.path|url(alt=this.alt) }}">
             {% else %}
               <a class="nav-link" href="{{ item.path }}">
             {% endif %}
@@ -36,7 +36,7 @@
   	{% endfor %}
         </ul>
       </div>
-      <div class="btn-group col-lg-2 col-12">
+      <div class="btn-group pull-right">
         {% if this.color == 'primary' %}
           <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% else %}
@@ -53,7 +53,7 @@
         </div>
       </div>
       {% set download = site.get('/download') %}
-      <div class="col-lg-2 col-12">
+      <div class="pull-right">
           <a class="btn btn-outline-light pull-right" href="{{ this.url_to(download)|url(alt=this.alt) }}">
             {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
           </a>
