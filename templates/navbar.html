@@ -5,7 +5,7 @@
 <div class="container bg-dark">
   <nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-dark p-4">
 {% endif %}
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{{ '/'|url(alt=this.alt) }}">
       <img alt="{{ 'The Tor Project' }}" src="{{ '/static/images/tor-logo.svg'|asseturl }}" >
       <span class="sr-only">Tor Logo</span>
     </a>
