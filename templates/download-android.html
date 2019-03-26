@@ -16,7 +16,7 @@
       </div>
       <div class="row my-5">
           <a class="btn btn-lg btn-light text-primary py-3 px-4 my-1 mx-auto" href="">{{ _('Download .apk') }}</a>
-          <a class="btn btn-lg btn-light text-primary py-3 px-4 my-1 mx-auto" href="">{{ _('Go to Google Play') }}</a>
+          <a class="btn btn-lg btn-light text-primary py-3 px-4 my-1 mx-auto" href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Go to Google Play') }}</a>
           {% from "macros/downloads.html" import render_fdroid %}
           <a class="btn btn-lg btn-light text-primary py-3 px-4 my-1 mx-auto disabled" href="">{{ _('Go to F-droid %s')|format(render_fdroid())|safe }}</a>
       </div>
