@@ -4,7 +4,7 @@ _model: press
 ---
 _discoverable: yes
 ---
-_visible: yes
+_hidden: no
 ---
 section: The Tor Project
 ---

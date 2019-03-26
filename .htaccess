@@ -24,7 +24,7 @@ RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1
 RewriteRule ^overview(.*) /about/history$1 [R=301,L]
 
 # Projects
-RewriteRule ^projects/torbrowser/design/(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
+RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
 RewriteRule ^projects/$ https://2019.www.torproject.org/projects/projects [R=302,L]
 
 #Pluggable Transports
