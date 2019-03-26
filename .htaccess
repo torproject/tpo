@@ -1,12 +1,12 @@
 RewriteEngine On
 
 # moved to /docs/
-RewriteRule ^faq(.*) https://2019.www.torproject.org/docs/faq$1 [R=302,L]
-RewriteRule ^bridges(.*) https://2019.www.torproject.org/docs/bridges$1 [R=302,L]
-RewriteRule ^abuse(.*) https://2019.www.torproject.org/docs/abuse$1 [R=302,L]
-RewriteRule ^documentation(.*) https://2019.www.torproject.org/docs/documentation$1 [R=302,L]
-RewriteRule ^verifying-signatures(.*) https://2019.www.torproject.org/docs/verifying-signatures$1 [R=302,L]
-RewriteRule ^tor-manual(.*) https://2019.www.torproject.org/docs/tor-manual$1 [R=302,L]
+RewriteRule ^docs/faq(.*) https://2019.www.torproject.org/docs/faq$1 [R=302,L]
+RewriteRule ^docs/bridges(.*) https://2019.www.torproject.org/docs/bridges$1 [R=302,L]
+RewriteRule ^docs/abuse(.*) https://2019.www.torproject.org/docs/abuse$1 [R=302,L]
+RewriteRule ^docs/documentation(.*) https://2019.www.torproject.org/docs/documentation$1 [R=302,L]
+RewriteRule ^docs/verifying-signatures(.*) https://2019.www.torproject.org/docs/verifying-signatures$1 [R=302,L]
+RewriteRule ^docs/tor-manual(.*) https://2019.www.torproject.org/docs/tor-manual$1 [R=302,L]
 
 # Torbutton
 RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton/en/design$1 [R=302,L]
