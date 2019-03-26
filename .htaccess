@@ -21,28 +21,24 @@ RewriteRule ^torbrowser(.*) /projects/torbrowser.html.en [R=301,L]
 RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1 [R=301,L]
 
 # Overview
-RewriteRule ^overview(.*) /about/overview$1 [R=301,L]
-
-# Press
-RewriteRule ^press/$ /press/press [R=301,L]
-RewriteRule ^press/index.html(.*) /press/press.html$1 [R=301,L]
+RewriteRule ^overview(.*) /about/history$1 [R=301,L]
 
 # Projects
-RewriteRule ^projects/$ /projects/projects [R=301,L]
+RewriteRule ^projects/$ https://2019.www.torproject.org/projects/projects [R=302,L]
 
 #Pluggable Transports
-RewriteRule ^PT/?$ /docs/pluggable-transports [R=301,L]
-RewriteRule ^projects/obfsproxy-debian-instructions(.*) /docs/pluggable-transports [R=410,L]
-RewriteRule ^projects/obfsproxy-instructions(.*) /docs/pluggable-transports [R=410,L]
-RewriteRule ^projects/obfsproxy(.*) /docs/pluggable-transports [R=301,L]
+RewriteRule ^PT/?$ https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
+RewriteRule ^projects/obfsproxy-debian-instructions(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=410,L]
+RewriteRule ^projects/obfsproxy-instructions(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=410,L]
+RewriteRule ^projects/obfsproxy(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
 
 #Relays
 RewriteRule ^relay-guide(.*) https://trac.torproject.org/projects/tor/wiki/TorRelayGuide [R=301,L]
 
 # GetInvolved
-RewriteRule ^getinvolved/$ /getinvolved/volunteer [R=301,L]
-RewriteRule ^volunteer(.*) /getinvolved/volunteer$1 [R=301,L]
-RewriteRule ^tshirt(.*) /getinvolved/tshirt$1 [R=301,L]
+RewriteRule ^getinvolved/$ https://2019.www.torproject.org/getinvolved/volunteer [R=302,L]
+RewriteRule ^volunteer(.*) https://2019.www.torproject.org/getinvolved/volunteer$1 [R=302,L]
+RewriteRule ^tshirt(.*) https://2019.www.torproject.org/getinvolved/tshirt$1 [R=302,L]
 
 RewriteRule ^research(.*) https://research.torproject.org/ [R=301,L]
 RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=301,L]
@@ -72,8 +68,8 @@ RewriteRule ^about/$ /about/history [R=301,L]
 # Donation campaign
 # 2017
 # Special-case the donate-options and amazon page so it doesn't get redirected
-RewriteRule ^donate/donate-options(.*) /donate/donate-options$1 [END]
-RewriteRule ^donate/donate-amazon(.*) /donate/donate-amazon$1 [END]
+RewriteRule ^donate/donate-options(.*) https://2019.www.torproject.org/donate/donate-options$1 [END]
+RewriteRule ^donate/donate-amazon(.*) https://2019.www.torproject.org/donate/donate-amazon$1 [END]
 RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
 RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq [R=302,L]
 RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy [R=302,L]
