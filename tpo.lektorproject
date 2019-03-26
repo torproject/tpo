@@ -40,6 +40,11 @@ name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ko]
+name = 한국어 (ko)
+url_prefix = /ko/
+locale = ko
+
 [alternatives.pt-BR]
 name = Português Brasil (pt-BR)
 url_prefix = /pt-BR/
