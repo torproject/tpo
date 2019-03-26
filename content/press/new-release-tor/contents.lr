@@ -8,6 +8,8 @@ type: release
 ---
 title: New Release: Tor 0.4.0.1-alpha
 ---
+image: /static/images/tor_release.png
+---
 link: https://blog.torproject.org/new-release-tor-0401-alpha
 ---
 summary:
