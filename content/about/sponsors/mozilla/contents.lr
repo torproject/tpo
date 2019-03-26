@@ -10,6 +10,8 @@ key: 03
 ---
 logo: /static/images/sponsors/mozilla.png
 ---
+_hidden: yes
+---
 link: https://www.mozilla.org/en-US/moss/
 ---
 description:

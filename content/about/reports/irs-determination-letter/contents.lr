@@ -6,4 +6,6 @@ title: IRS Determination Letter
 ---
 description: IRS decision that Tor Project, Inc. is exempt from Federal income tax under section 501(c)(3) of the Internal Revenue Code.
 ---
+_hidden: yes
+---
 link: https://gitweb.torproject.org/company/policies.git/plain/corpdocs/IRS-Determination-Letter.pdf

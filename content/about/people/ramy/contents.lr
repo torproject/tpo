@@ -1,6 +1,8 @@
 _model: person
 ---
-role: board
+_hidden: yes
+---
+role:board
 ---
 name: Ramy Raoof
 ---

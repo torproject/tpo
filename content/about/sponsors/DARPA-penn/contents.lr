@@ -10,6 +10,8 @@ key: 13
 ---
 logo: /static/images/sponsors/darpa.png
 ---
+_hidden: yes
+---
 link: https://www.darpa.mil/program/extreme-ddos-defense
 ---
 description:
