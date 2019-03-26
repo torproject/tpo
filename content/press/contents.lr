@@ -2,6 +2,10 @@ _template: layout.html
 ---
 _model: press
 ---
+_discoverable: yes
+---
+_visible: yes
+---
 section: The Tor Project
 ---
 section_id: the_tor_project
