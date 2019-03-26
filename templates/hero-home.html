@@ -9,7 +9,7 @@
 </div>
 <div class="row col-12 p-5 mx-auto justify-content-center">
   {% set download = site.get('/download') %}
-  <a class="btn btn-lg btn-outline-light" href="{{ this.url_to(download) }}">
+  <a class="btn btn-lg btn-outline-light" href="{{ this.url_to(download, alt=this.alt) }}">
     {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
   </a>
 </div>

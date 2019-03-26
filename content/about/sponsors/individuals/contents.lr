@@ -10,7 +10,9 @@ key: 01
 ---
 logo: /static/images/sponsors/artwork.png
 ---
-link: https://www.torproject.org/donate/donate.html.en
+_hidden: yes
+---
+link: https://donate.torproject.org
 ---
 description:
 

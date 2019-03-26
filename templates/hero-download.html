@@ -2,7 +2,7 @@
   <h1 class="mx-auto display-2 text-white">{{ _('Defend yourself.') }}</h1>
 </div>
 <div class="row">
-  <h1 class="mx-auto defend text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h1>
+  <h3 class="mx-auto defend text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h3>
 </div>
 <div class="row p-5 mx-auto">
   {% for id, item in bag('platforms').items() %}
@@ -35,8 +35,8 @@
   </div>
 </div>
 <div class="row p-5">
-  <a class="mx-auto text-white py-3" href="{{ 'languages'|url }}"><u>{{ _('Download in another language') }}</u></a>
-  <a class="mx-auto text-white py-3" href="{{ 'options'|url }}"><u>{{ _('Advanced Install Options') }}</u></a>
+  <a class="mx-auto text-white py-3" href="{{ 'languages'|url(alt=this.alt) }}"><u>{{ _('Download in another language') }}</u></a>
+  <a class="mx-auto text-white py-3" href="{{ 'alpha'|url(alt=this.alt) }}"><u>{{ _('Advanced Install Options') }}</u></a>
 </div>
 <div class="hidden-sm row p-5 justify-content-center window-bg">
   <a class="mx-auto text-white text-center py-5" href="https://blog.torproject.org/category/tags/tor-browser"><u>{{ _('Read the latest release announcements') }}</u></a>
