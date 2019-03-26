@@ -1,5 +1,6 @@
 <div class="container py-3">
-  <h3 class="text-primary display-5">{{ _('Board of Directors') }}</h3>
+  <a class="text-primary display-5" href="#board">{{ _('Board of Directors') }}</a>
+  <a class="text-primary display-5 pl-5" href="#core">{{ _('Core Tor') }}</a>
 </div>
 <div class="container-fluid">
   <div class="row">
@@ -10,7 +11,7 @@
     {% endfor %}
   </div>
 </div>
-<div class="container py-3">
+<div id="core" class="container py-3">
   <h3 class="text-primary display-5">{{ _('Core Tor') }}</h3>
 </div>
 <div class="container-fluid">
