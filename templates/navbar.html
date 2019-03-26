@@ -42,7 +42,7 @@
         {% else %}
           <button type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block my-3 my-sm-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% endif %}
-        { bag('alternatives', this.alt, 'language') }}
+        {{ bag('alternatives', this.alt, 'language') }}
         </button>
         <div class="dropdown-menu">
           {% for id, item in bag('alternatives').items() %}
