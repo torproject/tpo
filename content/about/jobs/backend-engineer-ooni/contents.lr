@@ -13,7 +13,7 @@ title: Backend Engineer for OONI
 summary:
 The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
 
-You will be working to improve OONI’s data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
+You will be working to improve OONI's data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
 
 ---
 description:
@@ -23,7 +23,7 @@ description:
 
 The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
 
-You will be working to improve OONI’s data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
+You will be working to improve OONI's data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
 
 This is a full-time 12-month contract position, starting ASAP (no later than mid-May 2019); contract may be extended.
 
@@ -42,7 +42,7 @@ Here are some of our code repositories:
  - Extensive experience in python or golang.
  - Comfortable working remotely.
  - Self-directed, self-disciplined, but good at working and communicating with a team.
- - Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others’ code.
+ - Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others' code.
  - Experience documenting and designing protocols.
  - Be comfortable with transparency!
 
@@ -76,6 +76,6 @@ Email should be sent to jobs at openobservatory dot org with "OONI Backend Engin
 
 The Open Observatory of Network Interference (OONI) is a free software project under the Tor Project. OONI collects and processes network measurements with the aim of detecting network interferences, such as censorship, surveillance, and traffic manipulation. Since late 2012, OONI has collected millions of measurements across more than 90 countries around the world.
 
-The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle with paid staff and contractors of around 45 engineers and operational support people, plus many volunteers all over the world. Tor develops free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. The Tor Project’s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
+The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle with paid staff and contractors of around 45 engineers and operational support people, plus many volunteers all over the world. Tor develops free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. The Tor Project's mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
 
 The Tor Project, Inc., is an equal opportunity, affirmative action employer.

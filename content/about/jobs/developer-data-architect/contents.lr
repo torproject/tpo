@@ -18,7 +18,7 @@ Internet Freedom Nonprofit Seeks Metrics Data Architect
 
 The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Data Architect to take our metrics work to the next level.
 
-Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds; people from all walks of life.
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life.
 Racial minorities, non-gender-binary people, women, and people from any group that is generally underrepresented in tech are encouraged to apply.
 
 The team:
@@ -34,7 +34,7 @@ How we achieve our goals:
 * Scalability (as the network grows, so does our data)
 * Transparency (our community rightly wants to know what data we're collecting)
 
-The Tor Metrics team presently consists of two full-time developers; this position will be the third. Our team works asynchronously on each person’s own schedule, but we sync regularly via Git, Trac, IRC, e-mail, and an occasional video chat.
+The Tor Metrics team presently consists of two full-time developers; this position will be the third. Our team works asynchronously on each person's own schedule, but we sync regularly via Git, Trac, IRC, e-mail, and an occasional video chat.
 
 The most interesting challenge for the Metrics team is how to gather data on an anonymity system without de-anonymizing users.
 
@@ -77,10 +77,10 @@ Bonus skills:
 * Networking background: Experience working with networks and measurements in the past.
 * You support Internet Freedom!
 
-This is a full-time position that can be done remotely/internationally or in our office in Seattle, WA. To apply, send a cover letter that includes a statement about why you want to work at the Tor Project, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. All documents should be in PDF format labeled with your name. Please send to job-metrics at torproject dot org with “Metrics Data Architect” in the subject line. No phone calls please!
+This is a full-time position that can be done remotely/internationally or in our office in Seattle, WA. To apply, send a cover letter that includes a statement about why you want to work at the Tor Project, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. All documents should be in PDF format labeled with your name. Please send to job-metrics at torproject dot org with "Metrics Data Architect" in the subject line. No phone calls please!
 
 Flexible salary, depending on experience. The Tor Project has a highly competitive benefits package, including a generous PTO policy; paid holidays (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance paid in full for employee; 401(k); and flexible work schedule. (Please note that benefits package specifics can vary slightly from country to country, but we aim to treat everyone equally.)
 
-The Tor Project's workforce is smart and committed. The Tor Project currently has a paid and contract staff of around 47 developers and operational support staff, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation and corporate donations. If you’re new to the Tor Project scene, are curious what our workplace culture is like, or just want to read about how fun our semi-annual meetings are, hear what our new Development Director had to say about all of it: https://blog.torproject.org/reflections-tor-meeting-newbie.
+The Tor Project's workforce is smart and committed. The Tor Project currently has a paid and contract staff of around 47 developers and operational support staff, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation and corporate donations. If you're new to the Tor Project scene, are curious what our workplace culture is like, or just want to read about how fun our semi-annual meetings are, hear what our new Development Director had to say about all of it: https://blog.torproject.org/reflections-tor-meeting-newbie.
 
 The Tor Project, Inc., is an equal opportunity, affirmative action employer.
