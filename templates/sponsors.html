@@ -7,8 +7,8 @@
 <div class="fluid-container">
   <div class="row">
     {% from "macros/sponsors.html" import render_active %}
-    {% set items = this.children %}
-    {% for item in items.filter(F.active == True) %}
+    {% set items = site.query('/about/sponsors').include_undiscoverable(true).filter(F.active == True) %}
+    {% for item in items %}
       {{ render_active(item, this.alt) }}
     {% endfor %}
   </div>
@@ -20,8 +20,8 @@
 <div class="row">
   <div class="col-12">
     <ul class="jobs-ul">
-      {% set items = this.children %}
-      {% for item in items.filter(F.active == False) %}
+      {% set items = site.query('/about/sponsors').include_undiscoverable(true).filter(F.active == False) %}
+      {% for item in items %}
         <li><a href="{{ item.link}}">{{ item.name }}</a> - <span> {{ item.time }}</span></li>
       {% endfor %}
     </ul>

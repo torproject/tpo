@@ -5,8 +5,8 @@
   <table class="table">
   <tbody>
     {% from "macros/reports.html" import render_document %}
-    {% set items = this.children %}
-    {% for item in items.filter(F.type == "document") %}
+    {% set items = site.query('/about/reports').include_undiscoverable(true).filter(F.type == "document")%}
+    {% for item in items %}
       {{ render_document(item, this.alt) }}
     {% endfor %}
   </tbody>
@@ -27,8 +27,8 @@
   </thead>
   <tbody>
     {% from "macros/reports.html" import render_report %}
-    {% set items = this.children %}
-    {% for item in items.filter(F.type == "report") %}
+    {% set items = site.query('/about/reports').include_undiscoverable(true).filter(F.type == "report")%}
+    {% for item in items %}
       {{ render_report(item, this.alt) }}
     {% endfor %}
   </tbody>

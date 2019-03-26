@@ -4,8 +4,8 @@
 <div class="container-fluid">
   <div class="row">
     {% from "macros/people.html" import render_board %}
-    {% set items = this.children %}
-    {% for item in items.filter(F.role == 'board') %}
+    {% set items = site.query('/about/people').include_undiscoverable(true).filter(F.role == 'board') %}
+    {% for item in items %}
       {{ render_board(item, this.alt) }}
     {% endfor %}
   </div>
@@ -16,8 +16,8 @@
 <div class="container-fluid">
   <div class="row">
     {% from "macros/people.html" import render_core %}
-    {% set items = this.children %}
-    {% for item in items.filter(F.role == 'core') %}
+    {% set items = site.query('/about/people').include_undiscoverable(true).filter(F.role == 'core') %}
+    {% for item in items %}
       {{ render_core(item, this.alt) }}
     {% endfor %}
   </div>
