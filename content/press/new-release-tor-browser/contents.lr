@@ -1,7 +1,5 @@
 _model: post
 ---
-_hidden: yes
----
 active: True
 ---
 type: release

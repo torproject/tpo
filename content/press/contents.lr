@@ -2,6 +2,10 @@ _template: layout.html
 ---
 _model: press
 ---
+_discoverable: yes
+---
+_hidden: no
+---
 section: The Tor Project
 ---
 section_id: the_tor_project
@@ -12,6 +16,4 @@ color: primary
 ---
 title: Press
 ---
-body:
-
-Email inquiries to press@torproject.org.
+body: Email inquiries to press[@]torproject.org.
