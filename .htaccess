@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# about
+RewriteRule ^about/corepeople(.*) /about/people$1 [R=302,L]
+
 # moved to /docs/
 RewriteRule ^docs/faq(.*) https://2019.www.torproject.org/docs/faq$1 [R=302,L]
 RewriteRule ^docs/bridges(.*) https://2019.www.torproject.org/docs/bridges$1 [R=302,L]
