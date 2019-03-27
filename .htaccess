@@ -61,11 +61,7 @@ RewriteRule ^about/contact(.*) /contact$1 [R=301,L]
 RewriteRule ^download/download/$ /download [R=301,L]
 RewriteRule ^download/download.html(.*) /download [R=301,L]
 RewriteRule ^download/easy-download(.*) /download [R=301,L]
-<<<<<<< HEAD
 RewriteRule ^download/download-easy(.*) /download [R=302,L]
-=======
-RewriteRule ^download/download-easy(.*) /download [R=301,L]
->>>>>>> Update htaccess
 
 # Relays
 RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=301,L]
