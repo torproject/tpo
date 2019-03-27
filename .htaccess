@@ -1,5 +1,10 @@
 RewriteEngine On
 
+# about
+RewriteRule ^about/corepeople(.*) /about/people$1 [R=302,L]
+RewriteRule ^about/financials(.*) /about/reports$1 [R=302,L]
+RewriteRule ^about/sponsors(.*) /about/sponsors$1 [R=302,L]
+
 # moved to /docs/
 RewriteRule ^docs/faq(.*) https://2019.www.torproject.org/docs/faq$1 [R=302,L]
 RewriteRule ^docs/bridges(.*) https://2019.www.torproject.org/docs/bridges$1 [R=302,L]
@@ -18,6 +23,7 @@ RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R
 RewriteRule ^torbrowser/dist/(.*) /dist/torbrowser/$1 [R=301,L]
 RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser [R=301,L]
 
+
 # tordnsel
 RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1 [R=301,L]
 
@@ -26,6 +32,8 @@ RewriteRule ^overview(.*) /about/history$1 [R=301,L]
 
 # Projects
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
+RewriteRule ^projects/torbrowser/RecommendedTBBVersions ttps://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions [R=302,L]
+RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
 RewriteRule ^projects/$ https://2019.www.torproject.org/projects/projects [R=302,L]
 
 #Pluggable Transports
@@ -52,6 +60,9 @@ RewriteRule ^support(.*) https://support.torproject.org [R=301,L]
 # Newsletter
 RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=301,L]
 
+# Press
+RewriteRule ^press/press(.*) /press [R=302,L]
+
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/people$1 [R=301,L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
@@ -67,7 +78,7 @@ RewriteRule ^download/download-easy(.*) /download [R=302,L]
 RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=301,L]
 
 # Index Pages
-RewriteRule ^about/overview(.*) https://2019.www.torproject.org/about/overview$1 [R=302,L]
+RewriteRule ^about/overview(.*) /about/history$1 [R=302,L]
 RewriteRule ^about/$ /about/history [R=302,L]
 
 # Donation campaign
