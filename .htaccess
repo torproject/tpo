@@ -39,6 +39,7 @@ RewriteRule ^relay-guide(.*) https://trac.torproject.org/projects/tor/wiki/TorRe
 
 # GetInvolved
 RewriteRule ^getinvolved/$ https://2019.www.torproject.org/getinvolved/volunteer [R=302,L]
+RewriteRule ^getinvolved(.*) https://2019.www.torproject.org/getinvolved$1 [R=302,L]
 RewriteRule ^volunteer(.*) https://2019.www.torproject.org/getinvolved/volunteer$1 [R=302,L]
 RewriteRule ^tshirt(.*) https://2019.www.torproject.org/getinvolved/tshirt$1 [R=302,L]
 
@@ -60,6 +61,7 @@ RewriteRule ^about/contact(.*) /contact$1 [R=301,L]
 RewriteRule ^download/download/$ /download [R=301,L]
 RewriteRule ^download/download.html(.*) /download [R=301,L]
 RewriteRule ^download/easy-download(.*) /download [R=301,L]
+RewriteRule ^download/download-easy(.*) /download [R=302,L]
 
 # Relays
 RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=301,L]
