@@ -6,6 +6,7 @@ RewriteRule ^docs/bridges(.*) https://2019.www.torproject.org/docs/bridges$1 [R=
 RewriteRule ^docs/abuse(.*) https://2019.www.torproject.org/docs/abuse$1 [R=302,L]
 RewriteRule ^docs/documentation(.*) https://2019.www.torproject.org/docs/documentation$1 [R=302,L]
 RewriteRule ^docs/verifying-signatures(.*) https://2019.www.torproject.org/docs/verifying-signatures$1 [R=302,L]
+RewriteRule ^docs/signing-keys(.*) https://2019.www.torproject.org/docs/signing-keys$1 [R=302,L]
 RewriteRule ^docs/tor-manual(.*) https://2019.www.torproject.org/docs/tor-manual$1 [R=302,L]
 
 # Torbutton
