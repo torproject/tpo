@@ -16,8 +16,7 @@ RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R
 
 # Tor Browser
 RewriteRule ^torbrowser/dist/(.*) /dist/torbrowser/$1 [R=301,L]
-#RewriteRule ^torbrowser/$ /projects/torbrowser.html.en [R=301,L]
-RewriteRule ^torbrowser(.*) /projects/torbrowser.html.en [R=301,L]
+RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser [R=301,L]
 
 # tordnsel
 RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1 [R=301,L]
@@ -68,7 +67,8 @@ RewriteRule ^download/download-easy(.*) /download [R=302,L]
 RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=301,L]
 
 # Index Pages
-RewriteRule ^about/$ /about/history [R=301,L]
+RewriteRule ^about/overview(.*) https://2019.www.torproject.org/about/overview$1 [R=302,L]
+RewriteRule ^about/$ /about/history [R=302,L]
 
 # Donation campaign
 # 2017
