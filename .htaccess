@@ -60,6 +60,9 @@ RewriteRule ^support(.*) https://support.torproject.org [R=301,L]
 # Newsletter
 RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=301,L]
 
+# Press
+RewriteRule ^press/press(.*) /press [R=302,L]
+
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/people$1 [R=301,L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]

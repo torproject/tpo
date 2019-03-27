@@ -18,6 +18,7 @@
         {% if item.image %}
           <picture>
             <img src="{{ item.image|asseturl }}" class="rounded-circle float-left image-thumb" alt="{{ item.nickname }}">
+          </picture>
         {% else %}
           <img src="{{ '/static/images/people/no_photo.png'|asseturl }}" class="rounded-circle float-left image-thumb" alt="no-photo">
         {% endif %}
