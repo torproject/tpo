@@ -8,6 +8,8 @@ name: sajolida
 ---
 nickname: sajolida
 ---
+pronoun: he
+---
 gpg: /static/keys/sajolida.txt
 ---
 image: /static/images/people/sajolida.png
