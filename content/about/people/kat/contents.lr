@@ -8,7 +8,7 @@ name: Kat
 ---
 nickname: kat5
 ---
-pronoun: she
+pronoun: https://pronoun.is/she
 ---
 gpg: /static/keys/kat.txt
 ---
