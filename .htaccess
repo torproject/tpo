@@ -6,7 +6,7 @@ RewriteRule ^about/financials(.*) /about/reports$1 [R=302,L]
 RewriteRule ^about(.*).html.en$ /about$1 [R=302,L]
 
 # moved to /docs/
-RewriteRule ^docs/(.*).html.en https://2019.www.torproject.org/docs/$1.html.en [R=302,L]
+RewriteRule ^docs/(.*) https://2019.www.torproject.org/docs/$1 [R=302,L]
 
 # Torbutton
 RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton/en/design$1 [R=302,L]
@@ -62,9 +62,11 @@ RewriteRule ^press/press(.*) /press [R=302,L]
 RewriteRule ^people(.*) /about/people$1 [R=302,L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
+RewriteRule ^contact.html$  /contact/ [R=302,L]
 
 # Download websites
 RewriteRule ^download/download/$ /download [R=302,L]
+RewriteRule ^download/download$ /download [R=302,L]
 RewriteRule ^download/download.html(.*) /download [R=302,L]
 RewriteRule ^download.html(.*) /download [R=302,L]
 RewriteRule ^download/easy-download(.*) /download [R=302,L]
