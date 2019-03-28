@@ -20,7 +20,7 @@ RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton
 RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R=302,L]
 
 # Tor Browser
-RewriteRule ^torbrowser/dist/(.*) /dist/torbrowser/$1 [R=302,L]
+RewriteRule ^torbrowser/dist/(.*) https://2019.www.torproject.org//dist/torbrowser/$1 [R=302,L]
 RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 RewriteRule ^torbrowser$ https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 
@@ -33,10 +33,10 @@ RewriteRule ^overview(.*) /about/history$1 [R=302,L]
 
 # Projects
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
-RewriteRule ^projects/torbrowser/RecommendedTBBVersions ttps://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions [R=302,L]
+RewriteRule ^projects/torbrowser/RecommendedTBBVersions(.*) https://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions$ [R=302,L]
 RewriteRule ^projects/torbrowser.html.en#downloads-alpha$ /download/alpha [R=302,L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
-RewriteRule ^projects/$ https://2019.www.torproject.org/projects/projects [R=302,L]
+RewriteRule ^projects/(.*) https://2019.www.torproject.org/projects/projects$ [R=302,L]
 
 #Pluggable Transports
 RewriteRule ^PT/?$ https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
