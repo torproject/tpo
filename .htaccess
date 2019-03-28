@@ -1,9 +1,8 @@
 RewriteEngine On
 
 # about
-RewriteRule ^about/corepeople(.*) /about/people$1 [R=302,L]
+RewriteRule ^about/corepeople.html.en$ /about/people/ [R=302,L]
 RewriteRule ^about/financials(.*) /about/reports$1 [R=302,L]
-RewriteRule ^about/sponsors(.*) /about/sponsors$1 [R=302,L]
 
 # moved to /docs/
 RewriteRule ^docs/faq(.*) https://2019.www.torproject.org/docs/faq$1 [R=302,L]
@@ -14,27 +13,30 @@ RewriteRule ^docs/verifying-signatures(.*) https://2019.www.torproject.org/docs/
 RewriteRule ^docs/signing-keys(.*) https://2019.www.torproject.org/docs/signing-keys$1 [R=302,L]
 RewriteRule ^docs/tor-manual(.*) https://2019.www.torproject.org/docs/tor-manual$1 [R=302,L]
 RewriteRule ^docs/trademark-faq(.*) https://2019.www.torproject.org/docs/trademark-faq$1 [R=302,L]
+RewriteRule ^docs/onion-services(.*) https://2019.www.torproject.org/docs/onion-services$1 [R=302,L]
 
 # Torbutton
 RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton/en/design$1 [R=302,L]
 RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R=302,L]
 
 # Tor Browser
-RewriteRule ^torbrowser/dist/(.*) /dist/torbrowser/$1 [R=301,L]
-RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser [R=301,L]
+RewriteRule ^torbrowser/dist/(.*) https://2019.www.torproject.org//dist/torbrowser/$1 [R=302,L]
+RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
+RewriteRule ^torbrowser$ https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 
 
 # tordnsel
-RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1 [R=301,L]
+RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1 [R=302,L]
 
 # Overview
-RewriteRule ^overview(.*) /about/history$1 [R=301,L]
+RewriteRule ^overview(.*) /about/history$1 [R=302,L]
 
 # Projects
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
-RewriteRule ^projects/torbrowser/RecommendedTBBVersions ttps://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions [R=302,L]
+RewriteRule ^projects/torbrowser/RecommendedTBBVersions(.*) https://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions$ [R=302,L]
+RewriteRule ^projects/torbrowser.html.en#downloads-alpha$ /download/alpha [R=302,L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
-RewriteRule ^projects/$ https://2019.www.torproject.org/projects/projects [R=302,L]
+RewriteRule ^projects/(.*) https://2019.www.torproject.org/projects/projects$ [R=302,L]
 
 #Pluggable Transports
 RewriteRule ^PT/?$ https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
@@ -43,39 +45,41 @@ RewriteRule ^projects/obfsproxy-instructions(.*) https://2019.www.torproject.org
 RewriteRule ^projects/obfsproxy(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
 
 #Relays
-RewriteRule ^relay-guide(.*) https://trac.torproject.org/projects/tor/wiki/TorRelayGuide [R=301,L]
+RewriteRule ^relay-guide(.*) https://trac.torproject.org/projects/tor/wiki/TorRelayGuide [R=302,L]
 
 # GetInvolved
 RewriteRule ^getinvolved/$ https://2019.www.torproject.org/getinvolved/volunteer [R=302,L]
+RewriteRule ^getinvolved/translation.html.en$ https://tb-manual.torproject.org/becoming-tor-translator/ [R=302,L]
 RewriteRule ^getinvolved(.*) https://2019.www.torproject.org/getinvolved$1 [R=302,L]
 RewriteRule ^volunteer(.*) https://2019.www.torproject.org/getinvolved/volunteer$1 [R=302,L]
 RewriteRule ^tshirt(.*) https://2019.www.torproject.org/getinvolved/tshirt$1 [R=302,L]
 
-RewriteRule ^research(.*) https://research.torproject.org/ [R=301,L]
-RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=301,L]
+RewriteRule ^research(.*) https://research.torproject.org/ [R=302,L]
+RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=302,L]
 
 # Support
-RewriteRule ^support(.*) https://support.torproject.org [R=301,L]
+RewriteRule ^support(.*) https://support.torproject.org [R=302,L]
 
 # Newsletter
-RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=301,L]
+RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=302,L]
 
 # Press
 RewriteRule ^press/press(.*) /press [R=302,L]
 
 # other (feel free to categorize)
-RewriteRule ^people(.*) /about/people$1 [R=301,L]
+RewriteRule ^people(.*) /about/people$1 [R=302,L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
-RewriteRule ^about/contact(.*) /contact$1 [R=301,L]
+RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
 
 # Download websites
-RewriteRule ^download/download/$ /download [R=301,L]
-RewriteRule ^download/download.html(.*) /download [R=301,L]
-RewriteRule ^download/easy-download(.*) /download [R=301,L]
+RewriteRule ^download/download/$ /download [R=302,L]
+RewriteRule ^download/download.html(.*) /download [R=302,L]
+RewriteRule ^download.html(.*) /download [R=302,L]
+RewriteRule ^download/easy-download(.*) /download [R=302,L]
 RewriteRule ^download/download-easy(.*) /download [R=302,L]
 
 # Relays
-RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=301,L]
+RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=302,L]
 
 # Index Pages
 RewriteRule ^about/overview(.*) /about/history$1 [R=302,L]

@@ -1,0 +1,15 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Cecylia
+---
+nickname: cohosh
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=5A618CE840883942BAF1334F009DE379FD9B7B90
+---
+description:
+
+Developer on the anti-censorship team. Works on pluggable transport development and integration, and BridgeDB.
