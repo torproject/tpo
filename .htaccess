@@ -71,6 +71,8 @@ RewriteRule ^about/contact(.*) /contact$1 [R=301,L]
 # Download websites
 RewriteRule ^download/download/$ /download [R=301,L]
 RewriteRule ^download/download.html(.*) /download [R=301,L]
+RewriteRule ^download.html.en#downloads-alpha$ /download/alpha [R=302,L]
+RewriteRule ^download.html(.*) /download [R=301,L]
 RewriteRule ^download/easy-download(.*) /download [R=301,L]
 RewriteRule ^download/download-easy(.*) /download [R=302,L]
 
