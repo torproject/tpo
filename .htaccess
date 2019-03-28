@@ -34,6 +34,7 @@ RewriteRule ^overview(.*) /about/history$1 [R=301,L]
 # Projects
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions ttps://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions [R=302,L]
+RewriteRule ^projects/torbrowser.html.en#downloads-alpha$ /download/alpha [R=302,L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
 RewriteRule ^projects/$ https://2019.www.torproject.org/projects/projects [R=302,L]
 
@@ -71,7 +72,6 @@ RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=301,L]
 
 # Download websites
-RewriteRule ^torbrowser.html.en#downloads-alpha$ /download/alpha [R=302,L]
 RewriteRule ^download/download/$ /download [R=301,L]
 RewriteRule ^download/download.html(.*) /download [R=301,L]
 RewriteRule ^download.html(.*) /download [R=301,L]
