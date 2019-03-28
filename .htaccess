@@ -47,6 +47,7 @@ RewriteRule ^relay-guide(.*) https://trac.torproject.org/projects/tor/wiki/TorRe
 
 # GetInvolved
 RewriteRule ^getinvolved/$ https://2019.www.torproject.org/getinvolved/volunteer [R=302,L]
+RewriteRule ^getinvolved/translation.html.en$ https://tb-manual.torproject.org/becoming-tor-translator/ [R=302,L]
 RewriteRule ^getinvolved(.*) https://2019.www.torproject.org/getinvolved$1 [R=302,L]
 RewriteRule ^volunteer(.*) https://2019.www.torproject.org/getinvolved/volunteer$1 [R=302,L]
 RewriteRule ^tshirt(.*) https://2019.www.torproject.org/getinvolved/tshirt$1 [R=302,L]
