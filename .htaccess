@@ -21,7 +21,8 @@ RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R
 
 # Tor Browser
 RewriteRule ^torbrowser/dist/(.*) /dist/torbrowser/$1 [R=301,L]
-RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser [R=301,L]
+RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
+RewriteRule ^torbrowser$ https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 
 
 # tordnsel
