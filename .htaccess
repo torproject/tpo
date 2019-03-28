@@ -7,6 +7,7 @@ RewriteRule ^about(.*).html.en$ /about$1 [R=302,L]
 
 # moved to /docs/
 RewriteRule ^docs/(.*) https://2019.www.torproject.org/docs/$1 [R=302,L]
+RewriteRule ^documentation.html$ https://2019.www.torproject.org/docs/documentation.html [R=302,L]
 
 # Torbutton
 RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton/en/design$1 [R=302,L]
@@ -28,7 +29,7 @@ RewriteRule ^overview(.*) /about/history$1 [R=302,L]
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions(.*) https://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions$1 [R=302,L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
-RewriteRule ^projects/(.*) https://2019.www.torproject.org/projects/projects$1 [R=302,L]
+RewriteRule ^projects(.*) https://2019.www.torproject.org/projects/projects$1 [R=302,L]
 
 #Pluggable Transports
 RewriteRule ^PT/?$ https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
