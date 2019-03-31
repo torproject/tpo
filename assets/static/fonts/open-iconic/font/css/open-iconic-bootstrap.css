@@ -8,6 +8,11 @@
   font-style: normal;
 }
 
+span.svg-fallback svg {
+  color: white;
+  fill: currentColor;
+}
+
 .oi {
   position: relative;
   top: 1px;
