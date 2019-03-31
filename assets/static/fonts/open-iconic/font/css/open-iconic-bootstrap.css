@@ -8,9 +8,8 @@
   font-style: normal;
 }
 
-span.svg-fallback svg {
+span.oi picture {
   color: white;
-  fill: currentColor;
 }
 
 .oi {
