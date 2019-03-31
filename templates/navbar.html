@@ -56,10 +56,9 @@
       <div class="pull-right">
           <a class="btn btn-outline-light pull-right" href="{{ this.url_to(download)|url(alt=this.alt) }}">
             {{ _("Download Tor Browser") }}<span class="oi ml-2 p-1">
-              <picture>
-                <source srcset="{{ '/static/fonts/open-iconic/svg/arrow-bottom.svg'|asseturl }}" type="image/svg+xml">
+              <object data="{{ '/static/fonts/open-iconic/svg/arrow-bottom.svg'|asseturl }}" type="image/svg+xml">
                 <img src="{{ '/static/fonts/open-iconic/png/arrow-bottom-2x.png'|asseturl }}" />
-              </picture>
+              </object>
             </span>
           </a>
       </div>
