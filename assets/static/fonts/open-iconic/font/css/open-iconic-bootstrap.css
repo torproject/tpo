@@ -8,10 +8,6 @@
   font-style: normal;
 }
 
-span.oi object {
-  color: white;
-}
-
 .oi {
   position: relative;
   top: 1px;
@@ -98,6 +94,8 @@ span.oi object {
 .oi-arrow-bottom:before {
   content:'\e008';
   background-image: url('/static/fonts/open-iconic/png/arrow-bottom-2x.png');
+  background-image: none,url('/static/fonts/open-iconic/svg/arrow-bottom.svg'), url('/static/fonts/open-iconic/png/arrow-bottom-2x.png');
+  background-size: 100% 100%;
 }
 
 .oi-arrow-circle-bottom:before {

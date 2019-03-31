@@ -55,13 +55,7 @@
       {% set download = site.get('/download') %}
       <div class="pull-right">
           <a class="btn btn-outline-light pull-right" href="{{ this.url_to(download)|url(alt=this.alt) }}">
-            {{ _("Download Tor Browser") }}<span class="oi ml-2 p-1">
-              <picture>
-                <source type="image/svg+xml" srcset="{{ '/static/fonts/open-iconic/svg/arrow-bottom.svg'|asseturl }}">
-                <img src="{{ '/static/fonts/open-iconic/png/arrow-bottom-2x.png'|asseturl }}" alt="">
-              </picture>
-              
-            </span>
+            {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom"></span>
           </a>
       </div>
   </nav>
