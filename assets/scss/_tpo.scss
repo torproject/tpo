@@ -151,6 +151,23 @@ main{
   background-size: cover;
 }
 
-.oi-arrow-bottom-png:focus {
+a:hover .oi-arrow-bottom-png {
   background-image: url('/static/images/icons/iconic_1-1-1_arrow-bottom_256_0_401753_none.png');
+}
+
+.oi-arrow-bottom-png-purple {
+  background-image: url('/static/images/icons/iconic_1-1-1_arrow-bottom_256_0_401753_none.png');
+  width: 1em;
+  height: 1em;
+  background-size: cover;
+}
+
+.icon-2 {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.icon-3 {
+  width: 1.3em;
+  height: 1.3em;
 }
