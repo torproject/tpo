@@ -143,3 +143,14 @@ main{
 
 }
 @include media-breakpoint-up(lg) {}
+
+.oi-arrow-bottom-png {
+  background-image: url('/static/images/icons/iconic_1-1-1_arrow-bottom_256_0_ffffff_none.png');
+  width: 1em;
+  height: 1em;
+  background-size: cover;
+}
+
+.oi-arrow-bottom-png:focus {
+  background-image: url('/static/images/icons/iconic_1-1-1_arrow-bottom_256_0_401753_none.png');
+}
