@@ -87,7 +87,24 @@
     <script src="{{ '/static/js/popper.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/bootstrap.bundle.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/modernizr.js'|asseturl }}" ></script>
     <script type="text/javascript">
+
+      if (Modernizr.addTest('svgasimg', document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#Image', '1.1'))) {
+        a = $('[class*="-png"]');
+        a.each(function(i, obj) {
+          var iterator = obj.classList.entries();
+          for(var value of iterator) {
+            if(/-png/.test(value)) {
+              cl = value[1];
+              $(obj).removeClass(cl);
+              ej = cl.replace(/-png/,"");
+              $(obj).addClass(ej)
+              console.log(obj);
+            }
+          }
+        });
+      }
 
       $('.side-nav').click(function(){
         if ($('.side-nav.active').length > 0) {
