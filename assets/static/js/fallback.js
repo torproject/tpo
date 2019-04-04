@@ -8,7 +8,6 @@ if (Modernizr.addTest('svgasimg', document.implementation.hasFeature('http://www
         $(obj).removeClass(cl);
         ej = cl.replace(/-png/,"");
         $(obj).addClass(ej)
-        console.log(obj);
       }
     }
   });
