@@ -4,10 +4,14 @@
 <div class="container py-3">
   <div class="accordion" id="accordionJobs">
     {% from "macros/jobs.html" import render_active %}
-    {% set items = this.children %}
-    {% for item in items.filter(F.active == True) %}
-      {{ render_active(item, this.alt) }}
-    {% endfor %}
+    {% set items = this.children.filter(F.active == True).all() %}
+    {% if items|length > 1 %}
+      {% for item in items %}
+        {{ render_active(item, this.alt) }}
+      {% endfor %}
+    {% else %}
+      <p>{{ _('At the moment, we don\'t have any official open positions. Please check back soon, though!') }}</p>
+   {% endif %}
   </div>
 </div>
 <div class="container py-3">
@@ -25,6 +29,6 @@
     </div>
   </div>
   <div class="row">
-    <p>{{ _("Think you could help us in a position that's not listed? We also rely on a vast community of volunteer contributors and many have become paid staff.") }} <a href="/contact">{{ _("We invite you to join us on IRC to find how you can get involved.") }}</a></p>
+    <p>{{ _('Think you could help us in a position that\'s not listed? We also rely on a vast community of volunteer contributors and many have become paid staff.') }} <a href="/contact">{{ _('We invite you to join us on IRC to find how you can get involved.') }}</a></p>
   </div>
 </div>
