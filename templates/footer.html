@@ -10,7 +10,7 @@
             <p class="text-white">{{ _('Download Tor Browser to experience real private browsing without tracking, surveillance, or censorship.') }}</p>
             {% set download = site.get('/download') %}
             <a class="btn text-primary bg-white btn-light pull-right mt-2" href="{{ this.url_to(download, alt=this.alt) }}">
-              {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
+              {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom-png-purple ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
             </a>
         </div>
       </div>
@@ -43,11 +43,23 @@
         </ul>
       </div>
     </div>
-    <div class="col-12 d-flex justify-content-center">
-      <div class="col-md-8 mt-5 pb-5 border">
+    <div class="col-12 d-flex justify-content-center border">
+      <div class="col-sm-6 offset-lx-1 offset-md-2 offset-sm-0 mt-5 mt-5 pb-5">
         <p class="text-primary-light text-uppercase">{{ _('Subscribe to our Newsletter') }}</p>
         <p class="text-light">{{ _('Get monthly updates and opportunities from the Tor Project:') }}</p>
         <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">{{ _('Sign up') }}</a></p>
+      </div>
+      <div class="col-md-4 col-lg-4 ml-2 mt-5 pb-5">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject"><i class="fab fa-mastodon"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin"></i></a></h4>
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/TheTorProject"><i class="fab fa-github"></i></a></h4>
+        </div>
       </div>
     </div>
 

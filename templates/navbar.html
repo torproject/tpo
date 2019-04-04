@@ -36,9 +36,9 @@
   	{% endfor %}
         </ul>
       </div>
-      <div class="btn-group pull-right">
+      <div class="btn-group dropdown pull-right">
         {% if this.color == 'primary' %}
-          <button type="button" class="btn btn-primary bg-primary dropdown dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% else %}
           <button type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block my-3 my-sm-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% endif %}
@@ -55,7 +55,7 @@
       {% set download = site.get('/download') %}
       <div class="pull-right">
           <a class="btn btn-outline-light pull-right" href="{{ this.url_to(download)|url(alt=this.alt) }}">
-            {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
+            {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom-png ml-2 p-1"></span>
           </a>
       </div>
   </nav>

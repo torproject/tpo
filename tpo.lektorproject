@@ -10,11 +10,6 @@ primary = yes
 url_prefix = /
 locale = en
 
-[alternatives.bn-BD]
-name = বাংলা ভাষা  (bn)
-url_prefix = /bn-BD/
-locale = bn-BD
-
 [alternatives.de]
 name = Deutsch (de)
 url_prefix = /de/
@@ -30,20 +25,10 @@ name = Français (fr)
 url_prefix = /fr/
 locale = fr
 
-[alternatives.id]
-name = Indonesia (id)
-url_prefix = /id/
-locale = id
-
 [alternatives.it]
 name = Italiano (it)
 url_prefix = /it/
 locale = it
-
-[alternatives.ko]
-name = 한국어 (ko)
-url_prefix = /ko/
-locale = ko
 
 [alternatives.pt-BR]
 name = Português Brasil (pt-BR)
@@ -59,8 +44,3 @@ locale = ru
 name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
-
-[alternatives.zh-CN]
-name = 简体字 (zh-CN)
-url_prefix = /zh-CN/
-locale = zh-CN

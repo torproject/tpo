@@ -42,6 +42,8 @@ tramp
 /eshell/history
 /eshell/lastdir
 
+node_modules
+
 # elpa packages
 /elpa/
 
