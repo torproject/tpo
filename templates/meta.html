@@ -1,6 +1,8 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl"{% endif %}>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://torproject.org 'sha256-FqLmSOREzRHwnNg/O6ZAfzLKaIPr6c5coXumA9M00Hg='">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}">
 <meta name="twitter:card" content="summary" />
@@ -11,7 +13,6 @@
 <meta property="og:title" content="{{ _('The Tor Project | Privacy & Freedom Online') }}" />
 <meta property="og:description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}" />
 <meta property="og:image" content="https://www.torproject.org/static/images/tor-project-logo-onions.png" />
-<meta http-equiv="Content-Security-Policy" content="script-src 'sha256-FqLmSOREzRHwnNg/O6ZAfzLKaIPr6c5coXumA9M00Hg='">
 <link rel="stylesheet" href="{{ '/static/bootstrap.css'|asseturl }}">
 <link rel="stylesheet" href="{{ '/static/fonts/open-iconic/font/css/open-iconic-bootstrap.css'|asseturl }}">
 <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
