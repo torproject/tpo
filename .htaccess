@@ -31,7 +31,7 @@ RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/proj
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions(.*) https://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions$1 [R=302,L]
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions - [L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
-RewriteRule ^projects(.*) https://2019.www.torproject.org/projects/projects$1 [R=302,L]
+RewriteRule ^projects(.*) https://2019.www.torproject.org/projects$1 [R=302,L]
 
 
 #Pluggable Transports
