@@ -83,6 +83,9 @@ RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=30
 RewriteRule ^about/overview(.*) /about/history$1 [R=302,L]
 RewriteRule ^about/$ /about/history [R=302,L]
 
+# Eff
+RewriteRule ^eff/(.*) https://2019.www.torproject.org/eff/$1 [R=302,L]
+
 # Donation campaign
 # 2017
 # Special-case the donate-options and amazon page so it doesn't get redirected
