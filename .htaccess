@@ -2,6 +2,10 @@ RewriteEngine On
 
 # about
 RewriteRule ^about/corepeople.html.en$ /about/people/ [R=302,L]
+RewriteRule ^about/board.html.en$ /about/people/ [R=302,L]
+RewriteRule ^about/contributors.html.en$ /about/people/ [R=302,L]
+RewriteRule ^about/torusers(.*) https://2019.www.torproject.org/about/torusers$1 [R=302,L]
+RewriteRule ^about/jobs(.*) /about/jobs [R=302,L]
 RewriteRule ^about/financials(.*) /about/reports$1 [R=302,L]
 RewriteRule ^about(.*).html.en$ /about$1 [R=302,L]
 
@@ -31,6 +35,8 @@ RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/proj
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions(.*) https://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions$1 [R=302,L]
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions - [L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
+RewriteRule ^projects/gettor(.*) https://gettor.torproject.org/ [R=302,L]
+RewriteRule ^projects/nyx(.*) https://nyx.torproject.org/ [R=302,L]
 RewriteRule ^projects(.*) https://2019.www.torproject.org/projects$1 [R=302,L]
 
 
