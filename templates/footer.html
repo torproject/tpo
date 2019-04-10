@@ -10,7 +10,7 @@
             <p class="text-white">{{ _('Download Tor Browser to experience real private browsing without tracking, surveillance, or censorship.') }}</p>
             {% set download = site.get('/download') %}
             <a class="btn text-primary bg-white btn-light pull-right mt-2" href="{{ this.url_to(download, alt=this.alt) }}">
-              {{ _("Download Tor Browser") }}<i class="fas fa-arrow-down-png-purple icon-2 ml-2 pt-1"></i>
+              {{ _("Download Tor Browser") }}<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
             </a>
         </div>
       </div>
@@ -89,5 +89,5 @@
     <script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/modernizr.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/download.js'|asseturl }}" ></script>
-    <script src="{{ '/static/js/fallback.js'|asseturl }}" ></script>    
+    <script src="{{ '/static/js/fallback.js'|asseturl }}" ></script>
   </div>

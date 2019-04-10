@@ -35,7 +35,7 @@
 </div>
 <div class="container justify-content-center mt-4">
   <div class="row justify-content-center">
-    <i class="far fa-file-alt-png display-5 text-primary pr-3"></i>
+    <i class="display-5 text-primary pr-3 far fa-file-alt-png"></i>
     {% from "macros/downloads.html" import render_tor_browser_manual %}
     <p class="text-primary text-tpo pl-2">{{ _('Check out the %s for more troubleshooting tips.')|format(render_tor_browser_manual())|safe  }}</p>
   </div>
@@ -45,7 +45,7 @@
 </div>
 <div class="container justify-content-center mt-4">
   <div class="row justify-content-center">
-    <i class="fas fa-signature-png display-5 text-primary pr-3"></i><p class="text-primary text-tpo">
+    <i class="display-5 text-primary pr-3 fas fa-signature-png"></i><p class="text-primary text-tpo">
       <a class="mx-auto pl-2" href="{{ 'https://support.torproject.org/' + this.alt + '/tbb/how-to-verify-signature/' }}" target="_blank"><u>{{ _('Verify Tor Browser signature') }}</u></a></p>
 
   </div>
