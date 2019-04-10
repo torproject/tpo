@@ -6,7 +6,7 @@ if (Modernizr.addTest('svgasimg', document.implementation.hasFeature('http://www
       if(/-png/.test(value)) {
         cl = value[1];
         $(obj).removeClass(cl);
-        ej = cl.replace(/-png/,"");
+        ej = cl.replace(/-png$/,"");
         $(obj).addClass(ej)
       }
     }
