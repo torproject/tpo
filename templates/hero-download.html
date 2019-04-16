@@ -23,6 +23,7 @@
         <a class="downloadLink" href="{{ download_link }}">
           <i class="text-light fab fa-{{ id }}-png"></i>
         </a>
+        <p><small><a class="btn btn-primary btn-sm nick mx-5 my-4" href="#">sig</a></small></p>
       </div>
     </div>
   {% endfor %}
@@ -39,7 +40,7 @@
   <a class="mx-auto text-white py-3" href="{{ 'alpha'|url(alt=this.alt) }}"><u>{{ _('Advanced Install Options') }}</u></a>
   {% set v = bag('versions', 'tor-stable') %}
   {% set download_source = 'https://dist.torproject.org/tor-' + v.version + '.tar.gz' %}
-  <a class="mx-auto text-white py-3" href="{{ download_source }}"><u>{{ _('Download Source Tarball') }}</u></a>
+  <a class="mx-auto text-white py-3" href="{{ download_source }}"><u>{{ _('Download Tor Source Tarball') }}</u></a>
 </div>
 <div class="hidden-sm row p-5 justify-content-center window-bg">
   <a class="mx-auto text-white text-center py-5" href="https://blog.torproject.org/category/tags/tor-browser"><u>{{ _('Read the latest release announcements') }}</u></a>
