@@ -215,6 +215,9 @@ a:hover .fa-arrow-right-png {
   .illo-container img {
     width: 75%; }
 
+.navbar-brand img {
+  max-width: 4em; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
