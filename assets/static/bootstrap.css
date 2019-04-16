@@ -207,6 +207,14 @@ a:hover .fa-arrow-right-png {
   height: 1em;
   background-size: cover; }
 
+.illo-container {
+  padding-top: 7%;
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+  text-align: center; }
+  .illo-container img {
+    width: 75%; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
