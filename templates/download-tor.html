@@ -14,10 +14,28 @@
         </tr>
       </thead>
       <tbody>
+        {% set t = bag('versions', 'tor-stable') %}
+        {% set a = bag('versions', 'tor-alpha') %}
+        {% set tw = bag('versions', 'tor-win32-stable') %}
+        {% set aw = bag('versions', 'tor-win32-alpha') %}
+        {% for id, item in bag('platforms').items() %}
+          {% if id == 'windows' %}
+            {% set download_link = 'https://dist.torproject.org/win32/tor-' + tw.version + '-win32.exe' %}
+            {% set sig_link = download_link + '.asc' %}
+            {% set alpha_download_link = 'https://dist.torproject.org/win32/tor-' + aw.version + '-win32.exe' %}
+            {% set alpha_sig_link = alpha_download_link + '.asc' %}
+          {% else %}
+            {% set download_link = 'https://dist.torproject.org/tor-' + t.version + '.tar.gz' %}
+            {% set sig_link = download_link + '.asc' %}
+            {% set alpha_download_link = 'https://dist.torproject.org/tor-' + a.version + '.tar.gz' %}
+            {% set alpha_sig_link = alpha_download_link + '.asc' %}
+          {% endif %}
           <tr>
-            <td></td>
-            <td></td>
+            <td>{{ item.label }}</td>
+            <td><a href="{{ download_link }}">stable</a> (<a href="{{ sig_link }}">sig</a>)</td>
+            <td><a href="{{ alpha_download_link }}">alpha</a> (<a href="{{ alpha_sig_link }}">sig</a>)</td>
           </tr>
+        {% endfor %}
       </tbody>
     </table>
   </div>

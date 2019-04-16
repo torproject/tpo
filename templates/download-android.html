@@ -16,10 +16,11 @@
       </div>
       <div class="row my-5">
           <div class="col-md-6 text-center">
-            <a class="btn btn-lg btn-light text-primary py-1 px-4 my-1" href="https://dist.torproject.org/torbrowser/8.5a10/tor-browser-8.5a10-android-armv7-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
-            <a class="btn btn-primary btn-sm nick mx-3 my-2" href="#"><small>sig</small></a>
-            <a class="btn btn-lg btn-light text-primary py-1 px-4 my-1" href="https://dist.torproject.org/torbrowser/8.5a10/tor-browser-8.5a10-android-armv7-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
-            <a class="btn btn-primary btn-sm nick mx-3 my-2" href="#"><small>sig</small></a>
+            {% set t = bag('versions', 'torbrowser-alpha') %}
+            <a class="btn btn-lg btn-light text-primary py-1 px-4 my-1" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
+            <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk.asc"><small>sig</small></a>
+            <a class="btn btn-lg btn-light text-primary py-1 px-4 my-1" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
+            <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk.asc"><small>sig</small></a>
           </div>
           <div class="col-md-3 text-center">
             <a class="btn btn-lg btn-light text-primary py-3 my-1" href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Go to Google Play') }}</a>

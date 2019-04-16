@@ -15,15 +15,18 @@
         {% endif %}
         {% if id == 'windows' %}
           {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt + '.exe' %}
+          {% set sig_link = download_link + '.asc' %}
         {% elif id == 'apple' %}
           {% set download_link = download_prefix + 'TorBrowser-' + t.version + '-osx64' + '_' + alt + '.dmg' %}
+          {% set sig_link = download_link + '.asc' %}
         {% else %}
           {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt + '.tar.xz' %}
+          {% set sig_link = download_link + '.asc' %}
         {% endif %}
         <a class="downloadLink" href="{{ download_link }}">
           <i class="text-light fab fa-{{ id }}-png"></i>
         </a>
-        <p><small><a class="btn btn-primary btn-sm nick mx-5 my-4" href="#">sig</a></small></p>
+        <p><small><a class="btn btn-primary btn-sm nick mx-5 my-4" href="{{ sig_link }}">sig</a></small></p>
       </div>
     </div>
   {% endfor %}
