@@ -4,4 +4,13 @@ _template: empty.html
 ---
 body:
 
-["8.0.8", "8.0.8-MacOS", "8.0.8-Linux", "8.0.8-Windows", "8.5a10", "8.5a10-MacOS", "8.5a10-Linux", "8.5a10-Windows"]
+[
+"8.0.8",
+"8.0.8-MacOS",
+"8.0.8-Linux",
+"8.0.8-Windows",
+"8.5a10",
+"8.5a10-MacOS",
+"8.5a10-Linux",
+"8.5a10-Windows"
+]
