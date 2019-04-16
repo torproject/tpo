@@ -10,7 +10,7 @@
             <p class="text-white">{{ _('Download Tor Browser to experience real private browsing without tracking, surveillance, or censorship.') }}</p>
             {% set download = site.get('/download') %}
             <a class="btn text-primary bg-white btn-light pull-right mt-2" href="{{ this.url_to(download, alt=this.alt) }}">
-              {{ _("Download Tor Browser") }}<span class="oi oi-arrow-bottom-png-purple ml-2 p-1" title="icon arrow-bottom" aria-hidden="true"></span>
+              {{ _("Download Tor Browser") }}<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
             </a>
         </div>
       </div>
@@ -51,14 +51,14 @@
       </div>
       <div class="col-md-4 col-lg-4 ml-2 mt-5 pb-5">
         <div class="row">
-          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook"></i></a></h4>
-          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject"><i class="fab fa-mastodon"></i></a></h4>
-          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject"><i class="fab fa-mastodon-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
         </div>
         <div class="row">
-          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram"></i></a></h4>
-          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin"></i></a></h4>
-          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/TheTorProject"><i class="fab fa-github"></i></a></h4>
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/TheTorProject"><i class="fab fa-github-png"></i></a></h4>
         </div>
       </div>
     </div>
@@ -87,30 +87,7 @@
     <script src="{{ '/static/js/popper.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/bootstrap.bundle.min.js'|asseturl }}" ></script>
     <script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
-    <script type="text/javascript">
-
-      $('.side-nav').click(function(){
-        if ($('.side-nav.active').length > 0) {
-          $('.side-nav.active').removeClass('active')
-        }
-        $(this).addClass('active');
-      });
-
-      if($('.show').length !== 1 ) {
-        $('.show').collapse();
-      }
-
-      // Coming from search result page click
-      if(window.location.hash !== "") {
-        // Somehow collapse is not working sync and calling show directly after
-        // yields no effect and there is no callback when it is ready
-        setTimeout(() => {
-          // Folds out the answer manually
-          $(window.location.hash).collapse('show')
-          // Avoids the answer being hidden by the floating header
-          window.scrollTo(0, $(window.location.hash).position().top)
-        }, 500)
-      }
-    </script>
-    {% include 'script-download.html' %}
+    <script src="{{ '/static/js/modernizr.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/download.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/fallback.js'|asseturl }}" ></script>
   </div>

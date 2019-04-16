@@ -23,7 +23,7 @@
           <img src="{{ '/static/images/people/no_photo.png'|asseturl }}" class="rounded-circle float-left image-thumb" alt="no-photo">
         {% endif %}
         {% if item.twitter_handle %}
-          <a class="float-right py-4 px-2" href="https://twitter.com/{{ item.twitter_handle }}"><i class="fab fa-twitter"></i></a>
+          <a class="float-right py-4 px-2" href="https://twitter.com/{{ item.twitter_handle }}"><i class="fab fa-twitter-png-purple"></i></a>
         {% endif %}
         {% if item.gpg %}
           {% set link = site.get(item.gpg) %}
@@ -32,7 +32,7 @@
           {% else %}
             <a class="float-right py-4 px-2" href="{{ item.gpg }}">
           {% endif %}
-          <i class="fas fa-key"></i></a>
+          <i class="fas fa-key-png"></i></a>
         {% endif %}
       </div>
       <div class="card-body">

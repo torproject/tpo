@@ -1,0 +1,15 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Alex Catarineu
+---
+pronoun: https://pronoun.is/he
+---
+nickname: acat
+---
+description:
+
+Works on Tor Browser

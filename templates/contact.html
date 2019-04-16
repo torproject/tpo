@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-8 py-3">
       {% from "macros/contact.html" import render_oftc %}
-      <h3 class="text-secondary display-5 mb-4"><i class="fas fa-table-tennis text-primary pr-2"></i> {{ _('Chat with us on') }} {{ render_oftc() }}</h3>
+      <h3 class="text-secondary display-5 mb-4"><i class="text-primary pr-2 fas fa-table-tennis-png"></i> {{ _('Chat with us on') }} {{ render_oftc() }}</h3>
       <p class="text-tpo"><span class="text-primary nick">#tor</span> - {{ _("Ask questions about using Tor.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-dev</span> - {{ _("Discuss Tor-related coding and protocols. Ideas are welcome.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-project</span> - {{ _("Discuss organization and community related topics: meetups, outreach, translation, or website improvements.") }}</p>
@@ -17,14 +17,14 @@
       <div class="row border-bottom border-light"><p></p></div>
     </div>
     <div class="col-md-4 py-3">
-      <h3 class="text-secondary display-5 mb-4"><i class="fas fa-comments text-primary pr-2"></i> {{ _("Find us on Social Media") }}</h3>
+      <h3 class="text-secondary display-5 mb-4"><i class="text-primary pr-2 fas fa-comments-png"></i> {{ _("Find us on Social Media") }}</h3>
       <ul class="jobs-ul text-primary">
-        <li class="py-2"><i class="fab fa-twitter display-5"></i><a class="pl-3" href="https://twitter.com/torproject" title="@torproject" target="_blank">Twitter</a></li>
-        <li class="py-2"><i class="fab fa-facebook-square display-5"></i><a class="pl-3" href="https://www.facebook.com/TorProject" title="Tor Project" target="_blank">Facebook</a></li>
-        <li class="py-2"><i class="fab fa-linkedin display-5"></i><a class="pl-3" href="https://www.linkedin.com/company/tor-project/" title="Tor Project" target="_blank">Linkedin</a></li>
-        <li class="py-2"><i class="fab fa-mastodon display-5"></i><a class="pl-3" href="https://mastodon.social/@torproject" title="Tor Project" target="_blank">Mastodon</a></li>
-        <li class="py-2"><i class="fab fa-instagram display-5"></i><a class="pl-3" href="https://www.instagram.com/torproject/" title="@torproject" target="_blank">Instagram</a></li>
-        <li class="py-2"><i class="fab fa-youtube display-5"></i><a class="pl-3" href="https://www.youtube.com/user/TheTorProject/" title="Tor Project" target="_blank">YouTube</a></li>
+        <li class="py-2"><i class="display-5 fab fa-twitter-png-purple"></i><a class="pl-3" href="https://twitter.com/torproject" title="@torproject" target="_blank">Twitter</a></li>
+        <li class="py-2"><i class="display-5 fab fa-facebook-png-purple"></i><a class="pl-3" href="https://www.facebook.com/TorProject" title="Tor Project" target="_blank">Facebook</a></li>
+        <li class="py-2"><i class="display-5 fab fa-linkedin-png-purple"></i><a class="pl-3" href="https://www.linkedin.com/company/tor-project/" title="Tor Project" target="_blank">Linkedin</a></li>
+        <li class="py-2"><i class="display-5 fab fa-mastodon-png-purple"></i><a class="pl-3" href="https://mastodon.social/@torproject" title="Tor Project" target="_blank">Mastodon</a></li>
+        <li class="py-2"><i class="display-5 fab fa-instagram-png-purple"></i><a class="pl-3" href="https://www.instagram.com/torproject/" title="@torproject" target="_blank">Instagram</a></li>
+        <li class="py-2"><i class="display-5 fab fa-youtube-png-purple"></i><a class="pl-3" href="https://www.youtube.com/user/TheTorProject/" title="Tor Project" target="_blank">YouTube</a></li>
       </ul>
     </div>
   </div>
@@ -34,12 +34,14 @@
     <h3 class="text-white display-4">{{ _('Volunteer with Tor') }}</h3>
   </div>
   <div class="row bg-dark justify-content-center p-3">
-    <h4 class="text-white display-5"><a class="text-white" href="​https://www.torproject.org/getinvolved/volunteer" title="{{ _('Get Involved') }}"><u>{{ _('Get Involved') }}</u></a></h4>
+    <h4 class="text-white display-5">
+      <a class="text-white" href="https://2019.www.torproject.org/getinvolved/volunteer" target="_blank" title="{{ _('Get Involved') }}"><u>{{ _('Get Involved') }}</u></a>
+    </h4>
   </div>
 </div>
 <div class="container pt-5 justify-content-center">
   <div class="row ml-5 mr-5">
-    <a class=" h4 text-primary" href="https://lists.torproject.org" target="_blank">{{ _('Join an email list') }} <small class="fa fa-arrow-right p-1" title="icon arrow-right" aria-hidden="true"></small></a>
+    <a class=" h4 text-primary" href="https://lists.torproject.org" target="_blank">{{ _('Join an email list') }} <small class="fa fa-arrow-right-png p-1" title="icon arrow-right" aria-hidden="true"></small></a>
   </div>
   <div class="row ml-5 mr-5 pt-3 preamble">
     <p>{{ _("Our teams collaborate in open channels, including email lists, you are welcome to join. If you have a question for a specific team not answered on our support portal, you can ask the appropriate list. You're welcome to subscribe and just watch, too :)") }}</p>
@@ -52,14 +54,14 @@
   <div class="row">
     <div class="col-md-6">
       <div class="row">
-        <div class="oval-3 mt-3"><i class="fas fa-spider text-primary"></i></div>
+        <div class="oval-3 mt-3 p-2"><i class="text-primary fas fa-spider-png"></i></div>
       </div>
       <div class="row mt-3 mr-5">
         <a class="h4 text-primary" href="https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback" target="_blank">{{ _('Report a bug or give feedback.') }}</a>
         <p class="text-tpo">{{ _('Tor relies on the support of users and volunteers around the world to help us improve our software and resources, so your feedback is extremely valuable to us (and to all Tor users).') }}</p>
       </div>
       <div class="row">
-        <div class="oval-3 mt-3"><i class="fas fa-flag text-primary"></i></div>
+        <div class="oval-3 mt-3 p-2"><i class="text-primary fas fa-flag-png"></i></div>
       </div>
       <div class="row mt-3 mr-5">
         <a class="h4 text-primary" href="https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays" target="_blank">{{ _('Tell us about a bad relay.') }}</a>
@@ -68,7 +70,7 @@
     </div>
     <div class="col-md-6">
       <div class="row">
-        <div class="oval-3 mt-3"><i class="fas fa-lock text-primary"></i></div>
+        <div class="oval-3 mt-3 p-2"><i class="text-primary fas fa-lock-png"></i></div>
       </div>
       <div class="row mt-3 mr-5">
         <h4 class="text-primary">{{ _('Report a security issue.') }}</h4>

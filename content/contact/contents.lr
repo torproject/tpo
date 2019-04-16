@@ -12,6 +12,6 @@ title: Contact
 ---
 body:
 
-<h4 class="text-primary">Get Support <span class="oi oi-arrow-right p-1" title="icon arrow-right" aria-hidden="true"></span></h4>
+### Get Support
 
 Need help? Visit our [Support Portal](https://support.torproject.org) for answers to frequently asked questions about connecting to Tor, circumventing censorship, using onion services, and more.
