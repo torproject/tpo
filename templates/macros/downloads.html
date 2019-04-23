@@ -2,6 +2,8 @@
   {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
   {% endif %}
   {% set download_link_64 = download_prefix + 'torbrowser-install-win64-' + version + '_' + alt + '.exe' %}
   {% set download_link_32 = download_prefix + 'torbrowser-install-' + version + '_' + alt + '.exe' %}
@@ -15,6 +17,8 @@
   {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
   {% endif %}
   {% set download_link = download_prefix + 'TorBrowser-' + version + '-osx64' + '_' + alt + '.dmg' %}
   {% set sig_link = download_link + '.asc' %}
@@ -26,6 +30,8 @@
   {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
   {% endif %}
   {% set download_link_64 = download_prefix + 'tor-browser-linux64-' + version + '_' + alt + '.tar.xz' %}
   {% set download_link_32 = download_prefix + 'tor-browser-linux32-' + version + '_' + alt + '.tar.xz' %}
