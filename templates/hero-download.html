@@ -12,6 +12,8 @@
         {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + t.version + '/' %}
         {% if alt == 'en' %}
           {% set alt = 'en-US' %}
+        {% elif alt == 'es' %}
+          {% set alt = 'es-ES' %}
         {% endif %}
         {% if id == 'windows' %}
           {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt + '.exe' %}
