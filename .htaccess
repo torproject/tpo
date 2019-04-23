@@ -31,8 +31,6 @@ RewriteRule ^overview(.*) /about/history$1 [R=302,L]
 
 # Projects
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
-# Bug 29951: redirect RecommendedTBBVersions until its format is fixed
-RewriteRule ^projects/torbrowser/RecommendedTBBVersions(.*) https://2019.www.torproject.org/projects/torbrowser/RecommendedTBBVersions$1 [R=302,L]
 RewriteRule ^projects/torbrowser/RecommendedTBBVersions - [L]
 RewriteRule ^projects/torbrowser(.*) /download$1 [R=302,L]
 RewriteRule ^projects/gettor(.*) https://gettor.torproject.org/ [R=302,L]

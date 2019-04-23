@@ -2,6 +2,8 @@
   {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
   {% endif %}
   {% set download_link_64 = download_prefix + 'torbrowser-install-win64-' + version + '_' + alt + '.exe' %}
   {% set download_link_32 = download_prefix + 'torbrowser-install-' + version + '_' + alt + '.exe' %}
@@ -11,10 +13,20 @@
   <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
+{% macro render_windows_expert(version, win32) %}
+  {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
+  {% set download_link_32 = download_prefix + 'tor-win32-' + win32 + '.zip' %}
+  {% set sig_link_32 = download_link_32 + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link_32 }}">Download</a> (<a href="{{ sig_link_32 }}">sig</a>)
+{% endmacro %}
+
 {% macro render_mac(version, alt) %}
   {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
   {% endif %}
   {% set download_link = download_prefix + 'TorBrowser-' + version + '-osx64' + '_' + alt + '.dmg' %}
   {% set sig_link = download_link + '.asc' %}
@@ -26,6 +38,8 @@
   {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
   {% endif %}
   {% set download_link_64 = download_prefix + 'tor-browser-linux64-' + version + '_' + alt + '.tar.xz' %}
   {% set download_link_32 = download_prefix + 'tor-browser-linux32-' + version + '_' + alt + '.tar.xz' %}
