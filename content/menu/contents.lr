@@ -1,0 +1,16 @@
+_template: about.html
+---
+section: About
+---
+color: primary
+---
+title: About
+---
+body:
+
+Documentation
+Press
+Support
+Jobs
+Blog
+Donate
