@@ -21,11 +21,11 @@
         {% set alpha_sig_link = alpha_download_link + '.asc' %}
         <tr>
           <td>{{ t.version }}</td>
-          <td class="text-right"><a href="{{ download_link }}">Download</a> (<a href="{{ sig_link }}">sig</a>)</td>
+          <td class="text-right"><a href="{{ download_link }}">{ _('Download') }</a> (<a href="{{ sig_link }}">{ _('sig') }</a>)</td>
         </tr>
         <tr>
           <td>{{ a.version }}</td>
-          <td class="text-right"><a href="{{ alpha_download_link }}">Download</a> (<a href="{{ alpha_sig_link }}">sig</a>)</td>
+          <td class="text-right"><a href="{{ alpha_download_link }}">{ _('Download') }</a> (<a href="{{ alpha_sig_link }}">{ _('sig') }</a>)</td>
         </tr>
       </tbody>
     </table>
