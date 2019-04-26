@@ -68,7 +68,7 @@ RewriteRule ^press/press(.*) /press [R=302,L]
 
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/people$1 [R=302,L]
-RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
+RewriteRule ^donate$ https://donate.torproject.org [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
 RewriteRule ^contact.html$  /contact/ [R=302,L]
 
