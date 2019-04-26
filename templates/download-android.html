@@ -1,6 +1,6 @@
 <div id="android" class="container-fluid bg-darker justify-content-center">
-  <div class="row col-lg-10 mx-auto">
-    <div class="col-lg-8 py-5 mt-5">
+  <div class="row col-xl-10 col-md-12 mx-auto">
+    <div class="col-lg-7 col-md-12 py-5 mt-5">
       <div class="row">
         <div class="oval-2 bg-dark mx-auto">
           <a href="{{ '/download/#android'|url(alt=this.alt) }}">
@@ -9,40 +9,30 @@
         </div>
       </div>
       <div class="row">
-        <h4 class="mx-auto display-4 text-center text-white">{{ _('Get Tor Browser for Android.') }}</h4>
+        <h1 class="mx-auto text-center text-white">{{ _('Get Tor Browser for Android.') }}</h1>
       </div>
       <div class="row">
-        <h3 class="mx-auto defend text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h3>
+        <h3 class="mx-auto text-center text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h3>
+      </div>
+      <div class="row my-5">
+        <div class="col-xl-6 mx-auto text-center">
+          {% set t = bag('versions', 'torbrowser-alpha') %}
+          <a class="btn btn-lg btn-light text-primary py-1 px-4 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
+          <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk.asc"><small>sig</small></a>
+          <a class="btn btn-lg btn-light text-primary py-1 px-4 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
+          <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk.asc"><small>sig</small></a>
+          <a class="btn btn-block btn-lg btn-light text-primary my-2" href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Go to Google Play') }}</a>
+          {% from "macros/downloads.html" import render_fdroid %}
+          <a class="btn btn-block btn-lg btn-light text-primary disabled" href="">{{ _('Go to F-droid %s')|format(render_fdroid())|safe }}</a>
+          <!--a class="btn btn-primary btn-sm nick mx-5 my-4" href="#"><small>sig</small></a-->
+        </div>
       </div>
     </div>
-    <div class="d-none d-lg-block col-lg-4">
-      <img class="img-fluid p-5" height="auto" src="{{ 'static/images/tor-browser-mobile-window/png/TBAa-onboarding@2x.png'|asseturl }}">
+    <div class="d-none d-lg-block col-lg-5 col-md-6">
+      <img class="img-fluid p-5 m-5" height="auto" src="{{ 'static/images/tor-browser-mobile-window/png/TBAa-onboarding@2x.png'|asseturl }}">
     </div>
   </div>
-  <div class="row col-lg-10 mx-auto">
-    <div class="col-lg-12 py-5 mt-5">
-      <div class="row my-5">
-          <div class="col-md-6 col-sm-4 text-center p1">
-            <div class="row">
-              {% set t = bag('versions', 'torbrowser-alpha') %}
-              <a class="btn btn-lg btn-light text-primary py-1 px-4 my-1" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
-              <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk.asc"><small>sig</small></a>
-              <a class="btn btn-lg btn-light text-primary py-1 px-4 my-1" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
-              <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk.asc"><small>sig</small></a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-4 text-center p1">
-            <a class="btn btn-lg btn-light text-primary py-3 my-1" href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Go to Google Play') }}</a>
-          </div>
-          {% from "macros/downloads.html" import render_fdroid %}
-          <div class="col-md-3 col-sm-4 text-center p1">
-            <a class="btn btn-lg btn-light text-primary py-3 my-1 disabled" href="">{{ _('Go to F-droid %s')|format(render_fdroid())|safe }}</a>
-            <!--a class="btn btn-primary btn-sm nick mx-5 my-4" href="#"><small>sig</small></a-->
-          </div>
-      </div>
-      <div class="row">
-        <a class="text-light mx-auto nick" href="https://itunes.apple.com/us/app/onion-browser/id519296448?mt=8">{{ _('Are you a iOS user? We encourage you to try Onion Browser.') }} </a>
-      </div>
-    </div>
+  <div class="row pb-5">
+      <a class="text-light mx-auto text-center nick" href="https://itunes.apple.com/us/app/onion-browser/id519296448?mt=8">{{ _('Are you a iOS user? We encourage you to try Onion Browser.') }} </a>
   </div>
 </div>
