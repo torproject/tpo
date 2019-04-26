@@ -5,6 +5,7 @@
 </div>
 <div class="container py-3">
   <div class="row">
+    <h2 class="text-primary">Tor Source</h2>
     <table class="table">
       <thead>
         <tr>
@@ -21,11 +22,27 @@
         {% set alpha_sig_link = alpha_download_link + '.asc' %}
         <tr>
           <td>{{ t.version }}</td>
-          <td class="text-right"><a href="{{ download_link }}">Download</a> (<a href="{{ sig_link }}">sig</a>)</td>
+          <td class="text-right"><a href="{{ download_link }}">{ _('Download') }</a> (<a href="{{ sig_link }}">{ _('sig') }</a>)</td>
         </tr>
         <tr>
           <td>{{ a.version }}</td>
-          <td class="text-right"><a href="{{ alpha_download_link }}">Download</a> (<a href="{{ alpha_sig_link }}">sig</a>)</td>
+          <td class="text-right"><a href="{{ alpha_download_link }}">{ _('Download') }</a> (<a href="{{ alpha_sig_link }}">{ _('sig') }</a>)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <h2 class="text-primary">Windows Expert Bundle</h2>
+    {% set t = bag('versions', 'torbrowser-stable') %}
+    <table class="table">
+      <tbody>
+        <tr>
+          <td>Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE</td>
+          <td>Contains just Tor and nothing else.</td>
+          <td class="text-right">
+            {% from "macros/downloads.html" import render_windows_expert %}
+            {{ render_windows_expert(t.version, t.win32) }}
+          </td>
         </tr>
       </tbody>
     </table>
