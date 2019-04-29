@@ -12,7 +12,7 @@ html: home.html
 ---
 body:
 
-######ABOUT US######
+###### ABOUT US ######
 
 We believe everyone should be able to explore the internet with privacy.
 We are the Tor Project, a 501(c)3 US nonprofit.
