@@ -81,7 +81,7 @@ RewriteRule ^download/download-easy(.*) /download [R=302,L]
 RewriteRule ^relays(.*) https://2019.www.torproject.org/getinvolved/relays [R=302,L]
 
 # Index Pages
-RewriteRule ^about/overview(.*) /about/history [R=302,L]
+RewriteRule ^about/overview.html(.*) /about/history [R=302,L]
 RewriteRule ^about/$ /about/history [R=302,L]
 
 # Eff
