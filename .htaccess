@@ -27,7 +27,7 @@ RewriteRule ^torbrowser$ https://2019.www.torproject.org/projects/torbrowser.htm
 RewriteRule ^tordnsel/dist/(.*) https://2019.www.torproject.org/dist/tordnsel/$1 [R=302,L]
 
 # Overview
-RewriteRule ^overview(.*) /about/history$1 [R=302,L]
+RewriteRule ^overview(.*) /about/history [R=302,L]
 
 # Projects
 RewriteRule ^projects/torbrowser/design(.*) https://2019.www.torproject.org/projects/torbrowser/design/ [R=302,L]
