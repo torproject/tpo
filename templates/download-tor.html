@@ -24,10 +24,12 @@
           <td>{{ t.version }}</td>
           <td class="text-right"><a href="{{ download_link }}">{{ _('Download') }}</a> (<a href="{{ sig_link }}">{{ _('sig') }}</a>)</td>
         </tr>
-        <tr>
-          <td>{{ a.version }}</td>
-          <td class="text-right"><a href="{{ alpha_download_link }}">{{ _('Download') }}</a> (<a href="{{ alpha_sig_link }}">{{ _('sig') }}</a>)</td>
-        </tr>
+        {% if t.version != a.version %}
+          <tr>
+            <td>{{ a.version }}</td>
+            <td class="text-right"><a href="{{ alpha_download_link }}">{{ _('Download') }}</a> (<a href="{{ alpha_sig_link }}">{{ _('sig') }}</a>)</td>
+          </tr>
+        {% end %}
       </tbody>
     </table>
   </div>
