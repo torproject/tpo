@@ -5,10 +5,6 @@ _template: empty.html
 body:
 
 [
-"8.0.8",
-"8.0.8-MacOS",
-"8.0.8-Linux",
-"8.0.8-Windows",
 "8.0.9",
 "8.0.9-MacOS",
 "8.0.9-Linux",
