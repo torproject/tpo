@@ -3,8 +3,8 @@
     <div class="card h-100 my-2">
       <div class="card-body">
         <h5 class="card-title human-name">{{ item.name }}</h5>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.title }}</h6>
-        <h6 class="card-subtitle mb-2 text-primary nick text-capitalize">{{ item.nickname }}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
+        <h6 class="card-subtitle mb-2 text-primary nick">{{ item.title }}</h6>
+        <h6 class="card-subtitle mb-2 text-primary nick">{{ item.nickname }}{% if item.twitter_handle %} - <a href="https://twitter.com/{{ item.twitter_handle }}">@{{ item.twitter_handle }}</a>{% endif %}</h6>
         {{ item.description }}
       </div>
     </div>

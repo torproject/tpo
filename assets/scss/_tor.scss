@@ -200,7 +200,7 @@ small, .small{
 }
 
 h6 {
-  text-transform: uppercase;
+  text-transform: none !important;
   font-weight: bold;
   color: $purple;
 }
@@ -326,7 +326,7 @@ mark, .mark {
     border-radius: 0;
 }
 
-.btn {text-transform: capitalize;}
+.btn {text-transform: none !important;}
 
 label {
   cursor: pointer;
@@ -425,7 +425,7 @@ a.side-nav.active {
 // Badges
 //
 .badge{
-  text-transform: uppercase;
+  text-transform: none !important;
 }
 
 //
