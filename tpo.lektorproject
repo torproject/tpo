@@ -54,3 +54,8 @@ locale = ru
 name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
+
+[alternatives.zh-CN]
+name = 简体字 (zh-CN)
+url_prefix = /zh-CN/
+locale = zh-CN
