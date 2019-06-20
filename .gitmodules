@@ -1,0 +1,3 @@
+[submodule "lego"]
+	path = lego
+	url = git@git-rw.torproject.org:project/web/lego
