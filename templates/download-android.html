@@ -16,7 +16,7 @@
       </div>
       <div class="row my-5">
         <div class="col-xl-6 mx-auto text-center">
-          {% set t = bag('versions', 'torbrowser-stable-android') %}
+          {% set t = bag('versions', 'torbrowser-stable') %}
           <a class="btn btn-lg btn-light text-primary py-1 px-4 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
           <a class="btn btn-primary btn-sm nick mx-3 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-armv7-multi.apk.asc"><small>sig</small></a>
           <a class="btn btn-lg btn-light text-primary py-1 px-4 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-{{ t.version }}-android-x86-multi.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
