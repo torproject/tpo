@@ -10,7 +10,7 @@ nickname: boklm
 ---
 pronoun: he
 ---
-gpg: https://www.torproject.org/images/pgp-key.png
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=6AB6AEE9776E782723C8ACE83E39CEABFC69F6F7
 ---
 description:
 
