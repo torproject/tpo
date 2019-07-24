@@ -1,0 +1,15 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Vasilis
+---
+nickname: anadahz
+---
+gpg: https://pgp.mit.edu/pks/lookup?op=get&search=0x5FBF70B1D1260162
+---
+description:
+
+Internet (anti)censorship researcher, lepidopterist. Organizes workshops, events and meetups.
