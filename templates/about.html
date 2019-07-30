@@ -12,6 +12,10 @@
             <div class="container py-3 mt-5 preamble">
               {{ this.parent.body }}
             </div>
+          {% elif this.path ==  "/about/cy-pres" %}
+            <div class="container py-3 mt-5 preamble">
+              {{ this.parent.body }}
+            </div>
           {% elif this.parent.path == "/about/jobs" %}
             <div class="container py-3 mt-5">
               {{ this.summary }}
