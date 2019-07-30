@@ -12,7 +12,7 @@ gpg: /static/keys/alsmith.txt
 ---
 image: /static/images/people/alsmith.png
 ---
-pronoun: https://pronoun.is/they
+pronoun: they
 ---
 description:
 
