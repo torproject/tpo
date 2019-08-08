@@ -1,0 +1,19 @@
+_model: sponsor
+---
+active: True
+---
+time: 2019
+---
+name: Digital Impact Alliance
+---
+key: 17
+---
+logo: /static/images/sponsors/dial.png
+---
+_hidden: yes
+---
+link: https://digitalimpactalliance.org/
+---
+description:
+
+The Digital Impact Alliance (DIAL) advances digital inclusion to achieve the Sustainable Development Goals (SDGs), so that all women, men and children can benefit from life-enhancing, mobile-based digital services. DIAL is supporting a project to complete a successful ESR transition for Tor Browser to we ensure stability, security, and usability of this core privacy technology on both desktop and mobile. 
