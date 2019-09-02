@@ -11,6 +11,12 @@ RewriteRule ^about/financials(.*) /about/reports$1 [R=302,L]
 RewriteRule ^about(.*).html.en$ /about$1 [R=302,L]
 RewriteRule ^images/how_tor_works_thumb.png$ https://2019.www.torproject.org/images/how_tor_works_thumb.png [R=302,L]
 
+# links from wikipedia
+
+RewriteRule ^about/findoc(.*) /static/findoc$1 [R=302,L]
+RewriteRule ^about/corepeople$  /about/people/ [R=302,L]
+
+
 # moved to /docs/
 RewriteRule ^docs/(.*) https://2019.www.torproject.org/docs/$1 [R=302,L]
 RewriteRule ^documentation.html$ https://2019.www.torproject.org/docs/documentation.html [R=302,L]
