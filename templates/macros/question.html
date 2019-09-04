@@ -13,7 +13,7 @@
          <li class="list-group-item">
            <a href="https://github.com/torproject/tpo/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
            <a href="https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback">{{ _("Suggest Feedback") }}</a> -
-           <a href="{{ item|url }}">{{ _("Permalink") }}</a>
+           <a href="#{{ item._id }}" data-target="#{{ item._id }}">{{ _("Permalink") }}</a>
           </li>
        </ul>
     </div>
