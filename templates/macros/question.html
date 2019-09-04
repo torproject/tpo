@@ -1,0 +1,22 @@
+{% macro render_question(item, t_id, alternative) %}
+<div class="question {{ bag('alternatives', alternative, 'direction') }}">
+  <h4 class="text-primary">
+    <a data-toggle="collapse" href="#{{ item._id }}" data-target="#{{ item._id }}" role="button" aria-expanded="false" aria-controls="{{ item._id }}">
+      {{ item.title }}
+    </a>
+  </h4>
+  <div id="{{ item._id }}" class="collapse show anchor-spacer" role="tabpanel" data-parent="#{{ t_id }}Accordion">
+    {{ item.description|safe }}
+    <div class="card mt-5">
+      <ul class="list-group list-group-flush">
+         <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to this page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
+         <li class="list-group-item">
+           <a href="https://github.com/torproject/support/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
+           <a href="https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback">{{ _("Suggest Feedback") }}</a> -
+           <a href="{{ item|url }}">{{ _("Permalink") }}</a>
+          </li>
+       </ul>
+    </div>
+  </div>
+</div>
+{% endmacro %}

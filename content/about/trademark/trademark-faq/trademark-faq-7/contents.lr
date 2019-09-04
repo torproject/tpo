@@ -1,0 +1,11 @@
+_model: question
+---
+title: Are there official licensees of the Tor trademarks?
+---
+seo_slug: tor-licensees
+---
+description:
+Yes. A few open source, non-commercial projects are Tor trademark licensees:
+
+- [The Amnesic Incognito Live System](https://tails.boum.org/)
+- Vidalia

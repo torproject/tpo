@@ -1,0 +1,18 @@
+{% from "macros/question.html" import render_question %}
+{% macro render_topic(item, alternative) %}
+{% set b_alt = 'topics+'+alternative %}
+{% set t = bag(b_alt, item._id) %}
+<div class="item">
+  <h3 class="text-primary">
+    <a href="{{ t.path }}" role="button"></a>
+  </h3>
+  <div id="{{ t.control }}" role="tabpanel" data-parent="#topics" class="anchor-spacer">
+    <div id="{{ t.control }}Accordion" data-children=".question">
+      <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.title }}</h5>
+      {% for q in item.children %}
+        {{ render_question(q, item._id, alternative) }}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endmacro %}
