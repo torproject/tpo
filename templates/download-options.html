@@ -36,4 +36,22 @@
       </tbody>
     </table>
   </div>
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Tor Browser for Android Alpha</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for id, item in bag('download-tb-for-android-alpha').items() %}
+          <tr>
+            <td>
+              <a href="{{ item.url }}">{{ id }}</a>{% if item.sig %} (<a href="{{ item.sig }}">sig</a>){% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
