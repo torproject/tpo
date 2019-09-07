@@ -44,13 +44,27 @@
         </tr>
       </thead>
       <tbody>
-        {% for id, item in bag('download-tb-for-android-alpha').items() %}
-          <tr>
-            <td>
-              <a href="{{ item.url }}">{{ id }}</a>{% if item.sig %} (<a href="{{ item.sig }}">sig</a>){% endif %}
-            </td>
-          </tr>
-        {% endfor %}
+        <tr>
+          <td>
+            <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">Google Play</a>
+          </td>
+        </tr>
+        {% from "macros/downloads.html" import render_android %}
+        <tr>
+          <td>
+            {{ render_android(t.version, "aarch64") }}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {{ render_android(t.version, "armv7") }}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {{ render_android(t.version, "x86") }}
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
