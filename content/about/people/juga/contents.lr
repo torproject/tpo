@@ -8,7 +8,7 @@ name: juga
 ---
 nickname: juga
 ---
-gpg: https://juga.space/files/juga.asct
+gpg: https://juga.space/files/juga.asc
 ---
 image: /static/images/people/juga.png
 ---
