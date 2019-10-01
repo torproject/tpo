@@ -16,6 +16,8 @@ RewriteRule ^images/how_tor_works_thumb.png$ https://2019.www.torproject.org/ima
 RewriteRule ^about/findoc(.*) /static/findoc$1 [R=302,L]
 RewriteRule ^about/corepeople$  /about/people/ [R=302,L]
 
+# dist (for mirrors)
+RewriteRule ^dist/(.*) https://dist.torproject.org/$1 [R=302,L]
 
 # moved to /docs/
 RewriteRule ^docs/(.*) https://2019.www.torproject.org/docs/$1 [R=302,L]
@@ -26,7 +28,7 @@ RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton
 RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R=302,L]
 
 # Tor Browser
-RewriteRule ^torbrowser/dist/(.*) https://2019.www.torproject.org//dist/torbrowser/$1 [R=302,L]
+RewriteRule ^torbrowser/dist/(.*) https://2019.www.torproject.org/dist/torbrowser/$1 [R=302,L]
 RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 RewriteRule ^torbrowser$ https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 
