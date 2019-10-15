@@ -16,5 +16,9 @@ body:
 "9.0a7",
 "9.0a7-MacOS",
 "9.0a7-Linux",
-"9.0a7-Windows"
+"9.0a7-Windows",
+"9.0a8",
+"9.0a8-MacOS",
+"9.0a8-Linux",
+"9.0a8-Windows"
 ]
