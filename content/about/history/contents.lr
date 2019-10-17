@@ -36,10 +36,9 @@ In 2007, the organization began developing bridges to the Tor network to address
 Tor began gaining popularity among activists and tech-savvy users interested in privacy, but it was still difficult for less-technically savvy people to use, so starting in 2005, development of tools beyond just the Tor proxy began.
 Development of Tor Browser began in [2008](https://lists.torproject.org/pipermail/tor-talk/2008-January/007837.html).
 
-With Tor Browser having made Tor more accessible to everyday internet users and activists, Tor was an instrumental tool during the [Arab Spring](https://www.theguardian.com/us-news/the-nsa-files) beginning in late 2010. It not only protected people's identity online but also allowed them to access critical resources, social media, and websites which were blocked.
+With Tor Browser having made Tor more accessible to everyday internet users and activists, Tor was an instrumental tool during the [Arab Spring](https://en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. It not only protected people's identity online but also allowed them to access critical resources, social media, and websites which were blocked.
 
-The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the [Snowden revelations in 2013](https://www.theguardian.com/us-news/the-nsa-files).
-Not only was Tor instrumental to Snowden's whistleblowing, but content of the documents also upheld assurances that, at that time, [Tor could not be cracked](https://www.wired.com/story/the-grand-tor/).
+The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the [Snowden revelations in 2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded#section/1). Not only was Tor instrumental to Snowden's whistleblowing, but content of the documents also upheld assurances that, at that time, [Tor could not be cracked](https://www.wired.com/story/the-grand-tor/).
 
 People's awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom.
 Today, the network has [thousands of relays](https://metrics.torproject.org) run by volunteers and millions of users worldwide. And it is this diversity that keeps Tor users safe.
