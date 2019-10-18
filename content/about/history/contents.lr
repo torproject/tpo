@@ -38,7 +38,8 @@ Development of Tor Browser began in [2008](https://lists.torproject.org/pipermai
 
 With Tor Browser having made Tor more accessible to everyday internet users and activists, Tor was an instrumental tool during the [Arab Spring](https://en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. It not only protected people's identity online but also allowed them to access critical resources, social media, and websites which were blocked.
 
-The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the [Snowden revelations in 2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded#section/1). Not only was Tor instrumental to Snowden's whistleblowing, but content of the documents also upheld assurances that, at that time, [Tor could not be cracked](https://www.wired.com/story/the-grand-tor/).
+The need for tools safeguarding against mass surveillance became a mainstream concern thanks to the [Snowden revelations in 2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded#section/1).
+Not only was Tor instrumental to Snowden's whistleblowing, but content of the documents also upheld assurances that, at that time, [Tor could not be cracked](https://www.wired.com/story/the-grand-tor/).
 
 People's awareness of tracking, surveillance, and censorship may have increased, but so has the prevalence of these hindrances to internet freedom.
 Today, the network has [thousands of relays](https://metrics.torproject.org) run by volunteers and millions of users worldwide. And it is this diversity that keeps Tor users safe.
