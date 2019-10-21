@@ -5,7 +5,7 @@
   <div class="accordion" id="accordionJobs">
     {% from "macros/jobs.html" import render_active %}
     {% set items = this.children.filter(F.active == True).all() %}
-    {% if items|length > 1 %}
+    {% if items|length > 0 %}
       {% for item in items %}
         {{ render_active(item, this.alt) }}
       {% endfor %}
