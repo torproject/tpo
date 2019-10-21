@@ -10,6 +10,8 @@ section_id: about
 ---
 title: Browser Developer
 ---
+color: primary
+---
 summary:
 
 The Tor Project is looking for a Browser Developer (C++ and Javascript)!
