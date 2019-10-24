@@ -5,11 +5,11 @@
 </div>
 <div class="container py-3">
   <div class="row">
-    <h2 class="text-primary">Tor Source</h2>
+    <h2 class="text-primary">{{ _('Tor Source') }}</h2>
     <table class="table">
       <thead>
         <tr>
-          <th scope="col">Version</th>
+          <th scope="col">{{ _('Version') }}</th>
           <th></th>
         </tr>
       </thead>
@@ -34,13 +34,13 @@
     </table>
   </div>
   <div class="row">
-    <h2 class="text-primary">Windows Expert Bundle</h2>
+    <h2 class="text-primary">{{ _('Windows Expert Bundle') }}</h2>
     {% set t = bag('versions', 'torbrowser-stable') %}
     <table class="table">
       <tbody>
         <tr>
-          <td>Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE</td>
-          <td>Contains just Tor and nothing else.</td>
+          <td>{{ _('Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE') }}</td>
+          <td>{{ _('Contains just Tor and nothing else.') }}</td>
           <td class="text-right">
             {% from "macros/downloads.html" import render_windows_expert %}
             {{ render_windows_expert(t.version, t.win32) }}
