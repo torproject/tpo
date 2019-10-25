@@ -16,7 +16,6 @@ RewriteRule ^images/how_tor_works_thumb.png$ https://2019.www.torproject.org/ima
 RewriteRule ^about/findoc(.*) /static/findoc$1 [R=302,L]
 RewriteRule ^about/corepeople$  /about/people/ [R=302,L]
 
-
 # moved to /docs/
 RewriteRule ^docs/(.*) https://2019.www.torproject.org/docs/$1 [R=302,L]
 RewriteRule ^documentation.html$ https://2019.www.torproject.org/docs/documentation.html [R=302,L]
@@ -26,7 +25,7 @@ RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton
 RewriteRule ^torbutton/(.*) https://2019.www.torproject.org/docs/torbutton/$1 [R=302,L]
 
 # Tor Browser
-RewriteRule ^torbrowser/dist/(.*) https://2019.www.torproject.org//dist/torbrowser/$1 [R=302,L]
+RewriteRule ^torbrowser/dist/(.*) https://2019.www.torproject.org/dist/torbrowser/$1 [R=302,L]
 RewriteRule ^torbrowser(.*) https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 RewriteRule ^torbrowser$ https://2019.www.torproject.org/projects/torbrowser.html.en [R=302,L]
 
@@ -71,9 +70,12 @@ RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=302,L]
 # Press
 RewriteRule ^press/press(.*) /press [R=302,L]
 
+# Donation campaign
+# 2019
+RewriteRule ^donate(.*) https://donate.torproject.org [R=302,L]
+
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/people$1 [R=302,L]
-RewriteRule ^donate$ https://donate.torproject.org [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
 RewriteRule ^contact.html$  /contact/ [R=302,L]
 
@@ -97,6 +99,7 @@ RewriteRule ^eff/(.*) https://2019.www.torproject.org/eff/$1 [R=302,L]
 
 # Videos
 RewriteRule ^videos/(.*) https://2019.www.torproject.org/videos/$1 [R=302,L]
+
 
 # Donation campaign
 # 2017

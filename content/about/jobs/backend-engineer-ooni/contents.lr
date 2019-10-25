@@ -10,6 +10,8 @@ active: False
 ---
 title: Backend Engineer for OONI
 ---
+color: primary
+---
 summary:
 The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
 

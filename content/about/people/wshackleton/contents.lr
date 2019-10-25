@@ -1,0 +1,20 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Will Shackleton
+---
+pronoun: he
+---
+twitter_handle: wshackleton
+---
+gpg: https://keybase.io/shackleton/pgp_keys.asc
+---
+image: /static/images/people/wshackleton.png
+---
+description:
+
+Software Engineer at Facebook and maintainer of
+[facebookcorewwwi.onion](https://www.facebookcorewwwi.onion).

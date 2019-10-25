@@ -12,7 +12,7 @@ pronoun: he
 ---
 twitter_handle: RogerDingledine
 ---
-gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=B1172656DFF983C3042BC699EB5A896A28988BF5
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=F65CE37F04BA5B360AE6EE17C218525819F78451
 ---
 image: /static/images/people/arma.png
 ---

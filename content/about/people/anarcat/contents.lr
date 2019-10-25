@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Antoine Beaupré
+---
+pronoun: he
+---
+nickname: anarcat
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8DC901CE64146C048AD50FBB792152527B75921E
+---
+description:
+
+Anarcat is an experienced sysadmin who has worked on everything from FreeBSD routers to Debian GNU/Linux file servers but also weird proprietary nightmares like Cisco VoIP phones and other nameless horrors.

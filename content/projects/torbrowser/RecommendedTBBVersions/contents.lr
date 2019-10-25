@@ -5,12 +5,12 @@ _template: empty.html
 body:
 
 [
-"8.5.5",
-"8.5.5-MacOS",
-"8.5.5-Linux",
-"8.5.5-Windows",
-"9.0a6",
-"9.0a6-MacOS",
-"9.0a6-Linux",
-"9.0a6-Windows"
+"9.0",
+"9.0-MacOS",
+"9.0-Linux",
+"9.0-Windows",
+"9.5a1",
+"9.5a1-MacOS",
+"9.5a1-Linux",
+"9.5a1-Windows"
 ]

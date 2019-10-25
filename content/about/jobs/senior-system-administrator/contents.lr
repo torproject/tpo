@@ -8,6 +8,8 @@ section_id: about
 ---
 active: False
 ---
+color: primary
+---
 title: Senior System Administrator
 ---
 summary:
