@@ -72,6 +72,7 @@ RewriteRule ^press/press(.*) /press [R=302,L]
 
 # Donation campaign
 # 2019
+RewriteRule ^donate(.*) https://donate.torproject.org [R=302, L]
 RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
 
 # other (feel free to categorize)
