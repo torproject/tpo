@@ -98,6 +98,11 @@ RewriteRule ^eff/(.*) https://2019.www.torproject.org/eff/$1 [R=302,L]
 RewriteRule ^videos/(.*) https://2019.www.torproject.org/videos/$1 [R=302,L]
 
 # Donation campaign
+# 2019
+RewriteRule ^donate/$ https://donate.torproject.org [R=302,L]
+
+
+# Donation campaign
 # 2017
 # Special-case the donate-options and amazon page so it doesn't get redirected
 RewriteRule ^donate/donate-options(.*) https://2019.www.torproject.org/donate/donate-options$1 [END]
