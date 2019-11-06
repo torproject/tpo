@@ -9,9 +9,9 @@
       <thead>
         <tr>
           <th scope="col">{{ _('Language') }}</th>
-          <th scope="col">Windows</th>
-          <th scope="col">MacOS</th>
-          <th scope="col">GNU/Linux</th>
+          <th scope="col">{{ _('Windows') }}</th>
+          <th scope="col">{{ _('MacOS') }}</th>
+          <th scope="col">{{ _('GNU/Linux') }}</th>
         </tr>
       </thead>
       <tbody>
@@ -40,13 +40,13 @@
     <table class="table">
       <thead>
         <tr>
-          <th>Tor Browser for Android Alpha</th>
+          <th>{{ _('Tor Browser for Android Alpha') }}</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>
-            <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">Google Play</a>
+            <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Google Play') }}</a>
           </td>
         </tr>
         {% from "macros/downloads.html" import render_android %}
