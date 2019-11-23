@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Ana
+---
+nickname: acute
+---
+pronoun: she
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=85E7AAB8C29DF38349405DC06F8DE44D59D7DBCC
+---
+image: /static/images/people/acute.png
+---
+description:
+
+[Metrics team contributor](https://metrics.torproject.org/), working on the development and automated deployment of [Onionperf](https://onionperf.torproject.org/onionperf.html).
