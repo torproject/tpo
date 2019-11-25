@@ -10,10 +10,25 @@ primary = yes
 url_prefix = /
 locale = en
 
+[alternatives.ar]
+name = عربية (ar)
+url_prefix = /ar/
+locale = ar
+
+[alternatives.bn]
+name = বাংলা ভাষা  (bn)
+url_prefix = /bn/
+locale = bn
+
 [alternatives.ca]
 name = Català (ca)
 url_prefix = /ca/
 locale = ca
+
+[alternatives.da]
+name = Dansk (da)
+url_prefix = /da/
+locale = da
 
 [alternatives.de]
 name = Deutsch (de)
@@ -30,6 +45,21 @@ name = Français (fr)
 url_prefix = /fr/
 locale = fr
 
+[alternatives.he]
+name =  עברית (he)
+url_prefix = /he/
+locale = he
+
+[alternatives.hu]
+name =  Magyar nyelv (hu)
+url_prefix = /hu/
+locale = hu
+
+[alternatives.id]
+name = Indonesia (id)
+url_prefix = /id/
+locale = id
+
 [alternatives.is]
 name = Íslenska (is)
 url_prefix = /is/
@@ -40,20 +70,60 @@ name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ja]
+name = 日本語 (ja)
+url_prefix = /ja/
+locale = ja
+
 [alternatives.ka]
-name = ქართული ენა (ka)
+name = Georgian (ka)
 url_prefix = /ka/
 locale = ka
 
+[alternatives.ko]
+name = 한국어 (ko)
+url_prefix = /ko/
+locale = ko
+
+[alternatives.ms]
+name = Melayu (ms)
+url_prefix = /ms/
+locale = ms
+
+[alternatives.nl]
+name = Nederlands (nl)
+url_prefix = /nl/
+locale = nl
+
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
+
 [alternatives.pt-BR]
-name = Português Brasil (pt-BR)
+name = Português Br. (pr-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
+
+[alternatives.pt-PT]
+name = Português Port. (pt-PT)
+url_prefix = /pt-PT/
+locale = pt-PT
+
+[alternatives.ro]
+name = Română (ro)
+url_prefix = /ro/
+locale = ro
 
 [alternatives.ru]
 name = Русский (ru)
 url_prefix = /ru/
 locale = ru
+
+[alternatives.th]
+name = ภาษาไทย (th)
+url_prefix = /th/
+locale = th
 
 [alternatives.tr]
 name = Türkçe (tr)
@@ -64,3 +134,8 @@ locale = tr
 name = 简体中文 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
+
+[alternatives.zh-TW]
+name = 正體字 (zh-TW)
+url_prefix = /zh-TW/
+locale = zh-TW
