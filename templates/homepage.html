@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
         {% set locale = bag('alternatives', alternative) %}
-        <main role="main" class="mx-auto col-12 {{ locale.order) }} {{ locale.direction }}">
+        <main role="main" class="mx-auto col-12 {{ locale.order }} {{ locale.direction }}">
           {% include this.html %}
           {% if this.parent.path != "/download" %}
             <div class="container pt-5 hero">

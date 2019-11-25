@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
         {% set locale = bag('alternatives', alternative) %}
-        <main role="main" class="mx-auto col-12 {{ locale.order) }} {{ locale.direction }}">
+        <main role="main" class="mx-auto col-12 {{ locale.order }} {{ locale.direction }}">
           {% if this.path == "/about" %}
             {% set p1 = this.children.get('history') %}
             <div class="container py-3 mt-5 content">
