@@ -3,7 +3,7 @@
     {% include 'header.html' %}
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
-        {% set locale = bag('alternatives', alternative) %}
+        {% set locale = bag('alternatives', this.alt) %}
         <main role="main" class="mx-auto col-12 {{ locale.order }} {{ locale.direction }}">
           {% if this.path == "/about" %}
             {% set p1 = this.children.get('history') %}
