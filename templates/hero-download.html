@@ -7,7 +7,7 @@
 <div class="row p-5 mx-auto">
   {% for id, item in bag('platforms').items() %}
     <div class="col-sm-6 col-md-3 py-3">
-      <div class="oval-2 bg-darker mx-auto">
+      <div class="oval-2 bg-darker">
         {% set alt_l = alt %}
         {% set t = bag('versions', 'torbrowser-stable') %}
         {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
@@ -29,23 +29,27 @@
         <a class="downloadLink" href="{{ download_link }}">
           <i class="text-light fab fa-{{ id }}-png"></i>
         </a>
-        <p><small class="float-left"><a class="btn btn-primary btn-sm nick mx-5 my-4" href="{{ sig_link }}">sig</a></small></p>
+        <a class="btn btn-primary mt-4" href="{{ download_link }}">{{ _('Download for') }} {{ id }}</a>
+        <a class="link" href="{{ sig_link }}"><span class="nick text-white">{{ _('Signature') }}</span></a>
       </div>
     </div>
-  {% endfor %}
-  <div class="col-sm-6 col-md-3 py-3">
-    <div class="oval-2 bg-darker mx-auto">
-      <a href="#android">
-        <i class="text-light fab fa-android-png"></i>
-      </a>
+    {% endfor %}
+    <div class="col-sm-6 col-md-3 py-3">
+      <div class="oval-2 bg-darker mx-auto">
+        <a href="#android">
+          <i class="text-light fab fa-android-png"></i>
+        </a>
+        <a class="btn btn-primary mt-4" href="#android">{{ _('Download for Android') }}</a>
+      </div>
     </div>
-  </div>
 </div>
+
 <div class="row p-5">
   <a class="mx-auto text-white py-3 text-center" href="{{ 'languages'|url(alt=this.alt) }}"><u>{{ _('Download in another language or platform') }}</u></a>
   <a class="mx-auto text-white py-3 text-center" href="{{ 'alpha'|url(alt=this.alt) }}"><u>{{ _('Download the latest alpha build') }}</u></a>
   <a class="mx-auto text-white py-3 text-center" href="{{ 'tor'|url(alt=this.alt) }}"><u>{{ _('Download Tor Source Code') }}</u></a>
 </div>
+
 <div class="hidden-sm row p-md-5 justify-content-center window-bg">
   <a class="mx-auto text-white text-center py-md-5" href="https://blog.torproject.org/category/tags/tor-browser"><u>{{ _('Read the latest release announcements') }}</u></a>
 </div>

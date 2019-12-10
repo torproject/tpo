@@ -1,0 +1,19 @@
+{% if not this.color %}
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2">
+{% elif this.color == 'primary' %}
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2">
+{% else %}
+<div class="container-fluid bg-dark">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-dark p-2">
+{% endif %}
+
+    <a class="navbar-brand" href="{{ '/'|url(alt=this.alt) }}">
+      <img alt="{{ 'The Tor Project' }}" src="{{ '/static/images/tor-logo@2x.png'|asseturl }}" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    </div>
+  </nav>
+</div>
