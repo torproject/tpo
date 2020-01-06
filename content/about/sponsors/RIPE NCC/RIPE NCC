@@ -1,0 +1,19 @@
+_model: sponsor
+---
+active: True
+---
+time: 2020
+---
+name: RIPE NCC
+---
+key: 18
+---
+logo: /static/images/sponsors/RIPE_NCC_logo.png
+---
+_hidden: yes
+---
+link: https://www.ripe.net/
+---
+description:
+
+RIPE NCC (Network Coordination Centre) an independent, not-for-profit membership organization that supports the infrastructure of the Internet through technical coordination in their service region. RIPE NCC’s most prominent activity is to act as the Regional Internet Registry (RIR) providing global Internet resources and related services (IPv4, IPv6 and AS Number resources) to members in their service region. RIPE is supporting a project t improve the Tor network’s IPv6 support. We will do so by improving our software and increasing the number of Tor network relays that support IPv6.
