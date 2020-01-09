@@ -49,7 +49,7 @@ RewriteRule ^projects/obfsproxy-instructions(.*) https://2019.www.torproject.org
 RewriteRule ^projects/obfsproxy(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
 
 #Relays
-RewriteRule ^relay-guide(.*) https://trac.torproject.org/projects/tor/wiki/TorRelayGuide [R=302,L]
+RewriteRule ^relay-guide(.*) https://community.torproject.org/relay/ [R=302,L]
 
 # GetInvolved
 RewriteRule ^getinvolved/$ https://2019.www.torproject.org/getinvolved/volunteer [R=302,L]
