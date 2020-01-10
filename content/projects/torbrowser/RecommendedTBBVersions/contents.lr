@@ -12,5 +12,9 @@ body:
 "9.5a3",
 "9.5a3-MacOS",
 "9.5a3-Linux",
-"9.5a3-Windows"
+"9.5a3-Windows",
+"9.5a4",
+"9.5a4-MacOS",
+"9.5a4-Linux",
+"9.5a4-Windows"
 ]
