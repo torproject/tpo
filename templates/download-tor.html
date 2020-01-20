@@ -17,11 +17,13 @@
         {% set t = bag('versions', 'tor-stable') %}
         {% set a = bag('versions', 'tor-alpha') %}
         {% set download_link = 'https://dist.torproject.org/tor-' + t.version + '.tar.gz' %}
+        {% set changelog_link = 'https://gitweb.torproject.org/tor.git/plain/ChangeLog?h=tor-' + t.version %}
         {% set sig_link = download_link + '.asc' %}
         {% set alpha_download_link = 'https://dist.torproject.org/tor-' + a.version + '.tar.gz' %}
         {% set alpha_sig_link = alpha_download_link + '.asc' %}
         <tr>
           <td>{{ t.version }}</td>
+          <td><a href="{{ changelog_link }}">{{ _('Changelog') }}</a></td>
           <td class="text-right"><a href="{{ download_link }}">{{ _('Download') }}</a> (<a href="{{ sig_link }}">{{ _('sig') }}</a>)</td>
         </tr>
         {% if t.version != a.version %}
