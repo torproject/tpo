@@ -6,78 +6,100 @@ section: about
 ---
 section_id: about
 ---
-active: False
+active: True
 ---
-title: Backend Engineer for OONI
+title: Executive Assistant
 ---
 color: primary
 ---
 summary:
-The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
+The Tor Project is looking for an Executive Assistant!
 
-You will be working to improve OONI's data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
+The Executive Assistant is responsible for providing high-level administrative support to the Executive Director. This position will actively manage the ED’s schedule, handle internal and external executive-level communications, and coordinate special projects and events.
+
+This position is full-time and remote; someone in the Eastern time zone strongly preferred.
 
 ---
 description:
 
-## Backend Engineer for OONI
-*January 31, 2018*
+## Executive Assistant
 
-The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
+*February 5, 2020*
 
-You will be working to improve OONI's data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
+The Tor Project is looking for an Executive Assistant!
 
-This is a full-time 12-month contract position, starting ASAP (no later than mid-May 2019); contract may be extended.
+The Executive Assistant is responsible for providing high-level administrative support to the Executive Director. This position will actively manage the ED’s schedule, handle internal and external executive-level communications, and coordinate special projects and events.
 
-The OONI team is based in Europe. However, this position may be performed remotely.
+This position is full-time and remote; someone in the Eastern time zone strongly preferred.
 
-Here are some of our code repositories:
+You:
 
-   https://github.com/ooni/api
-   https://github.com/ooni/pipeline
-   https://github.com/ooni/orchestra
-   https://github.com/ooni/collector
-   https://github.com/ooni/sysadmin
+- Technology-competent and/or willing and able to learn new tools. Our team coordinates via IRC (the grandparent of Slack), email, Signal messaging app, and bug trackers, etc.
 
-**Required skills and qualifications:**
+- Have an exceptional ability to see ten steps ahead, anticipating and heading off issues before they become problems.
 
- - Extensive experience in python or golang.
- - Comfortable working remotely.
- - Self-directed, self-disciplined, but good at working and communicating with a team.
- - Have experience and be comfortable with others reviewing your code and design; have experience and be comfortable reviewing others' code.
- - Experience documenting and designing protocols.
- - Be comfortable with transparency!
+- Highly skilled at prioritizing ED’s tasks and effectively communicating changing priorities on a daily basis.
 
-**Preferred qualifications:**
+- Problem solver! Plans, strategies, and schedules change: You react quickly, are resilient, and take the initiative to find the best alternatives when these changes arise.
 
-   Experience designing, implementing, and maintaining scalable complex network applications.
-   Working experience with data processing pipelines.
-   Possess the confidence to refactor code and write unit-tests.
-   Familiarity with the challenges of developing and scaling data processing pipelines.
-   Familiarity with the network measurement field.
-   Experience with open-source software development, including working with distributed teams across different time-zones containing employees and volunteers of differing skill levels.
-   Basic familiarity with distributed version control systems.
-   Contributed significant chunks of code to multiple open-source projects in the past.
-   Be passionate about internet freedom and interested in contributing to it in a concrete way!
+- Independent: self-directed and able to get the job done; ensure the ED is on track.
 
-**Other notes:**
+- Proactive: you take initiative in improving processes; you’re always thinking ahead.
 
-Academic degrees are great but not required if you have the right experience.
+Job Duties:
 
-You should be very good at working remotely at communicating with the team on a daily basis via Slack, IRC, instant messaging, email, and issue trackers.
+- Manage ED’s schedule: schedule meetings, screen for conflicts, and ensure the ED is prepared for important meetings.
 
-Salary negotiable.
+- Arrange travel, prepare expense reports, and handle other administrative tasks.
 
-**How to apply:**
+- Head up the planning and logistics of twice-yearly organization-wide meetings.
 
-Please email a *PDF* of your resume/CV, and a cover letter explaining how your qualifications and experience meet the requirements of this job description. Please include the reasons why you want to work on OONI. Please also include link to one or several code samples (of which you are authorized to share), and also your GitHub or GitLab profile, and three professional references.
+- Serve as proxy for ED at certain weekly meetings, take notes, and keep track of ED’s action items.
 
-Email should be sent to jobs at openobservatory dot org with "OONI Backend Engineer" in the subject line.
+- Develop and sustain a high level of professionalism among staff and community members.
 
-**About the project:**
+- Assist the ED with administering the organization’s travel policy: follow up on travel approvals and expenses and help manage the budget.
 
-The Open Observatory of Network Interference (OONI) is a free software project under the Tor Project. OONI collects and processes network measurements with the aim of detecting network interferences, such as censorship, surveillance, and traffic manipulation. Since late 2012, OONI has collected millions of measurements across more than 90 countries around the world.
+- Assist the ED with reports, presentations, and follow ups with/for major donors and sponsors.
 
-The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle with paid staff and contractors of around 45 engineers and operational support people, plus many volunteers all over the world. Tor develops free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project is funded in part by government grants and contracts, as well as by individual, foundation, and corporate donations. The Tor Project's mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
+Required Skills & Qualifications:
 
-The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+- Be personable with strong interpersonal and oral/written communication skills; ability or willingness to learn to use various communication tools and function in an asynchronous work environment.
+
+- Uphold a strict level of confidentiality.
+
+- Maintain a high level of attention to detail and accuracy.
+
+- Ability to manage multiple tasks, re-prioritize on a daily basis, and meet deadlines.
+
+- Be highly organized with exceptional planning skills.
+
+- Able to work both independently and in a collaborative environment.
+
+- Ability to track and monitor travel budget spending at the org level.
+
+- Willingness to try new methods, apps, and/or technology.
+
+- Take initiative in completing assignments, solving problems, and seeking solutions.
+
+- 3 to 5 years experience as Executive Assistant or similar roles.
+
+- An interest in free and open source software and/or internet freedom is a bonus but not required.
+
+To apply:
+
+Please email a *PDF* of your resume/CV, and a cover letter explaining how your qualifications and experience meet the requirements of this job description. Please include the reasons why you want to work at Tor Project.
+
+Email should be sent to hr at torproject dot org with "Executive Assistant " in the subject line. No phone calls, please.
+
+Other notes:
+
+We offer a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance; flexible work schedule; and occasional travel opportunities.
+
+The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle with paid staff and contractors of around 40 engineers and operational support people, plus many volunteers all over the world. Tor develops free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship.
+
+The Tor Project's mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
+
+We are committed to creating and maintaining a diverse and safe environment, and we are committed to our Social Contract, Membership Values, and our Code of Conduct.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer. We strongly encourage everyone to apply to this position without regard to race, color, religion, gender, gender identity or  expression, sexual orientation, national origin, genetics, disability, or age.
