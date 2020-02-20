@@ -31,6 +31,7 @@
         </a>
         <a class="btn btn-primary mt-4" href="{{ download_link }}">{{ _('Download for') }} {{ item.label }}</a>
         <a class="link" href="{{ sig_link }}"><span class="nick text-white">{{ _('Signature') }}</span></a>
+        <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/tbb/how-to-verify-signature/' }}" target="_blank"><i style="font-size:10px;" class="text-light fas fa-question-circle"></i></a>
       </div>
     </div>
     {% endfor %}
