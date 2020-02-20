@@ -59,3 +59,6 @@ locale = tr
 name = 简体中文 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
+
+[packages]
+lektor-i18n = 0.2
