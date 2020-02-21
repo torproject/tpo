@@ -13,6 +13,10 @@
       </div>
     </div>
   </div>
-  {% include 'footer.html' %}
+  {% if this.section == "Download" %}
+    {% include 'footer-min.html' %}
+  {% else %}
+    {% include 'footer.html' %}
+  {% endif %}
 </body>
 </html>
