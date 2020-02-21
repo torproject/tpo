@@ -20,7 +20,7 @@
 <title>{{ _("Tor Project") }} | {% block title %}{{ this.title }}{% endblock %}</title>
 <body class="no-gutters">
   <header>
-    {% if this.section == "Download" %}
+    {% if this.path == '/download' %}
       {% include 'navbar-min.html' %}
     {% else %}
       {% include 'navbar.html' %}
