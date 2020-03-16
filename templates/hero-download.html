@@ -45,6 +45,11 @@
     </div>
 </div>
 
+<div class="row pt-5">
+  {% from "macros/downloads.html" import render_tor_browser_blog_post %}
+  <h3 class="mx-auto text-white text-center">{{ _('Disabling Javascript: Please read the latest %s for more information.') |format(render_tor_browser_blog_post())| safe }}</h3>
+</div>
+
 <div class="row p-5">
   <a class="mx-auto text-white py-3 text-center" href="{{ 'languages'|url(alt=this.alt) }}"><u>{{ _('Download in another language or platform') }}</u></a>
   <a class="mx-auto text-white py-3 text-center" href="{{ 'alpha'|url(alt=this.alt) }}"><u>{{ _('Download the latest alpha build') }}</u></a>
