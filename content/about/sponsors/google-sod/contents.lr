@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: True
+active: False
 ---
-time: 2019
+time: 2019-2020
 ---
 name: Google Season of Docs
 ---
