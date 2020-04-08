@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Jim Newsome
+---
+pronoun: he
+---
+nickname: jnewsome
+---
+twitter_handle: sporksmith
+---
+gpg: /static/keys/jnewsome.txt
+---
+image: /static/images/people/jnewsome.png
+---
+description:
+
+Works on [Shadow](https://shadow.github.io/).
