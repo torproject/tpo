@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Dennis Jackson
+---
+nickname: dennis_jackson
+---
+pronoun: he
+---
+twitter_handle: dennis__jackson
+---
+gpg: /static/keys/dennisjackson.txt
+---
+image: /static/images/people/dennisjackson.png
+---
+description:
+
+Security & Performance Researcher
