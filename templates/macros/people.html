@@ -25,8 +25,8 @@
         {% if item.twitter_handle %}
           <a class="float-right py-4 px-2" href="https://twitter.com/{{ item.twitter_handle }}"><i class="fab fa-twitter-png-purple"></i></a>
         {% endif %}
-        {% if item.mastodon_handle %}
-            <a class="float-right py-4 px-2" href="https://mastodon.social/@{{ item.mastodon_handle }}"><i class="fab fa-mastodon-png-purple"></i></a>
+        {% if item.mastodon_url %}
+        <a class="float-right py-4 px-2" href="{{ item.mastodon_url }}"><i class="fab fa-mastodon-png-purple"></i></a>
         {% endif %}
         {% if item.gpg %}
           {% set link = site.get(item.gpg) %}
