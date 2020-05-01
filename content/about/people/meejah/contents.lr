@@ -14,7 +14,7 @@ gpg: https://meejah.ca/meejah.asc
 ---
 image: /static/images/people/meejah.png
 ---
-mastodon_handle: meejah
+mastodon_url: https://mastodon.social/@meejah
 ---
 description:
 
