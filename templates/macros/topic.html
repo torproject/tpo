@@ -8,7 +8,7 @@
   </h3>
   <div id="{{ t.control }}" role="tabpanel" data-parent="#topics" class="anchor-spacer">
     <div id="{{ t.control }}Accordion" data-children=".question">
-      <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.title }}</h5>
+      <h1 class="mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.title }}</h1>
       {% for q in site.query(item.path).include_undiscoverable(true) %}
         {{ render_question(q, item._id, alternative) }}
       {% endfor %}
