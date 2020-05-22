@@ -1,0 +1,11 @@
+section: What is new
+---
+template: layout.html
+---
+html: releases.html
+---
+color: primary
+---
+title: Tor Browser
+---
+body:
