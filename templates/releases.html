@@ -1,0 +1,14 @@
+
+<div class="row">
+
+  <div class="container py-3 mt-5 content">
+    <div class="col-sm-9">
+      {% for item in this.children %}
+        <div class="card w-100 p-3 my-3">
+          <a href="{{ item.path|url }}">{{ item.title }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

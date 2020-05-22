@@ -1,0 +1,52 @@
+section: What is new
+---
+template: layout.html
+---
+html: release.html
+---
+color: primary
+---
+title: Tor Browser 9.5
+---
+body:
+
+Tor Browser 9.5a12 is now available from the Tor Browser Alpha download page and also from our distribution directory.
+
+Note: This is an alpha release, an experimental version for users who want to help us test new features. For everyone else, we recommend downloading the latest stable release instead.This release updates Firefox to 68.8.0esr, NoScript to 11.0.25, OpenSSL to 1.1.1g, and Tor to 0.4.3.4-rc. In addition, the Android Tor Browser now includes Tor built using the reproducible build system.
+
+Also, this release features important security updates to Firefox.
+
+The full changelog since Tor Browser 9.5a11 is:
+
+    All Platforms
+        Update Firefox to 68.8.0esr
+        Bump NoScript to 11.0.25
+        Bump Tor to 0.4.3.4-rc
+        Translations update
+        Bug 31499: Update libevent to 2.1.11-stable
+            Bug 33877: Disable Samples and Regression tests For Libevent Build
+        Bug 33630: Remove noisebridge01 default bridge
+        Bug 33726: Fix patch for #23247: Communicating security expectations for .onion
+        Bug 34017: Bump openssl version to 1.1.1g
+        Bug 33698: Update "About Tor Browser" links in Tor Browser
+     Windows + OS X + Linux
+        Update Tor Launcher to 0.2.21.6
+            Translations update
+        Bug 33576: Update pion-webrtc version to 2.2.3
+        Bug 32418: Allow updates to be disabled via an enterprise policy.
+        Bug 34032: Use Securedrop's Official https-everywhere ruleset
+     Windows
+        Bug 29614: Use SHA-256 algorithm for Windows timestamping
+     Android
+        Bug 33359: Use latest Version of TOPL and Remove Patches
+        Bug 33931: obfs4 bridges are used instead of meek if meek is selected in Tor Browser for Android alpha
+    Build System
+        All Platforms
+            Bug 32027: Bump Go to 1.13.10
+        Android
+            Bug 28765: LibEvent Build for Android
+            Bug 28766: Tor Build for Android
+            Bug 32993: Package Tor With Tor Android Service Project
+            Bug 33685: Add Support for Building zlib for Android
+        Windows
+            Bug 33802: --enable-secure-api is not supported anymore in mingw-w64
