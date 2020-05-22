@@ -1,0 +1,19 @@
+_model: sponsor
+---
+active: true
+---
+time: 2020
+---
+name: Mullvad VPN
+---
+key: 21
+---
+logo: /static/images/sponsors/Mullvad_logo.png
+---
+_hidden: yes
+---
+link: https://mullvad.net/en/
+---
+description:
+Mullvad is a VPN service that helps users keep their online activity, identity, and location private. 
+With a fundamental belief in privacy as a universal right, Mullvad's ultimate goal is to make Internet censorship and mass surveillance ineffective.
