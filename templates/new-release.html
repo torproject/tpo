@@ -2,9 +2,9 @@
 
   <div class="container py-3 mt-5 content">
     <div class="col-sm-9">
-      {% block body %}
-        {{ this.body }}
-      {% endblock %}
+      {% for item in this.children %}
+        <a href="{{ item.path|url }}">{{ item.title }}</a>
+      {% endfor %}
     </div>
     <div class="card mt-5">
       <ul class="list-group list-group-flush">
