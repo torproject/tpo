@@ -8,9 +8,7 @@ title: Tor Browser 9.5
 ---
 body:
 
-## Tor Browser 9.5 is now available from the Tor Browser download page and from our distribution directory. The Android version is also available from Google Play and should be available from F-Droid within the next day.
-
-This new Tor Browser release is focused on helping users understand onion services.
+## This new Tor Browser release is focused on helping users understand onion services.
 
 Tor's onion routing remains the best way to achieve end-to-end anonymous communication on the Internet. With onion services (.onion addresses), website administrators can provide their users with anonymous connections that are metadata-free or that hide metadata from any third party. Onion services are also one of the few censorship circumvention technologies that allow users to route around censorship while simultaneously protecting their privacy and identity.
 
@@ -21,6 +19,8 @@ For the first time, Tor Browser users will be able to opt-in for using onion sit
 **Onion Location**
 
 Website publishers now can advertise their onion service to Tor users by adding an HTTP header. When visiting a website that has both an .onion address and Onion Location enabled via Tor Browser, users will be prompted about the onion service version of the site and will be asked to opt-in to upgrade to the onion service on their first use.
+
+![Tor Browser 9.5 Onion Location](https://blog.torproject.org/sites/default/files/styles/full_width_retina/public/image/tor-browser_0_43_5_0.png)
 
 **Onion Authentication**
 
