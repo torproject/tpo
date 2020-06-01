@@ -1,0 +1,132 @@
+section: What is new
+---
+html: release.html
+---
+color: primary
+---
+title: Tor Browser 9.5
+---
+body:
+
+## Tor Browser 9.5 is now available from the Tor Browser download page and from our distribution directory. The Android version is also available from Google Play and should be available from F-Droid within the next day.
+
+This new Tor Browser release is focused on helping users understand onion services.
+
+Tor's onion routing remains the best way to achieve end-to-end anonymous communication on the Internet. With onion services (.onion addresses), website administrators can provide their users with anonymous connections that are metadata-free or that hide metadata from any third party. Onion services are also one of the few censorship circumvention technologies that allow users to route around censorship while simultaneously protecting their privacy and identity.
+
+For the first time, Tor Browser users will be able to opt-in for using onion sites automatically whenever the website makes them available. For years, some websites have invisibly used onion services with alternative services, and this continues to be an excellent choice. Now, there is also an option for websites that want their users to know about their onion service to  invite them to opt-in to use their .onion address.
+
+### What is new?
+
+**Onion Location**
+Website publishers now can advertise their onion service to Tor users by adding an HTTP header. When visiting a website that has both an .onion address and Onion Location enabled via Tor Browser, users will be prompted about the onion service version of the site and will be asked to opt-in to upgrade to the onion service on their first use.
+
+**Onion Authentication**
+Onion services administrators who want to add an extra layer of security to their website can now set a pair of keys for access control and authentication. Tor Browser users can save keys and manage them via about:preferences#privacy in the Onion Services Authentication section.
+
+**Improved URL Bar Security Indicators**
+Browsers traditionally rendered sites delivered via a secure transport protocol with a green lock icon. But in mid-2019, the formerly green lock icon became gray, intending to de-emphasize the default (safe) connection state and instead of putting more emphasis on broken or insecure connections. Major browsers as Firefox and Chrome understood that it is a benefit for the entire user base if they deploy familiar experiences for both users. We are following Firefox on this decision, and have we updated Tor Browser security indicators to make it easier for users to understand when they are visiting an non-secure website.
+
+**Error pages for onion services**
+Sometimes users have a hard time reaching onion sites. In previous version of Tor Browser, when there was an error connecting to an onion service, users received a standard Firefox error message, with no information about why they were unable to connect to the onion site.
+
+In this release, we have improved the way Tor Browser communicates with users about service-, client-, and network-side errors that might happpen when they are trying to visit an onion service. Tor Browser now displays a simplified diagram of the connection and shows where the error occured. We want these messages to be clear and informative without being overwhelming.
+
+**Onion Names**
+Because of cryptographic protections, onion service URLs are not easy for humans to remember (ie, torproject.org vs. expyuzz4wqqyqhjn.onion). This makes it hard for users to discover or return to an onion site. We found that organically, developers have approached this problem in different ways, mostly with solutions tailored for their service. Given that there is no solution that works perfectly for all our user groups, we also approached this problem from a broad angle. For this release, we partnered with the [Freedom of the Press Foundation](https://freedom.press/) and [HTTPS Everywhere](https://www.eff.org/https-everywhere) to develop the first proof-of-concept for human-memorable names for onion services addresses.
+
+**Known Issues**
+Tor Browser 9.5 comes with a number of known issues. The most important ones are:
+
+**Give Feedback**
+If you find a bug or have a suggestion for how we could improve this release, please let us know. Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
+
+**Full Changelog**
+The full changelog since Tor Browser 9.0.10 is:
+
+ * All Platforms
+   * Update Firefox to 68.9.0esr
+   * Update HTTPS-Everywhere to 2020.5.20
+   * Update NoScript to 11.0.26
+   * Update Tor to 0.4.3.5
+   * Translations update
+   * Bug 21549: Disable wasm for now until it is properly audited
+   * Bug 27268: Preferences clean-up in Torbutton code
+   * Bug 28745: Remove torbutton.js unused code
+   * Bug 28746: Remove torbutton isolation and fp prefs sync
+   * Bug 30237: Control port module improvements for v3 client authentication
+   * Bug 30786: Add th locale
+   * Bug 30787: Add lt locale
+   * Bug 30788: Add ms locale
+   * Bug 30851: Move default preferences to 000-tor-browser.js
+   * Bug 30888: move torbutton_util.js to modules/utils.js
+   * Bug 31134: Govern graphite again by security settings
+   * Bug 31395: Remove inline script in aboutTor.xhtml
+   * Bug 31499: Update libevent to 2.1.11-stable
+     * Bug 33877: Disable Samples and Regression tests For Libevent Build
+   * Bug 31573: Catch SessionStore.jsm exception
+   * Bug 32318: Backport Mozilla's fix for bug 1534339
+   * Bug 32414: Make Services.search.addEngine obey FPI
+   * Bug 32493: Disable MOZ_SERVICES_HEALTHREPORT
+   * Bug 32618: Backport fixes from Mozilla bugs 1467970 and 1590526
+   * Bug 33342: Avoid disconnect search addon error after removal
+   * Bug 33726: Fix patch for #23247: Communicating security expectations for .onion
+   * Bug 34157: Backport fix for Mozilla Bug 1511941
+ * Windows + OS X + Linux
+   * Update Tor Launcher to 0.2.21.8
+     * Translations update
+     * Bug 19757: Support on-disk storage of v3 client auth keys
+     * Bug 30237: Add v3 onion services client authentication prompt
+     * Bug 30786: Add th locale
+     * Bug 30787: Add lt locale
+     * Bug 30788: Add ms locale
+     * Bug 33514: non-en-US Tor Browser 9.5a6 won't start up
+   * Bug 19251: Show improved error pages for onion service errors
+   * Bug 19757: Support on-disk storage of v3 client auth keys
+   * Bug 21952: Implement Onion-Location
+   * Bug 27604: Fix broken Tor Browser after moving it to a different directory
+   * Bug 28005: Implement .onion alias urlbar rewrites
+   * Bug 30237: Improve TBB UI of hidden service client authorization
+   * Bug 32076: Upgrade to goptlib v1.1.0
+   * Bug 32220: Improve the letterboxing experience
+   * Bug 32418: Allow updates to be disabled via an enterprise policy.
+   * Bug 32470: Backport fix for bug 1590538
+   * Bug 32645: Update URL bar onion indicators
+   * Bug 32658: Create a new MAR signing key
+   * Bug 32674: Point the about:tor "Get involved" link to the community portal
+   * Bug 32767: Remove Disconnect search
+   * Bug 33698: Update "About Tor Browser" links in Tor Browser
+   * Bug 33707: Swap out onion icon in circuit display with new one
+   * Bug 34032: Use Securedrop's Official https-everywhere ruleset
+   * Bug 34196: Update site info URL with the onion name
+   * Bug 34321: Add Learn More onboarding item
+ * Windows
+   * Bug 22919: Improve the random number generator for the boundaries in multipart/form-data
+   * Bug 29614: Use SHA-256 algorithm for Windows timestamping
+   * Bug 33113: Bump NSIS version to 3.05
+ * OS X
+   * Bug 32505: Tighten our rules in our entitlements file for macOS
+ * Linux
+   * Bug 34315: Avoid reading policies from /etc/firefox on Linux
+ * Android
+   * Bug 26529: Notify user about possible proxy-bypass before opening external app
+   * Bug 30767: Custom obfs4 bridge does not work on Tor Browser for Android
+   * Bug 32303: Obfs4 is broken on Android Q
+   * Bug 33359: Use latest Version of TOPL and Remove Patches
+   * Bug 33931: obfs4 bridges are used instead of meek if meek is selected in Tor Browser for Android alpha
+ * Build System
+   * All Platforms
+     * Go to 1.13.11
+     * Bug 33380: Add *.json to sha256sums-unsigned-build.txt
+   * Windows
+     * Bug 33802: --enable-secure-api is not supported anymore in mingw-w64
+   * Linux
+     * Bug 32976: Build and bundle geckodriver
+     * Bug 34242: Fix creation of Linux containers
+   * Android
+     * Bug 28765: LibEvent Build for Android
+     * Bug 28766: Tor Build for Android
+     * Bug 28803: Integrate building Pluggable Transports for Android
+     * Bug 30461: Clean up tor-android-service project
+     * Bug 32993: Package Tor With Tor Android Service Project
+     * Bug 33685: Add Support for Building zlib for Android
