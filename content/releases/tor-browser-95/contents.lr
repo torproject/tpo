@@ -23,6 +23,12 @@ Website publishers now can advertise their onion service to Tor users by adding 
 
 <img class="w-100" src="/static/images/tb95/onion-location-propublica@2x.png" alt="Tor Browser 9.5 Onion Location"/>
 
+----
+
+If you are a developer, learn [how to enable onion-location in your onion service.](https://community.torproject.org/onion-services/advanced/onion-location/)
+
+----
+
 
 **Onion Authentication**
 
@@ -34,6 +40,11 @@ Tor Browser users can save keys and manage them via about:preferences#privacy in
 
 <img class="w-100" src="/static/images/tb95/onion-auth2@2x.png" alt="Tor Browser 9.5 Onion Authentication"/>
 
+----
+
+If you are a developer, learn [how to secure your onion service using client auth.](https://community.torproject.org/onion-services/advanced/client-auth/)
+
+----
 
 **Improved URL Bar Security Indicators**
 
