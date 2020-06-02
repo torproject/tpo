@@ -18,21 +18,21 @@
 
             <div class="col-sm-3">
 
-              <div class="card-body h-100% w-50% text-center border">
+              <div class="card-body text-center border">
                   <h4 class="text-primary">{{ _("Do you need help?") }}</h4>
                   <i class="fas fa-life-ring h1 text-primary mx-auto"></i>
-                  <div class=" pt-2" style="text-align: center;">
+                  <div class="pt-2">
                     <p class="toc-entry toc-h2 nav-item mb-0" >{{ ("See our community FAQ's") }}</p>
-                    <a href="https://support.torproject.org" class="pt-1">{{ ("Visit Support") }}</a>
+                    <a href="https://support.torproject.org" target="_blank" class="pt-1">{{ ("Visit Support") }}</a>
                   </div>
               </div>
 
-              <div class="card-body h-100% w-50% text-center mt-4" style="background:#F2ECF4;">
+              <div class="card-body text-center mt-4" style="background:#F2ECF4;">
                   <h4 class="text-primary">{{ _("Get in Touch") }}</h4>
                   <i class="fas fa-comments h1 text-primary mx-auto"></i>
-                  <div class=" pt-2" style="text-align: center;">
+                  <div class=" pt-2">
                     <p class="toc-entry toc-h2 nav-item mb-0" >{{ ("Chat with us live!") }}</p>
-                    <a href="https://webchat.oftc.net/?channels=tor" class="pt-1">{{ ("Join us on IRC") }}</a>
+                    <a href="https://webchat.oftc.net/?channels=tor" target="_blank" class="pt-1">{{ ("Join us on IRC") }}</a>
                   </div>
               </div>
 
@@ -55,7 +55,7 @@
       </div>
     </div>
   </div>
-  
+
   {% if this.section == "Download" %}
     {% include 'footer-min.html' %}
   {% else %}
