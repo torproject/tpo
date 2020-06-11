@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: False
+active: true
 ---
-time: 2007-2014 and 2016-2017
+time: 2007-2014 and 2016-2017 and 2020
 ---
 name: Google Summer of Code
 ---
