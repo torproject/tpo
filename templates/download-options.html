@@ -49,6 +49,7 @@
             <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Google Play') }}</a>
           </td>
         </tr>
+        {% set t = bag('versions', 'torbrowser-android-alpha') %}
         {% from "macros/downloads.html" import render_android %}
         <tr>
           <td>
