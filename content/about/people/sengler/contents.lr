@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Steven Engler
+---
+pronoun: he
+---
+nickname: opara
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=A5426A7C41FF8BDE7D5A1A9D876AEB64B32BD902
+---
+description:
+
+Developer on the Shadow network simulator project.

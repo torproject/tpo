@@ -1,5 +1,5 @@
 {% macro render_windows(version, alt) %}
-  {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
   {% elif alt == 'es' %}
@@ -14,7 +14,7 @@
 {% endmacro %}
 
 {% macro render_windows_expert(version, win32) %}
-  {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
   {% set download_link_32 = download_prefix + 'tor-win32-' + win32 + '.zip' %}
   {% set sig_link_32 = download_link_32 + '.asc' %}
 
@@ -22,7 +22,7 @@
 {% endmacro %}
 
 {% macro render_mac(version, alt) %}
-  {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
   {% elif alt == 'es' %}
@@ -35,7 +35,7 @@
 {% endmacro %}
 
 {% macro render_linux(version, alt) %}
-  {% set download_prefix = 'https://www.torproject.org/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
   {% elif alt == 'es' %}
@@ -49,6 +49,13 @@
   <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
+{% macro render_android(version, arch) %}
+  {% set download_link = 'https://dist.torproject.org/torbrowser/' + version + '/' + 'tor-browser-' + version + '-android-' + arch + '-multi.apk' %}
+  {% set sig_link = download_link + '.asc' %}
+
+  <a href="{{ download_link }}">{{ arch }}</a> (<a href="{{ sig_link }}">sig</a>)
+{% endmacro %}
+
 {% macro render_fdroid() %}
   <small class="badge-pill badge-dark mx-1 nick">S00N</small>
 {% endmacro %}
@@ -59,4 +66,8 @@
 
 {% macro render_tor_browser_manual() %}
 <a class="mx-auto" href="https://tb-manual.torproject.org" target="_blank"><u>{{ _('Tor Browser manual') }}</u></a>
+{% endmacro %}
+
+{% macro render_tor_browser_blog_post() %}
+<a class="mx-auto" href="https://blog.torproject.org/new-release-tor-browser-906" target="_blank"><u>{{ _('blog post') }}</u></a>
 {% endmacro %}

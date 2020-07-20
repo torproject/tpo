@@ -1,11 +1,19 @@
 _model: sponsor
 ---
-active: False
+active: True
 ---
-time: 2007-2014 and 2016-2017
+time: 2007-2014 and 2016-2017 and 2020
 ---
 name: Google Summer of Code
 ---
+key: 22
+---
+logo: /static/images/sponsors/gsoc.png
+---
 _hidden: yes
 ---
-link: https://developers.google.com/open-source/gsoc/
+link: https://summerofcode.withgoogle.com/
+---
+description:
+
+Google Summer of Code is a global program focused on introducing students to open source software development. Students work on a 3 month programming project with an open source organization during their break from university.

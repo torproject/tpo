@@ -1,0 +1,21 @@
+_model: trademark
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+color: primary
+---
+html: trademark.html
+---
+title: Trademark
+---
+body:
+
+# General Statement of Trademark and Copyright
+
+Content on this site is Copyright The Tor Project, Inc.. Reproduction of content is permitted under a [Creative Commons Attribution 3.0 United States License](https://creativecommons.org/licenses/by/3.0/us/). All use under such license must be accompanied by a clear and prominent attribution that identifies The Tor Project, Inc. as the owner and originator of such content. The Tor Project Inc. reserves the right to change licenses and permissions at any time in its sole discretion.
+
+The Tor® software is licensed in various ways. Learn more about the [various licenses](https://support.torproject.org/about/distribute-tor/).

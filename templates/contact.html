@@ -8,10 +8,13 @@
       <h3 class="text-secondary display-5 mb-4"><i class="text-primary pr-2 fas fa-table-tennis-png"></i> {{ _('Chat with us on') }} {{ render_oftc() }}</h3>
       <p class="text-tpo"><span class="text-primary nick">#tor</span> - {{ _("Ask questions about using Tor.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-dev</span> - {{ _("Discuss Tor-related coding and protocols. Ideas are welcome.") }}</p>
-      <p class="text-tpo"><span class="text-primary nick">#tor-project</span> - {{ _("Discuss organization and community related topics: meetups, outreach, translation, or website improvements.") }}</p>
+      <p class="text-tpo"><span class="text-primary nick">#tor-l10n</span> - {{ _("Get in touch with other translators") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-meeting</span> - {{ _("Watch or join publicly logged team meetings.") }}</p>
+      <p class="text-tpo"><span class="text-primary nick">#tor-project</span> - {{ _("Discuss organization and community related topics: meetups and outreach.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-relays</span> - {{ _("Discuss running a Tor relay.") }}</p>
       <p class="text-tpo"><span class="text-primary nick">#tor-south</span> - {{ _("Talk with Tor's global south community.") }}</p>
+      <p class="text-tpo"><span class="text-primary nick">#tor-www</span> - {{ _("Talk with us about improvements on our websites.") }}</p>
+      <p class="text-tpo"><span class="text-primary nick">#tor-ux</span> - {{ _("Discuss UX related ideas.") }}</p>
     </div>
     <div class="d-block d-sm-none container py-3">
       <div class="row border-bottom border-light"><p></p></div>
@@ -35,7 +38,7 @@
   </div>
   <div class="row bg-dark justify-content-center p-3">
     <h4 class="text-white display-5">
-      <a class="text-white" href="https://2019.www.torproject.org/getinvolved/volunteer" target="_blank" title="{{ _('Get Involved') }}"><u>{{ _('Get Involved') }}</u></a>
+      <a class="text-white" href="https://community.torproject.org/" target="_blank" title="{{ _('Get Involved') }}"><u>{{ _('Get Involved') }}</u></a>
     </h4>
   </div>
 </div>
@@ -57,7 +60,7 @@
         <div class="oval-3 mt-3 p-2"><i class="text-primary fas fa-spider-png"></i></div>
       </div>
       <div class="row mt-3 mr-5">
-        <a class="h4 text-primary" href="https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback" target="_blank">{{ _('Report a bug or give feedback.') }}</a>
+        <a class="h4 text-primary" href="https://support.torproject.org/misc/bug-or-feedback/" target="_blank">{{ _('Report a bug or give feedback.') }}</a>
         <p class="text-tpo">{{ _('Tor relies on the support of users and volunteers around the world to help us improve our software and resources, so your feedback is extremely valuable to us (and to all Tor users).') }}</p>
       </div>
       <div class="row">
@@ -74,7 +77,7 @@
       </div>
       <div class="row mt-3 mr-5">
         <h4 class="text-primary">{{ _('Report a security issue.') }}</h4>
-        <p class="text-tpo">{{ _("If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org. If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:") }}</p>
+	<p class="text-tpo">{{ _("If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org. If you've found a security bug in Tor or Tor Browser, feel free to submit it for our") }} <a href="https://hackerone.com/torproject" target="_blank">{{ _('bug bounty program.') }}</a> {{ _("If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:") }}</p>
       </div>
       <div class="row mt-3 mr-5">
         <p class="nick text-primary">gpg --fingerprint tor-security@lists.torproject.org <br />
@@ -95,7 +98,7 @@
   <div class="row">
     <div class="col-md-8 p-0 pr-5">
       <h3 class="text-primary display-5">{{ _('Email us') }}</h3>
-      <p class="text-tpo">{{ _('For questions and comments about Tor the non-profit organization: trademark questions, affiliation and coordination, contract inquiries, etc, please email frontdesk@rt.torproject.org. For donor-related questions, contact giving@torproject.org') }}.</p>
+      <p class="text-tpo">{{ _('For questions and comments about Tor the non-profit organization: trademark questions, affiliation and coordination, contract inquiries, etc, please email frontdesk@torproject.org. For donor-related questions, contact giving@torproject.org') }}.</p>
     </div>
     <div class="d-block d-sm-none container py-3">
       <div class="row border-bottom border-light"><p></p></div>

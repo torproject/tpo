@@ -25,6 +25,9 @@
         {% if item.twitter_handle %}
           <a class="float-right py-4 px-2" href="https://twitter.com/{{ item.twitter_handle }}"><i class="fab fa-twitter-png-purple"></i></a>
         {% endif %}
+        {% if item.mastodon_url %}
+        <a class="float-right py-4 px-2" href="{{ item.mastodon_url }}"><i class="fab fa-mastodon-png-purple"></i></a>
+        {% endif %}
         {% if item.gpg %}
           {% set link = site.get(item.gpg) %}
           {% if link %}
@@ -41,7 +44,7 @@
         <h6 class="nick text-primary m-0"><a href="https://pronoun.is/{{ item.pronoun }}">pronoun.is/{{ item.pronoun }}</a></h6>
       {% endif %}
       {% if item.nickname %}
-        <label class="nick text-primary">IRC:{{ item.nickname }}</label>
+        <label class="nick text-primary">IRC: {{ item.nickname }}</label>
       {% endif %}
       {{ item.description }}
     </div>

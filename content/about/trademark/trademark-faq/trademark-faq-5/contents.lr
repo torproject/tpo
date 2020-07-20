@@ -1,0 +1,21 @@
+_model: question
+---
+title: Does this mean you're enforcing trademark rights?
+---
+_hidden: yes
+---
+seo_slug: enforcing-trademark-rights
+---
+description:
+The Tor Project is a non-profit corporation organized to research and develop the Tor anonymity software and network.
+We don't want to be trademark bullies, but we will use trademark to protect the public's ability to recognize Tor Project software.
+Trademark law helps us to assure that the name is used only in connection with genuine Tor anonymity software and for accurate description of software and services.
+After all, to protect their anonymity securely, computer users must be able to identify the software they are using, so they can account properly for its strengths and weaknesses.
+Tor has become well-known as a software package and associated network of onion-routing anonymizing proxies, with online documentation, instructions for strengthening anonymity protection, and warnings that even at this stage it remains experimental software.
+We work with developers to improve the software and network and actively encourage researchers to document attacks to help us strengthen its anonymity protection further.
+We distribute the software itself freely, but require correct attribution.
+
+We hold two trademarks in the United States:
+
+- Tor Onion Logo, U.S. Trademark Registration No. 3,465,433
+- Tor, U.S. Registration No. 3,465,432.

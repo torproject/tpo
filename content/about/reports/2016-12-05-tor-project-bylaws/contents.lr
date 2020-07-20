@@ -1,12 +1,12 @@
 _model: report
 ---
-type: report
+type: document
 ---
 date: 2016
 ---
-tags: AUDIT
+title: Tor Project Bylaws
 ---
-title: 2016-12-05 Tor Project Bylaws
+description: Amended and restated Bylaws for Tor Project, Inc.
 ---
 _hidden: yes
 ---

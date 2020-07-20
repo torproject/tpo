@@ -1,0 +1,6 @@
+{% from "macros/topic.html" import render_topic %}
+<div class="container py3">
+  {% for item in site.query('/about/trademark').include_hidden(true) %}
+    {{ render_topic(item, this.alt) }}
+  {% endfor %}
+</div>

@@ -1,5 +1,9 @@
-<div class="container py-3">
-  <div class="row border-bottom border-light"><p></p></div>
+<div class="container">
+  <div class="row border-bottom border-light">
+    <div class="alert content bg-warning p-3 mb-5 mx-auto text-lowercase">
+      {{ _('We need your help to keep Tor secure and safe for millions across the globe.') }}
+        <a href="/donate">{{ _('Donate Now') }}</a>
+  </div>
 </div>
 <div class="container py-3">
   <div class="row p-3">
@@ -9,16 +13,16 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <i class="text-primary pr-2 fas fa-paper-plane-png"></i>
+      <i class="h3 py-3 fas fa-paper-plane-png"></i>
       <h4><a href="https://newsletter.torproject.org">{{ _('Sign up for Tor News and get updates and opportunities from across the organization and community.') }}</a></h4>
     </div>
     <div class="col-md-4">
-      <i class="text-primary pr-2 fas fa-cube-png"></i>
-      <h4><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">{{ _('Run a relay to make the network faster and more decentralized.') }}</a></h4>
+      <i class="h3 py-3 fas fa-cube-png"></i>
+      <h4><a href="https://community.torproject.org/relay">{{ _('Run a relay to make the network faster and more decentralized.') }}</a></h4>
     </div>
     <div class="col-md-4">
-      <i class="text-primary pr-2 fas fa-hands-helping-png"></i>
-      <h4><a href="https://torproject.org/volunteer">{{ _('Use your skills to volunteer.') }}</a></h4>
+      <i class="h3 py-3 fas fa-hands-helping-png"></i>
+      <h4><a href="https://community.torproject.org/">{{ _('Use your skills to volunteer.') }}</a></h4>
     </div>
   </div>
 </div>

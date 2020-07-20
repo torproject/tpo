@@ -1,0 +1,83 @@
+section: What is new
+---
+_template: release.html
+---
+color: primary
+---
+title: Tor Browser 9.5
+---
+body:
+
+## This new Tor Browser release is focused on helping users understand onion services.
+
+
+Tor's onion routing remains the best way to achieve end-to-end anonymous communication on the Internet. With onion services (.onion addresses), website administrators can provide their users with anonymous connections that are metadata-free or that hide metadata from any third party. Onion services are also one of the few censorship circumvention technologies that allow users to route around censorship while simultaneously protecting their privacy and identity.
+
+For the first time, Tor Browser users will be able to opt-in for using onion sites automatically whenever the website makes them available. For years, some websites have invisibly used onion services with alternative services, and this continues to be an excellent choice. Now, there is also an option for websites that want their users to know about their onion service to  invite them to opt-in to use their .onion address.
+
+### What is new?
+
+**Onion Location**
+
+Website publishers now can advertise their onion service to Tor users by adding an HTTP header. When visiting a website that has both an .onion address and Onion Location enabled via Tor Browser, users will be prompted about the onion service version of the site and will be asked to opt-in to upgrade to the onion service on their first use.
+
+<img class="w-100" src="/static/images/tb95/onion-location-propublica@2x.png" alt="Tor Browser 9.5 Onion Location"/>
+
+----
+
+If you are a developer, learn [how to enable onion-location in your onion service.](https://community.torproject.org/onion-services/advanced/onion-location/)
+
+----
+
+
+**Onion Authentication**
+
+Onion services administrators who want to add an extra layer of security to their website can now set a pair of keys for access control and authentication.
+
+<img class="w-100" src="/static/images/tb95/onion-auth@2x.png" alt="Tor Browser 9.5 Onion Authentication"/>
+
+Tor Browser users can save keys and manage them via about:preferences#privacy in the Onion Services Authentication section.
+
+<img class="w-100" src="/static/images/tb95/onion-auth2@2x.png" alt="Tor Browser 9.5 Onion Authentication"/>
+
+----
+
+If you are a developer, learn [how to secure your onion service using client auth.](https://community.torproject.org/onion-services/advanced/client-auth/)
+
+----
+
+**Improved URL Bar Security Indicators**
+
+Browsers traditionally rendered sites delivered via a secure transport protocol with a green lock icon. But in mid-2019, the formerly green lock icon became gray, intending to de-emphasize the default (safe) connection state and instead of putting more emphasis on broken or insecure connections. Major browsers as Firefox and Chrome understood that it is a benefit for the entire user base if they deploy familiar experiences for both users. We are following Firefox on this decision, and have we updated Tor Browser security indicators to make it easier for users to understand when they are visiting an non-secure website.
+
+<img class="w-100" src="/static/images/tb95/onion-url-bar-update@2x.png" alt="Tor Browser 9.5 URL Bar Security Indicators"/>
+
+
+**Error pages for onion services**
+
+Sometimes users have a hard time reaching onion sites. In previous version of Tor Browser, when there was an error connecting to an onion service, users received a standard Firefox error message, with no information about why they were unable to connect to the onion site.
+
+In this release, we have improved the way Tor Browser communicates with users about service-, client-, and network-side errors that might happpen when they are trying to visit an onion service. Tor Browser now displays a simplified diagram of the connection and shows where the error occured. We want these messages to be clear and informative without being overwhelming.
+
+<img class="w-100" src="/static/images/tb95/onion-error@2x.png" alt="Tor Browser 9.5 Error Pages for Onionsites"/>
+
+
+**Onion Names**
+
+Because of cryptographic protections, onion service URLs are not easy for humans to remember (ie, https://torproject.org vs. http://expyuzz4wqqyqhjn.onion/). This makes it hard for users to discover or return to an onion site. We found that organically, developers have approached this problem in different ways, mostly with solutions tailored for their service. Given that there is no solution that works perfectly for all our user groups, we also approached this problem from a broad angle. For this release, we partnered with Freedom of the Press Foundation (FPF) and the Electronic Frontier Foundation's HTTPS Everywhere to develop the first proof-of-concept human-memorable names for SecureDrop onion services addresses:
+
+    The Intercept:
+        theintercept.securedrop.tor.onion
+        http://xpxduj55x2j27l2qytu2tcetykyfxbjbafin3x4i3ywddzphkbrd3jyd.onion
+    Lucy Parsons Labs:
+        lucyparsonslabs.securedrop.tor.onion
+        http://qn4qfeeslglmwxgb.onion
+
+Freedom of the Press Foundation has reached out to a small number of additional media organizations for participation, and Tor and FPF will jointly consider next steps based on feedback on this initial proof-of-concept.
+
+<img class="w-100" src="/static/images/tb95/onion-names@2x.png" alt="Tor Browser 9.5 Onion Names"/>
+
+
+**Give Feedback**
+
+If you find a bug or have a suggestion for how we could improve this release, please let us know. Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.

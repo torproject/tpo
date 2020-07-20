@@ -1,0 +1,91 @@
+_model: job
+---
+_template: about.html
+---
+active: False
+---
+section: about
+---
+section_id: about
+---
+color: primary
+---
+title: Shadow Simulation Developer
+---
+summary:
+
+The Tor Project is looking for a Shadow Simulation Developer!
+
+---
+description:
+
+## The Tor Project is looking for a Shadow Simulation Developer
+*October 18, 2019*
+
+We are seeking an experienced programmer to help us develop cutting-edge network simulation / emulation software.
+This person will be responsible for the implementation, documentation, and testing of software to support research into privacy-enhancing technologies.
+In particular, this person will be contributing to software that constructs large, realistic, high fidelity simulations of anonymity networks, allowing other researchers to run existing software (e.g., Tor) on top of a virtualized network.
+As such, this person should be comfortable working with established codebases (github.com/shadow) and incrementally improving them through modular design.
+
+The ideal candidate will have significant practical programming skills, specifically, expertise in parallel program design and development.
+
+For programming experience we seek a candidate with demonstrated ability to write correct, maintainable code in both Python and C.
+Experience with Rust, or a strong desire to learn to program in Rust, is preferred.
+In addition to high familiarity with parallel programming, the candidate will possess knowledge of the Linux operating system, networking, and algorithms at the BS level or higher.
+The candidate should be able to work both independently and as part of a small team, with strong communication skills and the ability to read and understand research papers and other technical documents.
+
+The person in this position will work as part of a small cross-organizational development team, along with another simulation developer working in Micah Sherr's SecurityLab at Georgetown University.
+Rob Jansen at the U.S. Naval Research Laboratory will oversee and lead the team, however, the person in this position is integrated into the Tor Project Community through working with its Network Team.
+
+The ideal candidate will be based in the Washington DC area (in which case we will try to get you a desk at Georgetown University).
+However, we will be considering remote candidates.
+
+This position has full-time funding for three years, with the possibility to continue in another role thereafter, depending on organizational finances.
+
+**Required Qualifications:**
+
+- Programming experience in Python and C.
+- Experience developing and running software in Linux.
+- Experience developing software using parallel programming models (multi-threading / multi-processing, shared memory, message passing).
+- Knowledge of networking: socket programming, TCP/IP, etc.
+- Experience interacting with users and other developers online, including experience being exposed to and discussing differing ideas and opinions, while maintaining a high level of respect and professionalism.
+- Comfort with transparency: as a non-profit organization who develops open source software, most of what we do is public.
+
+**Preferred qualifications:**
+
+- Familiarity with network simulation and/or emulation.
+- Familiarity with developing and scaling distributed systems.
+- Experience working with distributed (remote) teams across different time-zones with people of differing skill levels over multiple mediums, including email, instant messaging, and IRC.
+- Familiarity with or willingness/ability to learn the Rust programming language.
+- Open-source experience: contributed significant chunks of code to multiple open-source projects in the past.
+- Familiarity with distributed version control systems, including Git.
+- Genuinely be excited about Tor and its values!
+- Willingness and ability to travel internationally to twice-yearly team meetings (strongly preferred).
+
+**Key responsibilities include but are not limited to**
+
+- Software Development - software development, writing test cases, and coding review.
+- Evaluations - system evaluation, including performance.
+- Documentation - coding documentation, and assisting in preparing technical reports.
+
+Academic degrees are great, but not required if you have the right experience!
+
+Salary negotiable. We have a competitive benefits package, including a generous PTO policy; 14 paid holidays per year (US; including the week between Christmas and New Year's, when the office is closed); health, vision, dental, disability, and life insurance; flexible work schedule; and occasional travel opportunities.
+
+TO APPLY:
+
+Email *a single PDF* of your cover letter and resume/CV explaining how your qualifications and experience meet the requirements of this job description.
+Please include the reasons why you want to work at Tor Project, your salary expectations, and links to code samples (ideally, more than one and all of which we will presume you are authorized to disclose).
+
+Email should be sent to job-shadow-dev at torproject.org with "Shadow Simulation Developer" in the subject line.
+
+No phone calls, please!
+
+About the Organization:
+
+The Tor Project, Inc., is a 501(c)(3) organization headquartered in Seattle with paid staff and contractors of around 45 engineers and operational support people, plus many volunteers all over the world.
+Tor develops free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship.
+
+The Tor Project's mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.

@@ -1,0 +1,15 @@
+_model: topic
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+html: trademark.html
+---
+color: primary
+---
+title: Tor Trademark Frequently Asked Questions
+---
+seo_slug: tor-trademark-faqs

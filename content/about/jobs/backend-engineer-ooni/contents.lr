@@ -10,8 +10,10 @@ active: False
 ---
 title: Backend Engineer for OONI
 ---
+color: primary
+---
 summary:
-The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
+The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
 
 You will be working to improve OONI's data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
 
@@ -21,7 +23,7 @@ description:
 ## Backend Engineer for OONI
 *January 31, 2018*
 
-The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.torproject.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
+The Tor Project, Inc. is looking for a dedicated backend engineer to work on OONI (https://ooni.org/). OONI is the Open Observatory of Network Interference: a free and open source software, global observation network for detecting censorship, surveillance, and traffic manipulation on the internet.
 
 You will be working to improve OONI's data processing pipeline and other backend components responsible for recording measurements collected from our growing global user network. You will also be tasked with improving our network measurement methodologies and data analysis heuristics to increase the accuracy of our experiments.
 
