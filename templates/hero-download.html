@@ -10,7 +10,7 @@
       <div class="oval-2 bg-darker">
         {% set alt_l = alt %}
         {% set t = bag('versions', 'torbrowser-stable') %}
-        {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
+        {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + t.version + '/' %}
         {% if alt_l == 'en' %}
           {% set alt_l = 'en-US' %}
         {% elif alt_l == 'es' %}
