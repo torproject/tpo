@@ -1,5 +1,5 @@
 {% macro render_windows(version, alt) %}
-  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
   {% elif alt == 'es' %}
@@ -22,7 +22,7 @@
 {% endmacro %}
 
 {% macro render_mac(version, alt) %}
-  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
   {% elif alt == 'es' %}
@@ -35,7 +35,7 @@
 {% endmacro %}
 
 {% macro render_linux(version, alt) %}
-  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}
     {% set alt = 'en-US' %}
   {% elif alt == 'es' %}
