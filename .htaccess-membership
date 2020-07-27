@@ -1,5 +1,4 @@
 AuthType Basic
- AuthName "Secure Content"
- AuthUserFile .htpasswd
- require valid-user
- 
+AuthName "Secure Content"
+AuthUserFile .htpasswd
+require valid-user
