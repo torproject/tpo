@@ -16,4 +16,4 @@ image: /static/images/people/karsten.png
 ---
 description:
 
-Primary researcher and developer into [anonymous metrics](https://metrics.torproject.org/) which started as a National Science Foundation grant.
+Original author of [Tor Metrics](https://metrics.torproject.org/) and currently one of the main authors of [OnionPerf](https://gitlab.torproject.org/tpo/metrics/onionperf).
