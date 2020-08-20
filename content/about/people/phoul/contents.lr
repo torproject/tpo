@@ -6,6 +6,8 @@ role:core
 ---
 name: Colin Childs
 ---
+pronoun: he
+---
 nickname: phoul
 ---
 twitter_handle: phoul
@@ -16,5 +18,4 @@ image: /static/images/people/phoul.png
 ---
 description:
 
-Relay advocate, Outreachy mentor, and a member of the community team.
-He is also a director of the Canadian Torservers.net partner Coldhak.
+Relay advocate, Outreachy mentor, and a member of the community team. He is also a director of the Canadian Torservers.net partner Coldhak.
