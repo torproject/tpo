@@ -36,5 +36,9 @@ body:
 "10.0a5",
 "10.0a5-MacOS",
 "10.0a5-Linux",
-"10.0a5-Windows"
+"10.0a5-Windows",
+"10.0a6",
+"10.0a6-MacOS",
+"10.0a6-Linux",
+"10.0a6-Windows"
 ]
