@@ -12,8 +12,7 @@ or browse it [online](http://gitweb.torproject.org/project/web/tpo.git).
 
 ## How to report bugs or feedback
 
-First check if your issue wasn't already opened in [dip.torproject.org](https://dip.torproject.org/web/tpo/issues), then file a [trac ticket](https://trac.torproject.org/projects/tor/newticket) and choose the component: Webpages/Website.
-
+First, check if the bug is already known. You can search and read all the issues at https://gitlab.torproject.org/. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
 
 ## What is Lektor
 
@@ -51,7 +50,7 @@ To just build the website once: ```$ lektor build -O <folder>```
 
 #### How to develop on the website
 
-Check our [wiki pages](https://dip.torproject.org/web/community/wikis/How-to-develop-on-the-website).
+Check our [wiki pages](https://gitlab.torproject.org/web/community/wikis/How-to-develop-on-the-website).
 
 ### Translations
 
