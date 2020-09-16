@@ -20,5 +20,9 @@ body:
 "10.0a6",
 "10.0a6-MacOS",
 "10.0a6-Linux",
-"10.0a6-Windows"
+"10.0a6-Windows",
+"10.0a7",
+"10.0a7-MacOS",
+"10.0a7-Linux",
+"10.0a7-Windows"
 ]
