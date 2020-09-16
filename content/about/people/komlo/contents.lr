@@ -2,18 +2,14 @@ _model: person
 ---
 _hidden: yes
 ---
-role:core
+role: board
 ---
 name: Chelsea Komlo
 ---
+title: Director
+---
 nickname: komlo
----
-twitter_handle: chelseakomlo
----
-gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8B58FBCA50A4900BA3C5FE841138332F98B52EE7
----
-image: /static/images/people/komlo.png
 ---
 description:
 
-Chelsea is a software/security engineer and contributes to core tor.
+Chelsea Komlo is a cryptography and privacy researcher and engineer, and has been a technical contributor to Tor since 2016. Chelsea has nearly a decade of engineering experience and is a lead author on several cryptographic designs ranging from multi-party signature schemes to post-quantum primitives with applications to secure messaging. She has experience working on technical teams around the world on both enterprise and open-source projects. She currently is completing her Ph.D at the University of Waterloo in the Cryptography, Security, and Privacy Lab, and is a Principal Technical Advisor and Researcher for the Zcash Foundation. Chelsea also serves as a member of the Tor Research Safety Board.

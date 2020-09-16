@@ -2,11 +2,11 @@ _model: person
 ---
 _hidden: yes
 ---
-role:board
+role: board
 ---
 name: Julius Mittenzwei
 ---
-twitter_handle: mittenzwei
+title: Director
 ---
 nickname: julius
 ---

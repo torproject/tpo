@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Rabbi Rob Thomas
+---
+nickname: rabbi-rob-thomas
+---
+gpg: /static/keys/robt.txt
+---
+image: /static/images/people/robt.png
+---
+description:
+
+CEO of Team Cymru, which supports Tor through hosting, research, and infosec assistance.

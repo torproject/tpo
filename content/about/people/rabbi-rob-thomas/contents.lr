@@ -2,16 +2,14 @@ _model: person
 ---
 _hidden: yes
 ---
-role:core
+role: board
 ---
 name: Rabbi Rob Thomas
 ---
+title: Director
+---
 nickname: rabbi-rob-thomas
----
-gpg: /static/keys/robt.txt
----
-image: /static/images/people/robt.png
 ---
 description:
 
-CEO of Team Cymru, which supports Tor through hosting, research, and infosec assistance.
+Rabbi Rob Thomas is the founder and CEO of Team Cymru.  Rabbi Rob has been a Unix kernel developer, ISP backbone engineer, security architect, and an adjunct professor.  Rabbi Rob took his first C programming class at age 12, and has been addicted to technology ever since.  Rabbi Rob and Team Cymru are long-time fans and supporters of the Tor Project, and provide infrastructure services to the project.  Rabbi Rob and Team Cymru are rabidly devoted to community services, and are proud to support the great work of the Tor Project and the freedoms its technology enables.
