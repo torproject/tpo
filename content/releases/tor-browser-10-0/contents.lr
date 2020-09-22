@@ -4,7 +4,7 @@ _template: release.html
 ---
 color: primary
 ---
-title: Tor Browser 10.0
+title: Tor Browser 10
 ---
 body:
 
@@ -23,4 +23,4 @@ This new Tor Browser release is focused on stabling Tor Browser based on a [new 
 
 **Give Feedback**
 
-If you find a bug or have a suggestion for how we could improve this release, please let us know. Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
+If you find a bug or have a suggestion for how we could improve this release, [please let us know](https://support.torproject.org/misc/bug-or-feedback/). Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
