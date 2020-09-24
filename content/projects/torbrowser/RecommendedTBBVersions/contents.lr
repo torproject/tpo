@@ -5,10 +5,6 @@ _template: empty.html
 body:
 
 [
-"9.5.3",
-"9.5.3-MacOS",
-"9.5.3-Linux",
-"9.5.3-Windows",
 "9.5.4",
 "9.5.4-MacOS",
 "9.5.4-Linux",
@@ -17,14 +13,6 @@ body:
 "10.0-MacOS",
 "10.0-Linux",
 "10.0-Windows",
-"10.0a5",
-"10.0a5-MacOS",
-"10.0a5-Linux",
-"10.0a5-Windows",
-"10.0a6",
-"10.0a6-MacOS",
-"10.0a6-Linux",
-"10.0a6-Windows",
 "10.0a7",
 "10.0a7-MacOS",
 "10.0a7-Linux",
