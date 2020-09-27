@@ -70,10 +70,6 @@ RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=302,L]
 # Press
 RewriteRule ^press/press(.*) /press [R=302,L]
 
-# Donation campaign
-# 2019
-RewriteRule ^donate(.*) https://donate.torproject.org [R=302,L]
-
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/people$1 [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
@@ -100,12 +96,9 @@ RewriteRule ^eff/(.*) https://2019.www.torproject.org/eff/$1 [R=302,L]
 # Videos
 RewriteRule ^videos/(.*) https://2019.www.torproject.org/videos/$1 [R=302,L]
 
-
 # Donation campaign
 # 2017
 # Special-case the donate-options and amazon page so it doesn't get redirected
-RewriteRule ^donate/donate-options(.*) https://2019.www.torproject.org/donate/donate-options$1 [END]
-RewriteRule ^donate/donate-amazon(.*) https://2019.www.torproject.org/donate/donate-amazon$1 [END]
 RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
 RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq [R=302,L]
 RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy [R=302,L]
@@ -116,3 +109,58 @@ RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 # some external resources (the donate infrastructure in particular) and
 # getting it changed there is apparently hard or something.
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
+
+# Donation campaign
+# 2020
+RewriteRule ^donate/donate-usetor-bp1(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-twitter-en(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-ann-usetor-tw(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-ann-usetor-tw-en(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-ann-usetor-fb(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-blog(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-hrd-usetor-tw(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-hp1(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-fb(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-md(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-tw(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-twitter(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usertor-ld(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-ig(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-tn1(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-yt(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-em1(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-gp(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/en(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/ru(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/es(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-download(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-amazon(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-button(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-foot(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-options(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-button(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-en-US(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-ru(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-de(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-fr(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-zh-CN(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-es-ES(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-ja(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-it(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-pt-BR(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-tr(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-ar(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-pl(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-mobile-default(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-mobile-(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb2/donate/donate-usetor-mobile-(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-mobile-ru(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb4(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb5(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb6(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb7(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb8(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb9(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tba-tb10(.*) https://donate.torproject.org/ [R=302,L]
