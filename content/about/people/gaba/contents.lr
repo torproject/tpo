@@ -10,7 +10,7 @@ nickname: gaba
 ---
 pronoun: she
 ---
-gpg: https://pgp.mit.edu/pks/lookup?op=vindex&search=0x180DB06C59CABD19
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=EE3FDF5CAD91643C21BE8370180DB06C59CABD19
 ---
 image: /static/images/people/gaba.png
 ---
