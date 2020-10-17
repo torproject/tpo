@@ -1,12 +1,12 @@
 {% if not this.color %}
 <div class="container-fluid bg-primary">
-  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2 pr-5">
 {% elif this.color == 'primary' %}
 <div class="container-fluid bg-primary">
-  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2 pr-5">
 {% else %}
 <div class="container-fluid bg-dark">
-  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-dark p-2 d-flex justify-content-between">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-dark p-2 pr-5 d-flex justify-content-between">
 {% endif %}
   <div>
     <div class="row">
@@ -25,7 +25,7 @@
   </div>
     {% set alts = bag('alternatives').items() %}
     {% if alts|length > 1 %}
-      <div class="btn-group dropdown float-right">
+      <div class="btn-group dropdown float-right mr-5">
         {% if not this.color %}
           <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% elif this.color == 'primary' %}
