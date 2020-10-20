@@ -30,8 +30,8 @@
           <i class="text-light fab fa-{{ id }}-png"></i>
         </a>
         <a class="btn btn-primary mt-4" href="{{ download_link }}">{{ _('Download for') }} {{ item.label }}</a>
-        <a class="link" href="{{ sig_link }}"><span class="tooltip show"><span class="nick text-white">{{ _('Signature') }}</span><span class="tooltip-text">Right-click to download</span></span></a>
-        <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/tbb/how-to-verify-signature/' }}" target="_blank"><i style="font-size:10px;" class="text-light fas fa-question-circle"></i></a>
+        <a class="link" href="{{ sig_link }}" download><span class="nick text-white">{{ _('Signature') }}</span></a>
+        <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/tbb/how-to-verify-signature/' }}" target="_blank"><span class="tooltip show" style="display:inline;"><i style="font-size:10px;" class="text-light fas fa-question-circle"></i><span class="tooltip-text">How to verify signature</span></span></a>
       </div>
     </div>
     {% endfor %}
