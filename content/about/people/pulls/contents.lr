@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Tobias Pulls
+---
+pronoun: he
+---
+nickname: pulls
+---
+twitter_handle: tpulls
+---
+description:
+
+Senior Lecturer at [Karlstad University](https://www.kau.se/en), Sweden. Recovering applied crypto researcher, currently fighting neural nets.
