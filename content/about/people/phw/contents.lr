@@ -16,4 +16,4 @@ image: /static/images/people/phw.png
 ---
 description:
 
-Maintains [exitmap](https://gitweb.torproject.org/user/phw/exitmap.git/) and [sybilhunter](https://gitweb.torproject.org/user/phw/sybilhunter.git/), works on [bad relay detection](https://trac.torproject.org/projects/tor/wiki/doc/ReportingBadRelays), and does [security and privacy research](https://nymity.ch/papers.html).
+Anti-censorship team lead.
