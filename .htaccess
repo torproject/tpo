@@ -173,3 +173,4 @@ RewriteRule ^donate/donate-usetor-ld-fot(.*) https://donate.torproject.org/ [R=3
 RewriteRule ^donate/donate-usetor-ig-fot(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-usetor-md-fot(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-usetor-em-fot(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-tn-fot(.*) https://donate.torproject.org/ [R=302,L]
