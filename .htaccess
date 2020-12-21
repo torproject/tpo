@@ -183,3 +183,12 @@ RewriteRule ^donate/donate-usetor-ig-ny(.*) https://donate.torproject.org/ [R=30
 RewriteRule ^donate/donate-usetor-md-ny(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-usetor-em-ny(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-usetor-tn-ny(.*) https://donate.torproject.org/ [R=302,L]
+# last chance
+RewriteRule ^donate/donate-usetor-tw-lc(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-fb-lc(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-ld-lc(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-ig-lc(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-md-lc(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-em-lc(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-usetor-tn-lc(.*) https://donate.torproject.org/ [R=302,L]
+#
