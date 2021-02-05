@@ -28,12 +28,6 @@ description:
 
 *February 4, 2021*
 
-The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Data Architect to take our metrics work to the next level.
-
-Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. Racial minorities, non-gender-binary people, women, and people from any group that is generally underrepresented in tech are encouraged to apply.
-
-This is a full-time remote position.
-
 ### The team
 
 Historically our Metrics Team has been collecting data since 2004 to help improve the tools we build and learn more about the Tor network. For example, we monitor the number of relays and clients in the network, their respective capabilities, the number of clients connecting via bridges, fluctuations in network speed, etc. Gathering this data results in huge data archives, so we are also working to develop tools to process this data and make it available to everyone.
