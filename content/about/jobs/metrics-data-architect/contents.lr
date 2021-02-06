@@ -40,7 +40,7 @@ How we achieve our goals:
 
 The most interesting challenge for metrics collection at Tor is how to gather data on an anonymity system without de-anonymizing users.
 
-We are integrating the metrics team with a new network health team that will be also focusing on taking care of the health of the Tor network. Additionally, Tor has just begin a large network performance improvement project that will vastly increase network utilization and client performance. There will be close interaction between this role and our performance effort, in the form of ensuring data is collected properly during deployment of new performance features and performance tuning. This will also include producing custom visualizations, doing analysis, and  comparisons between historical and current data.
+We are integrating the metrics team with a new network health team that will be also focusing on taking care of the health of the Tor network. Additionally, Tor has just begun a large network performance improvement project that will vastly increase network utilization and client performance. There will be close interaction between this role and our performance effort, in the form of ensuring data is collected properly during deployment of new performance features and performance tuning. This will also include producing custom visualizations, doing analysis, and  comparisons between historical and current data.
 
 ### The job
 
