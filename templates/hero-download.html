@@ -17,6 +17,8 @@
           {% set alt_l = 'es-ES' %}
         {% endif %}
         {% if id == 'windows' %}
+          {% set t = bag('versions', 'torbrowser-win-stable') %}
+          {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
           {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt_l + '.exe' %}
           {% set sig_link = download_link + '.asc' %}
         {% elif id == 'apple' %}
