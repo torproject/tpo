@@ -13,14 +13,20 @@ body:
 
 The new shiny Tor Browser 10 for Desktop is now available from the Tor Browser download page and also from our distribution directory!
 
-The Android version for Tor Browser 10 is under active development and we are supporting the current version until the new one is ready. We are informed by Mozilla of any issues they learn about affecting this version. We expect to release the new Tor Browser for Android based on Fenix in the following weeks.
+The Android version for Tor Browser 10 is under active development and we are supporting the current version until the new one is ready.
+We are informed by Mozilla of any issues they learn about affecting this version.
+We expect to release the new Tor Browser for Android based on Fenix in the following weeks.
 
-Tor Browser 10 ships with Firefox 78.3.0esr, updates NoScript to 11.0.44, and Tor to 0.4.4.5. This release includes important [security updates to Firefox](https://www.mozilla.org/en-US/security/advisories/mfsa2020-43/).
+Tor Browser 10 ships with Firefox 78.3.0esr, updates NoScript to 11.0.44, and Tor to 0.4.4.5.
+This release includes important [security updates to Firefox](https://www.mozilla.org/en-US/security/advisories/mfsa2020-43/).
 
-This new Tor Browser release is focused on stabling Tor Browser based on a [new extended support release](https://www.mozilla.org/en-US/firefox/enterprise/#overview) of Mozilla Firefox. Tor Browser 10.0 is the first stable release of the 10.0 series based on Firefox 78esr.
+This new Tor Browser release is focused on stabling Tor Browser based on a [new extended support release](https://www.mozilla.org/en-US/firefox/enterprise/#overview) of Mozilla Firefox.
+Tor Browser 10.0 is the first stable release of the 10.0 series based on Firefox 78esr.
 
-**Note:** Tor Browser 10.0 is the [final Tor Browser series](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40089) supporting CentOS 6. Beginning with the 10.5 series, CentOS 6 is not supported.
+**Note:** Tor Browser 10.0 is the [final Tor Browser series](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40089) supporting CentOS 6.
+Beginning with the 10.5 series, CentOS 6 is not supported.
 
 **Give Feedback**
 
-If you find a bug or have a suggestion for how we could improve this release, [please let us know](https://support.torproject.org/misc/bug-or-feedback/). Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
+If you find a bug or have a suggestion for how we could improve this release, [please let us know](https://support.torproject.org/misc/bug-or-feedback/).
+Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
