@@ -192,3 +192,20 @@ RewriteRule ^donate/donate-usetor-md-lc(.*) https://donate.torproject.org/ [R=30
 RewriteRule ^donate/donate-usetor-em-lc(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-usetor-tn-lc(.*) https://donate.torproject.org/ [R=302,L]
 #
+# Redirects for languages still not translated, and other language situations
+# forward requests in /en to the root folder
+RewriteRule ^(en-US|en)$ / [R=302,L]
+RewriteRule ^(en-US|en)/(.*) /$2 [R=302,L]
+#
+# forward requests in /en and /en-US to the root folder
+RewriteRule ^(en|en-US)$ / [R=302,L]
+RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
+#
+# Rewrites for languages that have a different mapping in the page than in TBB
+RewriteRule ^(es-ES|es-MX|es-CO|es-AR)(.*) /es$2 [R=302,L]
+#
+# Rewrites for languages that have a Tor Browser release
+# but don't have a community page
+# You can see them at https://dist.torproject.org/torbrowser/, pick the last alpha for the most languages
+# this languages are the translation priority for the website!
+RewriteRule ^(ar|bn|bn-BD|bn-IN|ga|ga-IE|cs|da|el|fa|ga|he|hu|id|ja|ko|lt|mk|ms|nb-NO|nl|pl|pt-PT|ro|sv-SE|th|vi|zh-TW)/(.*) /$2 [R=302,L]
