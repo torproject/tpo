@@ -25,6 +25,7 @@
           {% set download_link = download_prefix + 'TorBrowser-' + t.version + '-osx64' + '_' + alt_l + '.dmg' %}
           {% set sig_link = download_link + '.asc' %}
         {% else %}
+          {% set t = bag('versions', 'torbrowser-linux-stable') %}
           {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt_l + '.tar.xz' %}
           {% set sig_link = download_link + '.asc' %}
         {% endif %}
