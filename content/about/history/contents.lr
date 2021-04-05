@@ -12,7 +12,7 @@ title: History
 ---
 body:
 
-The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of "onion routing" began in the mid 1990s.
+The Tor Project, Inc, became a 501(c)(3) nonprofit in 2006, but the idea of "onion routing" began in the mid 1990s.
 
 **Just like Tor users, the developers, researchers, and founders who've made Tor possible are a diverse group of people. But all of the people who have been involved in Tor are united by a common belief: internet users should have private access to an uncensored web.**
 
@@ -29,7 +29,7 @@ From its inception in the 1990s, onion routing was conceived to rely on a decent
 That's why in October 2002 when the Tor network was initially deployed, its code was released under a free and open software license.
 By the end of 2003, the network had about a dozen volunteer nodes, mostly in the U.S., plus one in Germany.
 
-Recognizing the benefit of Tor to digital rights, the [Electronic Frontier Foundation (EFF)](https://www.eff.org/) began funding Roger's and Nick's work on Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)3 nonprofit organization, was founded to maintain Tor's development.
+Recognizing the benefit of Tor to digital rights, the [Electronic Frontier Foundation (EFF)](https://www.eff.org/) began funding Roger's and Nick's work on Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)(3) nonprofit organization, was founded to maintain Tor's development.
 
 In 2007, the organization began developing bridges to the Tor network to address censorship, such as the need to get around government firewalls, in order for its users to access the open web.
 
