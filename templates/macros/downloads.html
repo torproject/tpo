@@ -10,12 +10,25 @@
   {% set sig_link_64 = download_link_64 + '.asc' %}
   {% set sig_link_32 = download_link_32 + '.asc' %}
 
+{% macro render_windows(version, alt) %}
+  {% set download_prefix = '/download/latest/' + version + '/' %}
+  {% if alt == 'en' %}
+    {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
+  {% endif %}
+  {% set download_link_64 = download_prefix + 'win64-' + version + '_' + alt + '.exe' %}
+  {% set download_link_32 = download_prefix + 'win32' + version + '_' + alt + '.exe' %}
+  {% set sig_link_64 = download_link_64 + '.asc' %}
+  {% set sig_link_32 = download_link_32 + '.asc' %}
+
+
   <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
 {% macro render_windows_expert(version, win32) %}
-  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
-  {% set download_link_32 = download_prefix + 'tor-win32-' + win32 + '.zip' %}
+  {% set download_prefix = '/download/latest/' + version + '/' %}
+  {% set download_link_32 = download_prefix + 'win32-' + win32 + '.zip' %}
   {% set sig_link_32 = download_link_32 + '.asc' %}
 
   <a class="downloadLink" href="{{ download_link_32 }}">Download</a> (<a href="{{ sig_link_32 }}">sig</a>)
@@ -31,6 +44,17 @@
   {% set download_link = download_prefix + 'TorBrowser-' + version + '-osx64' + '_' + alt + '.dmg' %}
   {% set sig_link = download_link + '.asc' %}
 
+    {% macro render_mac(version, alt) %}
+  {% set download_prefix = '/download/latest/' + version + '/' %}
+  {% if alt == 'en' %}
+    {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
+  {% endif %}
+  {% set download_link = download_prefix + 'TorBrowser-' + version + '-osx64' + '_' + alt + '.dmg' %}
+  {% set sig_link = download_link + '.asc' %}
+
+    
   <a class="downloadLink" href="{{ download_link }}">64-bit</a> (<a href="{{ sig_link }}">sig</a>)
 {% endmacro %}
 
@@ -46,6 +70,19 @@
   {% set sig_link_64 = download_link_64 + '.asc' %}
   {% set sig_link_32 = download_link_32 + '.asc' %}
 
+    {% macro render_linux(version, alt) %}
+  {% set download_prefix = '/download/latest/' + version + '/' %}
+  {% if alt == 'en' %}
+    {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
+  {% endif %}
+  {% set download_link_64 = download_prefix + 'linux64-' + version + '_' + alt + '.tar.xz' %}
+  {% set download_link_32 = download_prefix + 'linux32-' + version + '_' + alt + '.tar.xz' %}
+  {% set sig_link_64 = download_link_64 + '.asc' %}
+  {% set sig_link_32 = download_link_32 + '.asc' %}
+
+    
   <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
