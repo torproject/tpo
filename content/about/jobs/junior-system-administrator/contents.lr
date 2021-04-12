@@ -16,9 +16,9 @@ summary:
 
 Internet Freedom Nonprofit Seeks a Junior Systems Administrator
 
-The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Junior System Administrator to work on the sysadmin team and help with internal websites and tools.
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Junior System Administrator to work on the sysadmin team and help with internal websites and tools.
 
-This Junior Systems Administrator 2021will work as part of a small team responsible for managing the torproject.org servers, which, in turn, allow the Tor Project to create the software we know and love. Work is both synchronous and asynchronous, coordinated over email, IRC, and some voice meetings (over Mumble or Big Blue Button). A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+This Junior Systems Administrator 2021 will work as part of a small team responsible for managing the torproject.org servers, which, in turn, allow the Tor Project to create the software we know and love. Work is both synchronous and asynchronous, coordinated over email, IRC, and some voice meetings (over Mumble or Big Blue Button). A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
 
 This is a full-time, remote position.
 ---
@@ -43,7 +43,7 @@ Required skills:
 - Familiarity with the principles and practice of system configuration management using modern declarative tools
 - Familiarity with Git, "forges" (GitLab, GitHub), and "merge-request" based workflows, experience with ticketing systems like RT or GitLab issues
 - Ability to manage an OpenPGP private/public keypair, verify OpenPGP public keys, and manage SSH private keys securely
-- Familiarity with the Python programming language, or related
+- Familiarity with Python or similar programming languages
 
 Required background:
 
@@ -64,7 +64,7 @@ Desirable skills:
 
 To apply, submit a cover letter, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. In your cover letter, please include the reason you want to work at the Tor Project.
 
-IMPORTANT: Please email application materials in plain text or PDF format, if possible, to job-sysadmin at torproject dot org with “SYSTEM ADMINISTRATOR” in the subject line.
+IMPORTANT: Please email application materials in plain text or PDF format, if possible, to job-sysadmin at torproject dot org with "SYSTEM ADMINISTRATOR" in the subject line.
 
 Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds – people from all walks of life. We encourage applications from BIPOC, non-cis people, women, and from people in any group that is underrepresented in tech.
 
@@ -74,4 +74,4 @@ Salary for this position depends on experience and there is voluntary opt-in sal
 
 The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
 
-The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+The Tor Project, Inc. is an equal opportunity, affirmative action employer.
