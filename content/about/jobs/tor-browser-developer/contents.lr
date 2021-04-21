@@ -45,7 +45,7 @@ Our main codebases: Tor Browser is the combination of [multiple codebases](https
 
 ## Requirements -- Technical Abilities/Experience:
 
-- Advanced skills in writing C/C++, Rust and JavaScript.
+- Advanced skills in writing C++(11 or later) and JavaScript.
 - Possess a solid understanding of issues surrounding secure C++ programming and reference counted memory (at least to the level of avoiding issues).
 - Be comfortable diving into new, unfamiliar codebases, looking for ways to alter and augment their functionality in specific, goal-oriented ways.
 - Be familiar with web technologies and how the web works, especially the same-origin model and web tracking.
@@ -57,6 +57,7 @@ Our main codebases: Tor Browser is the combination of [multiple codebases](https
 ## Preferred qualifications:
 
 - Familiarity and/or experience with writing add-ons and/or patches for Mozilla Firefox or other web browsers.
+- Familiarity with writing C and Rust.
 - Familiarity with compiling software for the Android platform.
 - Familiarity with browser fingerprinting defenses
 - Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing.
