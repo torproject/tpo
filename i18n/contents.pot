@@ -1,0 +1,1867 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-23 04:39+CET\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: https://www.torproject.org/ (content/contents+en.lr:page.title)
+msgid "Anonymity Online"
+msgstr ""
+
+#: https://www.torproject.org/ (content/contents+en.lr:page.section)
+msgid "home"
+msgstr ""
+
+#: https://www.torproject.org/ (content/contents+en.lr:page.body)
+msgid "###### ABOUT US ######"
+msgstr ""
+
+#: https://www.torproject.org/ (content/contents+en.lr:page.body)
+msgid ""
+"We believe everyone should be able to explore the internet with privacy."
+msgstr ""
+
+#: https://www.torproject.org/ (content/contents+en.lr:page.body)
+msgid "We are the Tor Project, a 501(c)3 US nonprofit."
+msgstr ""
+
+#: https://www.torproject.org/ (content/contents+en.lr:page.body)
+msgid ""
+"We advance human rights and defend your privacy online through free software "
+"and open networks. [Meet our team](about/people)."
+msgstr ""
+
+#: https://www.torproject.org/contact/
+#: (content/contact/contents+en.lr:page.title)
+msgid "Contact"
+msgstr ""
+
+#: https://www.torproject.org/contact/
+#: (content/contact/contents+en.lr:page.section)
+#: https://www.torproject.org/thank-you/
+#: (content/thank-you/contents+en.lr:page.section)
+msgid "The Tor Project"
+msgstr ""
+
+#: https://www.torproject.org/contact/
+#: (content/contact/contents+en.lr:page.body)
+msgid "### Get Support"
+msgstr ""
+
+#: https://www.torproject.org/contact/
+#: (content/contact/contents+en.lr:page.body)
+msgid ""
+"Need help? Visit our [Support Portal](https://support.torproject.org) for "
+"answers to frequently asked questions about connecting to Tor, circumventing "
+"censorship, using onion services, and more."
+msgstr ""
+
+#: https://www.torproject.org/download/
+#: (content/download/contents+en.lr:page.title)
+#: (content/download/contents+en.lr:page.section)
+#: https://www.torproject.org/download/alpha/
+#: (content/download/alpha/contents+en.lr:page.section)
+#: https://www.torproject.org/download/languages/
+#: (content/download/languages/contents+en.lr:page.section)
+#: https://www.torproject.org/download/tor/
+#: (content/download/tor/contents+en.lr:page.section)
+msgid "Download"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.title)
+msgid "Sponsors"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.section)
+#: https://www.torproject.org/about/
+#: (content/about/contents+en.lr:page.section)
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.section)
+#: https://www.torproject.org/about/trademark/
+#: (content/about/trademark/contents+en.lr:trademark.section)
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.section)
+#: https://www.torproject.org/about/people/
+#: (content/about/people/contents+en.lr:people.section)
+#: https://www.torproject.org/about/sponsors/
+#: (content/about/sponsors/contents+en.lr:sponsors.section)
+#: https://www.torproject.org/about/reports/
+#: (content/about/reports/contents+en.lr:reports.section)
+#: https://www.torproject.org/about/membership/
+#: (content/about/membership/contents+en.lr:page.section)
+#: https://www.torproject.org/about/jobs/
+#: (content/about/jobs/contents+en.lr:jobs.section)
+msgid "About"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Documentation"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Press"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Support"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Jobs"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Blog"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Donate"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Donate Now"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Trademark"
+msgstr ""
+
+#: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+msgid "Community"
+msgstr ""
+
+#: https://www.torproject.org/releases/
+#: (content/releases/contents+en.lr:page.title)
+msgid "Releases"
+msgstr ""
+
+#: https://www.torproject.org/releases/
+#: (content/releases/contents+en.lr:page.section)
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.section)
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.section)
+msgid "What is new"
+msgstr ""
+
+#: https://www.torproject.org/thank-you/
+#: (content/thank-you/contents+en.lr:page.title)
+msgid "Success"
+msgstr ""
+
+#: https://www.torproject.org/thank-you/
+#: (content/thank-you/contents+en.lr:page.body)
+msgid "You're equipped to browse freely."
+msgstr ""
+
+#: https://www.torproject.org/thank-you/
+#: (content/thank-you/contents+en.lr:page.body)
+msgid "Tor is the strongest tool for privacy and freedom online."
+msgstr ""
+
+#: https://www.torproject.org/thank-you/
+#: (content/thank-you/contents+en.lr:page.body)
+msgid ""
+"It is free and open source software maintained by the Tor Project and a "
+"community of volunteers worldwide."
+msgstr ""
+
+#: https://www.torproject.org/about/ (content/about/contents+en.lr:page.title)
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.title)
+msgid "History"
+msgstr ""
+
+#: https://www.torproject.org/download/alpha/
+#: (content/download/alpha/contents+en.lr:page.title)
+msgid "Download Tor Browser Alpha"
+msgstr ""
+
+#: https://www.torproject.org/download/alpha/
+#: (content/download/alpha/contents+en.lr:page.body)
+msgid ""
+"Before we release a stable version of our software, we release an alpha "
+"version to test features and find bugs."
+msgstr ""
+
+#: https://www.torproject.org/download/alpha/
+#: (content/download/alpha/contents+en.lr:page.body)
+msgid ""
+"Please only download an alpha if you are okay with some things not working "
+"properly, want to help us find and [report bugs](https://support.torproject."
+"org/misc/bug-or-feedback/), and are not putting yourself at risk."
+msgstr ""
+
+#: https://www.torproject.org/download/languages/
+#: (content/download/languages/contents+en.lr:page.title)
+msgid "Download Tor Browser in your language"
+msgstr ""
+
+#: https://www.torproject.org/download/languages/
+#: (content/download/languages/contents+en.lr:page.body)
+msgid ""
+"We want everyone to be able to enjoy Tor Browser in their own language. Tor "
+"Browser is now available in 32 different languages, and we are working to "
+"add more. Want to help us translate? [See here](https://community.torproject."
+"org/localization/)"
+msgstr ""
+
+#: https://www.torproject.org/download/tor/
+#: (content/download/tor/contents+en.lr:page.title)
+msgid "Download Tor Source Code"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.title)
+msgid "Tor Browser 9.5"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"## This new Tor Browser release is focused on helping users understand onion "
+"services."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Tor's onion routing remains the best way to achieve end-to-end anonymous "
+"communication on the Internet."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"With onion services (.onion addresses), website administrators can provide "
+"their users with anonymous connections that are metadata-free or that hide "
+"metadata from any third party."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Onion services are also one of the few censorship circumvention technologies "
+"that allow users to route around censorship while simultaneously protecting "
+"their privacy and identity."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"For the first time, Tor Browser users will be able to opt-in for using onion "
+"sites automatically whenever the website makes them available."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"For years, some websites have invisibly used onion services with alternative "
+"services, and this continues to be an excellent choice."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Now, there is also an option for websites that want their users to know "
+"about their onion service to  invite them to opt-in to use their .onion "
+"address."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "### What is new?"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "**Onion Location**"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Website publishers now can advertise their onion service to Tor users by "
+"adding an HTTP header."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"When visiting a website that has both an .onion address and Onion Location "
+"enabled via Tor Browser, users will be prompted about the onion service "
+"version of the site and will be asked to opt-in to upgrade to the onion "
+"service on their first use."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"<img class=\"w-100\" src=\"/static/images/tb95/onion-location-propublica@2x."
+"png\" alt=\"Tor Browser 9.5 Onion Location\"/>"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "---"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"If you are a developer, learn [how to enable onion-location in your onion "
+"service.](https://community.torproject.org/onion-services/advanced/onion-"
+"location/)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "**Onion Authentication**"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Onion services administrators who want to add an extra layer of security to "
+"their website can now set a pair of keys for access control and "
+"authentication."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"<img class=\"w-100\" src=\"/static/images/tb95/onion-auth@2x.png\" alt=\"Tor "
+"Browser 9.5 Onion Authentication\"/>"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Tor Browser users can save keys and manage them via about:"
+"preferences#privacy in the Onion Services Authentication section."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"<img class=\"w-100\" src=\"/static/images/tb95/onion-auth2@2x.png\" alt="
+"\"Tor Browser 9.5 Onion Authentication\"/>"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"If you are a developer, learn [how to secure your onion service using client "
+"auth.](https://community.torproject.org/onion-services/advanced/client-auth/)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "**Improved URL Bar Security Indicators**"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Browsers traditionally rendered sites delivered via a secure transport "
+"protocol with a green lock icon."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"But in mid-2019, the formerly green lock icon became gray, intending to de-"
+"emphasize the default (safe) connection state and instead of putting more "
+"emphasis on broken or insecure connections."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Major browsers as Firefox and Chrome understood that it is a benefit for the "
+"entire user base if they deploy familiar experiences for both users."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"We are following Firefox on this decision, and have we updated Tor Browser "
+"security indicators to make it easier for users to understand when they are "
+"visiting an non-secure website."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"<img class=\"w-100\" src=\"/static/images/tb95/onion-url-bar-update@2x.png\" "
+"alt=\"Tor Browser 9.5 URL Bar Security Indicators\"/>"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "**Error pages for onion services**"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "Sometimes users have a hard time reaching onion sites."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"In previous version of Tor Browser, when there was an error connecting to an "
+"onion service, users received a standard Firefox error message, with no "
+"information about why they were unable to connect to the onion site."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"In this release, we have improved the way Tor Browser communicates with "
+"users about service-, client-, and network-side errors that might happpen "
+"when they are trying to visit an onion service."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Tor Browser now displays a simplified diagram of the connection and shows "
+"where the error occured."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"We want these messages to be clear and informative without being "
+"overwhelming."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"<img class=\"w-100\" src=\"/static/images/tb95/onion-error@2x.png\" alt="
+"\"Tor Browser 9.5 Error Pages for Onionsites\"/>"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "**Onion Names**"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Because of cryptographic protections, onion service URLs are not easy for "
+"humans to remember (ie, https://torproject.org vs. http://expyuzz4wqqyqhjn."
+"onion/)."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "This makes it hard for users to discover or return to an onion site."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"We found that organically, developers have approached this problem in "
+"different ways, mostly with solutions tailored for their service."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Given that there is no solution that works perfectly for all our user "
+"groups, we also approached this problem from a broad angle."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"For this release, we partnered with Freedom of the Press Foundation (FPF) "
+"and the Electronic Frontier Foundation's HTTPS Everywhere to develop the "
+"first proof-of-concept human-memorable names for SecureDrop onion services "
+"addresses:"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "The Intercept:"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "theintercept.securedrop.tor.onion"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "http://xpxduj55x2j27l2qytu2tcetykyfxbjbafin3x4i3ywddzphkbrd3jyd.onion"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "Lucy Parsons Labs:"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "lucyparsonslabs.securedrop.tor.onion"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid "http://qn4qfeeslglmwxgb.onion"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"Freedom of the Press Foundation has reached out to a small number of "
+"additional media organizations for participation, and Tor and FPF will "
+"jointly consider next steps based on feedback on this initial proof-of-"
+"concept."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"<img class=\"w-100\" src=\"/static/images/tb95/onion-names@2x.png\" alt="
+"\"Tor Browser 9.5 Onion Names\"/>"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid "**Give Feedback**"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+msgid ""
+"If you find a bug or have a suggestion for how we could improve this "
+"release, please let us know."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-95/
+#: (content/releases/tor-browser-95/contents+en.lr:page.body)
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"Thanks to all of the teams across Tor, and the many volunteers, who "
+"contributed to this release."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.title)
+msgid "Tor Browser 10"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid "## New Release: Tor Browser 10"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"The new shiny Tor Browser 10 for Desktop is now available from the Tor "
+"Browser download page and also from our distribution directory!"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"The Android version for Tor Browser 10 is under active development and we "
+"are supporting the current version until the new one is ready."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"We are informed by Mozilla of any issues they learn about affecting this "
+"version."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"We expect to release the new Tor Browser for Android based on Fenix in the "
+"following weeks."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"Tor Browser 10 ships with Firefox 78.3.0esr, updates NoScript to 11.0.44, "
+"and Tor to 0.4.4.5."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"This release includes important [security updates to Firefox](https://www."
+"mozilla.org/en-US/security/advisories/mfsa2020-43/)."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"This new Tor Browser release is focused on stabling Tor Browser based on a "
+"[new extended support release](https://www.mozilla.org/en-US/firefox/"
+"enterprise/#overview) of Mozilla Firefox."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"Tor Browser 10.0 is the first stable release of the 10.0 series based on "
+"Firefox 78esr."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"**Note:** Tor Browser 10.0 is the [final Tor Browser series](https://gitlab."
+"torproject.org/tpo/applications/tor-browser/-/issues/40089) supporting "
+"CentOS 6."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid "Beginning with the 10.5 series, CentOS 6 is not supported."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
+msgid ""
+"If you find a bug or have a suggestion for how we could improve this "
+"release, [please let us know](https://support.torproject.org/misc/bug-or-"
+"feedback/)."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.title)
+msgid "Cy Pres Awards"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "### Cy Pres Awards – Consumer Privacy and Privacy Online"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"_Cy pres_ awards are funds distributed as a part of class action lawsuit "
+"settlements in the United States. When the totality of the funds cannot be "
+"distributed to class members, they can be distributed to nonprofit, "
+"advocacy, and research groups that generally represent the class members. "
+"Consumer privacy _cy pres_ awards can help the Tor Project to educate "
+"individuals and organizations about how to retain their privacy online, "
+"advocate for privacy protections, and build important free, open source "
+"technologies that prioritize privacy."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "#### About the Tor Project"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"The Tor Project is a U.S.-based 501(c)3 nonprofit founded in 2006 with the "
+"mission of advancing human rights and freedoms by:"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"- Creating and deploying free and open anonymity and privacy technologies,"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "- Supporting their unrestricted availability and use, and"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "- Furthering their scientific and popular understanding."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"The Tor Project and its surrounding community develop and distribute some of "
+"the most popular and widely used free, open source privacy technologies: Tor "
+"Browser and the Tor network."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"Beyond developing technology, the organization helps people retain their "
+"privacy online. The Tor Project has educated thousands of activists, "
+"journalists, human rights defenders, librarians, consumers, and average "
+"internet users about how to protect and retain their privacy online."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"The Tor Project is recognized as a leading expert on privacy online, and is "
+"[often turned to by the media for information about how individuals and "
+"consumers can protect their privacy](https://www.torproject.org/press/)."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"In the past, the Tor Project has been the recipient of consumer privacy _cy "
+"pres_ awards through the Rose Foundation's Consumer Privacy grants. The "
+"organization has more than a decade of experience successfully delivering on "
+"projects with funders and partners as varied as the U.S. State Department – "
+"Bureau of Democracy, Human Rights, and Labor; National Science Foundation; "
+"Defense Advanced Research Projects Agency (DARPA); and the Media Democracy "
+"Fund."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "#### Contact the Tor Project about a Cy Pres Award"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"If you would like to speak to somebody at the Tor Project about whether or "
+"not the organization might be appropriate for a _cy pres_ award, please "
+"contact Sarah Stevenson, Fundraising Director, at [sstevenson@torproject.org]"
+"(mailto:sstevenson@torproject.org)."
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "#### Further Reading"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid "- [The Tor Project in the Media](https://www.torproject.org/press/)"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"- [The Tor Project Financial Reports](https://www.torproject.org/about/"
+"reports/)"
+msgstr ""
+
+#: https://www.torproject.org/about/cy-pres/
+#: (content/about/cy-pres/contents+en.lr:page.body)
+msgid ""
+"- [The Tor Project Board Members and Staff](https://www.torproject.org/about/"
+"people/)"
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of "
+"\"onion routing\" began in the mid 1990s."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"**Just like Tor users, the developers, researchers, and founders who've made "
+"Tor possible are a diverse group of people. But all of the people who have "
+"been involved in Tor are united by a common belief: internet users should "
+"have private access to an uncensored web.**"
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"In the 1990s, the lack of security on the internet and its ability to be "
+"used for tracking and surveillance was becoming clear, and in 1995, David "
+"Goldschlag, Mike Reed, and Paul Syverson at the U.S. Naval Research Lab "
+"(NRL) asked themselves if there was a way to create internet connections "
+"that don't reveal who is talking to whom, even to someone monitoring the "
+"network."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"Their answer was to create and deploy the first research designs and "
+"prototypes of onion routing."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"The goal of onion routing was to have a way to use the internet with as much "
+"privacy as possible, and the idea was to route traffic through multiple "
+"servers and encrypt it each step of the way."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid "This is still a simple explanation for how Tor works today."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"In the early 2000s, Roger Dingledine, a recent [Massachusetts Institute of "
+"Technology (MIT)](https://web.mit.edu/) graduate, began working on an NRL "
+"onion routing project with Paul Syverson."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"To distinguish this original work at NRL from other onion routing efforts "
+"that were starting to pop up elsewhere, Roger called the project Tor, which "
+"stood for The Onion Routing. Nick Mathewson, a classmate of Roger's at MIT, "
+"joined the project soon after."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"From its inception in the 1990s, onion routing was conceived to rely on a "
+"decentralized network. The network needed to be operated by entities with "
+"diverse interests and trust assumptions, and the software needed to be free "
+"and open to maximize transparency and separation."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"That's why in October 2002 when the Tor network was initially deployed, its "
+"code was released under a free and open software license."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"By the end of 2003, the network had about a dozen volunteer nodes, mostly in "
+"the U.S., plus one in Germany."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"Recognizing the benefit of Tor to digital rights, the [Electronic Frontier "
+"Foundation (EFF)](https://www.eff.org/) began funding Roger's and Nick's "
+"work on Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)3 nonprofit "
+"organization, was founded to maintain Tor's development."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"In 2007, the organization began developing bridges to the Tor network to "
+"address censorship, such as the need to get around government firewalls, in "
+"order for its users to access the open web."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"Tor began gaining popularity among activists and tech-savvy users interested "
+"in privacy, but it was still difficult for less-technically savvy people to "
+"use, so starting in 2005, development of tools beyond just the Tor proxy "
+"began."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"Development of Tor Browser began in [2008](https://lists.torproject.org/"
+"pipermail/tor-talk/2008-January/007837.html)."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"With Tor Browser having made Tor more accessible to everyday internet users "
+"and activists, Tor was an instrumental tool during the [Arab Spring](https://"
+"en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. It not only "
+"protected people's identity online but also allowed them to access critical "
+"resources, social media, and websites which were blocked."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"The need for tools safeguarding against mass surveillance became a "
+"mainstream concern thanks to the [Snowden revelations in 2013](https://www."
+"theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-"
+"revelations-decoded#section/1)."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"Not only was Tor instrumental to Snowden's whistleblowing, but content of "
+"the documents also upheld assurances that, at that time, [Tor could not be "
+"cracked](https://www.wired.com/story/the-grand-tor/)."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"People's awareness of tracking, surveillance, and censorship may have "
+"increased, but so has the prevalence of these hindrances to internet freedom."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"Today, the network has [thousands of relays](https://metrics.torproject.org) "
+"run by volunteers and millions of users worldwide. And it is this diversity "
+"that keeps Tor users safe."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"We, at the Tor Project, fight every day for everyone to have private access "
+"to an uncensored internet, and Tor has become the world's strongest tool for "
+"privacy and freedom online."
+msgstr ""
+
+#: https://www.torproject.org/about/history/
+#: (content/about/history/contents+en.lr:page.body)
+msgid ""
+"But Tor is more than just software. It is a labor of love produced by an "
+"international community of people devoted to human rights. The Tor Project "
+"is [deeply committed](https://blog.torproject.org/tor-social-contract) to "
+"transparency and the safety of its users."
+msgstr ""
+
+#: https://www.torproject.org/about/people/
+#: (content/about/people/contents+en.lr:people.title)
+msgid "People"
+msgstr ""
+
+#: https://www.torproject.org/about/people/
+#: (content/about/people/contents+en.lr:people.body)
+msgid ""
+"We are an international team who believes everyone should have private "
+"access to the uncensored web."
+msgstr ""
+
+#: https://www.torproject.org/about/sponsors/
+#: (content/about/sponsors/contents+en.lr:sponsors.body)
+msgid ""
+"Having a diverse user base means we have diverse funding sources, too. Our "
+"goal is to continue diversifying our funding. To inquire about sponsorship, "
+"please email giving(at)torproject.org."
+msgstr ""
+
+#: https://www.torproject.org/about/reports/
+#: (content/about/reports/contents+en.lr:reports.body)
+msgid ""
+"The Tor Project, Inc. is a US 501(c)(3) nonprofit organization committed to "
+"transparency in its work and reporting."
+msgstr ""
+
+#: https://www.torproject.org/about/membership/
+#: (content/about/membership/contents+en.lr:page.title)
+msgid "Membership"
+msgstr ""
+
+#: https://www.torproject.org/about/membership/
+#: (content/about/membership/contents+en.lr:page.body)
+msgid ""
+"Community has always been at the heart of Tor's strength. In this spirit, we "
+"created the Tor Project's Membership Program. Our goal is to build a "
+"supportive relationship between our nonprofit and private sector "
+"organizations that use our technology or want to support our mission."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tails/
+#: (content/press/new-release-tails/contents+en.lr:post.title)
+msgid "New Release: Tails 3.12"
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tails/
+#: (content/press/new-release-tails/contents+en.lr:post.summary)
+msgid ""
+"This release fixes many security vulnerabilities. You should upgrade as soon "
+"as possible."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tails/
+#: (content/press/new-release-tails/contents+en.lr:post.summary)
+msgid ""
+"The biggest news for 3.12 is that we completely changed the installation "
+"methods for Tails."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor/
+#: (content/press/new-release-tor/contents+en.lr:post.title)
+msgid "New Release: Tor 0.4.0.1-alpha"
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor/
+#: (content/press/new-release-tor/contents+en.lr:post.summary)
+msgid ""
+"There's a new alpha release available for download. If you build Tor from "
+"source, you can download the source code for 0.4.0.1-alpha from the usual "
+"place on the website."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor-browser/
+#: (content/press/new-release-tor-browser/contents+en.lr:post.title)
+msgid "New Release: Tor Browser 8.5a10"
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor-browser/
+#: (content/press/new-release-tor-browser/contents+en.lr:post.summary)
+msgid ""
+"Tor Browser 8.5a10 is now available from the <a href=\"https://www."
+"torproject.org/projects/torbrowser.html.en#downloads-alpha\">Tor Browser "
+"Project page</a> and also from our <a href=\"/dist/torbrowser/8.5a10/"
+"\">distribution directory</a>."
+msgstr ""
+
+#: https://www.torproject.org/about/trademark/trademark-faq/
+#: (content/about/trademark/trademark-faq/contents+en.lr:topic.title)
+msgid "Tor Trademark Frequently Asked Questions"
+msgstr ""
+
+#: lego/templates/banner.html:3 lego/templates/banner.html:5
+#: templates/banner.html:3 templates/banner.html:5
+msgid "Close banner"
+msgstr ""
+
+#: lego/templates/banner.html:11 templates/banner.html:11
+msgid "Use a Mask, Use Tor."
+msgstr ""
+
+#: lego/templates/banner.html:20 templates/banner.html:20
+msgid "Resist the surveillance pandemic."
+msgstr ""
+
+#: lego/templates/banner.html:32 templates/banner.html:32
+msgid "Your donation will be matched by Friends of Tor, up to $100,000."
+msgstr ""
+
+#: lego/templates/banner.html:40 templates/banner.html:40
+msgid "DONATE NOW"
+msgstr ""
+
+#: lego/templates/footer.html:13 lego/templates/footer.html:22
+#: lego/templates/navbar.html:83 templates/footer.html:13
+#: templates/footer.html:22 templates/hero-home.html:13
+#: templates/navbar.html:83
+msgid "Download Tor Browser"
+msgstr ""
+
+#: lego/templates/footer.html:14 templates/footer.html:14
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+
+#: lego/templates/footer.html:35 templates/footer-min.html:9
+#: templates/footer.html:35
+msgid "Our mission:"
+msgstr ""
+
+#: lego/templates/footer.html:36 templates/footer-min.html:10
+#: templates/footer.html:36
+msgid ""
+"To advance human rights and freedoms by creating and deploying free and open "
+"source anonymity and privacy technologies, supporting their unrestricted "
+"availability and use, and furthering their scientific and popular "
+"understanding."
+msgstr ""
+
+#: lego/templates/footer.html:75 templates/footer-min.html:46
+#: templates/footer.html:75
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: lego/templates/footer.html:76 templates/footer-min.html:47
+#: templates/footer.html:76
+msgid "Get monthly updates and opportunities from the Tor Project:"
+msgstr ""
+
+#: lego/templates/footer.html:77 templates/footer-min.html:48
+#: templates/footer.html:77
+msgid "Sign up"
+msgstr ""
+
+#: lego/templates/footer.html:98 templates/footer-min.html:67
+#: templates/footer.html:98
+#, python-format
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our %(link_to_faq)s"
+msgstr ""
+
+#: lego/templates/navbar.html:25 templates/navbar.html:25
+msgid "Menu"
+msgstr ""
+
+#: lego/templates/search.html:5 templates/search.html:5
+msgid "Search"
+msgstr ""
+
+#: lego/templates/secure-connections.html:1
+msgid ""
+"The following visualization shows what information is visible to "
+"eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+
+#: lego/templates/secure-connections.html:4
+msgid ""
+"Click the “Tor” button to see what data is visible to observers when you're "
+"using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+
+#: lego/templates/secure-connections.html:5
+msgid ""
+"Click the “HTTPS” button to see what data is visible to observers when "
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+
+#: lego/templates/secure-connections.html:6
+msgid ""
+"When both buttons are green, you see the data that is visible to observers "
+"when you are using both tools."
+msgstr ""
+
+#: lego/templates/secure-connections.html:7
+msgid ""
+"When both buttons are grey, you see the data that is visible to observers "
+"when you don't use either tool."
+msgstr ""
+
+#: lego/templates/secure-connections.html:11
+msgid "HTTPS"
+msgstr ""
+
+#: lego/templates/secure-connections.html:15
+#: lego/templates/secure-connections.html:65
+msgid "Tor"
+msgstr ""
+
+#: lego/templates/secure-connections.html:32
+msgid "POTENTIALLY VISIBLE DATA"
+msgstr ""
+
+#: lego/templates/secure-connections.html:37
+msgid "Site.com"
+msgstr ""
+
+#: lego/templates/secure-connections.html:40
+msgid "The site being visited."
+msgstr ""
+
+#: lego/templates/secure-connections.html:44
+msgid "user / pw"
+msgstr ""
+
+#: lego/templates/secure-connections.html:47
+msgid "Username and password used for authentication."
+msgstr ""
+
+#: lego/templates/secure-connections.html:51
+msgid "data"
+msgstr ""
+
+#: lego/templates/secure-connections.html:54
+msgid "Data being transmitted."
+msgstr ""
+
+#: lego/templates/secure-connections.html:58
+msgid "location"
+msgstr ""
+
+#: lego/templates/secure-connections.html:61
+msgid ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr ""
+
+#: lego/templates/secure-connections.html:68
+msgid "Whether or not Tor is being used."
+msgstr ""
+
+#: templates/contact.html:8
+msgid "Chat with us on"
+msgstr ""
+
+#: templates/contact.html:9
+msgid "Ask questions about using Tor."
+msgstr ""
+
+#: templates/contact.html:10
+msgid "Discuss Tor-related coding and protocols. Ideas are welcome."
+msgstr ""
+
+#: templates/contact.html:11
+msgid "Get in touch with other translators"
+msgstr ""
+
+#: templates/contact.html:12
+msgid "Watch or join publicly logged team meetings."
+msgstr ""
+
+#: templates/contact.html:13
+msgid ""
+"Discuss organization and community related topics: meetups and outreach."
+msgstr ""
+
+#: templates/contact.html:14
+msgid "Discuss running a Tor relay."
+msgstr ""
+
+#: templates/contact.html:15
+msgid "Talk with Tor's global south community."
+msgstr ""
+
+#: templates/contact.html:16
+msgid "Talk with us about improvements on our websites."
+msgstr ""
+
+#: templates/contact.html:17
+msgid "Discuss UX related ideas."
+msgstr ""
+
+#: templates/contact.html:23
+msgid "Find us on Social Media"
+msgstr ""
+
+#: templates/contact.html:37
+msgid "Volunteer with Tor"
+msgstr ""
+
+#: templates/contact.html:41
+msgid "Get Involved"
+msgstr ""
+
+#: templates/contact.html:47
+msgid "Join an email list"
+msgstr ""
+
+#: templates/contact.html:50
+msgid ""
+"Our teams collaborate in open channels, including email lists, you are "
+"welcome to join. If you have a question for a specific team not answered on "
+"our support portal, you can ask the appropriate list. You're welcome to "
+"subscribe and just watch, too :)"
+msgstr ""
+
+#: templates/contact.html:63
+msgid "Report a bug or give feedback."
+msgstr ""
+
+#: templates/contact.html:64
+msgid ""
+"Tor relies on the support of users and volunteers around the world to help "
+"us improve our software and resources, so your feedback is extremely "
+"valuable to us (and to all Tor users)."
+msgstr ""
+
+#: templates/contact.html:70
+msgid "Tell us about a bad relay."
+msgstr ""
+
+#: templates/contact.html:71
+msgid ""
+"If you find a relay that you think is malicious, misconfigured, or otherwise "
+"broken, please check out our wiki page and blog post on how to report it."
+msgstr ""
+
+#: templates/contact.html:79
+msgid "Report a security issue."
+msgstr ""
+
+#: templates/contact.html:80
+msgid ""
+"If you've found a security issue in one of our projects or in our "
+"infrastructure, please email tor-security@lists.torproject.org. If you've "
+"found a security bug in Tor or Tor Browser, feel free to submit it for our"
+msgstr ""
+
+#: templates/contact.html:80
+msgid "bug bounty program."
+msgstr ""
+
+#: templates/contact.html:80
+msgid ""
+"If you want to encrypt your mail, you can get the GPG public key for the "
+"list by contacting tor-security-sendkey@lists.torproject.org or from pool."
+"sks-keyservers.net. Here is the fingerprint:"
+msgstr ""
+
+#: templates/contact.html:100
+msgid "Email us"
+msgstr ""
+
+#: templates/contact.html:101
+msgid ""
+"For questions and comments about Tor the non-profit organization: trademark "
+"questions, affiliation and coordination, contract inquiries, etc, please "
+"email frontdesk@torproject.org. For donor-related questions, contact "
+"giving@torproject.org"
+msgstr ""
+
+#: templates/contact.html:107
+msgid "Send us Mail"
+msgstr ""
+
+#: templates/download-android.html:12
+msgid "Get Tor Browser for Android."
+msgstr ""
+
+#: templates/download-android.html:15 templates/hero-download.html:5
+msgid "Protect yourself against tracking, surveillance, and censorship."
+msgstr ""
+
+#: templates/download-android.html:20 templates/download-android.html:23
+#: templates/download-android.html:26 templates/download-android.html:29
+msgid "Download .apk"
+msgstr ""
+
+#: templates/download-android.html:21 templates/download-android.html:24
+#: templates/download-android.html:27 templates/download-android.html:30
+msgid "Sig"
+msgstr ""
+
+#: templates/download-android.html:32
+msgid "Go to Google Play"
+msgstr ""
+
+#: templates/download-android.html:34
+msgid "Go to F-Droid"
+msgstr ""
+
+#: templates/download-android.html:43
+msgid "Are you an iOS user? We encourage you to try Onion Browser."
+msgstr ""
+
+#: templates/download-languages.html:11 templates/download-options.html:11
+msgid "Language"
+msgstr ""
+
+#: templates/download-languages.html:12 templates/download-options.html:12
+msgid "Windows"
+msgstr ""
+
+#: templates/download-languages.html:13
+msgid "macOS"
+msgstr ""
+
+#: templates/download-languages.html:14 templates/download-options.html:14
+msgid "GNU/Linux"
+msgstr ""
+
+#: templates/download-options.html:13
+msgid "MacOS"
+msgstr ""
+
+#: templates/download-options.html:44
+msgid "Tor Browser for Android Alpha"
+msgstr ""
+
+#: templates/download-options.html:50
+msgid "Google Play"
+msgstr ""
+
+#: templates/download-tor.html:8
+msgid "Tor Source"
+msgstr ""
+
+#: templates/download-tor.html:12
+msgid "Version"
+msgstr ""
+
+#: templates/download-tor.html:27 templates/download-tor.html:33
+msgid "Changelog"
+msgstr ""
+
+#: templates/download-tor.html:28 templates/download-tor.html:34
+msgid "sig"
+msgstr ""
+
+#: templates/download-tor.html:41
+msgid "Windows Expert Bundle"
+msgstr ""
+
+#: templates/download-tor.html:46
+msgid "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE"
+msgstr ""
+
+#: templates/download-tor.html:47
+msgid "Contains just Tor and nothing else."
+msgstr ""
+
+#: templates/download.html:5
+msgid "Get Connected"
+msgstr ""
+
+#: templates/download.html:7
+msgid "Get connected"
+msgstr ""
+
+#: templates/download.html:9
+msgid ""
+"If you are in a country where Tor is blocked, you can configure Tor to "
+"connect to a bridge during the setup process."
+msgstr ""
+
+#: templates/download.html:10
+msgid "Select \"Tor is censored in my country.\""
+msgstr ""
+
+#: templates/download.html:13
+msgid ""
+"If Tor is not censored, one of the most common reasons Tor won't connect is "
+"an incorrect system clock. Please make sure it's set correctly."
+msgstr ""
+
+#: templates/download.html:14
+msgid "Support Portal"
+msgstr ""
+
+#: templates/download.html:14
+msgid "Read other FAQ's at our Support Portal"
+msgstr ""
+
+#: templates/download.html:19 templates/download.html:21
+msgid "Stay safe"
+msgstr ""
+
+#: templates/download.html:23
+msgid "Please do not torrent over Tor."
+msgstr ""
+
+#: templates/download.html:24
+msgid ""
+"Tor Browser will block browser plugins such as Flash, RealPlayer, QuickTime, "
+"and others: they can be manipulated into revealing your IP address."
+msgstr ""
+
+#: templates/download.html:27
+msgid ""
+"We do not recommend installing additional add-ons or plugins into Tor Browser"
+msgstr ""
+
+#: templates/download.html:28
+msgid ""
+"Plugins or addons may bypass Tor or compromise your privacy. Tor Browser "
+"already comes with HTTPS Everywhere, NoScript, and other patches to protect "
+"your privacy and security."
+msgstr ""
+
+#: templates/download.html:40
+#, python-format
+msgid "Check out the %s for more troubleshooting tips."
+msgstr ""
+
+#: templates/download.html:49
+msgid "How can I verify Tor Browser signature?"
+msgstr ""
+
+#: templates/download.html:54
+msgid "Stand up for privacy and freedom online."
+msgstr ""
+
+#: templates/download.html:55
+msgid ""
+"We're a nonprofit organization and rely on supporters like you to help us "
+"keep Tor robust and secure for millions of people worldwide."
+msgstr ""
+
+#: templates/hero-download-languages.html:2
+#: templates/hero-download-options.html:2
+msgid "DEFEND YOURSELF"
+msgstr ""
+
+#: templates/hero-download-tor.html:2
+msgid "GROW THE NETWORK"
+msgstr ""
+
+#: templates/hero-download.html:2
+msgid "Defend yourself."
+msgstr ""
+
+#: templates/hero-download.html:36
+msgid "Download for"
+msgstr ""
+
+#: templates/hero-download.html:37
+msgid "Signature"
+msgstr ""
+
+#: templates/hero-download.html:47
+msgid "Download for Android"
+msgstr ""
+
+#: templates/hero-download.html:53
+msgid "Download in another language or platform"
+msgstr ""
+
+#: templates/hero-download.html:54
+msgid "Download the latest alpha build"
+msgstr ""
+
+#: templates/hero-download.html:59
+msgid "Read the latest release announcements"
+msgstr ""
+
+#: templates/hero-home.html:2
+msgid "Browse Privately."
+msgstr ""
+
+#: templates/hero-home.html:5
+msgid "Explore Freely."
+msgstr ""
+
+#: templates/hero-home.html:8 templates/meta.html:5 templates/meta.html:12
+msgid ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
+msgstr ""
+
+#: templates/home.html:7
+msgid "Block Trackers"
+msgstr ""
+
+#: templates/home.html:11
+msgid "BLOCK TRACKERS"
+msgstr ""
+
+#: templates/home.html:12
+msgid ""
+"Tor Browser isolates each website you visit so third-party trackers and ads "
+"can't follow you. Any cookies automatically clear when you're done browsing. "
+"So will your browsing history."
+msgstr ""
+
+#: templates/home.html:24
+msgid "Defend Against Surveillance"
+msgstr ""
+
+#: templates/home.html:28
+msgid "DEFEND AGAINST SURVEILLANCE"
+msgstr ""
+
+#: templates/home.html:29
+msgid ""
+"Tor Browser prevents someone watching your connection from knowing what "
+"websites you visit. All anyone monitoring your browsing habits can see is "
+"that you're using Tor."
+msgstr ""
+
+#: templates/home.html:41
+msgid "Resist Fingerprinting"
+msgstr ""
+
+#: templates/home.html:45
+msgid "RESIST FINGERPRINTING"
+msgstr ""
+
+#: templates/home.html:46
+msgid ""
+"Tor Browser aims to make all users look the same, making it difficult for "
+"you to be fingerprinted based on your browser and device information."
+msgstr ""
+
+#: templates/home.html:58
+msgid "Multi-layered Encryption"
+msgstr ""
+
+#: templates/home.html:62
+msgid "MULTI-LAYERED ENCRYPTION"
+msgstr ""
+
+#: templates/home.html:63
+msgid ""
+"Your traffic is relayed and encrypted three times as it passes over the Tor "
+"network. The network is comprised of thousands of volunteer-run servers "
+"known as Tor relays."
+msgstr ""
+
+#: templates/home.html:75
+msgid "Browse Freely"
+msgstr ""
+
+#: templates/home.html:79
+msgid "BROWSE FREELY"
+msgstr ""
+
+#: templates/home.html:80
+msgid ""
+"With Tor Browser, you are free to access sites your home network may have "
+"blocked."
+msgstr ""
+
+#: templates/jobs.html:2
+msgid "Current Openings"
+msgstr ""
+
+#: templates/jobs.html:13
+msgid ""
+"At the moment, we don't have any official open positions. Please check back "
+"soon, though!"
+msgstr ""
+
+#: templates/jobs.html:18 templates/projects.html:5
+msgid "Previous Openings"
+msgstr ""
+
+#: templates/jobs.html:32 templates/projects.html:33
+msgid ""
+"Think you could help us in a position that's not listed? We also rely on a "
+"vast community of volunteer contributors and many have become paid staff."
+msgstr ""
+
+#: templates/jobs.html:32 templates/projects.html:33
+msgid "We invite you to join us on IRC to find how you can get involved."
+msgstr ""
+
+#: templates/membership.html:111
+msgid "Green Onion Members"
+msgstr ""
+
+#: templates/meta.html:11
+msgid "The Tor Project | Privacy & Freedom Online"
+msgstr ""
+
+#: templates/meta.html:20
+msgid "Tor Project"
+msgstr ""
+
+#: templates/people.html:3
+msgid "Board of Directors"
+msgstr ""
+
+#: templates/people.html:4 templates/people.html:17
+msgid "Core Tor"
+msgstr ""
+
+#: templates/people.html:30
+msgid "Join Our Team"
+msgstr ""
+
+#: templates/people.html:31
+msgid ""
+"Even if we aren't hiring, you can contribute to Tor. We are open to ideas "
+"and studies to improve Tor software. If you're a developer, we welcome you "
+"to sign up for our dev mailing list to see what we're up to."
+msgstr ""
+
+#: templates/people.html:33
+msgid "Sign up for tor-dev"
+msgstr ""
+
+#: templates/press.html:7
+msgid "Get support"
+msgstr ""
+
+#: templates/press.html:9
+msgid "Visit our Support Portal"
+msgstr ""
+
+#: templates/press.html:12
+msgid "Ask us on #tor"
+msgstr ""
+
+#: templates/press.html:15
+msgid "Write to a mailing list"
+msgstr ""
+
+#: templates/press.html:22
+msgid "Brand Assets"
+msgstr ""
+
+#: templates/press.html:27
+msgid "The Tor Browser"
+msgstr ""
+
+#: templates/press.html:30
+msgid "Onion Services"
+msgstr ""
+
+#: templates/press.html:40
+msgid "Press Releases"
+msgstr ""
+
+#: templates/press.html:54
+msgid "Coverage"
+msgstr ""
+
+#: templates/press.html:61
+msgid "Date"
+msgstr ""
+
+#: templates/press.html:62
+msgid "Publication"
+msgstr ""
+
+#: templates/press.html:63
+msgid "Topic"
+msgstr ""
+
+#: templates/privchat-1.html:19 templates/privchat-2.html:19
+msgid "Watch"
+msgstr ""
+
+#: templates/privchat-1.html:43
+msgid "Roger Dingledine"
+msgstr ""
+
+#: templates/privchat-1.html:62
+msgid "Carmela Troncoso"
+msgstr ""
+
+#: templates/privchat-1.html:74
+msgid "Daniel Kahn Gillmor"
+msgstr ""
+
+#: templates/privchat-1.html:86
+msgid "Matt Mitchell "
+msgstr ""
+
+#: templates/privchat.html:29
+msgid "Save the Date"
+msgstr ""
+
+#: templates/release.html:22
+msgid "Do you need help?"
+msgstr ""
+
+#: templates/release.html:31
+msgid "Get in Touch"
+msgstr ""
+
+#: templates/macros/question.html:12 templates/release.html:43
+msgid "Contributors to this page:"
+msgstr ""
+
+#: templates/release.html:45
+msgid "Back to previous page: "
+msgstr ""
+
+#: templates/macros/question.html:14 templates/release.html:45
+msgid "Edit this page"
+msgstr ""
+
+#: templates/reports.html:2
+msgid "Founding Documents"
+msgstr ""
+
+#: templates/reports.html:16
+msgid "Reports"
+msgstr ""
+
+#: templates/reports.html:22
+msgid "Year"
+msgstr ""
+
+#: templates/reports.html:23
+msgid "Type"
+msgstr ""
+
+#: templates/reports.html:24
+msgid "Title"
+msgstr ""
+
+#: templates/sidenav.html:4 templates/sidenav.html:34
+msgid "Topics"
+msgstr ""
+
+#: templates/sponsors.html:2
+msgid ""
+"Thank you to all the people and groups who have made Tor possible so far, "
+"and thank you especially to the individual volunteers who have made non-"
+"financial contributions: coding, testing, documenting, translating, "
+"educating, researching, and running the relays that make up the Tor network."
+msgstr ""
+
+#: templates/sponsors.html:5
+msgid "Active Sponsors"
+msgstr ""
+
+#: templates/sponsors.html:17
+msgid "Past Sponsors"
+msgstr ""
+
+#: templates/sponsors.html:35
+msgid ""
+"This sponsors page is based upon un-audited and un-reviewed financial and in-"
+"kind donations, contract, and other data."
+msgstr ""
+
+#: templates/sponsors.html:36
+msgid ""
+"Further details about our audited and reviewed funding can be found with our "
+"Financial Reports."
+msgstr ""
+
+#: templates/thank-you.html:4
+msgid ""
+"We need your help to keep Tor secure and safe for millions across the globe."
+msgstr ""
+
+#: templates/thank-you.html:10
+msgid "Want to join our community? Getting involved with Tor is easy."
+msgstr ""
+
+#: templates/thank-you.html:17
+msgid ""
+"Sign up for Tor News and get updates and opportunities from across the "
+"organization and community."
+msgstr ""
+
+#: templates/thank-you.html:21
+msgid "Run a relay to make the network faster and more decentralized."
+msgstr ""
+
+#: templates/thank-you.html:25
+msgid "Use your skills to volunteer."
+msgstr ""
+
+#: templates/macros/downloads.html:68
+msgid "Tor Browser manual"
+msgstr ""
+
+#: templates/macros/downloads.html:72
+msgid "blog post"
+msgstr ""
+
+#: templates/macros/jobs.html:11
+msgid "Read more."
+msgstr ""
+
+#: templates/macros/question.html:15
+msgid "Suggest Feedback"
+msgstr ""
+
+#: templates/macros/question.html:16
+msgid "Permalink"
+msgstr ""
+
+#: templates/macros/reports.html:5 templates/macros/reports.html:19
+msgid "View PDF"
+msgstr ""
