@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: meskio
+---
+nickname: meskio
+---
+pronoun: he
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=07948FFA64160A425BCD27EAC732B1D1C28F4E2F
+---
+image: /static/images/people/meskio.png
+---
+description:
+
+Developer on the anti-censorship team.

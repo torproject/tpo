@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: True
+active: False
 ---
-time: 2012 - Present
+time: 2012 - 2020
 ---
 name: Open Technology Fund
 ---
@@ -16,5 +16,5 @@ link: https://www.opentech.fund/
 ---
 description:
 
-OTF strives to support technology-centric solutions for anyone affected by censorship, surveillance, and internet blocking in order to protect fundamental human rights. These contracts are used to further our work observing and responding to internet censorship around the world and also to improve onion services, one of the few censorship circumvention technologies that allows users to route around censorship while simultaneously protecting their privacy and identity.
+OTF strives to support technology-centric solutions for anyone affected by censorship, surveillance, and internet blocking in order to protect fundamental human rights. These contracts are used to: host an OTF fellow working on understanding the usage of tools during Information controls in Africa, support the ability of researchers to discover and responsibly report bugs in critical TOR infrastructure, and a project that will ensure that Tor Browser for Android continues to exist as a safe and usable option for mobile users in need of privacy and censorship circumvention online.
 

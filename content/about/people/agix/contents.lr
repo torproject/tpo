@@ -1,0 +1,20 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Armin Huremagic
+---
+pronoun: he
+---
+nickname: agix
+---
+twitter_handle: _aagix
+---
+gpg: https://agix.at/pgp-key.html
+---
+image: /static/images/people/agix.png
+---
+description:
+Security researcher and contributes to Tor's anti-censorship team.

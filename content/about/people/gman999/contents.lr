@@ -8,6 +8,8 @@ name: George
 ---
 nickname: gman999
 ---
+gpg: http://zimmerman.mayfirst.org/pks/lookup?op=get&search=0x5D921FD1ECF61682
+---
 description:
 
-Tor BSD Diversity Project member, long-time relay operator, trainer.
+(Legacy) Tor *BSD Diversity Project member, Serge bridge directory authority maintainer, long-time relay operator and a wide variety of other contributions.

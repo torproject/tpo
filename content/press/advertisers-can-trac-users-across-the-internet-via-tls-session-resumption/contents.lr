@@ -1,0 +1,19 @@
+_model: post
+---
+_hidden: yes
+---
+active: True
+---
+type: snippet
+---
+publisher:  ZDNet
+---
+title:  Advertisers can track users across the Internet via TLS Session Resumption
+---
+link:  https://www.zdnet.com/article/advertisers-can-track-users-across-the-internet-via-tls-session-resumption/
+---
+pub_date:  2018-10-23
+---
+summary:
+---
+body:

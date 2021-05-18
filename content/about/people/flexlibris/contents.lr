@@ -10,13 +10,8 @@ pronoun: she
 ---
 twitter_handle: flexlibris
 ---
-nickname: flexlibris
----
-gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=FBF0E7DB1433018EE52D0DDA9FC34089CBE83CA3
----
 image: /static/images/people/flexlibris.png
 ---
 description:
 
-Leads the [Community Team](https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam) and [Library Freedom Project](https://libraryfreedomproject.org/).
-Works on support, outreach, and training.
+Leads the Library Freedom Project

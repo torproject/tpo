@@ -1,0 +1,77 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: False
+---
+title: Systems Administrator
+---
+color: primary
+---
+summary:
+
+Internet Freedom Nonprofit Seeks a Systems Administrator
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking System Administrator to work on the sysadmin team and help with internal websites and tools.
+
+This Systems Administrator will work as part of a small team responsible for managing the torproject.org servers, which, in turn, allow the Tor Project to create the software we know and love. Work is both synchronous and asynchronous, coordinated over email, IRC, and some voice meetings (over Mumble or Big Blue Button). A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+
+This is a full-time, remote position.
+---
+description:
+
+## Systems Administrator
+*April 12, 2021*
+
+Main responsibilities:
+
+- Maintain websites templates and static site generators (Lektor, Hugo, etc.)
+- Use HTML and CSS knowledge for any change necessary in the organization's websites
+- Support onion services configuration for external organizations
+- Junior to intermediate sysadmin work and support, possible to expand to senior
+
+Required skills:
+
+- Ability to work in a self-directed and independent way
+- Comfortable with working remotely, across time zones
+- Strong interpersonal and communication skills; ability to train users in applications and operating system fundamentals and to write basic documentation
+- Strong skills with most Linux commands/utilities and familiarity with most basic system administration processes; for example, ability to boot/shut down a machine, add and remove user accounts, use backup programs, manage shared resources (e.g., file systems snapshots, RAID arrays), update DNS zonefiles, and install a server
+- Familiarity with the principles and practice of system configuration management using modern declarative tools
+- Familiarity with Git, "forges" (GitLab, GitHub), and "merge-request" based workflows, experience with ticketing systems like RT or GitLab issues
+- Ability to manage an OpenPGP private/public keypair, verify OpenPGP public keys, and manage SSH private keys securely
+- Familiarity with Python or similar programming languages
+
+Required background:
+
+- One to three years of system administration experience
+- A degree in computer science or a related field, or equivalent experience
+
+Desirable skills:
+
+- Experience with Lektor
+- Experience with Debian system administration and packaging
+- Experience with managing large Apache and/or Nginx deployments, Ganeti clusters, and/or Prometheus monitoring servers
+- Experience managing users and hosts in LDAP (with e.g. `ldapvi(1)`)
+- Experience restoring backups from Bacula
+- Familiarity with IPsec tunnel setup
+- Ability to write Puppet manifests
+- Experience as postmaster of a Postfix site
+- Familiarity with Tor's internal services and the network architecture (for example: check.torproject.org, what "bridges" are, the metrics services, what is an "exit relay", etc.)
+
+To apply, submit a cover letter, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. In your cover letter, please include the reason you want to work at the Tor Project.
+
+IMPORTANT: Please email application materials in plain text or PDF format, if possible, to job-sysadmin at torproject dot org with "SYSTEM ADMINISTRATOR" in the subject line.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world — people from diverse ethnic, national, and cultural backgrounds – people from all walks of life. We encourage applications from BIPOC, non-cis people, women, and from people in any group that is underrepresented in tech.
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 24 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Salary for this position depends on experience and there is voluntary opt-in salary transparency for employees and contractors.
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc. is an equal opportunity, affirmative action employer.

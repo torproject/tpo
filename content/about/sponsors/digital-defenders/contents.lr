@@ -1,0 +1,20 @@
+_model: sponsor
+---
+active: true
+---
+time: 2020-2021
+---
+name: Digital Defenders Partnership
+---
+key: 24
+---
+logo: /static/images/sponsors/Digital_Defenders_logo.png
+---
+_hidden: yes
+---
+link: https://www.digitaldefenders.org
+---
+description:
+
+The Digital Defenders Partnership offers support to human rights defenders under digital threat, and works to strengthen local rapid response networks.
+This grant funds the creation and distribution of Onion Guides, documentation that help people and organizations to protect their privacy and circumvent censorship with the use of onion services.

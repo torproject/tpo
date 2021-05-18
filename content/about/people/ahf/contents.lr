@@ -8,11 +8,13 @@ name: Alexander Færøy
 ---
 twitter_handle: ahfaeroey
 ---
+mastodon_url: https://mastodon.social/@ahf
+---
 pronoun: he
 ---
 nickname: ahf
 ---
-gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=1C2A7A3D5A8548B4ADEFD52AF9BC2FE22B08CE8F
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=1C1BC007A9F607AA8152C040BEA7B180B1491921
 ---
 
 description:

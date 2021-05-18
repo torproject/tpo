@@ -1,0 +1,20 @@
+_model: sponsor
+---
+active: false
+---
+time: 2020
+---
+name: Zcash Foundation
+---
+key: 20
+---
+logo: /static/images/sponsors/zcash_logo.png
+---
+_hidden: yes
+---
+link: https://zfnd.org/
+---
+description:
+
+The Zcash Foundation is a 501(c)(3) nonprofit that focuses on financial privacy. Their mission is to build internet payment and privacy infrastructure for the public good. They serve the users of the Zcash protocol and blockchain. The Foundation also supports other applications of zero-knowledge cryptography, as well as other approaches to private cryptocurrency. This project is to change Tor’s design to accommodate spikes in users &
+third-party implementations.

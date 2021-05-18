@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Chelsea Komlo
+---
+nickname: komlo
+---
+twitter_handle: chelseakomlo
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8B58FBCA50A4900BA3C5FE841138332F98B52EE7
+---
+image: /static/images/people/komlo.png
+---
+description:
+
+Chelsea is a software/security engineer and contributes to core tor.
