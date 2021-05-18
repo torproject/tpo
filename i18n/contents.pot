@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-23 04:39+CET\n"
+"POT-Creation-Date: 2021-05-18 21:53+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 
 #: https://www.torproject.org/ (content/contents+en.lr:page.body)
-msgid "We are the Tor Project, a 501(c)3 US nonprofit."
+msgid "We are the Tor Project, a 501(c)(3) US nonprofit."
 msgstr ""
 
 #: https://www.torproject.org/ (content/contents+en.lr:page.body)
@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 
 #: https://www.torproject.org/contact/
-#: (content/contact/contents+en.lr:page.title)
+#: (content/contact/contents+en.lr:page.title) (dynamic)
 msgid "Contact"
 msgstr ""
 
@@ -76,6 +76,7 @@ msgid "Download"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.title)
+#: (dynamic)
 msgid "Sponsors"
 msgstr ""
 
@@ -83,7 +84,7 @@ msgstr ""
 #: https://www.torproject.org/about/
 #: (content/about/contents+en.lr:page.section)
 #: https://www.torproject.org/about/cy-pres/
-#: (content/about/cy-pres/contents+en.lr:page.section)
+#: (content/about/cy-pres/contents+en.lr:page.section) (dynamic)
 #: https://www.torproject.org/about/trademark/
 #: (content/about/trademark/contents+en.lr:trademark.section)
 #: https://www.torproject.org/about/history/
@@ -102,38 +103,47 @@ msgid "About"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Documentation"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Press"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Support"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Jobs"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Blog"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Donate"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Donate Now"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Trademark"
 msgstr ""
 
 #: https://www.torproject.org/menu/ (content/menu/contents+en.lr:page.body)
+#: (dynamic)
 msgid "Community"
 msgstr ""
 
@@ -174,7 +184,7 @@ msgid ""
 msgstr ""
 
 #: https://www.torproject.org/about/ (content/about/contents+en.lr:page.title)
-#: https://www.torproject.org/about/history/
+#: (dynamic) https://www.torproject.org/about/history/
 #: (content/about/history/contents+en.lr:page.title)
 msgid "History"
 msgstr ""
@@ -208,7 +218,7 @@ msgstr ""
 #: (content/download/languages/contents+en.lr:page.body)
 msgid ""
 "We want everyone to be able to enjoy Tor Browser in their own language. Tor "
-"Browser is now available in 32 different languages, and we are working to "
+"Browser is now available in 36 different languages, and we are working to "
 "add more. Want to help us translate? [See here](https://community.torproject."
 "org/localization/)"
 msgstr ""
@@ -775,10 +785,97 @@ msgid ""
 "people/)"
 msgstr ""
 
+#: (dynamic)
+msgid ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
+msgstr ""
+
+#: (dynamic)
+msgid "The Tor Project | Privacy & Freedom Online"
+msgstr ""
+
+#: (dynamic)
+msgid "Tor Project"
+msgstr ""
+
+#: (dynamic)
+msgid "Menu"
+msgstr ""
+
+#: (dynamic)
+msgid "Download Tor Browser"
+msgstr ""
+
+#: (dynamic) https://www.torproject.org/about/people/
+#: (content/about/people/contents+en.lr:people.title)
+msgid "People"
+msgstr ""
+
+#: (dynamic) https://www.torproject.org/about/membership/
+#: (content/about/membership/contents+en.lr:page.title)
+msgid "Membership"
+msgstr ""
+
+#: (dynamic)
+msgid "Reports"
+msgstr ""
+
+#: (dynamic)
+msgid "Contributors to this page:"
+msgstr ""
+
+#: (dynamic)
+msgid "Edit this page"
+msgstr ""
+
+#: (dynamic)
+msgid "Suggest Feedback"
+msgstr ""
+
+#: (dynamic)
+msgid "Permalink"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+
+#: (dynamic)
+msgid "Our mission:"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"To advance human rights and freedoms by creating and deploying free and open "
+"source anonymity and privacy technologies, supporting their unrestricted "
+"availability and use, and furthering their scientific and popular "
+"understanding."
+msgstr ""
+
+#: (dynamic)
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: (dynamic)
+msgid "Get monthly updates and opportunities from the Tor Project:"
+msgstr ""
+
+#: (dynamic)
+msgid "Sign up"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our %(link_to_faq)s"
+msgstr ""
+
 #: https://www.torproject.org/about/history/
 #: (content/about/history/contents+en.lr:page.body)
 msgid ""
-"The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of "
+"The Tor Project, Inc, became a 501(c)(3) nonprofit in 2006, but the idea of "
 "\"onion routing\" began in the mid 1990s."
 msgstr ""
 
@@ -867,7 +964,7 @@ msgstr ""
 msgid ""
 "Recognizing the benefit of Tor to digital rights, the [Electronic Frontier "
 "Foundation (EFF)](https://www.eff.org/) began funding Roger's and Nick's "
-"work on Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)3 nonprofit "
+"work on Tor in 2004. In 2006, the Tor Project, Inc., a 501(c)(3) nonprofit "
 "organization, was founded to maintain Tor's development."
 msgstr ""
 
@@ -955,11 +1052,6 @@ msgid ""
 msgstr ""
 
 #: https://www.torproject.org/about/people/
-#: (content/about/people/contents+en.lr:people.title)
-msgid "People"
-msgstr ""
-
-#: https://www.torproject.org/about/people/
 #: (content/about/people/contents+en.lr:people.body)
 msgid ""
 "We are an international team who believes everyone should have private "
@@ -982,17 +1074,34 @@ msgid ""
 msgstr ""
 
 #: https://www.torproject.org/about/membership/
-#: (content/about/membership/contents+en.lr:page.title)
-msgid "Membership"
-msgstr ""
-
-#: https://www.torproject.org/about/membership/
 #: (content/about/membership/contents+en.lr:page.body)
 msgid ""
 "Community has always been at the heart of Tor's strength. In this spirit, we "
 "created the Tor Project's Membership Program. Our goal is to build a "
 "supportive relationship between our nonprofit and private sector "
 "organizations that use our technology or want to support our mission."
+msgstr ""
+
+#: (dynamic)
+msgid "Current Openings"
+msgstr ""
+
+#: (dynamic)
+msgid "Read more."
+msgstr ""
+
+#: (dynamic)
+msgid "Previous Openings"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"Think you could help us in a position that's not listed? We also rely on a "
+"vast community of volunteer contributors and many have become paid staff."
+msgstr ""
+
+#: (dynamic)
+msgid "We invite you to join us on IRC to find how you can get involved."
 msgstr ""
 
 #: https://www.torproject.org/press/-new-release-tails/
@@ -1065,60 +1174,6 @@ msgstr ""
 
 #: lego/templates/banner.html:40 templates/banner.html:40
 msgid "DONATE NOW"
-msgstr ""
-
-#: lego/templates/footer.html:13 lego/templates/footer.html:22
-#: lego/templates/navbar.html:83 templates/footer.html:13
-#: templates/footer.html:22 templates/hero-home.html:13
-#: templates/navbar.html:83
-msgid "Download Tor Browser"
-msgstr ""
-
-#: lego/templates/footer.html:14 templates/footer.html:14
-msgid ""
-"Download Tor Browser to experience real private browsing without tracking, "
-"surveillance, or censorship."
-msgstr ""
-
-#: lego/templates/footer.html:35 templates/footer-min.html:9
-#: templates/footer.html:35
-msgid "Our mission:"
-msgstr ""
-
-#: lego/templates/footer.html:36 templates/footer-min.html:10
-#: templates/footer.html:36
-msgid ""
-"To advance human rights and freedoms by creating and deploying free and open "
-"source anonymity and privacy technologies, supporting their unrestricted "
-"availability and use, and furthering their scientific and popular "
-"understanding."
-msgstr ""
-
-#: lego/templates/footer.html:75 templates/footer-min.html:46
-#: templates/footer.html:75
-msgid "Subscribe to our Newsletter"
-msgstr ""
-
-#: lego/templates/footer.html:76 templates/footer-min.html:47
-#: templates/footer.html:76
-msgid "Get monthly updates and opportunities from the Tor Project:"
-msgstr ""
-
-#: lego/templates/footer.html:77 templates/footer-min.html:48
-#: templates/footer.html:77
-msgid "Sign up"
-msgstr ""
-
-#: lego/templates/footer.html:98 templates/footer-min.html:67
-#: templates/footer.html:98
-#, python-format
-msgid ""
-"Trademark, copyright notices, and rules for use by third parties can be "
-"found in our %(link_to_faq)s"
-msgstr ""
-
-#: lego/templates/navbar.html:25 templates/navbar.html:25
-msgid "Menu"
 msgstr ""
 
 #: lego/templates/search.html:5 templates/search.html:5
@@ -1409,7 +1464,7 @@ msgid "Windows Expert Bundle"
 msgstr ""
 
 #: templates/download-tor.html:46
-msgid "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE"
+msgid "Windows 10, 8, 7, and Windows Server (>= 2008)"
 msgstr ""
 
 #: templates/download-tor.html:47
@@ -1538,11 +1593,6 @@ msgstr ""
 msgid "Explore Freely."
 msgstr ""
 
-#: templates/hero-home.html:8 templates/meta.html:5 templates/meta.html:12
-msgid ""
-"Defend yourself against tracking and surveillance. Circumvent censorship."
-msgstr ""
-
 #: templates/home.html:7
 msgid "Block Trackers"
 msgstr ""
@@ -1616,40 +1666,14 @@ msgid ""
 "blocked."
 msgstr ""
 
-#: templates/jobs.html:2
-msgid "Current Openings"
-msgstr ""
-
 #: templates/jobs.html:13
 msgid ""
 "At the moment, we don't have any official open positions. Please check back "
 "soon, though!"
 msgstr ""
 
-#: templates/jobs.html:18 templates/projects.html:5
-msgid "Previous Openings"
-msgstr ""
-
-#: templates/jobs.html:32 templates/projects.html:33
-msgid ""
-"Think you could help us in a position that's not listed? We also rely on a "
-"vast community of volunteer contributors and many have become paid staff."
-msgstr ""
-
-#: templates/jobs.html:32 templates/projects.html:33
-msgid "We invite you to join us on IRC to find how you can get involved."
-msgstr ""
-
 #: templates/membership.html:111
 msgid "Green Onion Members"
-msgstr ""
-
-#: templates/meta.html:11
-msgid "The Tor Project | Privacy & Freedom Online"
-msgstr ""
-
-#: templates/meta.html:20
-msgid "Tor Project"
 msgstr ""
 
 #: templates/people.html:3
@@ -1755,24 +1779,12 @@ msgstr ""
 msgid "Get in Touch"
 msgstr ""
 
-#: templates/macros/question.html:12 templates/release.html:43
-msgid "Contributors to this page:"
-msgstr ""
-
 #: templates/release.html:45
 msgid "Back to previous page: "
 msgstr ""
 
-#: templates/macros/question.html:14 templates/release.html:45
-msgid "Edit this page"
-msgstr ""
-
 #: templates/reports.html:2
 msgid "Founding Documents"
-msgstr ""
-
-#: templates/reports.html:16
-msgid "Reports"
 msgstr ""
 
 #: templates/reports.html:22
@@ -1824,6 +1836,10 @@ msgid ""
 "We need your help to keep Tor secure and safe for millions across the globe."
 msgstr ""
 
+#: templates/thank-you.html:5
+msgid "Donate Now!"
+msgstr ""
+
 #: templates/thank-you.html:10
 msgid "Want to join our community? Getting involved with Tor is easy."
 msgstr ""
@@ -1848,18 +1864,6 @@ msgstr ""
 
 #: templates/macros/downloads.html:72
 msgid "blog post"
-msgstr ""
-
-#: templates/macros/jobs.html:11
-msgid "Read more."
-msgstr ""
-
-#: templates/macros/question.html:15
-msgid "Suggest Feedback"
-msgstr ""
-
-#: templates/macros/question.html:16
-msgid "Permalink"
 msgstr ""
 
 #: templates/macros/reports.html:5 templates/macros/reports.html:19
