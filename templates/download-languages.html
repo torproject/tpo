@@ -16,12 +16,14 @@
       </thead>
       <tbody>
         {% set t = bag('versions', 'torbrowser-stable') %}
+        {% set t_win = bag('versions', 'torbrowser-win-stable') %}
+        {% set t_linux = bag('versions', 'torbrowser-linux-stable') %}
         {% for id, item in bag('download-alternatives').items() %}
           <tr>
             <td>{{ item.language }}</td>
             <td>
               {% from "macros/downloads.html" import render_windows %}
-              {{ render_windows(t.version, id) }}
+              {{ render_windows(t_win.version, id) }}
             </td>
             <td>
               {% from "macros/downloads.html" import render_mac %}
@@ -29,7 +31,7 @@
             </td>
             <td>
               {% from "macros/downloads.html" import render_linux %}
-              {{ render_linux(t.version, id) }}
+              {{ render_linux(t_linux.version, id) }}
             </td>
           </tr>
         {% endfor %}

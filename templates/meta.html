@@ -20,5 +20,9 @@
 <title>{{ _("Tor Project") }} | {% block title %}{{ this.title }}{% endblock %}</title>
 <body class="no-gutters">
   <header>
-    {% include 'navbar.html' %}
+    {% if this.path == '/download' %}
+      {% include 'navbar-min.html' %}
+    {% else %}
+      {% include 'navbar.html' %}
+    {% endif %}
   </header>

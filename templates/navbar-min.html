@@ -1,0 +1,49 @@
+{% if not this.color %}
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2">
+{% elif this.color == 'primary' %}
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-2">
+{% else %}
+<div class="container-fluid bg-dark">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-dark p-2 d-flex justify-content-between">
+{% endif %}
+  <div>
+    <div class="row">
+      <a class="navbar-brand" href="{{ '/'|url(alt=this.alt) }}">
+        <img alt="{{ 'The Tor Project' }}" src="{{ '/static/images/tor-logo@2x.png'|asseturl }}" >
+        <span class="sr-only">Tor Logo</span>
+      </a>
+
+      {% set link = bag('links', this.alt, 'donate') %}
+      {% if link %}
+        <h4 class="pl-2 pr-2 pt-3"><a href="{{ link }}" title="{{ _("Donate") }}"><span class="badge badge-warning p-2">{{ _("Donate Now") }}</span></a></h4>
+      {% else %}
+        <h4 class="pl-2 pr-2 pt-3"><a href="https://www.torproject.org/donate/{{ this.alt }}" title="{{ _("Donate") }}"><span class="badge badge-warning p-2">{{ _("Donate Now") }}</span></a></h4>
+      {% endif %}
+    </div>
+  </div>
+    {% set alts = bag('alternatives').items() %}
+    {% if alts|length > 1 %}
+      <div class="btn-group dropdown float-right">
+        {% if not this.color %}
+          <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% elif this.color == 'primary' %}
+          <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% else %}
+          <button type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block my-3 my-sm-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% endif %}
+        {{ bag('alternatives', this.alt, 'language') }}
+        </button>
+        <div class="dropdown-menu">
+          {% for id, item in bag('alternatives').items() %}
+            {% if this.alt != id %}
+              <a class="dropdown-item" href="{{ this.path|url(alt=id) }}">{{ item.language }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+  </nav>
+</div>

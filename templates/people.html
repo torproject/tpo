@@ -1,14 +1,16 @@
-<div class="container py-3">
-  <a class="text-primary display-5" href="#board">{{ _('Board of Directors') }}</a>
-  <a class="text-primary display-5 pl-5" href="#core">{{ _('Core Tor') }}</a>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    {% from "macros/people.html" import render_board %}
-    {% set items = site.query('/about/people').include_undiscoverable(true).filter(F.role == 'board') %}
-    {% for item in items %}
-      {{ render_board(item, this.alt) }}
-    {% endfor %}
+<div id="board">
+  <div class="container py-3">
+    <a class="text-primary display-5" href="#board">{{ _('Board of Directors') }}</a>
+    <a class="text-primary display-5 pl-5" href="#core">{{ _('Core Tor') }}</a>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      {% from "macros/people.html" import render_board %}
+      {% set items = site.query('/about/people').include_undiscoverable(true).filter(F.role == 'board') %}
+      {% for item in items %}
+       {{ render_board(item, this.alt) }}
+      {% endfor %}
+    </div>
   </div>
 </div>
 <div id="core" class="container py-3">

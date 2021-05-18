@@ -16,12 +16,13 @@
       </thead>
       <tbody>
         {% set t = bag('versions', 'torbrowser-alpha') %}
+        {% set t_win = bag('versions', 'torbrowser-win-alpha') %}
         {% for id, item in bag('download-alternatives-alpha').items() %}
           <tr>
             <td>{{ item.language }}</td>
             <td>
               {% from "macros/downloads.html" import render_windows %}
-              {{ render_windows(t.version, id) }}
+              {{ render_windows(t_win.version, id) }}
             </td>
             <td>
               {% from "macros/downloads.html" import render_mac %}
@@ -49,6 +50,7 @@
             <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha">{{ _('Google Play') }}</a>
           </td>
         </tr>
+        {% set t = bag('versions', 'torbrowser-android-alpha') %}
         {% from "macros/downloads.html" import render_android %}
         <tr>
           <td>

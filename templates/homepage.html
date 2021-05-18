@@ -5,13 +5,13 @@
         {% include 'hero.html' %}
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row flex-xl-nowrap">
-        {% set locale = bag('alternatives', this.alt) %}
+    {% set locale = bag('alternatives', this.alt) %}
+    <div class="container-fluid {{ locale.order }} {{ locale.direction }}">
+      <div class="row flex-xl-nowrap {{ locale.order }} {{ locale.direction }}">
         <main role="main" class="mx-auto col-12 {{ locale.order }} {{ locale.direction }}">
           {% include this.html %}
           {% if this.parent.path != "/download" %}
-            <div class="container pt-5 hero">
+            <div class="container pt-5 hero {{ locale.order }} {{ locale.direction }}">
               {% block body %}{% endblock %}
             </div>
           {% endif %}
