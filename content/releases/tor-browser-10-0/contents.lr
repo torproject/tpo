@@ -20,7 +20,7 @@ We expect to release the new Tor Browser for Android based on Fenix in the follo
 Tor Browser 10 ships with Firefox 78.3.0esr, updates NoScript to 11.0.44, and Tor to 0.4.4.5.
 This release includes important [security updates to Firefox](https://www.mozilla.org/en-US/security/advisories/mfsa2020-43/).
 
-This new Tor Browser release is focused on stabling Tor Browser based on a [new extended support release](https://www.mozilla.org/en-US/firefox/enterprise/#overview) of Mozilla Firefox.
+This new Tor Browser release is focused on stabilizing Tor Browser based on a [new extended support release](https://www.mozilla.org/en-US/firefox/enterprise/#overview) of Mozilla Firefox.
 Tor Browser 10.0 is the first stable release of the 10.0 series based on Firefox 78esr.
 
 **Note:** Tor Browser 10.0 is the [final Tor Browser series](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40089) supporting CentOS 6.
