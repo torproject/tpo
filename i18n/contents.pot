@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-18 21:53+CET\n"
+"POT-Creation-Date: 2021-05-19 09:28+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -547,9 +547,12 @@ msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
 #: (content/releases/tor-browser-95/contents+en.lr:page.body)
+#: https://www.torproject.org/releases/tor-browser-10-0/
+#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
 msgid ""
 "If you find a bug or have a suggestion for how we could improve this "
-"release, please let us know."
+"release, [please let us know](https://support.torproject.org/misc/bug-or-"
+"feedback/)."
 msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
@@ -639,14 +642,6 @@ msgstr ""
 #: https://www.torproject.org/releases/tor-browser-10-0/
 #: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
 msgid "Beginning with the 10.5 series, CentOS 6 is not supported."
-msgstr ""
-
-#: https://www.torproject.org/releases/tor-browser-10-0/
-#: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
-msgid ""
-"If you find a bug or have a suggestion for how we could improve this "
-"release, [please let us know](https://support.torproject.org/misc/bug-or-"
-"feedback/)."
 msgstr ""
 
 #: https://www.torproject.org/about/cy-pres/
