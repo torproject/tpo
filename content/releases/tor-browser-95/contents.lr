@@ -79,7 +79,7 @@ Because of cryptographic protections, onion service URLs are not easy for humans
 This makes it hard for users to discover or return to an onion site.
 We found that organically, developers have approached this problem in different ways, mostly with solutions tailored for their service.
 Given that there is no solution that works perfectly for all our user groups, we also approached this problem from a broad angle.
-For this release, we partnered with Freedom of the Press Foundation (FPF) and the Electronic Frontier Foundation's HTTPS Everywhere to develop the first proof-of-concept human-memorable names for SecureDrop onion services addresses:
+For this release, we partnered with Freedom of the Press Foundation (FPF) and the Electronic Frontier Foundation's HTTPS Everywhere to develop the first proof-of-concept human-memorizable names for SecureDrop onion services addresses:
 
     The Intercept:
         theintercept.securedrop.tor.onion
