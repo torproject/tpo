@@ -1,0 +1,46 @@
+#!/usr/bin/python3
+
+import csv
+import os
+import re
+import sys
+
+
+csv_file = sys.argv[1]
+
+with open(csv_file, newline='') as csvfile:
+  spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
+  for row in spamreader:
+    publisher = row[0]
+    re_path = re.sub(r'[^\w\s]','',row[1]).lower()
+    create_path = re.sub(' ','-',re_path)
+    title = row[1]
+    date = row[2].split('/')
+    pub_date = "{}-{}-{}".format(date[2], date[0], date[1])
+    link = row[3]
+    full_path = os.path.join(os.getcwd(),"content/press/{}".format(create_path))
+    if not os.path.exists(full_path):
+      os.mkdir(full_path)
+      filename = "{}/contents.lr".format(full_path)
+      file_object  = open(filename, 'w')
+      file_object.write("_model: post\n")
+      file_object.write("---\n")
+      file_object.write("_hidden: yes\n")
+      file_object.write("---\n")
+      file_object.write("active: True\n")
+      file_object.write("---\n")
+      file_object.write("type: snippet\n")
+      file_object.write("---\n")
+      file_object.write("publisher:  {}\n".format(publisher))
+      file_object.write("---\n")
+      file_object.write("title:  {}\n".format(title))
+      file_object.write("---\n")
+      file_object.write("link:  {}\n".format(link))
+      file_object.write("---\n")
+      file_object.write("pub_date:  {}\n".format(pub_date))
+      file_object.write("---\n")
+      file_object.write("summary: \n")
+      file_object.write("---\n")
+      file_object.write("body: \n")
+      file_object.write("---\n")
+      file_object.close()
