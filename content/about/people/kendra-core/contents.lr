@@ -1,0 +1,14 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Kendra Albert
+---
+nickname: 
+---
+image: /static/images/people/kendra.png
+---
+description:
+Kendra Albert is on the board of directors for the Tor Project.
