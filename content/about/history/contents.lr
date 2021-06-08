@@ -25,7 +25,7 @@ This is still a simple explanation for how Tor works today.
 In the early 2000s, Roger Dingledine, a recent [Massachusetts Institute of Technology (MIT)](https://web.mit.edu/) graduate, began working on an NRL onion routing project with Paul Syverson.
 To distinguish this original work at NRL from other onion routing efforts that were starting to pop up elsewhere, Roger called the project Tor, which stood for The Onion Routing. Nick Mathewson, a classmate of Roger's at MIT, joined the project soon after.
 
-From its inception in the 1990s, onion routing was conceived to rely on a decentralized network. The network needed to be operated by entities with diverse interests and trust assumptions, and the software needed to be free and open to maximize transparency and separation.
+From its inception in the 1990s, onion routing was conceived to rely on a decentralized network. The network needed to be operated by entities with diverse interests and trust assumptions, and the software needed to be free and open to maximize transparency and decentralization.
 That's why in October 2002 when the Tor network was initially deployed, its code was released under a free and open software license.
 By the end of 2003, the network had about a dozen volunteer nodes, mostly in the U.S., plus one in Germany.
 
