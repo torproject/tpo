@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Jérôme Charaoui
+---
+pronoun: he
+---
+nickname: lavamind
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=0B5A33B8A26D60109C509C6C83E33BD7D4DD4CA1
+---
+description:
+
+Member of the sysadmin team.
