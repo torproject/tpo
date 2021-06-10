@@ -1,0 +1,14 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Alissa Cooper
+---
+nickname: 
+---
+image: /static/images/people/alissa.jpeg
+---
+description:
+Alissa Cooper is on the board of directors for the Tor Project.

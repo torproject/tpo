@@ -1,0 +1,20 @@
+_model: sponsor
+---
+active: true
+---
+time: 2021
+---
+name: Network of the National Library of Medicine
+---
+key: 25
+---
+logo: /static/images/sponsors/NNLM_logo.jpg
+---
+_hidden: yes
+---
+link: https://nnlm.gov/mar 
+---
+description:
+The Network of the National Library of Medicine (NNLM) is a nationwide program coordinated by the National Library of Medicine (NLM).
+The mission of the NNLM is to advance the progress of medicine and improve the public health.
+This project provides quality virtual information related to health and wellness privacy and literacy that librarians can use to better serve their communities.

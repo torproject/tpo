@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: kez
+---
+pronoun: it
+---
+nickname: kez
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=2992E9FE812278600E841EB2E798088974F12A0B
+---
+description:
+
+Systems administration and web development at Tor.
