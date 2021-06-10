@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 10:59+CET\n"
+"POT-Creation-Date: 2021-06-10 15:16+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -488,7 +488,7 @@ msgstr ""
 msgid ""
 "For this release, we partnered with Freedom of the Press Foundation (FPF) "
 "and the Electronic Frontier Foundation's HTTPS Everywhere to develop the "
-"first proof-of-concept human-memorable names for SecureDrop onion services "
+"first proof-of-concept human-memorizable names for SecureDrop onion services "
 "addresses:"
 msgstr ""
 
@@ -840,7 +840,7 @@ msgid ""
 "From its inception in the 1990s, onion routing was conceived to rely on a "
 "decentralized network. The network needed to be operated by entities with "
 "diverse interests and trust assumptions, and the software needed to be free "
-"and open to maximize transparency and separation."
+"and open to maximize transparency and decentralization."
 msgstr ""
 
 #: https://www.torproject.org/about/history/
@@ -1719,6 +1719,7 @@ msgid "Topic"
 msgstr ""
 
 #: templates/privchat-1.html:19 templates/privchat-2.html:19
+#: templates/privchat-3.html:19
 msgid "Watch"
 msgstr ""
 
@@ -1738,7 +1739,7 @@ msgstr ""
 msgid "Matt Mitchell "
 msgstr ""
 
-#: templates/privchat.html:29
+#: templates/privchat.html:30
 msgid "Save the Date"
 msgstr ""
 
