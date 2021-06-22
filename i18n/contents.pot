@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 15:16+CET\n"
+"POT-Creation-Date: 2021-06-22 18:56+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -257,7 +257,7 @@ msgstr ""
 #: (content/releases/tor-browser-95/contents+en.lr:page.body)
 msgid ""
 "For the first time, Tor Browser users will be able to opt-in for using onion "
-"sites automatically whenever the website makes them available."
+"sites automatically whenever the websites makes them available."
 msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
