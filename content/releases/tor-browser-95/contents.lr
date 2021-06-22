@@ -15,7 +15,7 @@ Tor's onion routing remains the best way to achieve end-to-end anonymous communi
 With onion services (.onion addresses), website administrators can provide their users with anonymous connections that are metadata-free or that hide metadata from any third party.
 Onion services are also one of the few censorship circumvention technologies that allow users to route around censorship while simultaneously protecting their privacy and identity.
 
-For the first time, Tor Browser users will be able to opt-in for using onion sites automatically whenever the website makes them available.
+For the first time, Tor Browser users will be able to opt-in for using onion sites automatically whenever the websites makes them available.
 For years, some websites have invisibly used onion services with alternative services, and this continues to be an excellent choice.
 Now, there is also an option for websites that want their users to know about their onion service to  invite them to opt-in to use their .onion address.
 
