@@ -21,7 +21,7 @@
   <div class="col-12">
     <ul class="jobs-ul">
       {% set items = site.query('/about/sponsors').include_undiscoverable(true).filter(F.active == False) %}
-      {% for item in items %}
+      {% for item in items.order_by('-time') %}
         <li><a href="{{ item.link}}">{{ item.name }}</a> - <span> {{ item.time }}</span></li>
       {% endfor %}
     </ul>
