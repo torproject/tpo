@@ -1501,27 +1501,31 @@ msgstr ""
 msgid "Defend yourself."
 msgstr ""
 
-#: templates/hero-download.html:36
+#: templates/hero-download.html:42
 msgid "Download for"
 msgstr ""
 
-#: templates/hero-download.html:37
+#: templates/hero-download.html:43
 msgid "Signature"
 msgstr ""
 
-#: templates/hero-download.html:47
-msgid "Download for Android"
+#: templates/hero-download.html:44
+msgid "Learn how to verify a signature"
 msgstr ""
 
 #: templates/hero-download.html:53
-msgid "Download in another language or platform"
-msgstr ""
-
-#: templates/hero-download.html:54
-msgid "Download the latest alpha build"
+msgid "Download for Android"
 msgstr ""
 
 #: templates/hero-download.html:59
+msgid "Download in another language or platform"
+msgstr ""
+
+#: templates/hero-download.html:60
+msgid "Download the latest alpha build"
+msgstr ""
+
+#: templates/hero-download.html:65
 msgid "Read the latest release announcements"
 msgstr ""
 
