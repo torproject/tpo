@@ -19,8 +19,6 @@ This new Tor Browser release is focussed on improving the internet access of use
 
 ### What's new?
 
-**V2 Onion Services deprecation**
-
 **Snowflake is now available as a bridge**
 With [Snowflake](https://snowflake.torproject.org), censored users can rely on proxies run by volunteers to connect to the internet. 
 
@@ -33,4 +31,4 @@ During Q1 this year, [the UX team ran a survey on Tor Browser Alpha to better un
 Tor Browser 10.5 comes with a number of known issues.
 
 **Give Feedback**
-If you find a bug or have a suggestion for how we could improve this release, please let us know. Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
+If you find a bug or have a suggestion for how we could improve this release, [please let us know](https://support.torproject.org/misc/bug-or-feedback/). Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
