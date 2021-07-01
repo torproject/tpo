@@ -19,6 +19,9 @@ This new Tor Browser release is focussed on improving the internet access of use
 
 ### What's new?
 
+**V2 Onion Services Deprecation**
+As [we announced last year](https://blog.torproject.org/v2-deprecation-timeline), v2 onion services will be completely unreachable once Tor Browser moves to Tor 0.4.6.x in October 2021. From now until then, Tor Browser will warn you when visiting a v2 onion site of its upcoming deprecation.
+
 **Snowflake is now available as a bridge**
 With [Snowflake](https://snowflake.torproject.org), censored users can rely on proxies run by volunteers to connect to the internet. 
 
