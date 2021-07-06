@@ -12,6 +12,8 @@ nickname: lavamind
 ---
 gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=0B5A33B8A26D60109C509C6C83E33BD7D4DD4CA1
 ---
+image: /static/images/people/lavamind.png
+---
 description:
 
 Member of the sysadmin team.
