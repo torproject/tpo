@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-22 18:56+CET\n"
+"POT-Creation-Date: 2021-07-07 19:01+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -146,6 +146,8 @@ msgstr ""
 #: (content/releases/contents+en.lr:page.section)
 #: https://www.torproject.org/releases/tor-browser-95/
 #: (content/releases/tor-browser-95/contents+en.lr:page.section)
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.section)
 #: https://www.torproject.org/releases/tor-browser-10-0/
 #: (content/releases/tor-browser-10-0/contents+en.lr:page.section)
 msgid "What is new"
@@ -547,6 +549,8 @@ msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
 #: (content/releases/tor-browser-95/contents+en.lr:page.body)
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
 #: https://www.torproject.org/releases/tor-browser-10-0/
 #: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
 msgid ""
@@ -557,11 +561,227 @@ msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
 #: (content/releases/tor-browser-95/contents+en.lr:page.body)
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
 #: https://www.torproject.org/releases/tor-browser-10-0/
 #: (content/releases/tor-browser-10-0/contents+en.lr:page.body)
 msgid ""
 "Thanks to all of the teams across Tor, and the many volunteers, who "
 "contributed to this release."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.title)
+msgid "Tor Browser 10.5"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "## New Release: Tor Browser 10.5"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"Tor Browser 10.5 is now available from the Tor Browser download page and our "
+"distribution directory."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"The Android version is also available from Google Play and should be "
+"available from F-Droid within the next day."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "This release includes important security updates to Firefox."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"This new Tor Browser release is focussed on improving the internet access of "
+"users connecting through Tor in censored contexts."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "### What's new?"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "#### V2 Onion Services Deprecation"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"As [we announced last year](https://blog.torproject.org/v2-deprecation-"
+"timeline), v2 onion services will be completely unreachable once Tor Browser "
+"moves to Tor 0.4.6.x in October 2021."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"From now until then, Tor Browser will warn you when visiting a v2 onion site "
+"of its upcoming deprecation."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "#### Snowflake is now available as a bridge"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"With [Snowflake](https://snowflake.torproject.org), censored users can rely "
+"on proxies run by volunteers to connect to the internet."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"During Q1 this year, [the UX team ran a survey on Tor Browser Alpha to "
+"better understand Snowflake’s user experience](https://blog.torproject.org/"
+"snowflake-in-tor-browser-stable)."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"The survey received 1,795 complete responses, of which 726 participants "
+"confirmed they use Snowflake as a pluggable transport."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"The majority of Snowflake users who completed the survey began using Tor "
+"Browser several times a week within the past year."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"75% of users had a positive view of Snowflake, although many experienced "
+"connection troubles and slow speeds while browsing."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"These facts and the stable network of volunteers allow us to make it "
+"available on this release."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "#### Improving the user experience of connecting to Tor"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"[Tor Launcher](https://support.torproject.org/glossary/tor-launcher/) has "
+"acted as the options panel for advanced Tor network configurations over the "
+"years."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"It also serves as a control point for users who are in censored networks."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"The UX and the Anti-Censorship teams joined efforts to improve the "
+"connecting flow for Tor Browser users."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"This release is the first in the upcoming series of helping censored users "
+"seamlessly access the open internet by simplifying the connection flow, "
+"detecting censorship and providing bridges."
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "#### Known Issues"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "Tor Browser 10.5 comes with a number of known issues:"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/tor-browser#40497](https://gitlab.torproject.org/tpo/"
+"applications/tor-browser/-/issues/40497)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/fenix#40176](https://gitlab.torproject.org/tpo/"
+"applications/fenix/-/issues/40176)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/fenix#40110](https://gitlab.torproject.org/tpo/"
+"applications/fenix/-/issues/40110)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/fenix#40172](https://gitlab.torproject.org/tpo/"
+"applications/fenix/-/issues/40172)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/fenix#40174](https://gitlab.torproject.org/tpo/"
+"applications/fenix/-/issues/40174)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/tor-browser#40242](https://gitlab.torproject.org/tpo/"
+"applications/tor-browser/-/issues/40242)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/fenix#40103](https://gitlab.torproject.org/tpo/"
+"applications/fenix/-/issues/40103)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid ""
+"* [tpo/applications/fenix#40115](https://gitlab.torproject.org/tpo/"
+"applications/fenix/-/issues/40115)"
+msgstr ""
+
+#: https://www.torproject.org/releases/tor-browser-10-5/
+#: (content/releases/tor-browser-10-5/contents+en.lr:page.body)
+msgid "#### Give Feedback"
 msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-10-0/
@@ -1501,31 +1721,27 @@ msgstr ""
 msgid "Defend yourself."
 msgstr ""
 
-#: templates/hero-download.html:42
+#: templates/hero-download.html:36
 msgid "Download for"
 msgstr ""
 
-#: templates/hero-download.html:43
+#: templates/hero-download.html:37
 msgid "Signature"
 msgstr ""
 
-#: templates/hero-download.html:44
-msgid "Learn how to verify a signature"
-msgstr ""
-
-#: templates/hero-download.html:53
+#: templates/hero-download.html:47
 msgid "Download for Android"
 msgstr ""
 
-#: templates/hero-download.html:59
+#: templates/hero-download.html:53
 msgid "Download in another language or platform"
 msgstr ""
 
-#: templates/hero-download.html:60
+#: templates/hero-download.html:54
 msgid "Download the latest alpha build"
 msgstr ""
 
-#: templates/hero-download.html:65
+#: templates/hero-download.html:59
 msgid "Read the latest release announcements"
 msgstr ""
 
