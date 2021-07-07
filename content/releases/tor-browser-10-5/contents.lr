@@ -1,0 +1,56 @@
+section: What is new
+---
+_template: release.html
+---
+color: primary
+---
+title: Tor Browser 10.5
+---
+body:
+
+
+## New Release: Tor Browser 10.5
+
+Tor Browser 10.5 is now available from the Tor Browser download page and our distribution directory.
+The Android version is also available from Google Play and should be available from F-Droid within the next day.
+
+This release includes important security updates to Firefox.
+
+This new Tor Browser release is focussed on improving the internet access of users connecting through Tor in censored contexts.
+
+### What's new?
+
+#### V2 Onion Services Deprecation
+As [we announced last year](https://blog.torproject.org/v2-deprecation-timeline), v2 onion services will be completely unreachable once Tor Browser moves to Tor 0.4.6.x in October 2021.
+From now until then, Tor Browser will warn you when visiting a v2 onion site of its upcoming deprecation.
+
+#### Snowflake is now available as a bridge
+With [Snowflake](https://snowflake.torproject.org), censored users can rely on proxies run by volunteers to connect to the internet.
+
+During Q1 this year, [the UX team ran a survey on Tor Browser Alpha to better understand Snowflake’s user experience](https://blog.torproject.org/snowflake-in-tor-browser-stable).
+The survey received 1,795 complete responses, of which 726 participants confirmed they use Snowflake as a pluggable transport.
+The majority of Snowflake users who completed the survey began using Tor Browser several times a week within the past year.
+75% of users had a positive view of Snowflake, although many experienced connection troubles and slow speeds while browsing.
+These facts and the stable network of volunteers allow us to make it available on this release.
+
+#### Improving the user experience of connecting to Tor
+[Tor Launcher](https://support.torproject.org/glossary/tor-launcher/) has acted as the options panel for advanced Tor network configurations over the years.
+It also serves as a control point for users who are in censored networks.
+The UX and the Anti-Censorship teams joined efforts to improve the connecting flow for Tor Browser users.
+This release is the first in the upcoming series of helping censored users seamlessly access the open internet by simplifying the connection flow, detecting censorship and providing bridges.
+
+#### Known Issues
+Tor Browser 10.5 comes with a number of known issues:
+
+* [tpo/applications/tor-browser#40497](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40497)
+* [tpo/applications/fenix#40176](https://gitlab.torproject.org/tpo/applications/fenix/-/issues/40176)
+* [tpo/applications/fenix#40110](https://gitlab.torproject.org/tpo/applications/fenix/-/issues/40110)
+* [tpo/applications/fenix#40172](https://gitlab.torproject.org/tpo/applications/fenix/-/issues/40172)
+* [tpo/applications/fenix#40174](https://gitlab.torproject.org/tpo/applications/fenix/-/issues/40174)
+* [tpo/applications/tor-browser#40242](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40242)
+* [tpo/applications/fenix#40103](https://gitlab.torproject.org/tpo/applications/fenix/-/issues/40103)
+* [tpo/applications/fenix#40115](https://gitlab.torproject.org/tpo/applications/fenix/-/issues/40115)
+
+#### Give Feedback
+If you find a bug or have a suggestion for how we could improve this release, [please let us know](https://support.torproject.org/misc/bug-or-feedback/).
+Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
