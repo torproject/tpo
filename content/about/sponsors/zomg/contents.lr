@@ -1,0 +1,19 @@
+_model: sponsor
+---
+active: true
+---
+time: 2021
+---
+name: Zcash Open Major Grants (ZOMG)
+---
+key: 26
+---
+logo: /static/images/sponsors/ZOMG_logo.png
+---
+_hidden: yes
+---
+link: https://www.zcashomg.com
+---
+description:
+ZOMG (Zcash Open Major Grants) funds projects that advance the usability, security, privacy, and adoption of Zcash, a privacy-focused cryptocurrency which pioneered the use of zk-SNARKs.
+The Zcash ecosystem is driven to further individual privacy and freedom. ZOMG is funding a project to create an implementation of the Tor protocols in Rust (called "Arti").
