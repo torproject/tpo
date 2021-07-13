@@ -1,0 +1,63 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: True
+---
+title: Software Developer for Anti-Censorship Team
+---
+color: primary
+---
+summary:
+Internet Freedom Nonprofit Seeks Software Developer for Anti-Censorship Team
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Software Developer to take our anti-censorship work to the next level.
+
+This role will work on the anti-censorship technologies at Tor.  A personal commitment to free and open source software and the application of advanced programming skills for the greater good is essential.
+
+This is a full-time remote position.
+---
+description:
+## Software Developer for Anti-Censorship Team
+*July 9th, 2021*
+
+## Job Requirements
+
+This developer position will be an integral part of our Anti-Censorship Team. Main responsibilities for this position are:
+
+- Continue development of our bridge distribution system, pluggable transports, and other anti-censorship technologies.
+  - Required qualifications:
+  - Familiarity with Internet security and censorship circumvention technologies in China and other censored countries.
+  - Experience with designing, implementing, testing, and reviewing complex codebases (ideally in Go).
+  - Ability to work in a self-directed and independent way.
+  - Comfortable with working remotely, across time zones.
+  - Strong familiarity with computer science fundamentals.
+  - Preferred qualifications:
+  - Experience and intuition about censorship in China, including knowing how best to reach Chinese internet user communities to discuss circumvention approaches.
+  - Familiarity with reading research papers and turning research ideas into prototypes.
+  - Understanding of the Tor pluggable transport ecosystem and the censorship circumvention research space.
+  - Past contributions to and familiarity with the practices of free software projects.
+  - Passion and dedication to Internet freedom is an added plus.
+  - Speak and read Chinese.
+
+## To Apply
+
+To apply, submit a cover letter, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. In your cover letter, please include the reason you want to work at the Tor Project.
+
+IMPORTANT: Please email application materials in plain text or PDF format, if possible, to job-anticensor at torproject dot org with “Anti-Censorship Developer” in the subject line.
+
+## About The Tor Project
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 24 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+Salary for this position depends on experience and there is voluntary opt-in salary transparency for employees and contractors.
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
