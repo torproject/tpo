@@ -17,7 +17,7 @@ Internet Freedom Nonprofit Seeks Software Developer for Anti-Censorship Team
 
 The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Software Developer to take our anti-censorship work to the next level.
 
-This role will work on the anti-censorship technologies at Tor.  A personal commitment to free and open source software and the application of advanced programming skills for the greater good is essential.
+This role will work on the anti-censorship technologies at Tor. A personal commitment to free and open source software and the application of advanced programming skills for the greater good is essential.
 
 This is a full-time remote position.
 ---
@@ -29,7 +29,7 @@ description:
 
 This developer position will be an integral part of our Anti-Censorship Team. Main responsibilities for this position are:
 
-- Continue development of our bridge distribution system, pluggable transports, and other anti-censorship technologies.
+  - Continue development of our bridge distribution system, pluggable transports, and other anti-censorship technologies.
   - Required qualifications:
   - Familiarity with Internet security and censorship circumvention technologies in China and other censored countries.
   - Experience with designing, implementing, testing, and reviewing complex codebases (ideally in Go).
@@ -48,7 +48,7 @@ This developer position will be an integral part of our Anti-Censorship Team. Ma
 
 To apply, submit a cover letter, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. In your cover letter, please include the reason you want to work at the Tor Project.
 
-IMPORTANT: Please email application materials in plain text or PDF format, if possible, to job-anticensor at torproject dot org with “Anti-Censorship Developer” in the subject line.
+IMPORTANT: Please email application materials in plain text or PDF format, if possible, to job-anticensor at torproject dot org with "Anti-Censorship Developer" in the subject line.
 
 ## About The Tor Project
 
