@@ -30,13 +30,17 @@ description:
 This developer position will be an integral part of our Anti-Censorship Team. Main responsibilities for this position are:
 
   - Continue development of our bridge distribution system, pluggable transports, and other anti-censorship technologies.
-  - Required qualifications:
+
+Required qualifications:
+
   - Familiarity with Internet security and censorship circumvention technologies in China and other censored countries.
   - Experience with designing, implementing, testing, and reviewing complex codebases (ideally in Go).
   - Ability to work in a self-directed and independent way.
   - Comfortable with working remotely, across time zones.
   - Strong familiarity with computer science fundamentals.
-  - Preferred qualifications:
+
+Preferred qualifications:
+
   - Experience and intuition about censorship in China, including knowing how best to reach Chinese internet user communities to discuss circumvention approaches.
   - Familiarity with reading research papers and turning research ideas into prototypes.
   - Understanding of the Tor pluggable transport ecosystem and the censorship circumvention research space.
