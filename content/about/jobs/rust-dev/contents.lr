@@ -33,7 +33,7 @@ description:
 
 In this role, you will:
 
-- Help design, develop, and improve (Arti)[https://blog.torproject.org/announcing-arti], our Rust implementation of the Tor protocol.
+- Help design, develop, and improve [Arti](https://blog.torproject.org/announcing-arti), our Rust implementation of the Tor protocol.
 - Help other team members improve their Rust skills.
 - Collaborate with other Tor teams to integrate Arti in their workflows.
 - Contribute to other free, open-source Rust projects as needed, especially to ones that Arti depends on.
