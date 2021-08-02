@@ -1,0 +1,87 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: True
+---
+title: Software Engineers for Applications Team (Browser and VPN)
+---
+color: primary
+---
+summary:
+Internet Freedom Nonprofit Seeks Software Engineers for Applications Team (Browser and VPN)
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking two experienced developers to work on the Applications team.
+
+Our Applications Team's main project is the Tor Browser but we have plans to develop other apps in the near future. We are looking for two (2) full-time developers to join our team to help us with both Tor Browser development and mobile app development. These two positions share a core set of skills, but each has its own set of specific skills as well. However, regardless of whether you have all of one set of skills or a combination of the two sets, please apply! Further, if you feel that you meet several of the requirements, or could meet them with a little support, we would love to hear from you.
+
+The team coordinates both synchronously and asynchronously via IRC, email, bug trackers, and some voice meetings. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+
+These are full-time, remote positions.
+---
+description:
+## Internet Freedom Nonprofit Seeks Software Engineers for Applications Team (Browser and VPN)
+
+*July 9th, 2021*
+
+## The Jobs:
+
+Browser:
+- Evaluate and audit recent changes in Firefox, and understand how that affects Tor Browser users
+- Support maintaining Tor Browser on top of recent versions of Firefox
+- Improve Tor Browser’s security, privacy, and anonymity properties
+- Collaborate with Mozilla and directly improve Firefox
+- Simplify and improve Tor Browser's current protections
+- Support the continuous integration testing framework and tests
+- Improve Tor Browser's web compatibility
+
+Android Application Developer:
+- Support maintaining Tor Browser on Android
+- Improving Tor integration into Android apps
+- Improve Tor usability on Android
+- Collaborate with Guardian Project and other partners
+- Support Orbot improvements and similar app functionality
+
+Our main codebases are a combination of multiple components that make Tor Browser (<https://gitlab.torproject.org/tpo/applications/tor-browser/-/wikis/Codebases>).
+For a more detailed understanding of the full breadth and depth of the work you'd be doing, have a look at The Design and Implementation of the Tor Browser, especially The Design Requirements section at <https://spec.torproject.org/torbrowser-design#DesignRequirements>.
+
+## Requirements -- Technical Abilities/Experience:
+
+- Advanced skills in writing C++ (11 or later) and JavaScript.
+- Be comfortable working remotely with a geographically distributed team.
+- Experience interacting with users and other developers online, including experience being confronted with differing ideas and opinions, while maintaining a high level of professionalism.
+- Familiarity with distributed version control systems, including Git.
+- Familiarity with compiling software for the Android platform.
+
+Preferred qualifications:
+
+- Familiarity and/or experience with writing add-ons and/or patches for Mozilla Firefox or other web browsers.
+- Familiarity with writing C and Rust.
+- Familiarity with writing Kotlin or Java.
+- Be familiar with web technologies and how the web works, especially
+- the same-origin model and web tracking. Familiarity with browser fingerprinting defenses
+- Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing.
+- Know enough about networking to be able to visualize what HTTP 1.1 looks like on the wire while encapsulated within Tor's network protocol.
+- Android development experience, especially involving low-level networking like the VpnService.
+
+## How to Apply
+
+To apply, submit a cover letter, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. In your cover letter, please include the reason you want to work at the Tor Project.
+
+IMPORTANT: Please email application materials in PDF format to job-browser at torproject dot org with "Applications Developer" in the subject line.
+
+## About The Tor Project
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 24 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+Salary for this position is $100k USD and there is voluntary opt-in salary transparency for employees and contractors.
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.

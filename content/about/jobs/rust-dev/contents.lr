@@ -1,0 +1,77 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: yes
+---
+title: Software Developer, Rust
+---
+color: primary
+---
+summary:
+
+Internet Freedom Nonprofit Seeks Rust Developer
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking two experienced Rust developers to be a part of the Network Team.
+
+These developers will be an integral part of a small team that develops and maintains the networking software at the core of the Tor network, keeping it secure and improving it for the future. (Over the past 15 years, we've been developing the Tor implementation in C; but the time has finally come to migrate to Rust.)
+
+The team coordinates both synchronously and asynchronously via IRC, email, bug trackers, and some voice meetings. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+
+This is a full-time, remote position. Salary for this position is $90k - $110k USD, depending on experience, and there is voluntary opt-in salary transparency for employees and contractors.
+---
+description:
+
+## Software Developer, Rust
+*July 20, 2021*
+
+### Summary
+
+In this role, you will:
+
+- Help design, develop, and improve [Arti](https://blog.torproject.org/announcing-arti), our Rust implementation of the Tor protocol.
+- Help other team members improve their Rust skills.
+- Collaborate with other Tor teams to integrate Arti in their workflows.
+- Contribute to other free, open-source Rust projects as needed, especially to ones that Arti depends on.
+
+### Required Technical Skills and Experience
+
+- Familiarity with the Rust programming language, and with system design in Rust.
+- Strong remote work and time management skills.
+- Good communication and documentation skills.
+- Enthusiasm for teaching and learning within a distributed team.
+
+### Preferred Qualifications
+
+(These are good to have, but not required!)
+
+- Experience with async/await programming in Rust.
+- Experience with portable, cross-platform coding. (We work on Unix, OSX, Windows, iOS, and Android, and we're aiming to expand to WASM.)
+- Experience with developing large software projects, keeping them maintainable and flexible over time.
+- Experience with API design and documentation.
+- Familiarity with privacy, network programming, distributed systems, security, and cryptography.
+- Familiarity with FOSS software engineering practices.
+- Familiarity with C (for reading old tor code).
+- Experience with reading and writing technical specifications.
+
+Academic degrees are great, but not required if you have the right experience! If you feel that you meet several of these requirements or could meet them with a little support, we would love to hear from you.
+
+## How to Apply
+
+To apply, submit a cover letter, your CV/resume (including three professional references), and a link to a code sample or some non-trivial software project you have significantly contributed to. In your cover letter, please include the reason you want to work at the Tor Project.
+
+IMPORTANT: Please email application materials in PDF format to job-network at torproject dot org with "Network Developer" in the subject line.
+
+## About The Tor Project
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 28 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc. is an equal opportunity, affirmative action employer.
