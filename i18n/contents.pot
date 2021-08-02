@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-07 19:01+CET\n"
+"POT-Creation-Date: 2021-08-02 19:42+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -179,6 +179,11 @@ msgstr ""
 #: https://www.torproject.org/about/history/
 #: (content/about/history/contents+en.lr:page.title)
 msgid "History"
+msgstr ""
+
+#: https://www.torproject.org/privchat/
+#: (content/privchat/contents+en.lr:page.title)
+msgid "PrivChat"
 msgstr ""
 
 #: https://www.torproject.org/download/alpha/
@@ -1210,6 +1215,11 @@ msgid ""
 "organizations that use our technology or want to support our mission."
 msgstr ""
 
+#: https://www.torproject.org/privchat/chapter-4/
+#: (content/privchat/chapter-4/contents+en.lr:page.title)
+msgid "Privchat chapter 4"
+msgstr ""
+
 #: https://www.torproject.org/press/-new-release-tails/
 #: (content/press/new-release-tails/contents+en.lr:post.title)
 msgid "New Release: Tails 3.12"
@@ -1549,7 +1559,7 @@ msgstr ""
 msgid "Get Tor Browser for Android."
 msgstr ""
 
-#: templates/download-android.html:15 templates/hero-download.html:5
+#: templates/download-android.html:15 templates/hero-download.html:13
 msgid "Protect yourself against tracking, surveillance, and censorship."
 msgstr ""
 
@@ -1646,7 +1656,7 @@ msgid ""
 msgstr ""
 
 #: templates/download.html:10
-msgid "Select \"Tor is censored in my country.\""
+msgid "Select \"Tor Network Settings\" and \"Use a bridge\"."
 msgstr ""
 
 #: templates/download.html:13
@@ -1717,31 +1727,35 @@ msgstr ""
 msgid "GROW THE NETWORK"
 msgstr ""
 
-#: templates/hero-download.html:2
+#: templates/hero-download.html:10
 msgid "Defend yourself."
 msgstr ""
 
-#: templates/hero-download.html:36
+#: templates/hero-download.html:50
 msgid "Download for"
 msgstr ""
 
-#: templates/hero-download.html:37
+#: templates/hero-download.html:51
 msgid "Signature"
 msgstr ""
 
-#: templates/hero-download.html:47
+#: templates/hero-download.html:52
+msgid "Learn how to verify a signature"
+msgstr ""
+
+#: templates/hero-download.html:61
 msgid "Download for Android"
 msgstr ""
 
-#: templates/hero-download.html:53
+#: templates/hero-download.html:67
 msgid "Download in another language or platform"
 msgstr ""
 
-#: templates/hero-download.html:54
+#: templates/hero-download.html:68
 msgid "Download the latest alpha build"
 msgstr ""
 
-#: templates/hero-download.html:59
+#: templates/hero-download.html:73
 msgid "Read the latest release announcements"
 msgstr ""
 
@@ -1753,7 +1767,7 @@ msgstr ""
 msgid "Explore Freely."
 msgstr ""
 
-#: templates/hero-home.html:8 templates/meta.html:5 templates/meta.html:12
+#: templates/hero-home.html:8 templates/meta.html:6 templates/meta.html:13
 msgid ""
 "Defend yourself against tracking and surveillance. Circumvent censorship."
 msgstr ""
@@ -1859,11 +1873,11 @@ msgstr ""
 msgid "Green Onion Members"
 msgstr ""
 
-#: templates/meta.html:11
+#: templates/meta.html:12
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr ""
 
-#: templates/meta.html:20
+#: templates/meta.html:21
 msgid "Tor Project"
 msgstr ""
 
@@ -1918,28 +1932,24 @@ msgstr ""
 msgid "Onion Services"
 msgstr ""
 
-#: templates/press.html:40
-msgid "Press Releases"
-msgstr ""
-
-#: templates/press.html:54
+#: templates/press.html:37
 msgid "Coverage"
 msgstr ""
 
-#: templates/press.html:61
+#: templates/press.html:44
 msgid "Date"
 msgstr ""
 
-#: templates/press.html:62
+#: templates/press.html:45
 msgid "Publication"
 msgstr ""
 
-#: templates/press.html:63
+#: templates/press.html:46
 msgid "Topic"
 msgstr ""
 
 #: templates/privchat-1.html:19 templates/privchat-2.html:19
-#: templates/privchat-3.html:19
+#: templates/privchat-3.html:19 templates/privchat-4.html:19
 msgid "Watch"
 msgstr ""
 
@@ -1957,10 +1967,6 @@ msgstr ""
 
 #: templates/privchat-1.html:86
 msgid "Matt Mitchell "
-msgstr ""
-
-#: templates/privchat.html:30
-msgid "Save the Date"
 msgstr ""
 
 #: templates/release.html:22
