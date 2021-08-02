@@ -1,23 +1,26 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{  this.alt }}" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl" {% endif %}>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@torproject" />
-<meta name="twitter:creator" content="@torproject" />
-<meta name="twitter:image" content="https://www.torproject.org/static/images/tor-project-logo-onions.png"/>
-<meta property="og:url" content="https://torproject.org" />
-<meta property="og:title" content="{{ _('The Tor Project | Privacy & Freedom Online') }}" />
-<meta property="og:description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}" />
-<meta property="og:image" content="https://www.torproject.org/static/images/tor-project-logo-onions.png" />
-<link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
-<link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
-<!-- Standard favicon -->
-<link rel="icon" type="image/x-icon" href="https://www.torproject.org/static/images/favicon/favicon.ico">
-<!-- Recommended favicon format -->
-<link rel="icon" type="image/png" href="https://www.torproject.org/static/images/favicon/favicon.png">
-<title>{{ _("Tor Project") }} | {% block title %}{{ this.title }}{% endblock %}</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@torproject" />
+  <meta name="twitter:creator" content="@torproject" />
+  <meta name="twitter:image" content="https://www.torproject.org/static/images/tor-project-logo-onions.png"/>
+  <meta property="og:url" content="https://torproject.org" />
+  <meta property="og:title" content="{{ _('The Tor Project | Privacy & Freedom Online') }}" />
+  <meta property="og:description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}" />
+  <meta property="og:image" content="https://www.torproject.org/static/images/tor-project-logo-onions.png" />
+  <link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
+  <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
+  <!-- Standard favicon -->
+  <link rel="icon" type="image/x-icon" href="https://www.torproject.org/static/images/favicon/favicon.ico">
+  <!-- Recommended favicon format -->
+  <link rel="icon" type="image/png" href="https://www.torproject.org/static/images/favicon/favicon.png">
+  <title>{{ _("Tor Project") }} | {% block title %}{{ this.title }}{% endblock %}</title>
+  {% block head_extra %}{% endblock %}
+</head>
 <body class="no-gutters">
   <header>
     {% if this.path == '/download' %}

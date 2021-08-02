@@ -1,3 +1,11 @@
+{% block head_extra %}
+<script>
+  // we can't use jquery for the event listener because jquery isn't loaded yet
+  document.addEventListener("DOMContentLoaded", function() {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+{% endblock %}
 <div class="row">
   <h1 class="mx-auto display-2 text-white text-center">{{ _('Defend yourself.') }}</h1>
 </div>
@@ -33,9 +41,15 @@
         <a class="downloadLink" href="{{ download_link }}">
           <i class="text-light fab fa-{{ id }}-png"></i>
         </a>
+        <script>
+         // we can't use jquery for the event listener because jquery isn't loaded yet
+         document.addEventListener("DOMContentLoaded", function() {
+           $('[data-toggle="tooltip"]').tooltip();
+         });
+        </script>
         <a class="btn btn-primary mt-4 downloadLink" href="{{ download_link }}">{{ _('Download for') }} {{ item.label }}</a>
-        <a class="link" href="{{ sig_link }}"><span class="nick text-white">{{ _('Signature') }}</span></a>
-        <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/tbb/how-to-verify-signature/' }}" target="_blank"><i style="font-size:10px;" class="text-light fas fa-question-circle"></i></a>
+        <a class="link" href="{{ sig_link }}" download><span class="nick text-white" style="text-decoration: underline;">{{ _('Signature') }}</span></a>
+        <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/tbb/how-to-verify-signature/' }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ _('Learn how to verify a signature') }}"><i style="font-size:10px;" class="text-light fas fa-question-circle"></i></a>
       </div>
     </div>
     {% endfor %}
