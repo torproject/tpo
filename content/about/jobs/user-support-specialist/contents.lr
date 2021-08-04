@@ -1,0 +1,86 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: yes
+---
+title: User Support Specialist
+---
+color: primary
+---
+summary:
+Internet Freedom Nonprofit Seeks User Support Specialist
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a User Support Specialist to be a part of the Community Team.
+
+Are you passionate about helping people all over the world access the Internet freely,  safely, and anonymously?
+
+As the User Support Specialist, you will be responsible for providing technical support and digital security best practices for Tor users around the world. You will help users remotely via various communication methods such as email, tickets, text-based live chat (IRC), and online forums. You will also collaborate with the UX and Applications teams, improving Tor Browser and other products by identifying, reproducing, and tracking bugs, and by reporting on user needs.
+
+This position will be directly connected to the Community Team roadmap and activities in the Global South.
+
+The Community Team at the Tor Project coordinates digital security trainings and user education, localization, user support, and documentation. The team is composed of volunteers and The Tor Project staff members.
+
+We expect the person in this position to have a personal commitment to free and open source software, excellent communication and documentation skills, and a passion for helping others.
+
+This is a part-time, remote position, estimated at 20 hours per week. Hourly rate will be between $25-32 USD, depending on experience.
+---
+description:
+
+## User Support Specialist
+*August 4, 2021*
+
+## Job Requirements
+
+In this role, you will:
+
+- Answer users' requests on our support forums and channels.
+- Provide support to community organizations in target countries in the Global South.
+- Collaborate on identifying Tor Browser bugs and other issues.
+- Support new relay operators.
+- Compile and share usability issues with the UX and Applications teams.
+- Collaborate on maintenance and improvement of user documentation.
+- Help with QA for Tor Browser releases and other features.
+
+### Required qualifications
+
+- Knowledge of how Tor works and understanding of Tor Browser features.
+- Experience providing user support in a remote setting.
+- Strong experience with helpdesk tools like Request Tracker (RT) and forum platforms like Discourse.
+- Familiarity with markdown (e.g. Lektor, wiki markdown formatting, basic html, etc.)
+- Strong Experience with bug trackers like GitLab and GitHub.
+- Cross-platform technical skills, including troubleshooting and familiarity with Android, iOS, Microsoft Windows, macOS, and Linux-based operating systems.
+- Awareness of privacy-by-design practices and respect for our users' privacy and anonymity.
+- Good understanding of Git workflow.
+- Largely self-directed, motivated, and organized.
+- Excellent documentation skills.
+- Fluency in English is essential.
+
+### Preferred qualifications
+
+- Familiarity with tools that are part of the Tor ecosystem like Tails, Orbot, OnionShare, GlobaLeaks, and SecureDrop.
+- General understanding of Internet privacy and security issues.
+- Interest in user education.
+- Good understanding of threat models for users in high-risk parts of the world.
+- Past contributions to and familiarity with the practices of free software projects.
+- Passion and dedication to Internet freedom is an added plus.
+
+## How to Apply
+
+To apply, submit a cover letter, your CV/resume, and a sample of your work (ideally something that demonstrates your documentation skills). In your cover letter, please include the reason you want to work at the Tor Project and explain how your qualifications meet those required in the job description.
+
+IMPORTANT: Please email application materials in PDF format to job-usersupport at torproject dot org with "User Support Specialist" in the subject line.
+
+## About The Tor Project
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 28 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc. is an equal opportunity, affirmative action employer.
