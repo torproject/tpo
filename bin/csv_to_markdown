@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+#
+# expects publisher,title,date,link csv files
 
 import csv
 import os
