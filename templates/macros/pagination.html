@@ -2,12 +2,7 @@
   <nav aria-label="page navigation">
     <ul class="pagination">
     {% if pagination.has_prev %}
-    <li class="page-item"><a class="page-link" href="{{ pagination.prev|url }}">Newer</a></li>
-    {% else %}
-    <li class="page-item disabled"><a class="page-link" href="">Newer</a></li>
-    {% endif %}
-
-    {% if pagination.has_prev %}
+      <li class="page-item"><a class="page-link" href="{{ pagination.prev|url }}">Newer</a></li>
       {% if pagination.for_page(pagination.page-2).has_prev %}
         {% set goback = 2 %}
       {% else %}
@@ -46,6 +41,7 @@
       {% endif %}
     
     {% else %}
+      <li class="page-item disabled"><a class="page-link" href="">Newer</a></li>
       {% for i in range(pagination.page, pagination.page+5)%}
         {% set yearToShow = year-(i-1) %}
 	{% if yearToShow >= oldest %}
