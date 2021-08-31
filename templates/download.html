@@ -1,35 +1,36 @@
 <div class="container py-3">
   <div class="row">
     <div class="col-sm-6">
-      <div class="col-md-8 order-1 illo-container">
-        <img src="{{ '/static/images/download/png/get-connected@3x.png'|asseturl }}" class="" alt="{{ _("Get Connected") }}" />
+      <div class="col-md-8 order-1 illo-container ">
+        <img src="{{ '/static/images/download/png/get-connected@3x.png'|asseturl }}" class="center-block" alt="{{ _("Get Connected") }}" />
       </div>
       <h3 class="text-primary">{{ _('Get connected') }}</h3>
-      <div class="row pl-3 pr-5 text-tpo">
+      <div class="row pl-3 pr-5 text-tpo text-justify">
               <p class="text-tpo"><span class="text-bold">{{ _('If you are in a country where Tor is blocked, you can configure Tor to connect to a bridge during the setup process.') }} </span></p>
               <p class="text-tpo">{{ _('Select "Tor Network Settings" and "Use a bridge".') }}</p>
       </div>
-      <div class="row pl-3 pr-5 text-tpo">
+      <div class="row pl-3 pr-5 text-tpo text-justify">
               <p class="text-tpo">{{ _('If Tor is not censored, one of the most common reasons Tor won\'t connect is an incorrect system clock. Please make sure it\'s set correctly.') }}</p>
               <h6><a href="https://support.torproject.org/{{ this.alt }}" title="{{ _('Support Portal') }}">{{ _('Read other FAQ\'s at our Support Portal') }}</a></h6>
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="col-md-8 order-1 illo-container">
-        <img src="{{ '/static/images/download/png/stay-safe@3x.png'|asseturl }}" class="" alt="{{ _("Stay safe") }}" />
+      <div class="col-md-8 order-1 illo-container t">
+        <img src="{{ '/static/images/download/png/stay-safe@3x.png'|asseturl }}" class="center-block" alt="{{ _("Stay safe") }}" />
       </div>
       <h3 class="text-primary">{{ _('Stay safe') }}</h3>
-        <div class="row pl-3 pr-5 text-tpo">
+        <div class="row pl-3 pr-5 text-tpo text-justify">
           <p class="text-tpo">{{ _('Please do not torrent over Tor.') }} <br />
            {{ _('Tor Browser will block browser plugins such as Flash, RealPlayer, QuickTime, and others: they can be manipulated into revealing your IP address.') }}</p>
         </div>
-        <div class="row pl-3 pr-5 text-tpo">
+        <div class="row pl-3 pr-5 text-tpo text-justify">
           <p class="text-tpo"><b>{{ _('We do not recommend installing additional add-ons or plugins into Tor Browser') }}</b></p>
           <p class="text-tpo">{{ _('Plugins or addons may bypass Tor or compromise your privacy. Tor Browser already comes with HTTPS Everywhere, NoScript, and other patches to protect your privacy and security.') }}</p>
         </div>
     </div>
   </div>
 </div>
+<br /><br />
 <div class="container">
   <div class="row border-bottom border-light"><p></p></div>
 </div>
