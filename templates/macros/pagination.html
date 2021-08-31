@@ -9,11 +9,12 @@
         {% set goback = 1 %}
       {% endif %}
       
-      {% if pagination.has_next %}
+      {% if year != oldest %}
         {% if pagination.for_page(pagination.page+2).has_next %}
-          {% set goforw = 3 %}
+          {% set goforw = 5-goback %}
         {% else %}
           {% set goforw = 2 %}
+          {% set goback = 3 %}
         {% endif %}
         
 	{% for i in range(pagination.page-goback, pagination.page+goforw)%}
@@ -28,8 +29,8 @@
 	{% endfor %}
 
       {% else %}
-        {% for i in range(pagination.page-5, pagination.page)%}
-	  {% set yearToShow = year-(i-pagination.page+1) %}
+        {% for i in range(pagination.page-4, pagination.page+1)%}
+	  {% set yearToShow = year-(i-pagination.page) %}
 	  {% if yearToShow >= oldest %}
           {% if i == pagination.page %}
 	    <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
