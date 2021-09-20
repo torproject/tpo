@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20210920T200957Z
+LAST-MODIFIED:20210920T201302Z
+DTSTAMP:20210920T201302Z
+UID:8e15ebea-845a-3e45-99a8-f932fc89703c
+SUMMARY:PrivChat with Tor | Proctection Against Pegasus
+DTSTART;TZID=America/Los_Angeles:20210927T100000
+DTEND;TZID=America/Los_Angeles:20210927T110000
+TRANSP:OPAQUE
+LOCATION:https://www.youtube.com/watch?v=4ovmcZtaacY
+DESCRIPTION:WHAT: PrivChat with Tor | Proctection Against Pegasus\n\nWHERE
+ : https://www.youtube.com/watch?v=4ovmcZtaacY\n\nWHEN: Sept. 27 @ 17:00 UT
+ C\n\n---\n\nEvery year\, governments\, law enforcement agencies\, militari
+ es\, and corporations invest billions of dollars into building and buying 
+ malicious spyware software designed to silently infiltrate a user's device
+  and allow attackers to view the contents without detection.\n\nThis year\
+ , the Pegasus Project revealed that users of this kind of spyware\, known 
+ as Pegasus and built by the NSO group\, had targeted the phones that belon
+ g to thousands of people in more than 50 countries\, including business ex
+ ecutives\, politicians\, journalists\, and human rights activists.\n\nIn t
+ his edition of PrivChat\, join Likhita and Etienne Maynier of Amnesty Inte
+ rnational and John Scott Railton of Citizen Lab to discuss:\n\n- What can 
+ individuals\, journalists\, activists\, and human rights defenders can do 
+ to protect themselves against sophisticated spyware?\n- What kind of organ
+ izations can we support to help stop this abuse?\n- Who is working on safe
+ r\, more private software that we can trust?\n\nRoger Dingledine\, Co-Foun
+ der of the Tor Project\, will join us as our host and moderator.\nhttps://
+ torproject.org/privchat\n
+X-MOZ-GENERATION:1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-PT15M
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+END:VCALENDAR
