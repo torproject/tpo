@@ -1,0 +1,23 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Joydeep Sen Gupta
+---
+twitter_handle: championquizzer
+---
+mastodon_url: https://mastodon.online/@championquizzer
+---
+pronoun: he
+---
+nickname: championquizzer
+---
+gpg: /static/keys/championquizzer.txt
+---
+image: /static/images/people/championquizzer.png
+---
+description:
+
+Member of the Community Team and User Support Specialist.
