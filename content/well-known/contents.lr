@@ -1,9 +1,0 @@
-_model: text
----
-_template: empty.html
----
-body:
-This is a Brave Rewards publisher verification file.
-
-Domain: torproject.org
-Token: 82054e47b80e8bf9338ac801e13bf001ca99dec06fae4e1b4168345dcb3326a8

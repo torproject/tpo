@@ -148,7 +148,7 @@ This table summarises how each databag file is used
 | tags.ini | Content tags and styling information |
 
 
-Check our [wiki pages](https://gitlab.torproject.org/tpo/web/community/-/wikis/How-to-develop-on-the-website) for more information.
+Check our [wiki pages](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website) for more information.
 
 ## Translations
 

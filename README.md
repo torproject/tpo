@@ -1,12 +1,12 @@
 # Tor Project Website
 
-This is the repository of Tor Project website. The current online version of this portal can be found at [https://torproject.org](https://torproject.org) or [Tor Project Onion Service](http://expyuzz4wqqyqhjn.onion/).
+This is the repository of Tor Project website. The current online version of this portal can be found at [https://torproject.org](https://torproject.org) or [Tor Project Onion Service](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/).
 
 To clone the code use either of
 
 ```git clone https://git.torproject.org/project/web/tpo.git/```
 
-```torify git clone http://dccbbv6cooddgcrq.onion/project/web/tpo.git/```
+```torify git clone http://xtlfhaspqtkeeqxk6umggfbr3gyfznvf4jhrge2fujz53433i2fcs3id.onion/project/web/tpo.git/```
 
 or browse it [online](http://gitweb.torproject.org/project/web/tpo.git).
 
@@ -50,7 +50,7 @@ To just build the website once: ```$ lektor build -O <folder>```
 
 #### How to develop on the website
 
-Check our [wiki pages](https://gitlab.torproject.org/web/community/wikis/How-to-develop-on-the-website).
+Check our [wiki pages](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website).
 
 ### Translations
 
