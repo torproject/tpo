@@ -6,7 +6,7 @@ section: about
 ---
 section_id: about
 ---
-active: yes
+active: no
 ---
 title: Software Developer, Rust
 ---
@@ -14,7 +14,7 @@ color: primary
 ---
 summary:
 
-Internet Freedom Nonprofit Seeks Rust Developer
+Internet Freedom Nonprofit Seeks Rust Developer - Application deadline August 31, 2021
 
 The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking two experienced Rust developers to be a part of the Network Team.
 

@@ -1,0 +1,20 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: sanketh
+---
+nickname: sanketh
+---
+pronoun: he?or=they
+---
+twitter_handle: __sanketh
+---
+gpg: https://keybase.io/sanketh/pgp_keys.asc?fingerprint=bc2fbb197861ce9eb638a33770b27cfa0aecf418
+---
+description:
+
+Contributes to the Tor Browser.
+

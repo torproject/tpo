@@ -47,10 +47,16 @@
     </tr>
   </thead>
   <tbody>
+    {% from "macros/pagination.html" import render_pagination %}
     {% from "macros/press.html" import render_snippet %}
     {% set items = site.query('/press').include_undiscoverable(true).filter(F.type == "snippet") %}
+    {% set year = items.first().pub_date.year-(this.pagination.page-1) %}
+    {% set oldest = items.all()|last %}
+    {{ render_pagination(this.pagination, year, oldest.pub_date.year) }}
     {% for item in items %}
-      {{ render_snippet(item, this.alt) }}
+      {% if item.pub_date.year == year %}
+        {{ render_snippet(item, this.alt) }}
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>

@@ -2,7 +2,7 @@ _model: sponsor
 ---
 active: True
 ---
-time: 2017 - 2018
+time: 2017 - 2023
 ---
 name: U.S. Department of State Bureau of Democracy, Human Rights, and Labor
 ---
@@ -12,9 +12,9 @@ logo: /static/images/sponsors/USSD.png
 ---
 _hidden: yes
 ---
-link: https://www.state.gov/about-us-bureau-of-democracy-human-rights-and-labor/
+link: https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/
 ---
 description:
 
-The Bureau of Democracy, Human Rights and Labor leads the U.S. efforts to promote democracy, protect human rights and international religious freedom, and advance labor rights globally. We're using this funding for “Anti-Censorship Technologies” - a project to empower human rights defenders in the Global South by giving them the tools they need to do their important work.
+The Bureau of Democracy, Human Rights and Labor leads the U.S. efforts to promote democracy, protect human rights and international religious freedom, and advance labor rights globally. DRL is currently supporting the Tor Project to: (1) empower communities in the Global South to bypass censorship, (2) rapidly expand access to the open internet, (3) make the Tor network faster and more reliable for users in the Global South, and (4) measure and respond to internet censorship.
 
