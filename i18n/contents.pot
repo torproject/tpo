@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 19:42+CET\n"
+"POT-Creation-Date: 2021-10-08 13:14+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -223,6 +223,37 @@ msgstr ""
 #: https://www.torproject.org/download/tor/
 #: (content/download/tor/contents+en.lr:page.title)
 msgid "Download Tor Source Code"
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tails/
+#: (content/press/new-release-tails/contents+en.lr:post.summary)
+msgid ""
+"This release fixes many security vulnerabilities. You should upgrade as soon "
+"as possible."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tails/
+#: (content/press/new-release-tails/contents+en.lr:post.summary)
+msgid ""
+"The biggest news for 3.12 is that we completely changed the installation "
+"methods for Tails."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor/
+#: (content/press/new-release-tor/contents+en.lr:post.summary)
+msgid ""
+"There's a new alpha release available for download. If you build Tor from "
+"source, you can download the source code for 0.4.0.1-alpha from the usual "
+"place on the website."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor-browser/
+#: (content/press/new-release-tor-browser/contents+en.lr:post.summary)
+msgid ""
+"Tor Browser 8.5a10 is now available from the <a href=\"https://www."
+"torproject.org/projects/torbrowser.html.en#downloads-alpha\">Tor Browser "
+"Project page</a> and also from our <a href=\"/dist/torbrowser/8.5a10/"
+"\">distribution directory</a>."
 msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
@@ -1220,52 +1251,6 @@ msgstr ""
 msgid "Privchat chapter 4"
 msgstr ""
 
-#: https://www.torproject.org/press/-new-release-tails/
-#: (content/press/new-release-tails/contents+en.lr:post.title)
-msgid "New Release: Tails 3.12"
-msgstr ""
-
-#: https://www.torproject.org/press/-new-release-tails/
-#: (content/press/new-release-tails/contents+en.lr:post.summary)
-msgid ""
-"This release fixes many security vulnerabilities. You should upgrade as soon "
-"as possible."
-msgstr ""
-
-#: https://www.torproject.org/press/-new-release-tails/
-#: (content/press/new-release-tails/contents+en.lr:post.summary)
-msgid ""
-"The biggest news for 3.12 is that we completely changed the installation "
-"methods for Tails."
-msgstr ""
-
-#: https://www.torproject.org/press/-new-release-tor/
-#: (content/press/new-release-tor/contents+en.lr:post.title)
-msgid "New Release: Tor 0.4.0.1-alpha"
-msgstr ""
-
-#: https://www.torproject.org/press/-new-release-tor/
-#: (content/press/new-release-tor/contents+en.lr:post.summary)
-msgid ""
-"There's a new alpha release available for download. If you build Tor from "
-"source, you can download the source code for 0.4.0.1-alpha from the usual "
-"place on the website."
-msgstr ""
-
-#: https://www.torproject.org/press/-new-release-tor-browser/
-#: (content/press/new-release-tor-browser/contents+en.lr:post.title)
-msgid "New Release: Tor Browser 8.5a10"
-msgstr ""
-
-#: https://www.torproject.org/press/-new-release-tor-browser/
-#: (content/press/new-release-tor-browser/contents+en.lr:post.summary)
-msgid ""
-"Tor Browser 8.5a10 is now available from the <a href=\"https://www."
-"torproject.org/projects/torbrowser.html.en#downloads-alpha\">Tor Browser "
-"Project page</a> and also from our <a href=\"/dist/torbrowser/8.5a10/"
-"\">distribution directory</a>."
-msgstr ""
-
 #: https://www.torproject.org/about/trademark/trademark-faq/
 #: (content/about/trademark/trademark-faq/contents+en.lr:topic.title)
 msgid "Tor Trademark Frequently Asked Questions"
@@ -1629,6 +1614,11 @@ msgstr ""
 msgid "sig"
 msgstr ""
 
+#: templates/download-tor.html:28 templates/download-tor.html:34
+#: templates/download-tor.html:51 templates/hero-download.html:52
+msgid "Learn how to verify a signature"
+msgstr ""
+
 #: templates/download-tor.html:41
 msgid "Windows Expert Bundle"
 msgstr ""
@@ -1699,20 +1689,20 @@ msgid ""
 "your privacy and security."
 msgstr ""
 
-#: templates/download.html:40
+#: templates/download.html:41
 #, python-format
 msgid "Check out the %s for more troubleshooting tips."
 msgstr ""
 
-#: templates/download.html:49
+#: templates/download.html:50
 msgid "How can I verify Tor Browser signature?"
 msgstr ""
 
-#: templates/download.html:54
+#: templates/download.html:55
 msgid "Stand up for privacy and freedom online."
 msgstr ""
 
-#: templates/download.html:55
+#: templates/download.html:56
 msgid ""
 "We're a nonprofit organization and rely on supporters like you to help us "
 "keep Tor robust and secure for millions of people worldwide."
@@ -1737,10 +1727,6 @@ msgstr ""
 
 #: templates/hero-download.html:51
 msgid "Signature"
-msgstr ""
-
-#: templates/hero-download.html:52
-msgid "Learn how to verify a signature"
 msgstr ""
 
 #: templates/hero-download.html:61
@@ -1869,7 +1855,7 @@ msgstr ""
 msgid "We invite you to join us on IRC to find how you can get involved."
 msgstr ""
 
-#: templates/membership.html:111
+#: templates/membership.html:113
 msgid "Green Onion Members"
 msgstr ""
 
@@ -1950,6 +1936,7 @@ msgstr ""
 
 #: templates/privchat-1.html:19 templates/privchat-2.html:19
 #: templates/privchat-3.html:19 templates/privchat-4.html:19
+#: templates/privchat.html:30
 msgid "Watch"
 msgstr ""
 
@@ -2078,6 +2065,14 @@ msgstr ""
 
 #: templates/macros/jobs.html:11
 msgid "Read more."
+msgstr ""
+
+#: templates/macros/pagination.html:5 templates/macros/pagination.html:45
+msgid "Newer"
+msgstr ""
+
+#: templates/macros/pagination.html:59 templates/macros/pagination.html:61
+msgid "Older"
 msgstr ""
 
 #: templates/macros/question.html:15
