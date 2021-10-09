@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+#
+# expects publisher,title,date,link csv files
+# date = yyyy-mm-dd
 
 import csv
 import os
@@ -15,8 +18,7 @@ with open(csv_file, newline='') as csvfile:
     re_path = re.sub(r'[^\w\s]','',row[1]).lower()
     create_path = re.sub(' ','-',re_path)
     title = row[1]
-    date = row[2].split('/')
-    pub_date = "{}-{}-{}".format(date[2], date[0], date[1])
+    pub_date = row[2]
     link = row[3]
     full_path = os.path.join(os.getcwd(),"content/press/{}".format(create_path))
     if not os.path.exists(full_path):
