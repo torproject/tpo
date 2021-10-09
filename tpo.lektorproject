@@ -30,6 +30,11 @@ name = Français (fr)
 url_prefix = /fr/
 locale = fr
 
+[alternatives.hu]
+name =  Magyar nyelv (hu)
+url_prefix = /hu/
+locale = hu
+
 [alternatives.is]
 name = Íslenska (is)
 url_prefix = /is/
