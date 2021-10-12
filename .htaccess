@@ -17,8 +17,8 @@ RewriteRule ^about/findoc(.*) /static/findoc$1 [R=302,L]
 RewriteRule ^about/corepeople$  /about/people/ [R=302,L]
 
 # moved to /docs/
-RewriteRule ^docs/(.*) https://2019.www.torproject.org/docs/$1 [R=302,L]
-RewriteRule ^documentation.html$ https://2019.www.torproject.org/docs/documentation.html [R=302,L]
+RewriteRule ^docs/(.*) https://support.torproject.org/ [R=302,L]
+RewriteRule ^documentation.html$ https://support.torproject.org/ [R=302,L]
 
 # Torbutton
 RewriteRule ^torbutton/design(.*) https://2019.www.torproject.org/docs/torbutton/en/design$1 [R=302,L]
@@ -43,8 +43,8 @@ RewriteRule ^projects(.*) https://2019.www.torproject.org/projects$1 [R=302,L]
 
 
 #Pluggable Transports
-RewriteRule ^PT/?$ https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
-RewriteRule ^projects/obfsproxy-debian-instructions(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=410,L]
+RewriteRule ^PT/?$ https://tb-manual.torproject.org/circumvention/ [R=302,L]
+RewriteRule ^projects/obfsproxy-debian-instructions(.*) https://community.torproject.org/relay/setup/bridge/debian-ubuntu/ [R=410,L]
 RewriteRule ^projects/obfsproxy-instructions(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=410,L]
 RewriteRule ^projects/obfsproxy(.*) https://2019.www.torproject.org/docs/pluggable-transports [R=302,L]
 
@@ -56,7 +56,7 @@ RewriteRule ^getinvolved/$ https://2019.www.torproject.org/getinvolved/volunteer
 RewriteRule ^getinvolved/translation.html.en$ https://tb-manual.torproject.org/becoming-tor-translator/ [R=302,L]
 RewriteRule ^getinvolved(.*) https://2019.www.torproject.org/getinvolved$1 [R=302,L]
 RewriteRule ^volunteer(.*) https://2019.www.torproject.org/getinvolved/volunteer$1 [R=302,L]
-RewriteRule ^tshirt(.*) https://2019.www.torproject.org/getinvolved/tshirt$1 [R=302,L]
+RewriteRule ^tshirt(.*) https://community.torproject.org/relay/community-resources/swag [R=302,L]
 
 RewriteRule ^research(.*) https://research.torproject.org/ [R=302,L]
 RewriteRule ^getinvolved/research(.*) https://research.torproject.org/ [R=302,L]
