@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Julien Voisin
+---
+twitter_handle: dustriorg
+---
+pronoun: he
+---
+nickname: jvoisin
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=9FCDEE9E1A381F311EA62A7404D041E8171901CC
+---
+image: /static/images/people/jvoisin.jpg
+---
+description:
+
+Sysadmin for [Nos Oignons](https://nos-oignons.net) and maintainer of [mat2](https://0xacab.org/jvoisin/mat2).
