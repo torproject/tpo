@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-08 13:14+CET\n"
+"POT-Creation-Date: 2021-10-28 13:28+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -239,14 +239,6 @@ msgid ""
 "methods for Tails."
 msgstr ""
 
-#: https://www.torproject.org/press/-new-release-tor/
-#: (content/press/new-release-tor/contents+en.lr:post.summary)
-msgid ""
-"There's a new alpha release available for download. If you build Tor from "
-"source, you can download the source code for 0.4.0.1-alpha from the usual "
-"place on the website."
-msgstr ""
-
 #: https://www.torproject.org/press/-new-release-tor-browser/
 #: (content/press/new-release-tor-browser/contents+en.lr:post.summary)
 msgid ""
@@ -254,6 +246,14 @@ msgid ""
 "torproject.org/projects/torbrowser.html.en#downloads-alpha\">Tor Browser "
 "Project page</a> and also from our <a href=\"/dist/torbrowser/8.5a10/"
 "\">distribution directory</a>."
+msgstr ""
+
+#: https://www.torproject.org/press/-new-release-tor/
+#: (content/press/new-release-tor/contents+en.lr:post.summary)
+msgid ""
+"There's a new alpha release available for download. If you build Tor from "
+"source, you can download the source code for 0.4.0.1-alpha from the usual "
+"place on the website."
 msgstr ""
 
 #: https://www.torproject.org/releases/tor-browser-95/
@@ -1262,25 +1262,26 @@ msgid "Close banner"
 msgstr ""
 
 #: lego/templates/banner.html:11 templates/banner.html:11
-msgid "Use a Mask, Use Tor."
+msgid "Privacy is a human right"
 msgstr ""
 
-#: lego/templates/banner.html:20 templates/banner.html:20
-msgid "Resist the surveillance pandemic."
+#: lego/templates/banner.html:15 templates/banner.html:15
+msgid "Your donation will be matched by Friends of Tor, up to $150,000."
 msgstr ""
 
-#: lego/templates/banner.html:32 templates/banner.html:32
+#: lego/templates/banner.html:26 templates/banner.html:26
 msgid "Your donation will be matched by Friends of Tor, up to $100,000."
 msgstr ""
 
-#: lego/templates/banner.html:40 templates/banner.html:40
-msgid "DONATE NOW"
+#: lego/templates/banner.html:31 lego/templates/banner.html:33
+#: templates/banner.html:31 templates/banner.html:33
+msgid "Donate now"
 msgstr ""
 
 #: lego/templates/footer.html:13 lego/templates/footer.html:22
-#: lego/templates/navbar.html:83 templates/footer.html:13
+#: lego/templates/navbar.html:96 templates/footer.html:13
 #: templates/footer.html:22 templates/hero-home.html:13
-#: templates/navbar.html:83
+#: templates/navbar.html:96
 msgid "Download Tor Browser"
 msgstr ""
 
@@ -1319,15 +1320,15 @@ msgstr ""
 msgid "Sign up"
 msgstr ""
 
-#: lego/templates/footer.html:98 templates/footer-min.html:67
-#: templates/footer.html:98
+#: lego/templates/footer.html:101 templates/footer-min.html:67
+#: templates/footer.html:101
 #, python-format
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our %(link_to_faq)s"
 msgstr ""
 
-#: lego/templates/navbar.html:25 templates/navbar.html:25
+#: lego/templates/navbar.html:26 templates/navbar.html:26
 msgid "Menu"
 msgstr ""
 
