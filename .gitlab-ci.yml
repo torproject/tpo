@@ -2,10 +2,6 @@ variables:
   TRANSLATION_BRANCH: "tpo-web"
 
 include:
-  project: tpo/tpa/ci-templates
-  file: lektor.yml
-
-include:
   - project: tpo/tpa/ci-templates
     file: lektor.yml
   - project: tpo/tpa/ci-templates
