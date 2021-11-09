@@ -1,4 +1,4 @@
-{% macro render_pagination(pagination, year, oldest) %}
+{% macro render_pagination(pagination) %}
   <nav aria-label="page navigation">
     <ul class="pagination">
     {% if pagination.has_prev %}
@@ -9,7 +9,7 @@
         {% set goback = 1 %}
       {% endif %}
       
-      {% if year != oldest %}
+      {% if pagination.has_next %}
         {% if pagination.for_page(pagination.page+2).has_next %}
           {% set goforw = 5-goback %}
         {% else %}
@@ -18,25 +18,21 @@
         {% endif %}
         
 	{% for i in range(pagination.page-goback, pagination.page+goforw)%}
-	  {% set yearToShow = year-(i-pagination.page) %}
-	  {% if yearToShow >= oldest %}
+	  {% set yearToShow = i %}
 	  {% if i == pagination.page %}
 	    <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
 	  {% else %}
 	    <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
 	  {% endif %}
-	  {% endif %}
 	{% endfor %}
 
       {% else %}
         {% for i in range(pagination.page-4, pagination.page+1)%}
-	  {% set yearToShow = year-(i-pagination.page) %}
-	  {% if yearToShow >= oldest %}
+	  {% set yearToShow = i %}
           {% if i == pagination.page %}
 	    <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
 	  {% else %}
 	    <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
-	  {% endif %}
 	  {% endif %}
 	{% endfor %}
       {% endif %}
@@ -44,13 +40,11 @@
     {% else %}
     <li class="page-item disabled"><a class="page-link" href="">{{ _('Newer') }}</a></li>
       {% for i in range(pagination.page, pagination.page+5)%}
-        {% set yearToShow = year-(i-1) %}
-	{% if yearToShow >= oldest %}
+        {% set yearToShow = i %}
         {% if i == pagination.page %}
 	  <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
 	{% else %}
 	  <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
-	{% endif %}
 	{% endif %}
       {% endfor %}
     {% endif%}
