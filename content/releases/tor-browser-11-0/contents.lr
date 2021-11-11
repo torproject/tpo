@@ -50,6 +50,11 @@ Tor Browser 11.0 comes with a number of known issues:
 - [Bug 40677](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40677): Since the update to 11.0a9 some addons are inactive and need disabling-reenabling on each start
 - [Bug 40666](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40666): Switching svg.disable affects NoScript settings
 - [Bug 40690](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40690): Browser chrome breaks when private browsing mode is turned off
+- [Bug 40693](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40693): Potential Wayland dependency (new)
+- [Bug 40692](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40692): Picture-in-Picture is enabled on tbb 11.0a10 (new)
+- [Bug 40700](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40700): Switch Firefox recommendations off by default (new)
+- [Bug 40705](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40705): "visit our website" link on about:tbupdate pointing to different locations (new)
+- [Bug 40706](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40706): Fix issue in https-e wasm (new)
 
 ## Give feedback
 
