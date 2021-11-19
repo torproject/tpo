@@ -51,9 +51,9 @@
     <h3 class="col-12 text-primary display-4 pb-4">Shallot Onion Members</h3>
     <div class="col-md-4 col-xl-4 my-2">
       <div class="card border-1 h-100">
-        <img class="card-img-top p-3" src="{{ '/static/images/membership/shallot-placeholder.png' }}" alt="">
+        <img class="card-img-top p-3" src="{{ '/static/images/membership/shallot-placeholder.png'|url }}" alt="">
         <div class="card-body preamble">
-                <p>{ _("Tor's primary benefit, for the uninitiated: It encrypts your traffic and bounces it through a chain of computers, making it very difficult for anyone to track where it came from. You can see how easy access to an anonymized services like that might come in handy when you're working on anything from job hunting to political organizing.") }</p>
+                <p>{{ _("Tor's primary benefit, for the uninitiated: It encrypts your traffic and bounces it through a chain of computers, making it very difficult for anyone to track where it came from. You can see how easy access to an anonymized services like that might come in handy when you're working on anything from job hunting to political organizing.") }}</p>
         </div>
       </div>
     </div>
@@ -147,5 +147,5 @@
 <div class="col-12 py-5 bg-membership" style="background-image: url('{ /static/images/membership/header.png|url }'); background-size:cover;">
 <div class="row col-sm-8 py-5 text-center mx-auto"/>
   <h2 class="bg-white text-primary text-center p-4 mx-auto my-0">Become a Member</h2>
-  <p class="bg-white text-center p-4">{ _("Join the Tor Project Membership Program and demonstrate your commitment to privacy online and become more deeply involved in the Tor community. Email us at <mark>giving@torproject.org.</mark> to get started.") }</p>
+  <p class="bg-white text-center p-4">{{ md(_("Join the Tor Project Membership Program and demonstrate your commitment to privacy online and become more deeply involved in the Tor community. Email us at <mark>giving@torproject.org.</mark> to get started.")) }}</p>
 </div>
