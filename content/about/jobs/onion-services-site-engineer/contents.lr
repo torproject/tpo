@@ -1,0 +1,87 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: yes
+---
+title: Onion Services Site Reliability Engineer
+---
+color: primary
+---
+summary:
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking Site Reliability Engineer to work on Onion Services.
+
+The Onion Services SRE will work with internal websites and tools as part of Tor's SysAdmin and Community Teams, reporting to the Community Team Lead. This person will be responsible for setting up and managing onion sites for partners and monitoring their availability, and will manage over 100 onion sites that are hosted by different organizations.
+
+This role is perfect for an experienced SRE, who has strong skills managing medium-large traffic web servers, familiarity with CDNs and other load balance configuration, and has familiarity with Tor Onion Services.
+
+A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+
+This is a full-time, remote position. Salary for this position is $75,000 USD/year and there is voluntary opt-in salary transparency for all employees and contractors.
+
+If you love Tor and you have a strong commitment to the Tor Project's mission, we would love to hear from you!
+---
+description:
+
+## Onion Services Site Reliability Engineer
+*November 22, 2021*
+
+## The Job
+
+- Configuration and maintenance of medium traffic web servers.
+- Deploying and managing over 100 onion sites for different partners.
+- Deploy monitoring system for onion sites with Prometheus or other similar tools.
+- Deploy privacy enhanced metrics (e.g. page views count) for onion sites.
+- Responsible for high availability of these onion sites.
+- Intermediate sysadmin work and support, possible to expand to senior.
+
+### Required skills:
+
+- Ability to work in a self-directed and independent way
+- Comfortable working remotely, across multiple time zones
+- Strong interpersonal and communication skills
+- Strong skills with most Linux commands/utilities and familiarity with most basic system administration processes; for example, ability to boot/shut down a machine, add and remove user accounts, use backup programs, manage shared resources (e.g., file systems snapshots, RAID arrays), update DNS zone files, and install a server
+- Strong skills with web servers internals: able to understand complex Nginx configurations, work with OpenResty and Lua is a plus.
+- Container orchestration: some previous exposure to any container orchestration system, such as Kubernetes, Docker Swarm, etc.
+- Understanding of CDN and other load balancing mechanisms
+- Familiarity with Onion Services configuration and management.
+- Familiarity with Tor's internal services and the network architecture (for example: check.torproject.org, what "bridges" are, the metrics services, what is an "exit relay", etc.)
+- Networking: some previous exposure to topics in network administration, including network optimization, isolation, BGP routing, DDoS mitigation, and so on.
+- Familiarity with Git, "forges" (GitLab, GitHub), and "merge-request" based workflows, experience with ticketing systems like GitLab issues.
+- Familiarity with Python or similar programming languages
+- Familiarity with infrastructure as code tools to automate deployment (e.g. ansible, terraform, saltstack, puppet, etc.)
+- Familiarity with different cloud services (e.g. Azure, AWS, Google, etc.)
+- Familiarity of how proxies/reverse proxies/forward proxies work
+- Familiarity of how cache systems work (e.g. varnish)
+
+### Required background
+
+- Four or more years of web hosting and system administration experience
+- A degree in computer science or a related field, or equivalent experience
+
+## How to Apply
+
+To apply, submit a cover letter, your CV/resume, and a link to a code sample or some non-trivial project you have significantly contributed to.
+
+IMPORTANT: Please email application materials in plain text or PDF format to **job-onionsre at torproject dot org** with "ONION SRE" in the subject line. In your cover letter, please include the reason you want to work at the Tor Project and where you heard about this job.
+
+## About The Tor Project
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 30 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+ 
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+ 
+The Tor Project has a strong culture of transparency and democratic processes, and long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+
+- Our Code of Conduct: https://gitweb.torproject.org/community/policies.git/tree/code_of_conduct.txt
+- Our Social Contract: https://gitweb.torproject.org/community/policies.git/tree/social_contract.txt
+- Our Statement of Values: https://gitweb.torproject.org/community/policies.git/tree/statement_of_values.txt
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's), and a flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc. is an equal opportunity, affirmative action employer.
