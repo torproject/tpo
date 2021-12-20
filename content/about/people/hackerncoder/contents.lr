@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: HackerNCoder
+---
+twitter_handle: hackerncoder
+---
+nickname: hackerncoder
+---
+gpg: https://data.encryptionin.space/master.pub.pgp
+---
+image: /static/images/people/hackerncoder.png
+---
+description:
+
+Works on the websites. Helps people understand and use Tor and related software. 
