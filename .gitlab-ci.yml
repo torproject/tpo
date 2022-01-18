@@ -1,5 +1,7 @@
 variables:
   TRANSLATION_BRANCH: "tpo-web"
+  SITE_URL: www.torproject.org
+  STAGING_URL: www-staging.torproject.org
 
 include:
   - project: tpo/tpa/ci-templates
