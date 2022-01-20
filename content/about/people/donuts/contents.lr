@@ -1,0 +1,23 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Duncan Larsen-Russell
+---
+twitter_handle: botanicalduncan
+---
+mastodon_url:
+---
+nickname: donuts
+---
+pronoun: he
+---
+gpg: /static/keys/donuts.txt
+---
+image: /static/images/people/donuts.png
+---
+description:
+
+UX & Design Team lead, product manager and lorem ipsum officianado.

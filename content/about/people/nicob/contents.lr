@@ -1,0 +1,23 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Nico Bucaro
+---
+twitter_handle:
+---
+mastodon_url:
+---
+nickname: nicob
+---
+pronoun: they?or=she
+---
+gpg: /static/keys/nicob.txt
+---
+image: /static/images/people/nicob.png
+---
+description:
+
+Brand Designer for the Tor Project.
