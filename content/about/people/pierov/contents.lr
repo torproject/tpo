@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Pier Angelo Vendrame
+---
+nickname: pierov
+---
+pronoun: he
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=6621290E449B26AFB029C3BFF21A8411E6B9D00F
+---
+image: /static/images/people/pierov.png
+---
+description:
+
+Works on Tor Browser.
