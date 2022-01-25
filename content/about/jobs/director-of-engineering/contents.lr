@@ -1,0 +1,80 @@
+_model: job
+---
+_template: about.html
+---
+section_id: about
+---
+color: primary
+---
+title: Director of Engineering
+---
+active: yes
+---
+summary:
+
+Internet Freedom Nonprofit Seeks Director of Engineering
+
+The Tor Project is seeking a Director of Engineering. This newly created position is the most senior engineering role at the organization, reporting directly to the Executive Director. The position will require deep technical expertise and the ability to lead in a geographically dispersed environment. (Most people keep hours between Central European and American Pacific time.)
+
+The Director of Engineering role presents an opportunity for an individual who is passionate about privacy and Internet freedom to guide the engineering aspects of the Tor network, Tor Browser and other applications. Our technology helps millions of people around the world, across mobile and desktop platforms, to securely and freely access the Internet.
+
+Our teams are composed of talented people who are passionate about our mission to advance human rights and freedoms by creating and deploying free and open-source anonymity and privacy technologies. Our product decisions are directly connected to our engineering efforts, so the Director of Engineering will be working with both our engineering teams and product manager. Our collective efforts are presently focused on four fronts: Applications, Tor Network (core tor), Network Health, and Censorship Circumvention.
+
+You will be joining The Tor Project at a unique moment in the project's history, as we are laying the foundation for Tor to scale and continue to grow. You will be working with all these teams, supporting them in executing a long-term vision and strategy.
+
+The Tor Project has a strong culture of transparency and democratic processes. We are looking for a Director of Engineering who shares these values to lead our teams and help Tor to continue to provide the most private and secure way to access the Internet.
+
+Academic degrees are great, but not required if you have the right experience! Further, if you feel that you meet most of these requirements or could meet them with a little time and support, we would love to hear from you!
+This is a full-time and permanently remote position. Salary for this position is $150,000 USD (negotiable) and there is voluntary opt-in salary transparency for employees and contractors.
+description:
+---
+description:
+
+## Director of Engineering
+*January 24, 2022*
+
+### The job
+    
+- Work with the teams and individuals working on Tor Network, Network Health, Censorship Circumvention, and Applications. 
+- Empower and support team leads, and guide decisions on technical strategy.
+- Guide product strategy and drive alignment across teams, crafting team coordination to build features that touch all areas and work across all supported platforms.
+- Work with teams supporting the development of their roadmaps and long-term strategy for the Tor network and applications. 
+- Identify and execute on opportunities to improve operational excellence of the teams.
+- Build a trusted partnership with our Project Manager.
+- Build a trusted partnership with our Community Team lead to coordinate efforts as necessary. (Community is a very important part of Tor.)
+- Coordinate with the Fundraising and Communication teams for media or funder requests and/or events. 
+- Interact with our funders and/or partner organizations from the Internet Freedom Community, business organizations that are part of Tor’s Membership Program, and potential future collaboration partners.
+- Support the ED's in exploring a sustainability strategy for the expansion of the Tor network.
+
+### Your skills and experience:
+    
+- 8+ years of professional experience working with product and engineering teams.
+- 4+ years of leadership experience with teams of 30+people, including hiring, managing, and developing talent.
+- Significant experience with anonymity and privacy online, and network security.
+- Experience mentoring and developing product and engineering teams.
+- Initiative to push projects forward and knowledge of when to involve others.
+- Past demonstrable success defining, articulating, and executing on the strategic vision for a team with a keen focus on user needs.
+- Excellent personal and professional communication skills.
+- Experience building cross-platform applications. 
+- Ability to work productively and collaboratively with a diverse group of colleagues from around the globe.
+- Comfort working with privacy-preserving metrics to evaluate objectives. 
+
+## How to Apply
+ 
+To apply, submit a cover letter, your CV/resume in PDF format to job-direng at torproject dot org with "Director of Engineering" in the subject line. In your cover letter, please include the reason you want to work at the Tor Project, your experience as it relates to the job description, and where you heard about this job.
+
+## About The Tor Project
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 37 developers and operational support people, plus many volunteers who contribute to our work and thousands of volunteers who run relays. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+ 
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+ 
+The Tor Project has a strong culture of transparency and democratic processes, and long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+ 
+ - Our Code of Conduct: https://gitweb.torproject.org/community/policies.git/tree/code_of_conduct.txt
+ - Our Social Contract: https://gitweb.torproject.org/community/policies.git/tree/social_contract.txt
+ - Our Statement of Values: https://gitweb.torproject.org/community/policies.git/tree/statement_of_values.txt
+ 
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+ 
+The Tor Project, Inc. is an equal opportunity, affirmative action employer.
