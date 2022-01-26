@@ -1,28 +1,19 @@
+---
 variables:
   SITE_URL: www.torproject.org
-  TRANSLATION_BRANCH: "tpo-web"
-  SITE_URL: www.torproject.org
   STAGING_URL: www-staging.torproject.org
+  TRANSLATION_BRANCH: tpo-web
+  LEKTOR_PARTIAL_BUILD: 1
 
 include:
   - project: tpo/tpa/ci-templates
-    file: lektor.yml
-  - project: tpo/tpa/ci-templates
-    file: static-shim-deploy.yml
+    file:
+      - lektor.yml
+      - static-shim-deploy.yml
 
 # for review apps (branches), move some press content out of the way to decrease
 # the build time by a factor of at least 4x -- keep only the last 1 year of
 # press articles
-partial-build:
-  extends: .partial-build
-  before_script:
-    - !reference [.apt-init]
-    - export CUTOFF=$(date -d "$(date +%Y-%m-%d) -365 day" +%Y-%m-%d)
-    - awk '{if($1=="pub_date:" && $2 < ENVIRON["CUTOFF"])print FILENAME}' content/press/*/contents.lr | while read -d $'\n' f; do rm "$f"; done
-
-# limit regular build job to default branch, for staging/prod
-build:
-  rules:
-    - if: '$CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH'
-      when: never
-    - if: '$CI_COMMIT_BRANCH'
+.setup-lektor-partial-build:
+  - export CUTOFF=$(date -d "$(date +%Y-%m-%d) -365 day" +%Y-%m-%d)
+  - awk '{if($1=="pub_date:" && $2 < ENVIRON["CUTOFF"])print FILENAME}' content/press/*/contents.lr | while read -d $'\n' f; do rm "$f"; done
