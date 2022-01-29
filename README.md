@@ -12,7 +12,7 @@ or browse it [online](https://gitlab.torproject.org/tpo/web/tpo/).
 
 ## How to report bugs or feedback
 
-First, check if the bug is already known. You can search and read all the issues at http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/groups/tpo/web/-/issues).
+First, check if the bug is already known. You can search and read all the issues at https://gitlab.torproject.org/tpo/web/tpo/-/issues. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
 
 ## What is Lektor
 
@@ -50,7 +50,7 @@ To just build the website once: ```$ lektor build -O <folder>```
 
 #### How to develop on the website
 
-Check our [wiki pages](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/wiki/-/wikis/How-to-develop-on-the-website).
+Check our [wiki pages](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website).
 
 ### Translations
 
