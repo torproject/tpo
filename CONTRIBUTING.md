@@ -17,15 +17,15 @@ The following is a set of guidelines for contributing to the Tor Project Website
 
 # Introduction
 
-This is the repository of Tor Project website. The current online version of this portal can be found at [https://torproject.org](https://torproject.org) or [Tor Project Onion Service](http://expyuzz4wqqyqhjn.onion/).
+This is the repository of Tor Project website. The current online version of this portal can be found at [https://torproject.org](https://torproject.org) or [Tor Project Onion Service](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/).
 
 To clone the code use either of
 
-```git clone https://git.torproject.org/project/web/tpo.git/```
+```git clone https://gitlab.torproject.org/tpo/web/tpo.git```
 
-```torify git clone http://dccbbv6cooddgcrq.onion/project/web/tpo.git/```
+```torify git clone hhttp://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/tpo.git```
 
-or browse it [online](http://gitweb.torproject.org/project/web/tpo.git).
+or browse it [online](https://gitlab.torproject.org/tpo/web/tpo).
 
 ## What is Lektor?
 
@@ -56,7 +56,7 @@ Once you have made your changes:
   Remember that the first lines are the ones appearing on the git log, try to give a short explanation of why you did the change.
   Please don't leave it as 'Updated contents.lr' as that does not give a real idea of what you wanted to do.
   Same goes to the branches called 'patch-1'. Let yourself go! Be creative!
-* Create a [pull request](https://github.com/torproject/community/pulls) for your contribution to be reviewed.
+* Create a [pull request](https://github.com/torproject/tpo/pulls) for your contribution to be reviewed.
 * If there is a ticket, mention the pull request in the comments.
 
 ## (Advanced) Compiling a local version of the website
@@ -67,7 +67,7 @@ Once you have made your changes:
 
 3. Clone the repository:
 
-```git clone https://git.torproject.org/project/web/tpo.git```
+```git clone https://gitlab.torproject.org/tpo/web/tpo.git```
 
 4. Init the building blocks submodule:
 
@@ -83,7 +83,7 @@ To just build the website once: ```$ lektor build -O <folder>```
 
 ## Develop on the website 
 
-> To follow this documentation it will be nice to set up a [local copy of the website](https://gitlab.torproject.org/tpo/web/community/-/wikis/Compiling-a-local-version-of-the-website) first.
+> To follow this documentation it will be nice to set up a [local copy of the website](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Compiling-a-local-version-of-the-website) first.
 
 Each website can be a little different but there are a few rules that are standard. Some of these rules are imposed by the static website generator that we use (Lektor). Other rules are made up by the www team to make development easier.
 
@@ -91,25 +91,25 @@ Each website can be a little different but there are a few rules that are standa
 
 Each website repository has a submodule called [lego](https://gitlab.torproject.org/tpo/web/lego). This repository contains common elements to all the websites. 
 To update the submodule, please run: `$ git submodule update --remote`
-Lego is imported in the main repository and the single files are sym-linked to their relative folders. Ex: [header template](https://gitlab.torproject.org/tpo/web/tpo/blob/master/templates/header.html) in torproject.org main website.
+Lego is imported in the main repository and the single files are sym-linked to their relative folders. Ex: [header template](https://gitlab.torproject.org/tpo/web/tpo/blob/main/templates/header.html) in torproject.org main website.
 
 #### **Content**
 
-Content for the website is organized in the folder [content](https://gitlab.torproject.org/tpo/web/tpo/tree/master/content). The file responsible for content is always callend `contents.lr`.
+Content for the website is organized in the folder [content](https://gitlab.torproject.org/tpo/web/tpo/tree/main/content). The file responsible for content is always callend `contents.lr`.
 
-Also the `contents.lr` implements the fields specified in the model. Models are defined in the folder [models](https://gitlab.torproject.org/tpo/web/tpo/tree/master/models).
+Also the `contents.lr` implements the fields specified in the model. Models are defined in the folder [models](https://gitlab.torproject.org/tpo/web/tpo/tree/main/models).
 
 Some of these `contents.lr` files do not have a body because the styling of the page required us to add some content to the template itself.
 
 #### **Templates**
 
-All the templates are located in the folder [templates](https://gitlab.torproject.org/tpo/web/tpo/tree/master/templates).
+All the templates are located in the folder [templates](https://gitlab.torproject.org/tpo/web/tpo/tree/main/templates).
 
-All the templates are built starting from [layout.html](https://gitlab.torproject.org/tpo/web/tpo/tree/master/templates/layout.html). 
+All the templates are built starting from [layout.html](https://gitlab.torproject.org/tpo/web/tpo/tree/main/templates/layout.html). 
 
 For the user facing strings in the templates to be available for translation you need to enclose them like this: `{{ _('translatable strings') }}`.
 
-Within the templates folder there is a folder called [macros](https://gitlab.torproject.org/tpo/web/tpo/tree/master/templates/macros). Macros are block of code that can be called from within a template:
+Within the templates folder there is a folder called [macros](https://gitlab.torproject.org/tpo/web/tpo/tree/main/templates/macros). Macros are block of code that can be called from within a template:
 ```
 <div class="row">
     <h2 class="text-primary">{{ _('Windows Expert Bundle') }}</h2>
@@ -130,7 +130,7 @@ Within the templates folder there is a folder called [macros](https://gitlab.tor
 ```
 
 Finally recursive type of data are defined with databags.
-These live in the folder [databags](https://gitlab.torproject.org/tpo/web/tpo/tree/master/databags).
+These live in the folder [databags](https://gitlab.torproject.org/tpo/web/tpo/tree/main/databags).
 
 This table summarises how each databag file is used
 
