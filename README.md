@@ -4,15 +4,15 @@ This is the repository of Tor Project website. The current online version of thi
 
 To clone the code use either of
 
-```git clone https://git.torproject.org/project/web/tpo.git/```
+```git clone https://gitlab.torproject.org/tpo/web/tpo.git```
 
-```torify git clone http://xtlfhaspqtkeeqxk6umggfbr3gyfznvf4jhrge2fujz53433i2fcs3id.onion/project/web/tpo.git/```
+```torify git clone http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/tpo.git```
 
-or browse it [online](http://gitweb.torproject.org/project/web/tpo.git).
+or browse it [online](https://gitlab.torproject.org/tpo/web/tpo/).
 
 ## How to report bugs or feedback
 
-First, check if the bug is already known. You can search and read all the issues at https://gitlab.torproject.org/. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
+First, check if the bug is already known. You can search and read all the issues at http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/groups/tpo/web/-/issues).
 
 ## What is Lektor
 
@@ -34,7 +34,7 @@ You can click ```Edit this page``` and submit your content changes in a [Pull Re
 
 3. Clone the repository:
 
-```git clone https://git.torproject.org/project/web/tpo.git```
+```git clone https://gitlab.torproject.org/tpo/web/tpo.git```
 
 4. Init the building blocks submodule:
 
@@ -50,7 +50,7 @@ To just build the website once: ```$ lektor build -O <folder>```
 
 #### How to develop on the website
 
-Check our [wiki pages](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website).
+Check our [wiki pages](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/wiki/-/wikis/How-to-develop-on-the-website).
 
 ### Translations
 
@@ -59,4 +59,4 @@ To help us to translate, please join the Tor Project team in [Transifex](https:/
 
 ### Getting help
 
-If you want to contribute to the Tor Project website, we will be happy to help you. Join us at #tor-www in [irc.oftc.net](https://www.oftc.net).
+If you want to contribute to the Tor Project website, we will be happy to help you. Join us at #tor-www in [irc.oftc.net](https://support.torproject.org/get-in-touch/irc-help/).
