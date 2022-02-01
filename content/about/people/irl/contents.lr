@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Iain Learmonth
+---
+nickname: irl
+---
+pronoun: he
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=A8F7BA5041E133339CBA169676D58093F540ABCD
+---
+image: /static/images/people/irl.png
+---
+description:
+
+Director at [SR2 Communications](https://sr2.uk/). Works on network health and anti-censorship projects.
