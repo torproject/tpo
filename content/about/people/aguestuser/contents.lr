@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Austin Guest
+---
+pronoun: he/they
+---
+nickname: aguestuser
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=5E487DE26BD9EBAFBD58C3695C71C8B497B47404
+---
+image: /static/images/people/aguestuser.png
+---
+description:
+
+Works on the Applications Team maintaining Tor Browser for Android and pitching in on the TorVPN project.
