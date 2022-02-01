@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Jacobo Nájera
+---
+nickname: 
+---
+twitter_handle: jacobonajera
+---
+gpg:  /assets/static/keys/jacobo.txt
+---
+image: /static/images/people/jacobo.png 
+---
+description:
+
+[Technologist and researcher](https://www.jacobo.org/) in human rights. Contributes to Tor's anti-censorship team and growth of the network in Latin America
