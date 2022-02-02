@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Kevin
+---
+pronoun: he
+---
+nickname: kevun
+---
+twitter_handle:
+---
+gpg: /static/keys/kevun.txt
+---
+description:
+
+Security, Privacy and UX researcher, Invited Assistant Professor at
+[Instituto Superior Técnico](https://tecnico.ulisboa.pt), and co-founder of
+[PrivacyLx](https://privacylx.org).
