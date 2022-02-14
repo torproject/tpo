@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Silvio Rhatto
+---
+pronoun: he
+---
+nickname: rhatto
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=AD4178001C4CB1DB058712D00B67F75BCEE634FB
+---
+image: /static/images/people/rhatto.png
+---
+description:
+
+Onion Services Site Reliability Engineer.
