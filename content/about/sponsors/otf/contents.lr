@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: False
+active: true
 ---
-time: 2012 - 2020
+time: 2012 - 2022
 ---
 name: Open Technology Fund
 ---
