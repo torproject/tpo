@@ -6,7 +6,7 @@ role:core
 ---
 name: Austin Guest
 ---
-pronoun: he/they
+pronoun: he?or=they
 ---
 nickname: aguestuser
 ---
