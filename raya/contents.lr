@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Raya Sharbain
+---
+pronoun: she
+---
+nickname: raya
+---
+twitter_handle: rayasharbain
+---
+gpg: /static/keys/raya.txt
+---
+image: /static/images/people/raya.jpeg
+---
+description:
+
+Member of the Community team. Palestinian roaming around Amman. Friend of the [Jordan Open Source Association](https://www.josa.ngo/). #مع_المعلم
