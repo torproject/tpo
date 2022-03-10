@@ -1,0 +1,19 @@
+_model: post
+---
+_hidden: yes
+---
+active: True
+---
+type: snippet
+---
+publisher: The Daily Swig
+---
+title: Tor Project unveils plans to route device traffic through Tor anonymity network
+---
+link: https://portswigger.net/daily-swig/tor-project-unveils-plans-to-route-device-traffic-through-tor-anonymity-network
+---
+pub_date: 2021-11-18
+---
+summary:
+---
+body:
