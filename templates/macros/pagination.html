@@ -8,7 +8,7 @@
       {% else %}
         {% set goback = 1 %}
       {% endif %}
-      
+
       {% if pagination.has_next %}
         {% if pagination.for_page(pagination.page+2).has_next %}
           {% set goforw = 5-goback %}
@@ -16,39 +16,39 @@
           {% set goforw = 2 %}
           {% set goback = 3 %}
         {% endif %}
-        
-	{% for i in range(pagination.page-goback, pagination.page+goforw)%}
-	  {% set yearToShow = i %}
-	  {% if i == pagination.page %}
-	    <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
-	  {% else %}
-	    <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
-	  {% endif %}
-	{% endfor %}
+
+        {% for i in range(pagination.page-goback, pagination.page+goforw)%}
+          {% set yearToShow = i %}
+          {% if i == pagination.page %}
+            <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
+          {% endif %}
+        {% endfor %}
 
       {% else %}
         {% for i in range(pagination.page-4, pagination.page+1)%}
-	  {% set yearToShow = i %}
+          {% set yearToShow = i %}
           {% if i == pagination.page %}
-	    <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
-	  {% else %}
-	    <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
-	  {% endif %}
-	{% endfor %}
+            <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
+          {% endif %}
+        {% endfor %}
       {% endif %}
-    
+
     {% else %}
     <li class="page-item disabled"><a class="page-link" href="">{{ _('Newer') }}</a></li>
       {% for i in range(pagination.page, pagination.page+5)%}
         {% set yearToShow = i %}
         {% if i == pagination.page %}
-	  <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
-	{% else %}
-	  <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
-	{% endif %}
+          <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
+        {% else %}
+          <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
+        {% endif %}
       {% endfor %}
     {% endif%}
-    
+
     {% if pagination.has_next %}
     <li class="page-item"><a class="page-link" href="{{ pagination.next|url }}">{{ _('Older') }}</a></li>
     {% else %}
