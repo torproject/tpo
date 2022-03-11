@@ -31,7 +31,7 @@
           {% set yearToShow = i %}
           {% if i == pagination.page %}
             <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}">{{ yearToShow }}</a></li>
-          {% else %}
+          {% elif pagination.for_page(i) %}
             <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
           {% endif %}
         {% endfor %}
@@ -43,7 +43,7 @@
         {% set yearToShow = i %}
         {% if i == pagination.page %}
           <li class="page-item active"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
-        {% else %}
+        {% elif pagination.for_page(i) %}
           <li class="page-item"><a class="page-link" href="{{ pagination.for_page(i)|url }}"> {{ yearToShow }}</a></li>
         {% endif %}
       {% endfor %}
