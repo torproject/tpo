@@ -1,0 +1,22 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Rasmus Dahlberg
+---
+pronoun: he
+---
+twitter_handle: __rgdd
+---
+nickname: rgdd
+---
+gpg: /static/keys/rgdd.txt
+---
+image: /static/images/people/rgdd.png
+---
+description:
+
+PhD student and software engineer that [works on](https://www.rgdd.se/)
+transparent, verifiable, and privacy-preserving systems.
