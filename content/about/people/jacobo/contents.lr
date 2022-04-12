@@ -10,7 +10,7 @@ nickname:
 ---
 twitter_handle: jacobonajera
 ---
-gpg:  /assets/static/keys/jacobo.txt
+gpg:  /static/keys/jacobo.txt
 ---
 image: /static/images/people/jacobo.png 
 ---
