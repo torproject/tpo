@@ -18,7 +18,7 @@
       <div class="oval-2 bg-darker">
         {% set alt_l = alt %}
         {% set t = bag('versions', 'torbrowser-stable') %}
-        {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
+        {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + t.version + '/' %}
         {% if alt_l == 'en' %}
           {% set alt_l = 'en-US' %}
         {% elif alt_l == 'es' %}
@@ -26,7 +26,7 @@
         {% endif %}
         {% if id == 'windows' %}
           {% set t = bag('versions', 'torbrowser-win-stable') %}
-          {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
+          {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + t.version + '/' %}
           {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt_l + '.exe' %}
           {% set sig_link = download_link + '.asc' %}
         {% elif id == 'apple' %}
@@ -34,7 +34,7 @@
           {% set sig_link = download_link + '.asc' %}
         {% else %}
           {% set t = bag('versions', 'torbrowser-linux-stable') %}
-          {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
+          {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + t.version + '/' %}
           {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt_l + '.tar.xz' %}
           {% set sig_link = download_link + '.asc' %}
         {% endif %}
