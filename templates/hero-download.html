@@ -19,6 +19,13 @@
         {% set alt_l = alt %}
         {% set t = bag('versions', 'torbrowser-stable') %}
         {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
+
+        {# XXXX: The Khmer version of TBB isn't ready yet, but we want to enable the locale for the site.
+           See tpo/web/tpo#290 #}
+        {% if alt_l == 'km' %}
+          {% set alt_l = 'en' %}
+        {% endif %}
+
         {% if alt_l == 'en' %}
           {% set alt_l = 'en-US' %}
         {% elif alt_l == 'es' %}
