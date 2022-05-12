@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: false
+active: true
 ---
-time: 2020-2021
+time: 2020-2022
 ---
 name: Digital Defenders Partnership
 ---
@@ -16,4 +16,4 @@ link: https://www.digitaldefenders.org/
 ---
 description:
 
-The Digital Defenders Partnership offers support to human rights defenders under digital threat, and works to strengthen local rapid response networks. This grant funds the creation and distribution of Onion Guides, documentation that help people and organizations to protect their privacy and circumvent censorship with the use of onion services.
+The Digital Defenders Partnership offers support to human rights defenders under digital threat, and works to strengthen local rapid response networks. DDP provides emergency response and sustainable protection funding, strengthens rapid responders and local protection networks, increases trainers’ capacities through our Field Building efforts, and contributes to long-term organisational safety through our Digital Protection Facilitators. This grant supports helping Russian users to connect to Tor and keeping Tor user support articles up-to-date and localized in Russian. 
