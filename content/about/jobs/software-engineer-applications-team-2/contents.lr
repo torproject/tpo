@@ -23,12 +23,12 @@ Regardless of whether you have all of the required experience, please apply! If 
 
 The team coordinates both synchronously and asynchronously via IRC, email, bug trackers, and some voice meetings. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential. 
 
-This is a full-time, remote position. Salary for this position is $100k USD and there is voluntary opt-in salary transparency for employees and contractors.
+This is a full-time, remote position. Salary for this position is $100k USD (negotiable) and there is voluntary opt-in salary transparency for employees and contractors.
 ---
 description:
 ## Software Engineer for Applications Team
 
-*May 11th 2022*
+*The deadline to apply for this position is May 31, 2022.*
 
 ### The Job: 
 
@@ -40,7 +40,7 @@ description:
 - Support the continuous integration testing framework and tests
 - Improve Tor Browser's web compatibility
 
-Our main codebases are a combination of multiple components that make Tor Browser (https://gitlab.torproject.org/tpo/applications/team/-/wikis/Development-Information/Codebases).
+Our main codebases are a combination of [multiple components that make Tor Browser](https://gitlab.torproject.org/tpo/applications/team/-/wikis/Development-Information/Codebases).
 
 For a more detailed understanding of the full breadth and depth of the work you'd be doing, have a look at The Design and Implementation of the Tor Browser, especially The Design Requirements section at https://spec.torproject.org/torbrowser-design#DesignRequirements.
 
