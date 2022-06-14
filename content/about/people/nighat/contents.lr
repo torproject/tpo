@@ -2,19 +2,12 @@ _model: person
 ---
 _hidden: yes
 ---
-role:board
+role: core
 ---
 name: Nighat Dad
----
-title: Director
 ---
 nickname: nighat
 ---
 description:
 
-Nighat is the founder and Executive Director of the Digital Rights Foundation, Pakistan.
-She is an accomplished lawyer and human rights activist.
-Nighat is a pioneer for access to a safe and open Internet in Pakistan and globally.
-She was a TED Global Fellow for 2017, was listed as one of TIME magazine's Next Generation Leaders in 2015, and was the recipient of the Atlantic Council Freedom Award and Human Rights Tulip Award.
-Nighat was also the only Pakistani selected as a Young Global Leader by the World Economic Forum in 2018.
-Recently her organization, the Digital Rights Foundation, was named among the 10 best social entrepreneurs at the United Nations General Assembly 2018 meeting by Forbes magazine.
+Nighat is on the board of directors for the Tor Project.
