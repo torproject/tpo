@@ -1,4 +1,4 @@
-section: What is new
+section: Releases
 ---
 template: layout.html
 ---
@@ -6,6 +6,6 @@ html: releases.html
 ---
 color: primary
 ---
-title: Releases
+title: What's new in Tor Browser
 ---
 body:
