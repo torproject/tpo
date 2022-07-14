@@ -1,0 +1,94 @@
+section: Releases
+---
+_template: release.html
+---
+color: primary
+---
+title: Tor Browser 11.5
+---
+body:
+
+This new release builds upon features introduced in [Tor Browser 10.5](https://blog.torproject.org/new-release-tor-browser-105/) to transform the user experience of connecting to Tor from heavily censored regions.
+
+## What's new?
+
+![Tor Browser 11.5](/static/images/tb115/tor-browser-115.png)
+
+### Automatic censorship detection and circumvention
+
+We began reshaping the experience of connecting to Tor with the release of [Tor Browser 10.5](https://blog.torproject.org/new-release-tor-browser-105/) last year, including the retirement of the Tor Launcher and the integration of the connection flow into the browser window.
+However, circumventing censorship of the Tor Network itself remained a manual and confusing process – requiring users to dive into Tor Network settings and figure out for themselves how to apply a bridge to unblock Tor.
+What's more, censorship of Tor isn't uniform – and while a certain pluggable transport or bridge configuration may work in one country, that doesn't mean it'll work elsewhere.
+
+This placed the burden on censored users (who are already under significant pressure) to figure out what option to pick, resulting in a lot of trial, error and frustration in the process.
+In collaboration with the Anti-Censorship team at the Tor Project, we've sought to reduce this burden with the introduction of **Connection Assist**: a new feature that when required will offer to automatically apply the bridge configuration we think will work best in your location for you.
+
+![Connection Assist](/static/images/tb115/connection-assist.png)
+
+Connection Assist works by looking up and downloading an up-to-date list of country-specific options to try using your location (with your consent).
+It manages to do so without needing to connect to the Tor Network first by utilizing [moat](https://support.torproject.org/glossary/moat/) – the same domain-fronting tool that Tor Browser uses to request a bridge from torproject.org.
+
+While Connection Assist has reached the milestone of its first stable release, this is only version 1.0, and your feedback will be invaluable to help us improve its user experience in future releases.
+Users from countries where the Tor Network may be blocked (such as Belarus, China, Russia and Turkmenistan) can test the most recent iteration of this feature by [volunteering as an alpha tester](https://blog.torproject.org/vounteer-as-an-alpha-tester/), and [reporting your findings on the Tor forum](https://forum.torproject.net/t/help-us-test-the-new-connection-assist-in-tor-browser-alpha/3654).
+
+### Redesigned Tor Network settings
+
+![Connection settings](/static/images/tb115/connection-settings.png)
+
+We hope that the majority of our users living under extreme censorship will be able to connect to Tor at the press of a button, thanks to Connection Assist.
+However we know there will always be exceptions to that, and there are many users who prefer to configure their connection manually as well.
+
+That's why we've invested time redesigning Tor Network settings too – featuring:
+
+- **A brand new name:** Tor Network settings is now called Connection settings. This change is intended to clarify exactly what settings you can find within this tab.
+- **Connection statuses:** Your last known connection status can now be found at the top of the tab, including the option to test your Internet connection _without_ Tor, using moat, to help you untangle the source of your connection woes.
+- **Streamlined bridge options:** Gone is the long list of fields and options. Each method to add a new bridge has been tidied away into individual dialog menus, which will help support further improvements to come.
+- **Connection Assist**: When Tor Browser's connection to the Tor Network isn't reachable due to suspected censorship, an additional option to select a bridge automatically becomes available.
+- **Brand-new bridge cards:** Bridges used to be almost invisible, even when configured. Now, your saved bridges appear in a handy stack of bridge cards – including new options for sharing bridges too.
+
+![Bridge card diagram](/static/images/tb115/bridge-card-diagram.png)
+
+This is the anatomy of a bridge card when expanded. In addition to copying and sharing the bridge line, each bridge also comes with a unique QR code that will be readable by Tor Browser for Android (and hopefully other Tor-powered apps too) in a future release – helping facilitate the transfer of a working bridge from desktop to mobile.
+
+When you have multiple bridges configured the cards will collapse into a stack – each of which can be expanded again with a click.
+And when connected, Tor Browser will let you know which bridge it's currently using with the purple "✔ Connected" pill.
+To help differentiate between your bridges without needing to compare long, unfriendly bridge lines, we've introduced bridge-moji: a short, four emoji visualization you can use to identify the right bridge at a glance.
+
+Lastly, help links within Connection settings now work offline. To recap – there are two types of help links in Tor Browser's settings: those that point to [support.mozilla.org](https://support.mozilla.org), and those that point to [tb-manual.torproject.org](https://tb-manual.torproject.org/) (i.e. the Tor Browser Manual).
+However, since web-based links aren't very useful when you're troubleshooting connection issues with Tor Browser, the manual is now bundled in Tor Browser 11.5 and is available offline.
+In addition to the help links within Tor Browser's settings, the manual can be accessed via the Application Menu > Help > Tor Browser Manual, and by entering "about:manual" into your browser's address bar too.
+
+### HTTPS-Only Mode, by default
+
+![HTTPS-Only Mode](/static/images/tb115/https-only.png)
+
+HTTPS-Everywhere is one of two extensions that previously came bundled in Tor Browser, and has led a long and distinguished career protecting our users by automatically upgrading their connections to HTTPS wherever possible.
+Now, [HTTPS is actually everywhere](https://www.eff.org/deeplinks/2021/09/https-actually-everywhere), and all major web browsers include native support to automatically upgrade to HTTPS.
+Firefox – the underlying browser on which Tor Browser is based – calls this feature [HTTPS-Only Mode](https://blog.mozilla.org/security/2020/11/17/firefox-83-introduces-https-only-mode/).
+
+Starting in Tor Browser 11.5, HTTPS-Only Mode is enabled by default for desktop, and HTTPS-Everywhere will no longer be bundled with Tor Browser. 
+
+Why now? Research by Mozilla indicates that the [fraction of insecure pages visited by the average users is very low](https://research.mozilla.org/files/2021/03/https_only_upgrading_all_connections_to_https_in_web_browsers.pdf) – limiting the disruption caused to the user experience.
+Additionally, this change will help protect our users from SSL stripping attacks by [malicious exit relays](https://blog.torproject.org/bad-exit-relays-may-june-2020/), and strongly reduces the incentive to spin up exit relays for Man-in-the-Middle attacks in the first place.
+
+You may or may not know that HTTPS-Everywhere also served a second purpose in Tor Browser, and was partly responsible for making [SecureDrop's human-readable onion names](https://securedrop.org/news/introducing-onion-names-securedrop/) work.
+Well, SecureDrop users can rest assured that we've patched Tor Browser to ensure that human-readable onion names still work in HTTPS-Everywhere's absence.
+
+Note: Unlike desktop, Tor Browser for Android will continue to use HTTPS-Everywhere in the short term. Please see our separate update about Android below.
+
+### Improved font support
+
+![Improved fonts](/static/images/tb115/improved-fonts.png)
+
+One of Tor Browser's many fingerprinting defenses includes protection against font enumeration – whereby an adversary can fingerprint you using the fonts installed on your system.
+To counter this, Tor Browser [ships with a standardized bundle of fonts](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/18097) to use in place of those installed on your system.
+However some writing scripts did not render correctly, while others had no font available in Tor Browser at all.
+
+To solve this issue and expand the number of writing systems supported by Tor Browser, we've bundled many more fonts from the [Noto family](https://fonts.google.com/noto) in this release.
+Naturally, we have to find a balance between the number of fonts Tor Browser supports without increasing the size of the installer too much, which is something we're very conscious of.
+So if you spot a language whose characters don't render correctly in Tor Browser, [please let us know](https://support.torproject.org/misc/bug-or-feedback/)!
+
+## Send us your feedback
+
+If you find a bug or have a suggestion for how we could improve this release, [please let us know](https://support.torproject.org/misc/bug-or-feedback/).
+Thanks to all of the teams across Tor, and the many volunteers, who contributed to this release.
