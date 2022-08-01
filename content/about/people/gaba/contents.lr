@@ -8,7 +8,7 @@ name: Gaba
 ---
 nickname: gaba
 ---
-pronoun: she
+pronoun: she/her/they
 ---
 gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=EE3FDF5CAD91643C21BE8370180DB06C59CABD19
 ---
@@ -16,4 +16,4 @@ image: /static/images/people/gaba.png
 ---
 description:
 
-Coordinates Network, Metrics and Anti-censorship teams.
+Project Manager.
