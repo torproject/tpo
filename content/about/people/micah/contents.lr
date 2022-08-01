@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Micah Anderson
+---
+pronoun: they?or=he
+---
+nickname: micah
+---
+gpg: /static/keys/micah.txt
+---
+image: /static/images/people/micah.jpeg
+---
+description:
+
+Director of Engineering.
