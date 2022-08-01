@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Trinity Pointard
+---
+pronoun: it?or=they
+---
+nickname: trinity-1686a
+---
+gpg: https://keys.openpgp.org/vks/v1/by-fingerprint/78993B3E031CDB6625DED376883E4E3BA11686A0
+---
+image: /static/images/people/trinity-1686a.png
+---
+description:
+
+Software engineer, contributing mostly to [Arti](https://gitlab.torproject.org/tpo/core/arti).
