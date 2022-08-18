@@ -142,3 +142,9 @@ main{
 
 }
 @include media-breakpoint-up(lg) {}
+
+html[dir=rtl] {
+    p {
+        text-align: right;
+    }
+}
