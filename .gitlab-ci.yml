@@ -4,6 +4,7 @@ variables:
   STAGING_URL: www.staging.torproject.net
   TRANSLATION_BRANCH: tpo-web
   LEKTOR_PARTIAL_BUILD: 1
+  LEKTOR_BUILD_FLAGS: scss
 
 include:
   - project: tpo/tpa/ci-templates
