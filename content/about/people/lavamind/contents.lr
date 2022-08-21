@@ -10,7 +10,7 @@ pronoun: he
 ---
 nickname: lavamind
 ---
-gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=0B5A33B8A26D60109C509C6C83E33BD7D4DD4CA1
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=95F341D746CF1FC8B05A0ED5D3F900749268E55E
 ---
 image: /static/images/people/lavamind.png
 ---
