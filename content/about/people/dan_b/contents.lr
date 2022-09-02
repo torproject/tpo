@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Dan Ballard
+---
+nickname: dan_b
+---
+pronoun: he
+---
+twitter_handle: dan_ballard
+---
+gpg: /static/keys/dan_b.txt
+---
+image: /static/images/people/dan_b.png
+---
+description:
+
+Developer on the Applications team working on Tor Browser and Cwtch.im. 
