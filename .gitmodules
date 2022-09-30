@@ -1,3 +1,4 @@
 [submodule "lego"]
 	path = lego
-	url = https://gitlab.torproject.org/tpo/web/lego.git
+	url = ../../../hackerncoder/lego.git
+	branch = yec
