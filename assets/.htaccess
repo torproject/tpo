@@ -158,6 +158,7 @@ RewriteRule ^donate/donate-tn-fot-pbp(.*) https://donate.torproject.org/ [R=302,
 # 2022 YEC - about:tor & website
 RewriteRule ^donate/donate-pbp-banner(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/pbp-.+ https://donate.torproject.org/ [L,R=302]
+RewriteRule ^pbp-.+ /donate/pbp-.+ [L,R=302]
 
 # Donate page carryovers - evaluate sometime
 RewriteRule ^donate(.*) https://donate.torproject.org/ [R=302,L]
