@@ -1,0 +1,24 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Giorgio Maone
+---
+pronoun: he
+---
+nickname: ma1
+---
+twitter_handle: ma1
+---
+gpg: /static/keys/ma1.txt
+---
+image: /static/images/people/ma1.jpg
+---
+description:
+
+Creator of [NoScript](https://noscript.net), security breaker & builder, digital rights advocate & secular humanist activist,
+casting spells on the Tor Browser within the Applications Development Team.
+
+
