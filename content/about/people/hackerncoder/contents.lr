@@ -6,11 +6,11 @@ role: core
 ---
 name: HackerNCoder
 ---
-twitter_handle: hackerncoder
+mastodon_url: https://mastodon.encryptionin.space/@hackerncoder
 ---
 nickname: hackerncoder
 ---
-gpg: https://data.encryptionin.space/master.pub.pgp
+gpg: /static/keys/hackerncoder.txt
 ---
 image: /static/images/people/hackerncoder.png
 ---
