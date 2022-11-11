@@ -8,6 +8,8 @@ name: Gaba
 ---
 nickname: gaba
 ---
+mastodon_url: https://systerserver.town/@gaba
+---
 pronoun: she/her/they
 ---
 gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=EE3FDF5CAD91643C21BE8370180DB06C59CABD19
@@ -16,4 +18,4 @@ image: /static/images/people/gaba.png
 ---
 description:
 
-Project Manager.
+Project Manager, facilitator and in a previous life a software engineer.
