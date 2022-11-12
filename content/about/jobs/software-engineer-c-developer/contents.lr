@@ -1,0 +1,76 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: True
+---
+title: Software Engineer (C Developer)
+---
+color: primary
+---
+summary:
+Internet Freedom Nonprofit Seeks Software Engineer (C Developer)
+
+November 11, 2022
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced Software Engineer to work on the Tor network. This Software Engineer will be an integral part of the Network Team, a small group that maintains the software that runs behind the Tor network. The Network Team coordinates both synchronously and asynchronously via IRC, email, bug trackers, and some voice meetings.
+
+A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential to succeeding in this position.
+
+This is a full-time, remote position. Salary for this position is $110,000 USD/year and there is voluntary opt-in salary transparency for employees and contractors.
+---
+description:
+## Software Engineer (C Developer)
+
+## The Job
+
+### Summary
+
+In this role, you will be part of the Tor Network Team. You will be paired with a mentor in the Tor problem space to familiarize yourself with the issues, and to develop and improve Tor Onion Services through technical specifications. Essential job functions: bug fixes, feature implementations, deep code diagnosis, writing and implementing network protocol changes, and code review with an eye toward security and portability issues.
+
+### Required Skills and Experience
+
+- Ability to work in a self-directed and independent way, but not afraid to ask for help when you need it.
+- Comfortable working remotely, on a team that spans multiple time zones.
+- Proficiency working with the C programming language in a security-sensitive context.
+- Familiarity with the Rust programming language.
+- Experience with software profiling and network performance analysis.
+- Excellent communication and good documentation skills.
+
+### Preferred Qualifications
+
+- Genuinely be excited about The Tor Project and its values!
+- Familiarity with FOSS software engineering practices (git, gitlab), merge-request based workflows.
+- Familiarity with privacy, network programming, distributed systems, security, and cryptography.
+- Strong remote work and time management skills.
+- Experience with reading and writing technical specifications.
+- Familiarity with Tor's network architecture
+- Proficiency in English (verbal and written)
+
+No academic degree necessary! Further, if you feel that you meet most of these requirements or could meet them with a little time and support, we would love to hear from you!
+
+## How to Apply 
+
+[Click here to apply](https://www.careers-page.com/tor-project/job/QY6WXW55/apply). In your cover letter, please include the reason you want to work at the Tor Project, your experience as it relates to the job description, and where you heard about this job.
+
+## About The Tor Project 
+
+The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 30 developers and operational support people, plus many thousands of volunteers who contribute to our work. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+The Tor Project has a strong culture of transparency and democratic processes, and long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here: 
+
+- Our Code of Conduct: https://gitweb.torproject.org/community/policies.git/tree/code_of_conduct.txt 
+- Our Social Contract: https://gitweb.torproject.org/community/policies.git/tree/social_contract.txt 
+- Our Statement of Values: https://gitweb.torproject.org/community/policies.git/tree/statement_of_values.txt 
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, and a flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship of certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, Iran, and Syria. 
+
+The Tor Project, Inc. is an Equal Employment Opportunity, Affirmative Action Employer.
