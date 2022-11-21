@@ -12,11 +12,13 @@ pronoun: he
 ---
 twitter_handle: kushaldas
 ---
+mastodon_url: https://toots.dgplug.org/@kushal
+---
 gpg: https://keybase.io/kushaldas/pgp_keys.asc
 ---
 image: /static/images/people/kushal.png
 ---
 description:
 
-[SecureDrop](https://securedrop.org/) developer at the [Freedom of Press Foundation](https://freedom.press/).
+Manages RPM packages, Python core developer. Public Interest Technologist at [SUNET](https://sunet.se).
 Member of the community team, privacy advocate focusing on new users.
