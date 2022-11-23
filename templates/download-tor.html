@@ -1,4 +1,4 @@
-<div class="container py-3 mt-5">
+  <div class="container py-3 mt-5">
   <div class="row">
     <p>{{ this.body }}</p>
   </div>
@@ -39,18 +39,128 @@
       </tbody>
     </table>
   </div>
+
   <div class="row">
-    <h2 class="text-primary">{{ _('Windows Expert Bundle') }}</h2>
-    {% set t = bag('versions', 'torbrowser-stable') %}
+    <h2 class="text-primary">{{ _('Tor Expert Bundle') }}</h2>
+    <p>
+      {{ _('The tor expert bundle contains the tor and pluggable transports binaries, bridge strings, and geoip data used in Tor Browser. The two versions shown indicate the version of Tor Browser these particular binaries were built for and the version of the contained tor daemon. These packages are intended for developers who need to bundle tor with their applications.')}}
+    </p>
+    {% set stable = bag('versions', 'torbrowser-stable') %}
+    {% set windows_stable = bag('versions', 'torbrowser-win-stable') %}
+    {% set macos_stable = bag('versions', 'torbrowser-macos-stable') %}
+    {% set linux_stable = bag('versions', 'torbrowser-linux-stable') %}
+    {% set android_stable = bag('versions', 'torbrowser-android-stable') %}
+    {% set alpha = bag('versions', 'torbrowser-alpha') %}
+    {% set windows_alpha = bag('versions', 'torbrowser-win-alpha') %}
+    {% set macos_alpha = bag('versions', 'torbrowser-macos-alpha') %}
+    {% set linux_alpha = bag('versions', 'torbrowser-linux-alpha') %}
+    {% set android_alpha = bag('versions', 'torbrowser-android-alpha') %}
+    {% from "macros/downloads.html" import render_tor_expert_bundle %}
     <table class="table">
-      <tbody>
+      <thead>
         <tr>
-          <td>{{ _('Windows 10, 8, 7, and Windows Server (>= 2008)') }}</td>
-          <td>{{ _('Contains just Tor and nothing else.') }}</td>
-          <td class="text-right">
-            {% from "macros/downloads.html" import render_windows_expert %}
-            {{ render_windows_expert(t.version, t.win32) }}
-            <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/little-t-tor/verify-little-t-tor/' }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ _('Learn how to verify a signature') }}"><i style="font-size:10px;" class="fas fa-question-circle"></i></a>
+          <th scope="col">{{ _('OS (Architecture)') }}</th>
+          <th scope="col">{{ _('Stable') }}</th>
+          <th scope="col">{{ _('Alpha') }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Windows -->
+        <tr>
+          <td>{{ _('Windows') }} (i686) </td>
+          <td>
+            {{ render_tor_expert_bundle(windows_stable.version, stable.tor, 'windows', 'i686') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(windows_alpha.version, alpha.tor, 'windows', 'i686') }}
+          </td>
+        </tr>
+        <tr>
+          <td>{{ _('Windows') }} (x86_64) </td>
+          <td>
+            {{ render_tor_expert_bundle(windows_stable.version, stable.tor, 'windows', 'x86_64') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(windows_alpha.version, alpha.tor, 'windows', 'x86_64') }}
+          </td>
+        </tr>
+        </tr>
+        <!-- macOS -->
+        <tr>
+          <td>{{ _('macOS') }} (x86_64)</td>
+          <td>
+            {{ render_tor_expert_bundle(macos_stable.version, stable.tor, 'macos', 'x86_64') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(macos_alpha.version, alpha.tor, 'macos', 'x86_64') }}
+          </td>
+        </tr>
+        <tr>
+          <td>{{ _('macOS') }} (aarch64)</td>
+          <td>
+            {{ render_tor_expert_bundle(macos_stable.version, stable.tor, 'macos', 'aarch64') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(macos_alpha.version, alpha.tor, 'macos', 'aarch64') }}
+          </td>
+        </tr>
+        <!-- Linux -->
+        <tr>
+          <td>{{ _('GNU/Linux') }} (i686)</td>
+          <td>
+            {{ render_tor_expert_bundle(linux_stable.version, stable.tor, 'linux', 'i686') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'i686') }}
+          </td>
+        </tr>
+        </tr>
+        <tr>
+          <td>{{ _('GNU/Linux') }} (x86_64)</td>
+          <td>
+            {{ render_tor_expert_bundle(linux_stable.version, stable.tor, 'linux', 'x86_64') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'x86_64') }}
+          </td>
+        </tr>
+        </tr>
+        <!-- Android -->
+        <tr>
+          <td>{{ _('Android') }} (x86)</td>
+          <td>
+            {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'x86') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'x86') }}
+          </td>
+        </tr>
+        </tr>
+        <tr>
+          <td>{{ _('Android') }} (x86_64)</td>
+          <td>
+            {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'x86_64') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'x86_64') }}
+          </td>
+        </tr>
+        </tr>
+          <td>{{ _('Android') }} (armv7)</td>
+          <td>
+            {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'armv7') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'armv7') }}
+          </td>
+        </tr>
+        <tr>
+          <td>{{ _('Android') }} (aarch64)</td>
+          <td>
+            {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'aarch64') }}
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'aarch64') }}
           </td>
         </tr>
       </tbody>

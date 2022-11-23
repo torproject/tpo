@@ -15,21 +15,22 @@
         </tr>
       </thead>
       <tbody>
-        {% set t = bag('versions', 'torbrowser-alpha') %}
         {% set t_win = bag('versions', 'torbrowser-win-alpha') %}
+        {% set t_macos = bag('versions', 'torbrowser-macos-alpha') %}
+        {% set t_linux = bag('versions', 'torbrowser-linux-alpha') %}
         <tr>
             <td><a href="https://support.torproject.org/tbb/tbb-37/">{{ _('See supported languages') }}</a></td>
           <td>
             {% from "macros/downloads.html" import render_windows %}
-            {{ render_windows(t_win.version, 'ALL') }}
+            {{ render_windows(t_win.version) }}
           </td>
           <td>
-            {% from "macros/downloads.html" import render_mac_alpha %}
-            {{ render_mac_alpha(t.version, 'ALL') }}
+            {% from "macros/downloads.html" import render_mac %}
+            {{ render_mac(t_macos.version) }}
           </td>
           <td>
             {% from "macros/downloads.html" import render_linux %}
-            {{ render_linux(t.version, 'ALL') }}
+            {{ render_linux(t_linux.version) }}
           </td>
         </tr>
       </tbody>
