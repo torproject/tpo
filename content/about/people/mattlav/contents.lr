@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: mattlav
+---
+pronoun: he
+---
+nickname: mattlav
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=CCA967DC6E888C20E1A07A36B5DC9E8764A81573
+---
+image: /static/images/people/mattlav.jpg
+---
+description:
+
+Tor Project's Financial Coordinator, spreadsheet wrangler, bean counter, T-shirt supervisor, ace spam blaster, livestream director, and music librarian.
