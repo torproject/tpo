@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Stefani Banerian
+---
+pronoun: she
+---
+nickname: stefani
+---
+mastodon_url: https://kolektiva.social/@stefani
+---
+gpg: https://keys.openpgp.org/vks/v1/by-fingerprint/BD13875D2D035E1D1E3B8BF7F4B863AD6642E7EE
+---
+image: /static/images/people/stefani.png
+---
+description:
+
+Runs one of the directory authorities, bandwidth authority, and relays.
