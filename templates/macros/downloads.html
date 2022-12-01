@@ -34,6 +34,19 @@
   <a class="downloadLink" href="{{ download_link }}">64-bit</a> (<a href="{{ sig_link }}">sig</a>)
 {% endmacro %}
 
+{% macro render_mac_alpha(version, alt) %}
+  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
+  {% if alt == 'en' %}
+    {% set alt = 'en-US' %}
+  {% elif alt == 'es' %}
+    {% set alt = 'es-ES' %}
+  {% endif %}
+  {% set download_link = download_prefix + 'TorBrowser-' + version + '-macos' + '_' + alt + '.dmg' %}
+  {% set sig_link = download_link + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link }}">64-bit</a> (<a href="{{ sig_link }}">sig</a>)
+{% endmacro %}
+
 {% macro render_linux(version, alt) %}
   {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
   {% if alt == 'en' %}

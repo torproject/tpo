@@ -24,8 +24,8 @@
             {{ render_windows(t_win.version, 'ALL') }}
           </td>
           <td>
-            {% from "macros/downloads.html" import render_mac %}
-            {{ render_mac(t.version, 'ALL') }}
+            {% from "macros/downloads.html" import render_mac_alpha %}
+            {{ render_mac_alpha(t.version, 'ALL') }}
           </td>
           <td>
             {% from "macros/downloads.html" import render_linux %}
