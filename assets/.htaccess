@@ -187,4 +187,4 @@ RewriteRule ^(es-ES|es-MX|es-CO|es-AR)(.*) /es$2 [R=302,L]
 # but don't have a community page
 # You can see them at https://dist.torproject.org/torbrowser/, pick the last alpha for the most languages
 # this languages are the translation priority for the website!
-RewriteRule ^(ar|bn|bn-BD|bn-IN|ga|ga-IE|cs|da|el|ga|he|id|ja|lt|mk|ms|my|nb-NO|nl|pl|pt-PT|ro|sv-SE|th|uk|vi)/(.*) /$2 [R=302,L]
+RewriteRule ^(ar|bn|bn-BD|bn-IN|cs|da|el|ga|ga-IE|he|id|ja|lt|mk|ms|my|nb-NO|nl|pl|pt-PT|ro|sq|sv-SE|th|uk|vi)/(.*) /$2 [R=302,L]
