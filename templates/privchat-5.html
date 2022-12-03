@@ -1,6 +1,6 @@
 <div class="container" style="background:url({{ '/static/images/privchat/pattern.png' }}) no-repeat center; background-size: contain;">
   <div class="w-50 text-center mx-auto">
-    <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg' }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
+    <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg'|url }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
     <p class="text-primary p-3"> {{ _('a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project')|markdown }}</p>
   </div>
 </div>
@@ -44,7 +44,7 @@
       <div class="container">
       <div class="card flex-row flex-wrap py-3">
         <div class="col-3">
-            <img class="card-img-top" src="{{ '../static/images/privchat/roger.png' }}" alt="">
+            <img class="card-img-top" src="{{ '/static/images/privchat/roger.png'|url }}" alt="">
         </div>
         <div class="col">
           <div class="card-block px-2">
@@ -66,7 +66,7 @@
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '../static/images/privchat/likhita.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/likhita.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
@@ -81,7 +81,7 @@
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '../static/images/privchat/etienne.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/etienne.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
@@ -96,7 +96,7 @@
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '../static/images/privchat/jsr.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/jsr.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
@@ -115,6 +115,6 @@
 <div class="container">
   <div class="row bg-secondary p-5 mx-1 my-5">
     <h1><i class="fas fa-hand-holding-usd px-5 text-light"></i></h1>
-    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>')|markdown }}/h3>
+    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>')|markdown }}</h3>
   </div>
 </div>
