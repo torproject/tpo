@@ -1,13 +1,13 @@
 <div class="container" style="background:url({{ '/static/images/privchat/pattern.png' }}) no-repeat center; background-size: contain;">
   <div class="w-50 text-center mx-auto">
     <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg' }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
-    <p class="text-primary p-3"> a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project</p>
+    <p class="text-primary p-3"> {{ _('a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project') }}</p>
   </div>
 </div>
 
 <div class="container pb-3 mt-5 preamble">
   <p>
-    PrivChat is a fundraising event series held to raise donations for the Tor Project. Through PrivChat, we will bring you important information related to what is happening in tech, human rights, and internet freedom by convening experts for a chat with our community.
+    {{ _('PrivChat is a fundraising event series held to raise donations for the Tor Project. Through PrivChat, we will bring you important information related to what is happening in tech, human rights, and internet freedom by convening experts for a chat with our community.') }}
   </p>
 
   <hr class="mt-5"/>
@@ -15,18 +15,18 @@
 </div>
 
 <div class="container py-3 mt-5">
-    <p class="h2 text-primary" target="_blank">Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention</p>
+    <p class="h2 text-primary" target="_blank">{{ _('Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention') }}</p>
     <a class="btn btn-small bg-primary text-light my-4" href="https://youtu.be/aOOChyMCZH4" target="_blank"><i class="mr-2 pt-1 fas fa-play-circle-png"></i> {{ _("Watch") }} </a>
     <div>
     <p class="font-family-serif">
-      Every year, internet censorship increases globally. From network level blocking to nation-wide internet blackouts, governments and private companies have powerful tools to restrict information and hault connection between people. Many people, groups, and organizations are doing innovative work to study, measure, and fight back against internet censorship--and they are helping millions of people connect more regularly and safely to the internet. Despite these successes, we're faced with well-funded adversaries that have billions of dollars to spend on censorship mechanisms, and the arms race is ongoing. The second edition of PrivChat with Tor will be about the Good, the Bad and the Ugly that is happening in the front lines of censorship circumvention. In a world where censorship technology is increasingly sophisticated and bought and sold between nations, so is our creativity to measure it and build tools to bypass it, as well as the willingness of people to fight back. But is it enough? What are the barriers facing the people and organizations fighting for internet freedom?
+      {{ _("Every year, internet censorship increases globally. From network level blocking to nation-wide internet blackouts, governments and private companies have powerful tools to restrict information and hault connection between people. Many people, groups, and organizations are doing innovative work to study, measure, and fight back against internet censorship--and they are helping millions of people connect more regularly and safely to the internet. Despite these successes, we're faced with well-funded adversaries that have billions of dollars to spend on censorship mechanisms, and the arms race is ongoing. The second edition of PrivChat with Tor will be about the Good, the Bad and the Ugly that is happening in the front lines of censorship circumvention. In a world where censorship technology is increasingly sophisticated and bought and sold between nations, so is our creativity to measure it and build tools to bypass it, as well as the willingness of people to fight back. But is it enough? What are the barriers facing the people and organizations fighting for internet freedom?") }}
     </p>
     </div>
 </div>
 
 <div class="container pt-5 justify-content-center">
 
-    <h4>Host</h4>
+    <h4>{{ _('Host') }}</h4>
 
     <div class="row">
       <div class="container">
@@ -47,7 +47,7 @@
       </div>
     </div>
 
-  <h4 class="mt-5">Participants</h4>
+  <h4 class="mt-5">{{ _('Participants') }}</h4>
 
   <div class="row">
     <div class="container">
@@ -119,6 +119,6 @@
 <div class="container">
   <div class="row bg-secondary p-5 mx-1 my-5">
     <h1><i class="fas fa-hand-holding-usd px-5 text-light"></i></h1>
-    <h3 class="preamble text-light text-center mx-auto">Your donations make this series and our work at Tor possible. <br/> The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a></h3>
+    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>') }}</h3>
   </div>
 </div>
