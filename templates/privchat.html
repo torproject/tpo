@@ -1,20 +1,20 @@
 <div class="container" style="background:url({{ '/static/images/privchat/pattern.png' }}) no-repeat center; background-size: contain;">
   <div class="w-50 text-center mx-auto">
     <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg' }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
-    <p class="text-primary p-3"> a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project</p>
+    <p class="text-primary p-3"> {{ _('a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project') }}</p>
   </div>
 </div>
 
 <div class="container pb-3 mt-5 preamble">
   <p>
-    PrivChat is a fundraising event series held to raise donations for the Tor Project. Through PrivChat, we will bring you important information related to what is happening in tech, human rights, and internet freedom by convening experts for a chat with our community.
+    {{ _('PrivChat is a fundraising event series held to raise donations for the Tor Project. Through PrivChat, we will bring you important information related to what is happening in tech, human rights, and internet freedom by convening experts for a chat with our community.') }}
   </p>
 </div>
 <div class="container">
   <p>
-    PrivChat is free to attend. If you get value out of these events and you like Tor, <a href="https://donate.torproject.org/monthly-giving" alt="Tor Project Donate" target="_blank"><mark>please consider becoming a monthly donor</mark></a>. Reliable, predictable support is the best way to ensure Tor remains strong and stable.
+    {{ _('PrivChat is free to attend. If you get value out of these events and you like Tor, <a href="https://donate.torproject.org/monthly-giving" alt="Tor Project Donate" target="_blank"><mark>please consider becoming a monthly donor</mark></a>. Reliable, predictable support is the best way to ensure Tor remains strong and stable.') }}
 
-    Our goal with PrivChat is to build a two-way support system. You will get access to information from leading minds thinking about and working on privacy, technology, and human rights. And the Tor Project will be more agile in our development as a result of your support, allowing us to respond more rapidly to increasing surveillance and censorship threats (and host more PrivChats)!
+    {{ _('Our goal with PrivChat is to build a two-way support system. You will get access to information from leading minds thinking about and working on privacy, technology, and human rights. And the Tor Project will be more agile in our development as a result of your support, allowing us to respond more rapidly to increasing surveillance and censorship threats (and host more PrivChats)!') }}
   </p>
 
   <hr class="mt-5"/>
@@ -23,15 +23,15 @@
 
 
 <div class="container py-3 mt-5">
-    <p class="h2 text-primary" target="_blank">Chapter #6 - Privacy is a human right</p>
+    <p class="h2 text-primary" target="_blank">{{ _('Chapter #6 - Privacy is a human right') }}</p>
     <div>
       <p><span class="text-primary nick" style="font-size:18px;"><mark>12/15 ∙ 19:00 UTC ∙ 14:00 Eastern ∙ 11:00 Pacific ∙ <a href="https://www.youtube.com/watch?v=ttQiA_GfI6s" title="Tor Project YouTube Channel" target="_blank"><i class="fab fa-youtube"></i> @torproject YouTube channel</a></mark></span></p>
     </div>
     <a class="btn btn-small bg-primary text-light my-4" href="https://www.youtube.com/watch?v=ttQiA_GfI6s" target="_blank"><i class="mr-2 pt-1 fas fa-play-circle-png"></i> {{ _("Watch") }} </a>
     <div>
-      <p class="font-family-serif">Privacy is about protecting what makes us humans: our day-to-day behavior, our personality, our fears, our relationships, and our vulnerabilities. Everyone deserves privacy. The United Nations even codified privacy as a human right in the Universal Declaration of Human Rights in 1948. However, governments, corporations, and other powerful entities routinely block us from exercising our right to privacy through surveillance, monitoring, and tracking.</p>
-      <p class="font-family-serif">Activists, human rights defenders, minorities and people protesting for change are often the targets of this surveillance, and thus have a unique perspective on the critical importance of privacy and anonymity online.</p>
-      <p class="font-family-serif">In this edition of PrivChat, we're bringing together a group of panelists with direct experience as activists or working with activist groups who will talk about their experiences with surveillance and privacy:</p>
+      <p class="font-family-serif">{{ _('Privacy is about protecting what makes us humans: our day-to-day behavior, our personality, our fears, our relationships, and our vulnerabilities. Everyone deserves privacy. The United Nations even codified privacy as a human right in the Universal Declaration of Human Rights in 1948. However, governments, corporations, and other powerful entities routinely block us from exercising our right to privacy through surveillance, monitoring, and tracking.') }}</p>
+      <p class="font-family-serif">{{ _('Activists, human rights defenders, minorities and people protesting for change are often the targets of this surveillance, and thus have a unique perspective on the critical importance of privacy and anonymity online.') }}</p>
+      <p class="font-family-serif">{{ _('In this edition of PrivChat, we're bringing together a group of panelists with direct experience as activists or working with activist groups who will talk about their experiences with surveillance and privacy:') }}</p>
       <p class="font-family-serif">Join <strong>Ali Gharavi</strong>, Senior Programme Specialist, Swedish International Development Agency; <strong>Nadya Tolokonnika</strong>, artist, activist, and founding member of Pussy Riot; and <strong>Nicholas Merrill</strong>, founder and Executive Director, the Calyx Institute to discuss their experiences with surveillance and why fighting for privacy is a key part of ensuring human rights for all.</p>
       <p class="font-family-serif"><strong>Cindy Cohn</strong>, Executive Director of EFF, will join us as our host and moderator.</p>
     </div>
@@ -39,7 +39,7 @@
 
 <div class="container pt-5 justify-content-center">
 
-    <h4>Host</h4>
+  <h4>{{ _('Host') }}</h4>
 
     <div class="row">
       <div class="container">
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-  <h4 class="mt-5">Participants</h4>
+  <h4 class="mt-5">{{ _('Participants') }}</h4>
 
   <div class="row">
     <div class="container">
@@ -116,25 +116,25 @@
 <div class="container">
   <div class="row bg-secondary p-5 mx-1 my-5">
     <h1><i class="fas fa-hand-holding-usd px-5 text-light"></i></h1>
-    <h3 class="preamble text-light text-center mx-auto">Your donations make this series and our work at Tor possible. <br/> The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a></h3>
+    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>') }}/h3>
   </div>
 </div>
 
 <div class="container pt-5 justify-content-center">
-  <h4>Editions</h4>
+  <h4>{{ _('Editions') }}</h4>
 
   <div class="row">
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat5-cover.png' }}" alt="PrivChat with Tor" />
-          <a class="h2 text-primary" href="chapter-5">Chapter #5 - Protection against Pegasus</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat5-cover.png' }}" alt="{{ _('PrivChat with Tor') }}" />
+          <a class="h2 text-primary" href="chapter-5">{{ _('Chapter #5 - Protection against Pegasus') }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Likhita, Etienne Maynier and John Scott-Railton. Hosted by Roger Dingledine.</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
-	   Every year, governments, law enforcement agencies, militaries, and corporations invest billions of dollars into building and buying malicious spyware--software designed to silently infiltrate a user's device and allow attackers to view the contents without detection. This year, the Pegasus Project revealed that users of this kind of spyware, known as Pegasus and built by the NSO group, had targeted the phones that belong to thousands of people in more than 50 countries, including business executives, politicians, journalists, and human rights activists. In this edition of PrivChat, join Likhita and Etienne Maynier of Amnesty International and John Scott-Railton of Citizen Lab to discuss how people can protect themselves, what organizations we can support to stop this abuse and who is working on safer, more private software that we can trust?
+	   {{ _("Every year, governments, law enforcement agencies, militaries, and corporations invest billions of dollars into building and buying malicious spyware--software designed to silently infiltrate a user's device and allow attackers to view the contents without detection.") }} {{ _("This year, the Pegasus Project revealed that users of this kind of spyware, known as Pegasus and built by the NSO group, had targeted the phones that belong to thousands of people in more than 50 countries, including business executives, politicians, journalists, and human rights activists.") }} {{ _("In this edition of PrivChat, join Likhita and Etienne Maynier of Amnesty International and John Scott-Railton of Citizen Lab to discuss how people can protect themselves, what organizations we can support to stop this abuse and who is working on safer, more private software that we can trust?") }}
           </p>
           </div>
       </div>
@@ -147,8 +147,8 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat4-cover.png' }}" alt="PrivChat with Tor" />
-          <a class="h2 text-primary" href="chapter-4">Chapter #4 - 25th Anniversary of Onion Routing</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat4-cover.png' }}" alt="{{ _('PrivChat with Tor') }}" />
+          <a class="h2 text-primary" href="chapter-4">{{ _("Chapter #4 - 25th Anniversary of Onion Routing") }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Roger Dingledine, Nick Mathewson, Paul Syverson. Hosted by Gabriella Coleman.</mark></span></p>
           </div>
@@ -166,8 +166,8 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat3-cover.png' }}" alt="PrivChat with Tor">
-          <a class="h2 text-primary" href="chapter-3">Chapter #3 - Tor Advancing Human Rights</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat3-cover.png' }}" alt="{{ _('PrivChat with Tor') }}">
+          <a class="h2 text-primary" href="chapter-3">{{ _("Chapter #3 - Tor Advancing Human Rights") }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Alison Macrina, Berhan Taye and Ramy Raoof. Hosted by Ed Snowden.</mark></span></p>
           </div>
@@ -185,8 +185,8 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat2-cover.png' }}" alt="PrivChat with Tor">
-          <a class="h2 text-primary" href="chapter-2">Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat2-cover.png' }}" alt="{{ _('PrivChat with Tor') }}">
+          <a class="h2 text-primary" href="chapter-2">{{ _("Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention") }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Felicia Anthonio, Vrinda Bhandari, Cecylia Bocovich and Arturo Filastò. Hosted by Cory Doctorow.</mark></span></p>
           </div>
@@ -204,8 +204,8 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat1-cover.png' }}" alt="PrivChat with Tor">
-          <a class="h2 text-primary" href="chapter-1">Chapter #1 - Online Privacy in 2020: Activism & COVID-19</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat1-cover.png' }}" alt="{{ _('PrivChat with Tor') }}">
+          <a class="h2 text-primary" href="chapter-1">{{ _("Chapter #1 - Online Privacy in 2020: Activism & COVID-19") }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Carmela Troncoso, Daniel Kahn Gillmor and Matt Mitchell. Hosted by Roger Dingledine.</mark></span></p>
           </div>
