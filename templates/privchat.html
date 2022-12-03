@@ -1,6 +1,6 @@
-<div class="container" style="background:url({{ '../static/images/privchat/pattern.png' }}) no-repeat center; background-size: contain;">
+<div class="container" style="background:url({{ '/static/images/privchat/pattern.png' }}) no-repeat center; background-size: contain;">
   <div class="w-50 text-center mx-auto">
-    <img class="img-fluid p-3" height="auto" src="{{ '../static/images/privchat/privchat.svg' }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
+    <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg'|url }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
     <p class="text-primary p-3"> {{ _('a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project') }}</p>
   </div>
 </div>
@@ -45,7 +45,7 @@
       <div class="container">
       <div class="card flex-row flex-wrap py-3">
         <div class="col-3">
-            <img class="card-img-top" src="{{ '../static/images/privchat/cindy.jpg' }}" alt="">
+            <img class="card-img-top" src="{{ '/static/images/privchat/cindy.jpg'|url }}" alt="">
         </div>
         <div class="col">
           <div class="card-block px-2">
@@ -67,7 +67,7 @@
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '../static/images/privchat/ali.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/ali.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
@@ -82,7 +82,7 @@
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '../static/images/privchat/nadya.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/nadya.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
@@ -97,7 +97,7 @@
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '../static/images/privchat/nicholas.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/nicholas.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
@@ -116,7 +116,7 @@
 <div class="container">
   <div class="row bg-secondary p-5 mx-1 my-5">
     <h1><i class="fas fa-hand-holding-usd px-5 text-light"></i></h1>
-    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>') }}/h3>
+    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>')|markdown }}</h3>
   </div>
 </div>
 
@@ -127,10 +127,10 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '../static/images/privchat/privchat5-cover.png' }}" alt="{{ _('PrivChat with Tor') }}" />
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat5-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}" />
           <a class="h2 text-primary" href="chapter-5">{{ _('Chapter #5 - Protection against Pegasus') }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Likhita, Etienne Maynier and John Scott-Railton. Hosted by Roger Dingledine.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _('With Likhita, Etienne Maynier and John Scott-Railton. Hosted by Roger Dingledine.') }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
@@ -147,7 +147,7 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '../static/images/privchat/privchat4-cover.png' }}" alt="{{ _('PrivChat with Tor') }}" />
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat4-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}" />
           <a class="h2 text-primary" href="chapter-4">{{ _("Chapter #4 - 25th Anniversary of Onion Routing") }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Roger Dingledine, Nick Mathewson, Paul Syverson. Hosted by Gabriella Coleman.</mark></span></p>
@@ -166,7 +166,7 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '../static/images/privchat/privchat3-cover.png' }}" alt="{{ _('PrivChat with Tor') }}">
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat3-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}">
           <a class="h2 text-primary" href="chapter-3">{{ _("Chapter #3 - Tor Advancing Human Rights") }}</a>
           <div>
             <p><span class="text-primary nick"><mark>With Alison Macrina, Berhan Taye and Ramy Raoof. Hosted by Ed Snowden.</mark></span></p>
@@ -185,10 +185,10 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '../static/images/privchat/privchat2-cover.png' }}" alt="{{ _('PrivChat with Tor') }}">
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat2-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}">
           <a class="h2 text-primary" href="chapter-2">{{ _("Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention") }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Felicia Anthonio, Vrinda Bhandari, Cecylia Bocovich and Arturo Filastò. Hosted by Cory Doctorow.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _("With Felicia Anthonio, Vrinda Bhandari, Cecylia Bocovich and Arturo Filastò. Hosted by Cory Doctorow.") }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
@@ -204,10 +204,10 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '../static/images/privchat/privchat1-cover.png' }}" alt="{{ _('PrivChat with Tor') }}">
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat1-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}">
           <a class="h2 text-primary" href="chapter-1">{{ _("Chapter #1 - Online Privacy in 2020: Activism & COVID-19") }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Carmela Troncoso, Daniel Kahn Gillmor and Matt Mitchell. Hosted by Roger Dingledine.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _("With Carmela Troncoso, Daniel Kahn Gillmor and Matt Mitchell. Hosted by Roger Dingledine.") }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
