@@ -1,0 +1,3 @@
+lektor-markdown-image-attrs==0.2.1 \
+    --hash=sha256:141e127d7c210c1305eb7880b9267160c807919f10bc7a73056bc58c791dd3cc \
+    --hash=sha256:e76a191aa9da92716a6bc695b1aecde296e9c4656254cf5dc105208b31fc5fd5
