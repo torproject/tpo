@@ -1,20 +1,20 @@
-<div class="container" style="background:url({{ '/static/images/privchat/pattern.png' }}) no-repeat center; background-size: contain;">
+<div class="container" style="background:url({{ '/static/images/privchat/pattern.png'|url }}) no-repeat center; background-size: contain;">
   <div class="w-50 text-center mx-auto">
-    <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg' }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
-    <p class="text-primary p-3"> a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project</p>
+    <img class="img-fluid p-3" height="auto" src="{{ '/static/images/privchat/privchat.svg'|url }}" /> <h1 class="display-2 text-primary">PrivChat</h1>
+    <p class="text-primary p-3"> {{ _('a conversation about tech, human rights, <br/>and internet freedom brought to you by the Tor Project') }}</p>
   </div>
 </div>
 
 <div class="container pb-3 mt-5 preamble">
   <p>
-    PrivChat is a fundraising event series held to raise donations for the Tor Project. Through PrivChat, we will bring you important information related to what is happening in tech, human rights, and internet freedom by convening experts for a chat with our community.
+    {{ _('PrivChat is a fundraising event series held to raise donations for the Tor Project. Through PrivChat, we will bring you important information related to what is happening in tech, human rights, and internet freedom by convening experts for a chat with our community.') }}
   </p>
 </div>
 <div class="container">
   <p>
-    PrivChat is free to attend. If you get value out of these events and you like Tor, <a href="https://donate.torproject.org/monthly-giving" alt="Tor Project Donate" target="_blank"><mark>please consider becoming a monthly donor</mark></a>. Reliable, predictable support is the best way to ensure Tor remains strong and stable.
+    {{ _('PrivChat is free to attend. If you get value out of these events and you like Tor, <a href="https://donate.torproject.org/monthly-giving" alt="Tor Project Donate" target="_blank"><mark>please consider becoming a monthly donor</mark></a>. Reliable, predictable support is the best way to ensure Tor remains strong and stable.')|markdown }}
 
-    Our goal with PrivChat is to build a two-way support system. You will get access to information from leading minds thinking about and working on privacy, technology, and human rights. And the Tor Project will be more agile in our development as a result of your support, allowing us to respond more rapidly to increasing surveillance and censorship threats (and host more PrivChats)!
+    {{ _('Our goal with PrivChat is to build a two-way support system. You will get access to information from leading minds thinking about and working on privacy, technology, and human rights. And the Tor Project will be more agile in our development as a result of your support, allowing us to respond more rapidly to increasing surveillance and censorship threats (and host more PrivChats)!') }}
   </p>
 
   <hr class="mt-5"/>
@@ -23,89 +23,89 @@
 
 
 <div class="container py-3 mt-5">
-    <p class="h2 text-primary" target="_blank">Chapter #6 - Privacy is a human right</p>
+    <p class="h2 text-primary" target="_blank">{{ _('Chapter #6 - Privacy is a human right') }}</p>
     <div>
       <p><span class="text-primary nick" style="font-size:18px;"><mark>12/15 ∙ 19:00 UTC ∙ 14:00 Eastern ∙ 11:00 Pacific ∙ <a href="https://www.youtube.com/watch?v=ttQiA_GfI6s" title="Tor Project YouTube Channel" target="_blank"><i class="fab fa-youtube"></i> @torproject YouTube channel</a></mark></span></p>
     </div>
     <a class="btn btn-small bg-primary text-light my-4" href="https://www.youtube.com/watch?v=ttQiA_GfI6s" target="_blank"><i class="mr-2 pt-1 fas fa-play-circle-png"></i> {{ _("Watch") }} </a>
     <div>
-      <p class="font-family-serif">Privacy is about protecting what makes us humans: our day-to-day behavior, our personality, our fears, our relationships, and our vulnerabilities. Everyone deserves privacy. The United Nations even codified privacy as a human right in the Universal Declaration of Human Rights in 1948. However, governments, corporations, and other powerful entities routinely block us from exercising our right to privacy through surveillance, monitoring, and tracking.</p>
-      <p class="font-family-serif">Activists, human rights defenders, minorities and people protesting for change are often the targets of this surveillance, and thus have a unique perspective on the critical importance of privacy and anonymity online.</p>
-      <p class="font-family-serif">In this edition of PrivChat, we're bringing together a group of panelists with direct experience as activists or working with activist groups who will talk about their experiences with surveillance and privacy:</p>
-      <p class="font-family-serif">Join <strong>Ali Gharavi</strong>, Senior Programme Specialist, Swedish International Development Agency; <strong>Nadya Tolokonnika</strong>, artist, activist, and founding member of Pussy Riot; and <strong>Nicholas Merrill</strong>, founder and Executive Director, the Calyx Institute to discuss their experiences with surveillance and why fighting for privacy is a key part of ensuring human rights for all.</p>
-      <p class="font-family-serif"><strong>Cindy Cohn</strong>, Executive Director of EFF, will join us as our host and moderator.</p>
+      <p class="font-family-serif">{{ _('Privacy is about protecting what makes us humans: our day-to-day behavior, our personality, our fears, our relationships, and our vulnerabilities. Everyone deserves privacy. The United Nations even codified privacy as a human right in the Universal Declaration of Human Rights in 1948. However, governments, corporations, and other powerful entities routinely block us from exercising our right to privacy through surveillance, monitoring, and tracking.') }}</p>
+      <p class="font-family-serif">{{ _('Activists, human rights defenders, minorities and people protesting for change are often the targets of this surveillance, and thus have a unique perspective on the critical importance of privacy and anonymity online.') }}</p>
+      <p class="font-family-serif">{{ _("In this edition of PrivChat, we're bringing together a group of panelists with direct experience as activists or working with activist groups who will talk about their experiences with surveillance and privacy:") }}</p>
+      <p class="font-family-serif">{{ _('Join **Ali Gharavi**, Senior Programme Specialist, Swedish International Development Agency; **Nadya Tolokonnika**, artist, activist, and founding member of Pussy Riot; and **Nicholas Merrill**, founder and Executive Director, the Calyx Institute to discuss their experiences with surveillance and why fighting for privacy is a key part of ensuring human rights for all.')|markdown }}</p>
+      <p class="font-family-serif">{{ _('**Cindy Cohn**, Executive Director of EFF, will join us as our host and moderator.')|markdown }}</p>
     </div>
 </div>
 
 <div class="container pt-5 justify-content-center">
 
-    <h4>Host</h4>
+  <h4>{{ _('Host') }}</h4>
 
     <div class="row">
       <div class="container">
       <div class="card flex-row flex-wrap py-3">
         <div class="col-3">
-            <img class="card-img-top" src="{{ '/static/images/privchat/cindy.jpg' }}" alt="">
+            <img class="card-img-top" src="{{ '/static/images/privchat/cindy.jpg'|url }}" alt="">
         </div>
         <div class="col">
           <div class="card-block px-2">
               <div class="pb-4">
                 <h4 class="display-4 text-primary">Cindy Cohn</h4>
-                <strong class="display-5 text-primary mb-4">Executive Director, Electronic Frontier Foundation</strong>
+                <strong class="display-5 text-primary mb-4">{{ _('Executive Director, Electronic Frontier Foundation') }}</strong>
               </div>
-	      <p class="text-tpo"><strong>Cindy Cohn</strong> is the Executive Director of the Electronic Frontier Foundation. From 2000-2015 she served as EFF's Legal Director as well as its General Counsel. In 1993, EFF she served lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech. In 2013, The National Law Journal named Ms. Cohn one of 100 most influential lawyers in America, noting: "If Big Brother is watching, he better look out for Cindy Cohn."</p>
+	      <p class="text-tpo">{{ _('**Cindy Cohn** is the Executive Director of the Electronic Frontier Foundation. From 2000-2015 she served as EFF\'s Legal Director as well as its General Counsel. In 1993, EFF she served lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America\'s Top 50 Women in Tech. In 2013, The National Law Journal named Ms. Cohn one of 100 most influential lawyers in America, noting: "If Big Brother is watching, he better look out for Cindy Cohn."') }}</p>
           </div>
         </div>
       </div>
       </div>
     </div>
 
-  <h4 class="mt-5">Participants</h4>
+  <h4 class="mt-5">{{ _('Participants') }}</h4>
 
   <div class="row">
     <div class="container">
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '/static/images/privchat/ali.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/ali.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
             <div class="pb-4">
-              <h4 class="display-4 text-primary">Ali Gharavi</h4>
-              <strong class="display-5 text-primary mb-4">Senior Programme Specialist, Swedish International Development Agency</strong>
+              <h4 class="display-4 text-primary">{{ _('Ali Gharavi') }}</h4>
+              <strong class="display-5 text-primary mb-4">{{ _('Senior Programme Specialist, Swedish International Development Agency') }}</strong>
             </div>
-	    <p class="text-tpo"><strong>Ali Gharavi</strong> has been a leader in facilitation, mentoring, and strategic accompaniment of Human Rights Defenders' organizations for more than 18 years, and is co-author of Holistic Security - A manual for Human Rights Defenders. He has helped in designing and implementing programs entailing long-term, multidisciplinary accompaniment of HRD organizations to ensure their sustainability and strategic success. Ali has facilitated, trained, and consulted over 200 HRD projects, organizations, and foundations and has worked in this capacity in over 50 countries. He is currently working as a Senior Programme Specialist at the Swedish International Development Agency (SIDA)'s Unit for Democracy and Human Rights, with a concentration on Freedom of Expression and Information and Communication Technologies</p>
+	    <p class="text-tpo">{{ _("**Ali Gharavi** has been a leader in facilitation, mentoring, and strategic accompaniment of Human Rights Defenders' organizations for more than 18 years, and is co-author of Holistic Security - A manual for Human Rights Defenders. He has helped in designing and implementing programs entailing long-term, multidisciplinary accompaniment of HRD organizations to ensure their sustainability and strategic success. Ali has facilitated, trained, and consulted over 200 HRD projects, organizations, and foundations and has worked in this capacity in over 50 countries. He is currently working as a Senior Programme Specialist at the Swedish International Development Agency (SIDA)'s Unit for Democracy and Human Rights, with a concentration on Freedom of Expression and Information and Communication Technologies.")|markdown }}</p>
         </div>
       </div>
     </div>
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '/static/images/privchat/nadya.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/nadya.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
             <div class="pb-4">
-              <h4 class="display-4 text-primary">Nadya Tolokonnika</h4>
-              <strong class="display-5 text-primary mb-4">Artist, activist, and founding member of Pussy Riot</strong>
+              <h4 class="display-4 text-primary">{{ _('Nadya Tolokonnika') }}</h4>
+              <strong class="display-5 text-primary mb-4">{{ _('Artist, activist, and founding member of Pussy Riot') }}</strong>
             </div>
-	    <p class="text-tpo"><strong>Nadya Tolokonnika</strong> is a conceptual artist, activist, and founding member of Pussy Riot, a global feminist protest art movement. Pussy Riot stands for gender fluidity, inclusivity, matriarchy, love, laughter, decentralization, anarchy, and anti-authoritarianism. Today, hundreds of people identify as a part of the Pussy Riot community. In 2012, Nadya was sentenced to 2 years' imprisonment following an anti-Putin performance and went through a hunger strike protesting savage prison conditions and ended up being sent to a Siberian penal colony, where she managed to maintain her artistic activity and with her prison punk band she put together to tour around Siberian labor camps. In 2018, she has  published a book, Read and Riot: A Pussy Riot Guide to Activism. In 2021, Pussy Riot joined PleasrDAO, a supporter of a stronger female representation in the NFT space, as a member</p>
+	    <p class="text-tpo">{{ _('**Nadya Tolokonnika** is a conceptual artist, activist, and founding member of Pussy Riot, a global feminist protest art movement. Pussy Riot stands for gender fluidity, inclusivity, matriarchy, love, laughter, decentralization, anarchy, and anti-authoritarianism. Today, hundreds of people identify as a part of the Pussy Riot community. In 2012, Nadya was sentenced to 2 years\' imprisonment following an anti-Putin performance and went through a hunger strike protesting savage prison conditions and ended up being sent to a Siberian penal colony, where she managed to maintain her artistic activity and with her prison punk band she put together to tour around Siberian labor camps. In 2018, she has  published a book, Read and Riot: A Pussy Riot Guide to Activism. In 2021, Pussy Riot joined PleasrDAO, a supporter of a stronger female representation in the NFT space, as a member.')|markdown }}</p>
         </div>
       </div>
     </div>
 
     <div class="card flex-row flex-wrap py-3 mb-5">
       <div class="col-3">
-          <img class="card-img-top" src="{{ '/static/images/privchat/nicholas.jpg' }}" alt="">
+          <img class="card-img-top" src="{{ '/static/images/privchat/nicholas.jpg'|url }}" alt="">
       </div>
       <div class="col">
         <div class="card-block px-2">
             <div class="pb-4">
               <h4 class="display-4 text-primary">Nicholas Merrill</h4>
-              <strong class="display-5 text-primary mb-4">Founder and Executive Director, the Calyx Institute</strong>
+              <strong class="display-5 text-primary mb-4">{{ _('Founder and Executive Director, the Calyx Institute') }}</strong>
             </div>
-	    <p class="text-tpo"><strong>Nicholas Merrill</strong> is the founder and Executive Director of The Calyx Institute. Previous to this, he founded the for-profit Calyx Internet Access Corporation in 1995, one of the first commercial Internet service providers operating in New York City. His work focuses on promoting privacy and freedom of expression online and in the telecommunications industry. Nick is a recipient of the ACLU’s Roger Baldwin Medal of Liberty and the Bill of Rights Defense Committee’s Patriot Award</p>
+	    <p class="text-tpo">{{ _('**Nicholas Merrill** is the founder and Executive Director of The Calyx Institute. Previous to this, he founded the for-profit Calyx Internet Access Corporation in 1995, one of the first commercial Internet service providers operating in New York City. His work focuses on promoting privacy and freedom of expression online and in the telecommunications industry. Nick is a recipient of the ACLU\’s Roger Baldwin Medal of Liberty and the Bill of Rights Defense Committee\’s Patriot Award.')|markdown }}</p>
         </div>
       </div>
     </div>
@@ -116,25 +116,25 @@
 <div class="container">
   <div class="row bg-secondary p-5 mx-1 my-5">
     <h1><i class="fas fa-hand-holding-usd px-5 text-light"></i></h1>
-    <h3 class="preamble text-light text-center mx-auto">Your donations make this series and our work at Tor possible. <br/> The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a></h3>
+    <h3 class="preamble text-light text-center mx-auto">{{ _('Your donations make this series and our work at Tor possible.') }}<br/> {{ _('The best way to support our work is to <a class="text-success" href="https://donate.torproject.org/monthly-giving" target="_blank">become a monthly donor.</a>')|markdown }}</h3>
   </div>
 </div>
 
 <div class="container pt-5 justify-content-center">
-  <h4>Editions</h4>
+  <h4>{{ _('Editions') }}</h4>
 
   <div class="row">
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat5-cover.png' }}" alt="PrivChat with Tor" />
-          <a class="h2 text-primary" href="chapter-5">Chapter #5 - Protection against Pegasus</a>
+<!--   we still need an image for this privchat       <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat5-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}" /> -->
+          <a class="h2 text-primary" href="chapter-5">{{ _('Chapter #5 - Protection against Pegasus') }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Likhita, Etienne Maynier and John Scott-Railton. Hosted by Roger Dingledine.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _('With Likhita, Etienne Maynier and John Scott-Railton. Hosted by Roger Dingledine.') }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
-	   Every year, governments, law enforcement agencies, militaries, and corporations invest billions of dollars into building and buying malicious spyware--software designed to silently infiltrate a user's device and allow attackers to view the contents without detection. This year, the Pegasus Project revealed that users of this kind of spyware, known as Pegasus and built by the NSO group, had targeted the phones that belong to thousands of people in more than 50 countries, including business executives, politicians, journalists, and human rights activists. In this edition of PrivChat, join Likhita and Etienne Maynier of Amnesty International and John Scott-Railton of Citizen Lab to discuss how people can protect themselves, what organizations we can support to stop this abuse and who is working on safer, more private software that we can trust?
+	   {{ _("Every year, governments, law enforcement agencies, militaries, and corporations invest billions of dollars into building and buying malicious spyware--software designed to silently infiltrate a user's device and allow attackers to view the contents without detection.") }} {{ _("This year, the Pegasus Project revealed that users of this kind of spyware, known as Pegasus and built by the NSO group, had targeted the phones that belong to thousands of people in more than 50 countries, including business executives, politicians, journalists, and human rights activists.") }} {{ _("In this edition of PrivChat, join Likhita and Etienne Maynier of Amnesty International and John Scott-Railton of Citizen Lab to discuss how people can protect themselves, what organizations we can support to stop this abuse and who is working on safer, more private software that we can trust?") }}
           </p>
           </div>
       </div>
@@ -147,14 +147,14 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat4-cover.png' }}" alt="PrivChat with Tor" />
-          <a class="h2 text-primary" href="chapter-4">Chapter #4 - 25th Anniversary of Onion Routing</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat4-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}" />
+          <a class="h2 text-primary" href="chapter-4">{{ _("Chapter #4 - 25th Anniversary of Onion Routing") }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Roger Dingledine, Nick Mathewson, Paul Syverson. Hosted by Gabriella Coleman.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _("With Roger Dingledine, Nick Mathewson, Paul Syverson. Hosted by Gabriella Coleman.") }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
-      Celebrate 25 years of onion routing with Tor! May 31, 2021 marks the 25th anniversary of the first public presentation of onion routing in Cambridge, UK at Isaac Newton Institute's first Information Hiding Workshop. You're invited to celebrate this special moment with us to talk about the beginnings of onion routing, and how this idea became Tor, and how the Tor Project eventually came to be. We’ll be joined by <strong>Paul Syverson</strong>, one of the authors of the <a href="https://www.onion-router.net/Publications.html#IH-1996">first onion routing paper</a>, together with the Tor Project co-founders <strong>Roger Dingledine</strong> and <strong>Nick Mathewson</strong>. We'll reflect on the first days of the onion routing network at the U.S. Naval Research Lab (NRL). (Back then, onion router connections went through five nodes instead of Tor's current three-nodes design!) It's no secret that the concept of onion routing originated at NRL (it's on <a href="https://www.torproject.org/about/history/">our history page</a>), but there is so much more we want to share about how Tor started and where we've come in the last 25 years.
+      {{ _('Celebrate 25 years of onion routing with Tor!') }} {{ _("May 31, 2021 marks the 25th anniversary of the first public presentation of onion routing in Cambridge, UK at Isaac Newton Institute's first Information Hiding Workshop.") }} {{ _("You're invited to celebrate this special moment with us to talk about the beginnings of onion routing, and how this idea became Tor, and how the Tor Project eventually came to be. We\’ll be joined by **Paul Syverson**, one of the authors of the [first onion routing paper](https://www.onion-router.net/Publications.html#IH-1996), together with the Tor Project co-founders **Roger Dingledine** and **Nick Mathewson**.")|markdown }} {{ _("We'll reflect on the first days of the onion routing network at the U.S. Naval Research Lab (NRL). (Back then, onion router connections went through five nodes instead of Tor's current three-nodes design!) It's no secret that the concept of onion routing originated at NRL (it's on [our history page](../about/history/)), but there is so much more we want to share about how Tor started and where we've come in the last 25 years.")|markdown }}
           </p>
           </div>
       </div>
@@ -166,14 +166,14 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat3-cover.png' }}" alt="PrivChat with Tor">
-          <a class="h2 text-primary" href="chapter-3">Chapter #3 - Tor Advancing Human Rights</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat3-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}">
+          <a class="h2 text-primary" href="chapter-3">{{ _("Chapter #3 - Tor Advancing Human Rights") }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Alison Macrina, Berhan Taye and Ramy Raoof. Hosted by Ed Snowden.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _("With Alison Macrina, Berhan Taye and Ramy Raoof. Hosted by Ed Snowden.") }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
-            The Tor Project's main mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies. People use our technology, namely the Tor network and Tor Browser, in diverse ways. Tor is used by whistleblowers who need a safe way to bring to light information about wrongdoing -- information that is crucial for society to know -- without sharing their identity. Tor is used by activists around the world who are fighting against authoritarian governments and to defend human rights, not only for their safety and anonymity, but also to circumvent internet censorship so their voices can be heard. Tor allows millions of people to protect themselves online, no matter what privilege they have or don't have. For our third edition of PrivChat, we are bringing you some real-life Tor users who will share how Tor has been important for them and their work to defend human rights and freedoms around the world.
+            {{ _("The Tor Project's main mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies. People use our technology, namely the Tor network and Tor Browser, in diverse ways. Tor is used by whistleblowers who need a safe way to bring to light information about wrongdoing -- information that is crucial for society to know -- without sharing their identity. Tor is used by activists around the world who are fighting against authoritarian governments and to defend human rights, not only for their safety and anonymity, but also to circumvent internet censorship so their voices can be heard. Tor allows millions of people to protect themselves online, no matter what privilege they have or don't have. For our third edition of PrivChat, we are bringing you some real-life Tor users who will share how Tor has been important for them and their work to defend human rights and freedoms around the world.") }}
             </p>
           </div>
       </div>
@@ -185,14 +185,14 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat2-cover.png' }}" alt="PrivChat with Tor">
-          <a class="h2 text-primary" href="chapter-2">Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat2-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}">
+          <a class="h2 text-primary" href="chapter-2">{{ _("Chapter #2 - the Good, the Bad, and the Ugly of Censorship Circumvention") }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Felicia Anthonio, Vrinda Bhandari, Cecylia Bocovich and Arturo Filastò. Hosted by Cory Doctorow.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _("With Felicia Anthonio, Vrinda Bhandari, Cecylia Bocovich and Arturo Filastò. Hosted by Cory Doctorow.") }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
-          Every year, internet censorship increases globally. From network level blocking to nation-wide internet blackouts, governments and private companies have powerful tools to restrict information and hault connection between people. Many people, groups, and organizations are doing innovative work to study, measure, and fight back against internet censorship--and they are helping millions of people connect more regularly and safely to the internet. Despite these successes, we're faced with well-funded adversaries that have billions of dollars to spend on censorship mechanisms, and the arms race is ongoing. The second edition of PrivChat with Tor will be about the Good, the Bad and the Ugly that is happening in the front lines of censorship circumvention. In a world where censorship technology is increasingly sophisticated and bought and sold between nations, so is our creativity to measure it and build tools to bypass it, as well as the willingness of people to fight back. But is it enough? What are the barriers facing the people and organizations fighting for internet freedom?
+          {{ _("Every year, internet censorship increases globally. From network level blocking to nation-wide internet blackouts, governments and private companies have powerful tools to restrict information and hault connection between people. Many people, groups, and organizations are doing innovative work to study, measure, and fight back against internet censorship--and they are helping millions of people connect more regularly and safely to the internet. Despite these successes, we're faced with well-funded adversaries that have billions of dollars to spend on censorship mechanisms, and the arms race is ongoing. The second edition of PrivChat with Tor will be about the Good, the Bad and the Ugly that is happening in the front lines of censorship circumvention. In a world where censorship technology is increasingly sophisticated and bought and sold between nations, so is our creativity to measure it and build tools to bypass it, as well as the willingness of people to fight back. But is it enough? What are the barriers facing the people and organizations fighting for internet freedom?") }}
           </p>
           </div>
       </div>
@@ -204,18 +204,18 @@
     <div class="container">
 
       <div class="p-5 mt-5 border">
-          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat1-cover.png' }}" alt="PrivChat with Tor">
-          <a class="h2 text-primary" href="chapter-1">Chapter #1 - Online Privacy in 2020: Activism & COVID-19</a>
+          <img class="card-img-top mb-5" src="{{ '/static/images/privchat/privchat1-cover.png'|url }}" alt="{{ _('PrivChat with Tor') }}">
+          <a class="h2 text-primary" href="chapter-1">{{ _("Chapter #1 - Online Privacy in 2020: Activism & COVID-19") }}</a>
           <div>
-            <p><span class="text-primary nick"><mark>With Carmela Troncoso, Daniel Kahn Gillmor and Matt Mitchell. Hosted by Roger Dingledine.</mark></span></p>
+            <p><span class="text-primary nick"><mark>{{ _("With Carmela Troncoso, Daniel Kahn Gillmor and Matt Mitchell. Hosted by Roger Dingledine.") }}</mark></span></p>
           </div>
           <div>
           <p class="font-family-serif">
-          When the COVID-19 pandemic hit most countries around the world, many governments looked for technology to trace the spread of the virus in order to fight the pandemic. Contact tracing practices and technologies raised many questions about privacy, particularly: is it possible to trace the virus while respecting people's privacy?
+          {{ _("When the COVID-19 pandemic hit most countries around the world, many governments looked for technology to trace the spread of the virus in order to fight the pandemic. Contact tracing practices and technologies raised many questions about privacy, particularly: is it possible to trace the virus while respecting people's privacy?") }}
 
-          Now amidst the uprising in the U.S. against systemic racism, followed by protests all around the world, the central question about contact tracing, privacy, and surveillance becomes critical. Can the technology used for tracking the virus be used to track protesters? Will it be?
+          {{ _("Now amidst the uprising in the U.S. against systemic racism, followed by protests all around the world, the central question about contact tracing, privacy, and surveillance becomes critical. Can the technology used for tracking the virus be used to track protesters? Will it be?") }}
 
-          For our first ever PrivChat, the Tor Project is bringing you three amazing guests to chat with us about privacy in this context.
+          {{ _("For our first ever PrivChat, the Tor Project is bringing you three amazing guests to chat with us about privacy in this context.") }}
           </p>
           </div>
       </div>
