@@ -24,20 +24,6 @@ logo: shallot-placeholder.png
 body:
 Tor's primary benefit, for the uninitiated: It encrypts your traffic and bounces it through a chain of computers, making it very difficult for anyone to track where it came from. You can see how easy access to an anonymized services like that might come in handy when you're working on anything from job hunting to political organizing.
 
-#### membership_shallot ####
-name:
-----
-logo:
-----
-body:
-
-#### membership_shallot ####
-name:
-----
-logo:
-----
-body:
-
 ---
 
 vidalia_members:
@@ -62,13 +48,6 @@ name: Samourai Wallet
 url: https://samouraiwallet.com
 ----
 logo: samourai.png
-
-#### membership_vidalia ####
-name:
-----
-url:
-----
-logo:
 
 ---
 
