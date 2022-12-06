@@ -12,21 +12,21 @@ This is the first stable release based on Firefox ESR 91, and includes an import
 
 ## What's new?
 
-<img class="w-100" src="/static/images/tb11/tb-11-browser.jpg" alt="Tor Browser 11's connection screen in light and dark themes"/>
+![Tor Browser 11's connection screen in light and dark themes](/static/images/tb11/tb-11-browser.jpg "class=w-100")
 
 ## Tor Browser gets a new look
 
 Earlier this year, Firefox’s user interface [underwent a significant redesign](https://www.mozilla.org/en-US/firefox/89.0/releasenotes/) aimed at simplifying the browser chrome, streamlining menus and featuring an all-new tab design.
 Firefox ESR 91 introduces the new design to Tor Browser for the first time.
 
-<img class="w-100" src="/static/images/tb11/tb-11-icons.jpg" alt="Tor Browser 11's redesigned icons"/>
+![Tor Browser 11's redesigned icons](/static/images/tb11/tb-11-icons.jpg "class=w-100")
 
 To ensure it lives up to the new experience, each piece of custom UI in Tor Browser has been modernized to match Firefox’s new look and feel.
 That includes everything from updating the fundamentals like color, typography and buttons to redrawing each of our icons to match the new thinner icon style.
 
 In addition to the browser chrome itself, the connection screen, circuit display, security levels and onion site errors all received a sprucing-up too – featuring some small but welcome quality of life improvements to each.
 
-<img class="w-100" src="/static/images/tb11/tb-11-deprecation.jpg" alt="Invalid Onion Site Address error resulting from v2 deprecation"/>
+![Invalid Onion Site Address error resulting from v2 deprecation](/static/images/tb11/tb-11-deprecation.jpg "class=w-100")
 
 ## Final deprecation of v2 onion services
 
