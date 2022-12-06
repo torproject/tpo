@@ -50,12 +50,22 @@
   <div class="row py-5">
     <h3 class="col-12 text-primary display-4 pb-4">{{ _('Shallot Onion Members') }}</h3>
     {{ this.shallot_members }}
+    {% for i in range(3 - (this.shallot_members.blocks|length)) %}
+      {% with this=None %}
+        {% include 'blocks/membership_shallot.html' with context %}
+      {% endwith %}
+    {% endfor %}
   </div>
 </div>
 <div class="container" id="vidalia">
   <div class="row py-5">
     <h3 class="col-12 text-primary display-4 pb-4">{{ _('Vidalia Onion Members') }}</h3>
     {{ this.vidalia_members }}
+    {% for i in range(4 - (this.vidalia_members.blocks|length)) %}
+      {% with this=None %}
+        {% include 'blocks/membership_vidalia.html' with context %}
+      {% endwith %}
+    {% endfor %}
   </div>
 </div>
 <div class="container" id="green">
