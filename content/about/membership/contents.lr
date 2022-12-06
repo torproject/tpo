@@ -42,21 +42,9 @@ url: https://mullvad.net
 ----
 logo: mullvad.png
 
-#### membership_vidalia ####
-name: Samourai Wallet
-----
-url: https://samouraiwallet.com
-----
-logo: samourai.png
-
 ---
 
 green_onion_members:
-
-#### membership_green_onion ####
-name: Blank
-----
-url: https://goblank.io/
 
 #### membership_green_onion ####
 name: Blockchair
@@ -67,11 +55,6 @@ url: https://blockchair.com/
 name: Brave
 ----
 url: https://brave.com
-
-#### membership_green_onion ####
-name: DEF CON
-----
-url: https://defcon.org/
 
 #### membership_green_onion ####
 name: DuckDuckGo
