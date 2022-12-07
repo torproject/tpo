@@ -16,33 +16,21 @@
   {% for id, item in bag('platforms').items() %}
     <div class="col-sm-6 col-md-3 py-3">
       <div class="oval-2 bg-darker">
-        {% set alt_l = alt %}
         {% set t = bag('versions', 'torbrowser-stable') %}
         {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
 
-        {# XXXX: The Khmer version of TBB isn't ready yet, but we want to enable the locale for the site.
-           See tpo/web/tpo#290 #}
-        {% if alt_l == 'km' %}
-          {% set alt_l = 'en' %}
-        {% endif %}
-
-        {% if alt_l == 'en' %}
-          {% set alt_l = 'en-US' %}
-        {% elif alt_l == 'es' %}
-          {% set alt_l = 'es-ES' %}
-        {% endif %}
         {% if id == 'windows' %}
           {% set t = bag('versions', 'torbrowser-win-stable') %}
           {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
-          {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_' + alt_l + '.exe' %}
+          {% set download_link = download_prefix + 'torbrowser-install-win64-' + t.version + '_ALL.exe' %}
           {% set sig_link = download_link + '.asc' %}
         {% elif id == 'apple' %}
-          {% set download_link = download_prefix + 'TorBrowser-' + t.version + '-osx64' + '_' + alt_l + '.dmg' %}
+          {% set download_link = download_prefix + 'TorBrowser-' + t.version + '-macos_ALL.dmg' %}
           {% set sig_link = download_link + '.asc' %}
         {% else %}
           {% set t = bag('versions', 'torbrowser-linux-stable') %}
           {% set download_prefix = '/dist/torbrowser/' + t.version + '/' %}
-          {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_' + alt_l + '.tar.xz' %}
+          {% set download_link = download_prefix + 'tor-browser-linux64-' + t.version + '_ALL.tar.xz' %}
           {% set sig_link = download_link + '.asc' %}
         {% endif %}
         <a class="downloadLink" href="{{ download_link }}">
@@ -71,9 +59,9 @@
 </div>
 
 <div class="row p-5">
-  <a class="mx-auto text-white py-3 text-center" href="{{ 'languages'|url(alt=this.alt) }}"><u>{{ _('Download in another language or platform') }}</u></a>
+  <a class="mx-auto text-white py-3 text-center" href="{{ 'languages'|url(alt=this.alt) }}"><u>{{ _('Download for another platform') }}</u></a>
   <a class="mx-auto text-white py-3 text-center" href="{{ 'alpha'|url(alt=this.alt) }}"><u>{{ _('Download the latest alpha build') }}</u></a>
-  <a class="mx-auto text-white py-3 text-center" href="{{ 'tor'|url(alt=this.alt) }}"><u>{{ _('Download Tor Source Code') }}</u></a>
+  <a class="mx-auto text-white py-3 text-center" href="{{ 'tor'|url(alt=this.alt) }}"><u>{{ _('Download Tor') }}</u></a>
 </div>
 
 <div class="hidden-sm row p-md-5 justify-content-center window-bg">
