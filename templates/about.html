@@ -22,6 +22,11 @@
             </div>
           {% elif this.parent.path == "/about/jobs" %}
             <div class="container py-3 mt-5">
+              {% if not this.active %}
+              <div class="alert alert-warning" role="alert">
+                This job is no longer active - <a href="/about/jobs">check out our currently active jobs</a>
+              </div>
+              {% endif %}
               {{ this.summary }}
             </div>
             <div class="container py-3">
