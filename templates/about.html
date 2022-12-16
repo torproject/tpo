@@ -24,7 +24,7 @@
             <div class="container py-3 mt-5">
               {% if not this.active %}
               <div class="alert alert-warning" role="alert">
-                This job is no longer active - <a href="/about/jobs">check out our currently active jobs</a>
+                {{ md(_('This job is no longer active - [check out our currently active jobs]({translator_do_not_change})').format(translator_do_not_change=this.parent|url)) }}
               </div>
               {% endif %}
               {{ this.summary }}
