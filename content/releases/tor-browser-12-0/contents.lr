@@ -67,7 +67,7 @@ We owe a huge thank you to all the volunteers who worked hard to translate Tor B
 If you spot a string that still needs to be translated, or would like to contribute towards the localization of another language, please visit our [Community portal](https://community.torproject.org/localization/) to find out how to get started.
 
 We've also been busy making various behind-the-scenes improvements to features like tor-launcher (which starts tor within Tor Browser), the code for which has undergone a significant refactoring.
-As such, if you run a non-standard Tor Browser setup (like using system tor in conjunction with Tor Browser, or very partiular network settings) and experience an unexpected error message when launching Tor - please let us know by [filing an issue in our Gitlab repo](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues).
+As such, if you run a non-standard Tor Browser setup (like using system tor in conjunction with Tor Browser, or very particular network settings) and experience an unexpected error message when launching Tor - please let us know by [filing an issue in our Gitlab repo](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues).
 
 Lastly, Tor Browser's [letterboxing](https://support.torproject.org/tbb/maximized-torbrowser-window/) feature has received a number of minor improvements to its user experience, including (but not limited to) fixing potantial leaks and bypasses, removing the 1px border in fullscreen videos, and disabling the feature entirely on trusted pages like the Connect to Tor screen, among others.
 
