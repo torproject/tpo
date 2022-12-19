@@ -6,13 +6,15 @@ role:core
 ---
 name: Jacobo Nájera
 ---
-nickname: 
+nickname: nvjacobo
+---
+mastodon_url: https://mastodon.social/@jacobonajera
 ---
 twitter_handle: jacobonajera
 ---
 gpg:  /static/keys/jacobo.txt
 ---
-image: /static/images/people/jacobo.png 
+image: /static/images/people/jacobo.png
 ---
 description:
 
