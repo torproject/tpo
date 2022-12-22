@@ -11,6 +11,3 @@ color: dark
 title: Download Tor Browser
 ---
 body:
-Tor Browser is available in [37 languages](https://support.torproject.org/tbb/tbb-37/) in a single multi-locale download. The language can be changed using the menu in General settings.
-
-Want to help us translate? [Become a Tor translator!](https://community.torproject.org/localization/)
