@@ -1,0 +1,23 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Jurre van Bergen
+---
+nickname: drwhax
+---
+pronoun: he
+---
+twitter_handle: drwhax
+---
+mastodon_url: https://infosec.exchange/@drwhax
+---
+gpg: https://jurrevanbergen.nl/jurre.asc
+---
+image: /static/images/people/jurre.jpg
+---
+description:
+
+Jurre helps hunt bad relays and is part of the Dutch relay foundation 'Hart voor Internetvrijheid'.
