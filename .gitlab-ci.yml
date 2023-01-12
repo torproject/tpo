@@ -1,5 +1,6 @@
 ---
 variables:
+  LEKTOR_BUILD_FLAGS: scss
   SITE_URL: www.torproject.org
   STAGING_URL: www.staging.torproject.net
   TRANSLATION_BRANCH: tpo-web
