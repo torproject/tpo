@@ -10,7 +10,7 @@ nickname: kat5
 ---
 pronoun: she
 ---
-gpg: /static/keys/kat.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=1AF8EC77B4B2A3A5A48B48879B75D16D879517DA
 ---
 image: /static/images/people/kat5.png
 ---

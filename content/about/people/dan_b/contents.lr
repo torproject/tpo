@@ -12,7 +12,7 @@ pronoun: he
 ---
 twitter_handle: dan_ballard
 ---
-gpg: /static/keys/dan_b.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=54AC068A5B1C57F8AA6EDB3C75B5437DC9684650
 ---
 image: /static/images/people/dan_b.png
 ---

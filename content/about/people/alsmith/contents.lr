@@ -8,7 +8,7 @@ name: Al Smith
 ---
 nickname: alsmith
 ---
-gpg: /static/keys/alsmith.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=1FED700E61E6BBD000F51157463061FF1733AD6D
 ---
 image: /static/images/people/alsmith.png
 ---

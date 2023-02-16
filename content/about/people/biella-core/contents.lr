@@ -10,7 +10,7 @@ nickname: biella
 ---
 twitter_handle: BiellaColeman
 ---
-gpg: /static/keys/biella.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=AA6F1F8BE0BD043CDB545D6C502A49B3A746DAE5
 ---
 image: /static/images/people/biella.png
 ---

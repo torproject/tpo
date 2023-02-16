@@ -12,7 +12,7 @@ pronoun: she
 ---
 twitter_handle: agrabeli_
 ---
-gpg: /static/keys/agrabeli.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=2DC8AFB6CA11B5521081FBDE2131B3BE70CA417E
 ---
 image: /static/images/people/agrabeli.png
 ---

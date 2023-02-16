@@ -14,7 +14,7 @@ mastodon_url: https://hachyderm.io/@sporksmith
 ---
 twitter_handle: sporksmith
 ---
-gpg: /static/keys/jnewsome.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=9E96ACD1D9EC20E88A991D95C0DEC089E303C5E0
 ---
 image: /static/images/people/jnewsome.png
 ---

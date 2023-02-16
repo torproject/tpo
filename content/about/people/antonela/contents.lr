@@ -12,7 +12,7 @@ nickname: antonela
 ---
 twitter_handle: holantonela
 ---
-gpg: /static/keys/antonela.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=3661678E1CCEC8D49AF5CFCDE2330A6D1EB5A0C8
 ---
 image: /static/images/people/antonela.png
 ---

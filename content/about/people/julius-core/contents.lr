@@ -10,7 +10,7 @@ nickname: julius
 ---
 twitter_handle: mittenzwei
 ---
-gpg: /static/keys/julius.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=02FB04BD991F61CFA2CBB2365FA53B246DEA01A5
 ---
 description:
 
