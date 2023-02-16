@@ -10,7 +10,7 @@ pronoun: they?or=he
 ---
 nickname: micah
 ---
-gpg: /static/keys/micah.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=A40D45ECA1F256046EAAB1113650D3109621C386
 ---
 image: /static/images/people/micah.jpeg
 ---
