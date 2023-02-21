@@ -83,16 +83,11 @@
       </div>
       <div class="row mt-3 mr-5">
         <h4 class="text-primary">{{ _('Report a security issue.') }}</h4>
-	<p class="text-tpo">{{ _("If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org. If you've found a security bug in Tor or Tor Browser, feel free to submit it for our") }} <a href="https://hackerone.com/torproject" target="_blank">{{ _('bug bounty program.') }}</a> {{ _("If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:") }}</p>
+	<p class="text-tpo">{{ _("If you've found a security issue in one of our projects or in our infrastructure, please email security@torproject.org. If you want to encrypt your mail, you can get the OpenPGP public key for this address from") }} <a href="https://keys.openpgp.org/search?q=security%40torproject.org" target="_blank">{{ _('keys.openpgp.org.') }}</a> {{ _("Here is the fingerprint:") }} </p>
       </div>
       <div class="row mt-3 mr-5">
-        <p class="nick text-primary">gpg --fingerprint tor-security@lists.torproject.org <br />
-            pub   4096R/1A7BF184 2017-03-13 <br />
-            Key fingerprint = 8B90 4624 C5A2 8654 E453  9BC2 E135 A8B4 1A7B F184 <br />
-            uid   tor-security@lists.torproject.org <br />
-            uid   tor-security@lists.torproject.org <br />
-            uid   tor-security@lists.torproject.org <br />
-            sub   4096R/C00942E4 2017-03-13</p>
+        <p class="nick text-primary">835B 4E04 F6F7 4211 04C4  751A 3EF9 EF99 6604 DE41 <br />
+        <p class="text-tpo">{{ _("If you wish to participate in our") }} <a href="https://hackerone.com/torproject" target="_blank">{{ _('bug bounty program,') }}</a> {{ _("please be aware, submitting a security issue to a third-party website carries certain risks that we cannot control, as a result we'd prefer the report directly.") }} </p>
       </div>
     </div>
  </div>
