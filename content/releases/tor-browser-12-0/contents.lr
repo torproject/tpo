@@ -57,7 +57,7 @@ Another small but mighty improvement to Tor Browser 12.0 for Android is the opti
 When enabled, you will be redirected automatically to the matching .onion site for any web site that has [Onion-Location](https://community.torproject.org/onion-services/advanced/onion-location/) configured – helping you to discover new .onion sites in the wild.
 
 You can turn "Prioritize .onion sites" on under the Privacy and Security section within Tor Browser for Android's Settings menu.
-Please note that this update does not include the purple ".onion avilable" button in the address bar, which is still unique to Tor Browser for desktop.
+Please note that this update does not include the purple ".onion available" button in the address bar, which is still unique to Tor Browser for desktop.
 
 ### And more...
 
