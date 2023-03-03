@@ -16,20 +16,17 @@ Community has always been at the heart of Tor's strength. In this spirit, we cre
 ---
 shallot_members:
 #### membership_shallot ####
-name:
-----
-logo: shallot-placeholder.png
-----
-body:
-Tor's primary benefit, for the uninitiated: It encrypts your traffic and bounces it through a chain of computers, making it very difficult for anyone to track where it came from. You can see how easy access to an anonymized services like that might come in handy when you're working on anything from job hunting to political organizing.
----
-vidalia_members:
-#### membership_vidalia ####
-name: MullvadVPN
-----
-url: https://mullvad.net
+name: Mullvad VPN
 ----
 logo: mullvad.png
+----
+body:
+
+"Contributing to communities and organizations that really strive to improve privacy and integrity online is important for Mullvad. Unfortunately, there are very few. Those that understand privacy, actively work to improve anti-fingerprinting and to protect users against more advanced attacks are even fewer. We believe that the Tor Project is one such organization. We share their values when it comes to human rights, freedom of expression, anti-censorship and online privacy."
+
+Visit us at [https://mullvad.net](https://mullvad.net)
+---
+vidalia_members:
 ---
 green_onion_members:
 #### membership_green_onion ####
