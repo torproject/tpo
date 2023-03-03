@@ -25,12 +25,6 @@ Tor's primary benefit, for the uninitiated: It encrypts your traffic and bounces
 ---
 vidalia_members:
 #### membership_vidalia ####
-name: Cymru
-----
-url: https://team-cymru.com
-----
-logo: cymru.png
-#### membership_vidalia ####
 name: MullvadVPN
 ----
 url: https://mullvad.net
