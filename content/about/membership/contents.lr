@@ -20,11 +20,11 @@ name: Mullvad VPN
 ----
 logo: mullvad.png
 ----
+url: https://mullvad.net/
+----
 body:
 
 "Contributing to communities and organizations that really strive to improve privacy and integrity online is important for Mullvad. Unfortunately, there are very few. Those that understand privacy, actively work to improve anti-fingerprinting and to protect users against more advanced attacks are even fewer. We believe that the Tor Project is one such organization. We share their values when it comes to human rights, freedom of expression, anti-censorship and online privacy."
-
-Visit us at [https://mullvad.net](https://mullvad.net)
 ---
 vidalia_members:
 ---
