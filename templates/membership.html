@@ -1,3 +1,43 @@
+<div class="col-12 py-5 bg-membership">
+  <div class="row col-sm-8 py-5 text-center mx-auto">
+    <h2 class="text-primary text-center p-4 mx-auto my-0">{{ _('Become a Member') }}</h2>
+    <div class="text-center p-4">{{ md(_('Join the Tor Project Membership Program and demonstrate your commitment to privacy online and become more deeply involved in the Tor community. Email us at <mark>giving@torproject.org</mark> to get started.')) }}</div>
+  </div>
+</div>
+<div class="container" id="shallot">
+  <div class="row py-5">
+    <h3 class="col-12 text-primary display-4 pb-4">{{ _('Shallot Onion Members') }}</h3>
+    {{ this.shallot_members }}
+    {% for i in range(3 - (this.shallot_members.blocks|length)) %}
+      {% with this=None %}
+        {% include 'blocks/membership_shallot.html' with context %}
+      {% endwith %}
+    {% endfor %}
+  </div>
+</div>
+<div class="container" id="vidalia">
+  <div class="row py-5">
+    <h3 class="col-12 text-primary display-4 pb-4">{{ _('Vidalia Onion Members') }}</h3>
+    {{ this.vidalia_members }}
+    {% for i in range(4 - (this.vidalia_members.blocks|length)) %}
+      {% with this=None %}
+        {% include 'blocks/membership_vidalia.html' with context %}
+      {% endwith %}
+    {% endfor %}
+  </div>
+</div>
+<div class="container" id="green">
+  <div class="row py-5">
+    <h3 class="col-12 text-primary display-4 pb-4">{{ _('Green Onion Members') }}</h3>
+    <div class="col-md-6">
+      <ul class="list-group list-group-flush">
+        {{ this.green_onion_members }}
+      </ul>
+    </div>
+    <div class="col-md-6">
+    </div>
+  </div>
+</div>
 <div class="container py-3">
   <h3 class="text-primary display-5">{{ _('Show your support for privacy online') }}</h3>
   <p>{{ _('When your organization joins the Tor Project’s Membership Program, you are demonstrating your commitment to privacy online and supporting Tor’s agility and development. In return, you become a closer part of our community with three specific benefits: access to our Onion Advisors group to help you integrate Tor into your product, inclusion in conversations and exclusive meetings with the Tor Project team to learn about what we are cooking at Tor, and public promotion of your membership.
@@ -40,49 +80,8 @@
   </div>
 </div>
 <div class="container">
-      <div class="row p-5 my-5 border text-center">
-        <p>
-          {{ md(_('Community is at the heart of the Tor Project Membership Program, and our members agree to join our community. As such, Members agree to adhere to Tor’s [Code of Conduct](https://gitweb.torproject.org/community/policies.git/tree/code_of_conduct.txt), [Social Contract](https://gitweb.torproject.org/community/policies.git/tree/social_contract.txt), and our [Statement of Values](https://gitweb.torproject.org/community/policies.git/tree/statement_of_values.txt).')) }}
-        </p>
-      </div>
-    </div>
-<div class="container" id="shallot">
-  <div class="row py-5">
-    <h3 class="col-12 text-primary display-4 pb-4">{{ _('Shallot Onion Members') }}</h3>
-    {{ this.shallot_members }}
-    {% for i in range(3 - (this.shallot_members.blocks|length)) %}
-      {% with this=None %}
-        {% include 'blocks/membership_shallot.html' with context %}
-      {% endwith %}
-    {% endfor %}
+  <div class="row p-5 my-5 border text-center">
+    <p>{{ md(_('Community is at the heart of the Tor Project Membership Program, and our members agree to join our community. As such, Members agree to adhere to Tor’s [Code of Conduct](https://gitweb.torproject.org/community/policies.git/tree/code_of_conduct.txt), [Social Contract](https://gitweb.torproject.org/community/policies.git/tree/social_contract.txt), and our [Statement of Values](https://gitweb.torproject.org/community/policies.git/tree/statement_of_values.txt).')) }}</p>
   </div>
 </div>
-<div class="container" id="vidalia">
-  <div class="row py-5">
-    <h3 class="col-12 text-primary display-4 pb-4">{{ _('Vidalia Onion Members') }}</h3>
-    {{ this.vidalia_members }}
-    {% for i in range(4 - (this.vidalia_members.blocks|length)) %}
-      {% with this=None %}
-        {% include 'blocks/membership_vidalia.html' with context %}
-      {% endwith %}
-    {% endfor %}
-  </div>
-</div>
-<div class="container" id="green">
-  <div class="row py-5">
-    <h3 class="col-12 text-primary display-4 pb-4">{{ _('Green Onion Members') }}</h3>
-    <div class="col-md-6">
-      <ul class="list-group list-group-flush">
-        {{ this.green_onion_members }}
-      </ul>
-    </div>
-    <div class="col-md-6">
-    </div>
-  </div>
-</div>
-<div class="col-12 py-5 bg-membership">
-  <div class="row col-sm-8 py-5 text-center mx-auto" style="background-image: url('{{ '/static/images/membership/header.png'|url }}'); background-size:cover;">
-    <h2 class="bg-white text-primary text-center p-4 mx-auto my-0">{{ _('Become a Member') }}</h2>
-    <div class="bg-white text-center p-4">{{ md(_('Join the Tor Project Membership Program and demonstrate your commitment to privacy online and become more deeply involved in the Tor community. Email us at <mark>giving@torproject.org</mark> to get started.')) }}</div>
-  </div>
-</div>
+
