@@ -50,7 +50,7 @@
 {% endmacro %}
 
 {% macro render_tor_expert_bundle(version, tor_version, platform, arch) %}
-  {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
+  {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + version + '/' %}
   {% set download_link = download_prefix + 'tor-expert-bundle-' + version + '-' + platform + '-' + arch + '.tar.gz' %}
   {% set sig_link = download_link + '.asc' %}
 
