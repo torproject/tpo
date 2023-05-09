@@ -14,7 +14,7 @@ nickname: nicob
 ---
 pronoun: they?or=she
 ---
-gpg: /static/keys/nicob.txt
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=563589FDFB6AACEC19C8305C42C602FAF43B029C
 ---
 image: /static/images/people/nicob.png
 ---
