@@ -50,6 +50,11 @@ name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ja]
+name = 日本語 (ja)
+url_prefix = /ja/
+locale = ja
+
 [alternatives.ka]
 name = ქართული (ka)
 url_prefix = /ka/
@@ -75,10 +80,25 @@ name = Русский (ru)
 url_prefix = /ru/
 locale = ru
 
+[alternatives.sq]
+name = Shqip (sq)
+url_prefix = /sq/
+locale = sq
+
+[alternatives.sw]
+name = Kiswahili (sw)
+url_prefix = /sw/
+locale = sw
+
 [alternatives.tr]
 name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
+
+[alternatives.vi]
+name = Tiếng Việt (vi)
+url_prefix = /vi/
+locale = vi
 
 [alternatives.zh-CN]
 name = 简体中文 (zh-CN)
