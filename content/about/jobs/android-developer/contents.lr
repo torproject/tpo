@@ -1,0 +1,97 @@
+_model: job
+---
+_template: about.html
+---
+section: about
+---
+section_id: about
+---
+active: true
+---
+title: Android Developer
+---
+color: primary
+---
+summary:
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Software Engineer to work on the Applications team.
+
+Our Applications Team’s main project is the Tor Browser but we have plans to develop other apps in the near future. We are looking for a full-time developer to join our team to help us with both Tor Browser development and future application development.
+---
+description:
+
+# Internet Freedom Non-profit Seeks Android Software Engineer for Applications Team
+
+2023-05-25
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Software Engineer to work on the Applications team.
+
+Our Applications Team’s main project is the Tor Browser but we have plans to develop other apps in the near future. We are looking for a full-time developer to join our team to help us with both Tor Browser development and future application development.
+
+Regardless of whether you have all of the required experience, please apply! In general, we would be much happier with a candidate who is a good culture and personality fit but does not match our ideal skill-set over one who is a 'perfect' experience match but is unpleasant to work with. If you feel that you meet several of the qualifications, or could meet them with a little support, we would love to hear from you.
+
+The team coordinates both synchronously and asynchronously via chat, email, bug trackers, and occasional voice meetings. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+
+This is a full-time, remote position. Salary for this position is $110k USD and there is voluntary opt-in salary transparency for employees and contractors.
+
+Application deadline: 2023-06-30
+
+
+## Android Software Engineer for Applications Team
+
+The Tor Project is looking for an Android Application Developer (Kotlin, Java, JavaScript, C++, Rust)!
+
+### The Job:
+
+- Collaborate with our development, design, and network teams to help bring Tor Browser for Android to feature parity with desktop Tor Browser
+- Implement and test new features
+- Diagnose and fix platform-specific Tor Browser for Android issues
+- Improve Tor Browser for Android's security, privacy, and anonymity properties
+- Improve Tor Browser for Android's web compatibility
+- Collaborate with and develop patches for Tor Browser for Android's upstream dependencies
+- Support maintaining Tor Browser on top of recent versions of Firefox
+- Evaluate and audit recent changes in Firefox, and understand how they affect Tor Browser users
+
+Our main codebases are a combination of multiple components that make Tor Browser ( https://gitlab.torproject.org/tpo/applications/team/-/wikis/Development-Information/Codebases ).
+
+For a more detailed understanding of the full breadth and depth of the work you'd be doing, have a look at The Design and Implementation of the Tor Browser, especially The Design Requirements section at https://spec.torproject.org/torbrowser-design#DesignRequirements.
+
+### Preferred Qualifications:
+
+- Be comfortable working remotely with a geographically distributed team.
+- Experience interacting with users and other developers online, including experience communicating with those with differing ideas and opinions, while maintaining a high level of professionalism.
+- Strong ability to become familiar with, modify, and maintain legacy codebases.
+- Experience with distributed version control systems, including Git.
+- Experience developing and debugging software for the Android platform.
+- Experience with Java, Kotlin, and JavaScript.
+- Experience updating and maintaining software build systems.
+- Familiarity with HTML, CSS, C++, Rust, Perl and Shell Scripting.
+- Experience developing and debugging software in a Linux environment.
+- Familiarity and/or experience with writing add-ons and/or patches for Mozilla Firefox or other web browsers.
+- Familiarity with web technologies and how the web works, especially the same-origin model and web tracking.
+- Familiarity with browser fingerprinting defenses.
+- Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing.
+
+Again, this is a wish list, and we do not expect any candidate to have experience in all these areas. If you meet at least several of the qualifications, or could meet them with a little support, please apply!
+
+### How to Apply
+
+Please follow this link to apply: https://www.careers-page.com/tor-project/job/QW4W79R9
+
+
+### About The Tor Project
+
+The Tor Project's workforce is inclusive, talented, and committed. We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+We have long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+
+- The Tor Project Code of Conduct: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/code_of_conduct.txt
+
+- The Tor Project Social Contract: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/social_contract.txt
+
+- The Tor Project Statement of Values: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/statement_of_values.txt
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
