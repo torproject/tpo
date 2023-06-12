@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Sarthik Gupta
+---
+nickname: sarthikg
+---
+pronoun: he/him
+---
+twitter_handle: sarthikg
+---
+gpg: https://sarthikg.com/gpg.txt
+---
+image: /static/images/people/sarthikg.png
+---
+description:
+
+Works on [Tor Weather](https://weather.torproject.org). Started as a GSoC Contributor.
