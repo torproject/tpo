@@ -1,0 +1,21 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Jag Talon
+---
+nickname: jag
+---
+pronoun: he/him
+---
+mastodon_url: https://weirder.earth/@jag
+---
+gpg: https://keys.openpgp.org/search?q=F1D4E72AF7EA1230D5919027458B7238CA41B260
+---
+image: /static/images/people/jag.jpg
+---
+description:
+
+Product designer.
