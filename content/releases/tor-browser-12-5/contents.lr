@@ -53,7 +53,7 @@ In parallel with [longstanding efforts by Mozilla to improve Firefox's accessibi
 This review has now been completed, and we're beginning to deploy the first fixes in what will be a multi-release effort to improve Tor Browser's accessibility.
 
 Since Tor Browser 11.5 we've refactored several components including bundled changelogs (about:tbupdate), the circuit display, the security level panel, miscellaneous dialogs and other parts of the browser chrome.
-If you use a screen reader or any other assistive technology, we'd love to get your help testing past and future fixes by [volunteering as an alpha tester](https://community.torproject.org/user-research/become-tester/) and feeding back to our developers on the [Tor forum](https://forum.torproject.net/c/feedback/tor-browser-alpha-feedback/6).
+If you use a screen reader or any other assistive technology, we'd love to get your help testing past and future fixes by [volunteering as an alpha tester](https://community.torproject.org/user-research/become-tester/) and feeding back to our developers on the [Tor forum](https://forum.torproject.org/c/feedback/tor-browser-alpha-feedback/6).
 
 ![Screenshot of the internal changelog with the security level panel expanded in Tor Browser for desktop](/static/images/tb125/accessibility.png "class=w-100")
 

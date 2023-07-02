@@ -29,7 +29,7 @@ Connection Assist works by looking up and downloading an up-to-date list of coun
 It manages to do so without needing to connect to the Tor Network first by utilizing [moat](https://support.torproject.org/glossary/moat/) – the same domain-fronting tool that Tor Browser uses to request a bridge from torproject.org.
 
 While Connection Assist has reached the milestone of its first stable release, this is only version 1.0, and your feedback will be invaluable to help us improve its user experience in future releases.
-Users from countries where the Tor Network may be blocked (such as Belarus, China, Russia and Turkmenistan) can test the most recent iteration of this feature by [volunteering as an alpha tester](https://blog.torproject.org/vounteer-as-an-alpha-tester/), and [reporting your findings on the Tor forum](https://forum.torproject.net/t/help-us-test-the-new-connection-assist-in-tor-browser-alpha/3654).
+Users from countries where the Tor Network may be blocked (such as Belarus, China, Russia and Turkmenistan) can test the most recent iteration of this feature by [volunteering as an alpha tester](https://blog.torproject.org/vounteer-as-an-alpha-tester/), and [reporting your findings on the Tor forum](https://forum.torproject.org/t/help-us-test-the-new-connection-assist-in-tor-browser-alpha/3654).
 
 ### Redesigned Tor Network settings
 
