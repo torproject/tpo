@@ -10,6 +10,11 @@ primary = yes
 url_prefix = /
 locale = en
 
+[alternatives.ar]
+name = عربي (ar)
+url_prefix = /ar/
+locale = ar
+
 [alternatives.ca]
 name = Català (ca)
 url_prefix = /ca/
@@ -24,11 +29,6 @@ locale = de
 name = Español (es)
 url_prefix = /es/
 locale = es
-
-[alternatives.ar]
-name = عربي (ar)
-url_prefix = /ar/
-locale = ar
 
 [alternatives.fa]
 name = فارسي (fa)
