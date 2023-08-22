@@ -25,8 +25,13 @@ name = Español (es)
 url_prefix = /es/
 locale = es
 
+[alternatives.ar]
+name = عربي (ar)
+url_prefix = /ar/
+locale = ar
+
 [alternatives.fa]
-name = ﻑﺍﺮﺳی (fa)
+name = فارسي (fa)
 url_prefix = /fa/
 locale = fa
 
@@ -109,3 +114,8 @@ locale = zh-CN
 name = 正體中文 (zh-TW)
 url_prefix = /zh-TW/
 locale = zh-TW
+
+[packages]
+lektor-i18n = 0.4.4
+lektor-scss = 1.4.1
+Markdown = 3.4.3
