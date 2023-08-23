@@ -57,6 +57,7 @@
     {% set linux_alpha = bag('versions', 'torbrowser-linux-alpha') %}
     {% set android_alpha = bag('versions', 'torbrowser-android-alpha') %}
     {% from "macros/downloads.html" import render_tor_expert_bundle %}
+    {% from "macros/downloads.html" import render_tor_expert_bundle_alpha %}
     <table class="table">
       <thead>
         <tr>
@@ -73,7 +74,7 @@
             {{ render_tor_expert_bundle(windows_stable.version, stable.tor, 'windows', 'i686') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(windows_alpha.version, alpha.tor, 'windows', 'i686') }}
+            {{ render_tor_expert_bundle_alpha(windows_alpha.version, alpha.tor, 'windows', 'i686') }}
           </td>
         </tr>
         <tr>
@@ -82,7 +83,7 @@
             {{ render_tor_expert_bundle(windows_stable.version, stable.tor, 'windows', 'x86_64') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(windows_alpha.version, alpha.tor, 'windows', 'x86_64') }}
+            {{ render_tor_expert_bundle_alpha(windows_alpha.version, alpha.tor, 'windows', 'x86_64') }}
           </td>
         </tr>
         </tr>
@@ -93,7 +94,7 @@
             {{ render_tor_expert_bundle(macos_stable.version, stable.tor, 'macos', 'x86_64') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(macos_alpha.version, alpha.tor, 'macos', 'x86_64') }}
+            {{ render_tor_expert_bundle_alpha(macos_alpha.version, alpha.tor, 'macos', 'x86_64') }}
           </td>
         </tr>
         <tr>
@@ -102,7 +103,7 @@
             {{ render_tor_expert_bundle(macos_stable.version, stable.tor, 'macos', 'aarch64') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(macos_alpha.version, alpha.tor, 'macos', 'aarch64') }}
+            {{ render_tor_expert_bundle_alpha(macos_alpha.version, alpha.tor, 'macos', 'aarch64') }}
           </td>
         </tr>
         <!-- Linux -->
@@ -112,7 +113,7 @@
             {{ render_tor_expert_bundle(linux_stable.version, stable.tor, 'linux', 'i686') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'i686') }}
+            {{ render_tor_expert_bundle_alpha(linux_alpha.version, alpha.tor, 'linux', 'i686') }}
           </td>
         </tr>
         </tr>
@@ -122,7 +123,7 @@
             {{ render_tor_expert_bundle(linux_stable.version, stable.tor, 'linux', 'x86_64') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'x86_64') }}
+            {{ render_tor_expert_bundle_alpha(linux_alpha.version, alpha.tor, 'linux', 'x86_64') }}
           </td>
         </tr>
         </tr>
@@ -133,7 +134,7 @@
             {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'x86') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'x86') }}
+            {{ render_tor_expert_bundle_alpha(android_alpha.version, alpha.tor, 'android', 'x86') }}
           </td>
         </tr>
         </tr>
@@ -143,7 +144,7 @@
             {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'x86_64') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'x86_64') }}
+            {{ render_tor_expert_bundle_alpha(android_alpha.version, alpha.tor, 'android', 'x86_64') }}
           </td>
         </tr>
         </tr>
@@ -152,7 +153,7 @@
             {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'armv7') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'armv7') }}
+            {{ render_tor_expert_bundle_alpha(android_alpha.version, alpha.tor, 'android', 'armv7') }}
           </td>
         </tr>
         <tr>
@@ -161,7 +162,7 @@
             {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'aarch64') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'aarch64') }}
+            {{ render_tor_expert_bundle_alpha(android_alpha.version, alpha.tor, 'android', 'aarch64') }}
           </td>
         </tr>
       </tbody>
