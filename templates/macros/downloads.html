@@ -8,9 +8,27 @@
   <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
+{% macro render_windows_alpha(version) %}
+  {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + version + '/' %}
+  {% set download_link_64 = download_prefix + 'tor-browser-portable-windows-x86_64-' + version + '.exe' %}
+  {% set download_link_32 = download_prefix + 'tor-browser-portable-windows-i686-' + version + '.exe' %}
+  {% set sig_link_64 = download_link_64 + '.asc' %}
+  {% set sig_link_32 = download_link_32 + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
+{% endmacro %}
+
 {% macro render_mac(version) %}
   {% set download_prefix = '/dist/torbrowser/' + version + '/' %}
   {% set download_link = download_prefix + 'TorBrowser-' + version + '-macos' + '_ALL.dmg' %}
+  {% set sig_link = download_link + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link }}">64-bit</a> (<a href="{{ sig_link }}">sig</a>)
+{% endmacro %}
+
+{% macro render_mac_alpha(version) %}
+  {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + version + '/' %}
+  {% set download_link = download_prefix + 'tor-browser-macos-' + version + '.dmg' %}
   {% set sig_link = download_link + '.asc' %}
 
   <a class="downloadLink" href="{{ download_link }}">64-bit</a> (<a href="{{ sig_link }}">sig</a>)
@@ -26,8 +44,26 @@
   <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
 {% endmacro %}
 
+{% macro render_linux_alpha(version) %}
+  {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + version + '/' %}
+  {% set download_link_64 = download_prefix + 'tor-browser-linux-x86_64-' + version + '.tar.xz' %}
+  {% set download_link_32 = download_prefix + 'tor-browser-linux-i686-' + version + '.tar.xz' %}
+  {% set sig_link_64 = download_link_64 + '.asc' %}
+  {% set sig_link_32 = download_link_32 + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
+{% endmacro %}
+
 {% macro render_android(version, arch) %}
   {% set download_link = 'https://dist.torproject.org/torbrowser/' + version + '/' + 'tor-browser-' + version + '-android-' + arch + '-multi.apk' %}
+  {% set sig_link = download_link + '.asc' %}
+
+  <a href="{{ download_link }}">{{ arch }}</a> (<a href="{{ sig_link }}">sig</a>)
+{% endmacro %}
+
+{% macro render_android_alpha(version, arch) %}
+
+{% set download_link = 'https://dist.torproject.org/torbrowser/' + version + '/' + 'tor-browser-android-' + arch + '-' + version + '.apk' %}
   {% set sig_link = download_link + '.asc' %}
 
   <a href="{{ download_link }}">{{ arch }}</a> (<a href="{{ sig_link }}">sig</a>)
@@ -52,6 +88,14 @@
 {% macro render_tor_expert_bundle(version, tor_version, platform, arch) %}
   {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + version + '/' %}
   {% set download_link = download_prefix + 'tor-expert-bundle-' + version + '-' + platform + '-' + arch + '.tar.gz' %}
+  {% set sig_link = download_link + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link }}">{{ version }} (tor {{ tor_version }})</a> (<a href="{{ sig_link }}">sig</a>)
+{% endmacro %}
+
+{% macro render_tor_expert_bundle_alpha(version, tor_version, platform, arch) %}
+  {% set download_prefix = 'https://archive.torproject.org/tor-package-archive/torbrowser/' + version + '/' %}
+  {% set download_link = download_prefix + 'tor-expert-bundle-' + platform + '-' + arch + '-' + version + '.tar.gz' %}
   {% set sig_link = download_link + '.asc' %}
 
   <a class="downloadLink" href="{{ download_link }}">{{ version }} (tor {{ tor_version }})</a> (<a href="{{ sig_link }}">sig</a>)
