@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: thorin
+---
+nickname: thorin
+---
+pronoun: he/him/his
+---
+gpg: https://keys.openpgp.org/search?q=AC7A3002D303C8E34B586F8CA871AF533AFA471F
+---
+image: /static/images/people/thorin.jpg
+---
+description:
+
+House: Gecko ◈ Departments: Defence Against the Fingerprint Dark Arts, Tracker Charms, Linkification Alchemy ◈ Selected Works: [TorZillaPrint](https://arkenfox.github.io/TZP/), [Arkenfox](https://github.com/arkenfox/user.js) ◈ Description: "In rare moments, this elusive solitary creature will emerge, cautiously sniffing the air, to loudly squeal excitement" - Sir David Attenborough
