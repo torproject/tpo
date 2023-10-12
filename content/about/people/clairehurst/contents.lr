@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Claire Hurst
+---
+nickname: clairehurst
+---
+pronoun: she/they
+---
+gpg: /static/keys/clairehurst.txt
+---
+image: /static/images/people/clairehurst.png
+---
+description:
+
+Android developer on the Applications team working on Tor Browser for Android
