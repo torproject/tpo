@@ -25,12 +25,12 @@
             {{ render_windows_alpha(t_win.version) }}
           </td>
           <td>
-            {% from "macros/downloads.html" import render_mac_alpha %}
-            {{ render_mac_alpha(t_macos.version) }}
+            {% from "macros/downloads.html" import render_mac %}
+            {{ render_mac(t_macos.version) }}
           </td>
           <td>
-            {% from "macros/downloads.html" import render_linux_alpha %}
-            {{ render_linux_alpha(t_linux.version) }}
+            {% from "macros/downloads.html" import render_linux %}
+            {{ render_linux(t_linux.version) }}
           </td>
         </tr>
       </tbody>
@@ -50,25 +50,25 @@
           </td>
         </tr>
         {% set t = bag('versions', 'torbrowser-android-alpha') %}
-        {% from "macros/downloads.html" import render_android_alpha %}
+        {% from "macros/downloads.html" import render_android %}
         <tr>
           <td>
-            {{ render_android_alpha(t.version, "aarch64") }}
+            {{ render_android(t.version, "aarch64") }}
           </td>
         </tr>
         <tr>
           <td>
-            {{ render_android_alpha(t.version, "armv7") }}
+            {{ render_android(t.version, "armv7") }}
           </td>
         </tr>
         <tr>
           <td>
-            {{ render_android_alpha(t.version, "x86") }}
+            {{ render_android(t.version, "x86") }}
           </td>
         </tr>
         <tr>
           <td>
-            {{ render_android_alpha(t.version, "x86_64") }}
+            {{ render_android(t.version, "x86_64") }}
           </td>
         </tr>
       </tbody>
