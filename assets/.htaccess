@@ -118,6 +118,8 @@ RewriteRule ^donate/donate-ig-ann-2023(.*) https://donate.torproject.org/ [R=302
 RewriteRule ^donate/donate-li-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-md-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/donate-tw-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-red-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/donate-tel-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
 
 # 2023 YEC - blog posts
 RewriteRule ^donate/donate-bp1-2023(.*) https://donate.torproject.org/ [R=302,L]
