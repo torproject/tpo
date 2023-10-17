@@ -4,7 +4,7 @@ _template: about.html
 ---
 active: False
 ---
-section: about
+section: About
 ---
 section_id: about
 ---
