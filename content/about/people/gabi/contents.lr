@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Gabi
+---
+nickname: gabi
+---
+pronoun: she
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8F56AA5800BA4E2325EFFCC83946E0ADE72BAC99
+---
+image: /static/images/people/gabi.jpg
+---
+description:
+
+Member of the Network Team, working on [Arti](https://gitlab.torproject.org/tpo/core/arti).
