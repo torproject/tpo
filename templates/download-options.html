@@ -21,8 +21,8 @@
         <tr>
             <td><a href="https://support.torproject.org/tbb/tbb-37/">{{ _('See supported languages') }}</a></td>
           <td>
-            {% from "macros/downloads.html" import render_windows_alpha %}
-            {{ render_windows_alpha(t_win.version) }}
+            {% from "macros/downloads.html" import render_windows %}
+            {{ render_windows(t_win.version) }}
           </td>
           <td>
             {% from "macros/downloads.html" import render_mac %}
