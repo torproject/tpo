@@ -4,9 +4,7 @@ _hidden: yes
 ---
 role: core
 ---
-name: Duncan Larsen-Russell
----
-twitter_handle: donutsrussell
+name: donuts
 ---
 mastodon_url: https://mastodon.social/@dlr
 ---
