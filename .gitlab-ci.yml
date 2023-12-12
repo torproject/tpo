@@ -7,7 +7,7 @@ variables:
   LEKTOR_PARTIAL_BUILD: 1
 
 include:
-  - project: tpo/tpa/ci-templates
+  - project: kez/ci-templates
     file:
       - lektor.yml
       - static-shim-deploy.yml
