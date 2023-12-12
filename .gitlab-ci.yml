@@ -4,10 +4,10 @@ variables:
   SITE_URL: www.torproject.org
   STAGING_URL: www.staging.torproject.net
   TRANSLATION_BRANCH: tpo-web
-  LEKTOR_PARTIAL_BUILD: 1
+  LEKTOR_PARTIAL_BUILD: 0
 
 include:
-  - project: tpo/tpa/ci-templates
+  - project: kez/ci-templates
     file:
       - lektor.yml
       - static-shim-deploy.yml
