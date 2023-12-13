@@ -30,10 +30,6 @@ vidalia_members:
 ---
 green_onion_members:
 #### membership_green_onion ####
-name: Blockchair
-----
-url: https://blockchair.com/
-#### membership_green_onion ####
 name: Brave
 ----
 url: https://brave.com
