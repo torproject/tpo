@@ -1,0 +1,74 @@
+_model: job
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+active: yes
+---
+title: Recruiting Coordinator (Contract)
+---
+color: primary
+---
+summary:
+
+The Tor Project, Inc. is looking for a Recruiting Coordinator!
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Recruiting Coordinator for a 3-month contract starting in late January or early February, 2024. This will be a part-time, remote position; 20 hours per week, $30 USD/hour.
+
+This person will be responsible for driving the hiring process for each open position, owning job posting administration, coordinating hiring teams, and managing the candidate process.
+
+The person in this position will partner with different teams to coordinate and facilitate the hiring process for positions that will be opening up in 2024, such as software developers and a UX researcher. We anticipate four to six open positions during this time period.
+---
+description:
+
+## The Job:
+
+- Partner with teams to manage full life-cycle recruiting process up to the point of onboarding.
+- Collaborate on the process: interface with colleagues on a weekly basis (both synchronously and asynchronously) to keep the processes organized and moving forward.
+- Ensure a clear, well-communicated experience for candidates and hiring teams, providing timely updates and feedback.
+- Ensure job descriptions are thorough and accurate, and fit our current template; post to ATS and distribute to our network through specified channels (mailing lists, comms team, etc.)
+- Follow up with each team to make sure candidates are being triaged in a timely manner; schedule interviews and follow-ups; reference checks; coordinate candidate offers; send rejections.
+
+## Required Skills and Experience:
+
+- Strong people and scheduling skills.
+- Remote working experience required; experience with a globally distributed team is a huge plus (including time zone conversion and familiarity with UTC). At least some availability Monday through Thursday between the hours of 1500 - 1900 UTC is crucial, as those are the hours of overlap between most teams.
+- Strong written and verbal communications skills, especially in a remote working environment.
+- Experience in a recruiting or HR capacity, preferably with interviewing experience.
+- Experience working with an ATS (applicant tracking system), shared calendars, and scheduling polls; willingness and ability to learn new software systems.
+- Ability to manage multiple job opening processes while staying organized and maintaining attention to detail.
+- Self-motivated and able to work independently and collaboratively; comfortable knowing when and how to ask for help.
+- High degree of honesty, ethics, and integrity with experience handling confidential information.
+- Must be fluent in English.
+
+## Desired Skills and Experience:
+
+- Experience working with privacy enhancing technologies (PGP email encryption, Signal, etherpads, etc.) or willingness to learn.
+- Familiarity with internet privacy and open source software projects ("FOSS") is a plus.
+
+## How to Apply
+
+Click here to apply: https://www.careers-page.com/tor-project/job/L97YYV8Y Please note that applications submitted with a cover letter will not be reviewed.
+
+## About The Tor Project
+
+The Tor Project’s workforce is inclusive, talented, and committed. We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+We have long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+
+- The Tor Project Code of Conduct: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/code_of_conduct.txt
+
+- The Tor Project Social Contract: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/social_contract.txt
+
+- The Tor Project Statement of Values: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/statement_of_values.txt
+
+Applicants must be authorized to work in the country in which they live, we cannot provide visa assistance for this position.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+
+Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
