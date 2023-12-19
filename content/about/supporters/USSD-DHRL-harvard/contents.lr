@@ -1,0 +1,21 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: False
+---
+time: 2017 - 2019
+---
+name: U.S. Department of State Bureau of Democracy, Human Rights, and Labor via Harvard
+---
+key: 12
+---
+logo: /static/images/supporters/USSD.png
+---
+_hidden: yes
+---
+link: https://www.state.gov/about-us-bureau-of-democracy-human-rights-and-labor/
+---
+description:
+
+The Bureau of Democracy, Human Rights and Labor leads the U.S. efforts to promote democracy, protect human rights and international religious freedom, and advance labor rights globally. This funding is being  used by Tor's OONI team to work toward creating a system that provides real-time measurement of online censorship.

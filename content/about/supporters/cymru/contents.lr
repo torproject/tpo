@@ -1,0 +1,21 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: False
+---
+time: 2009 - 2023
+---
+name: Team Cymru
+---
+key: 15
+---
+logo: /static/images/supporters/cymru.png
+---
+_hidden: yes
+---
+link: https://www.team-cymru.org/
+---
+description:
+
+Team Cymru has over a decade of experience and expertise at providing unparalleled threat intelligence and insight for security vendors, network defenders, incident response teams, and analysts. Cymru generously donated hardware to us that they keep hosted on their racks.

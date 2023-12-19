@@ -1,0 +1,23 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: True
+---
+time: 2006, 2023
+---
+name: Omidyar Network
+---
+key: 31
+---
+logo: /static/images/supporters/omidyar_logo.png
+---
+_hidden: yes
+---
+link: https://www.omidyar.com/
+---
+description:
+Established by philanthropists Pam and Pierre Omidyar, Omidyar Network is a social change venture that has committed more than $1 billion to innovative for-profit companies and nonprofit organizations since 2004. Omidyar Network works to reimagine critical systems and the ideas that govern them, and to build more inclusive and equitable societies in which individuals have the social, economic, and democratic power to thrive. Omidyar is supporting a project for Tor to provide
+advocacy organizations, coalitions, and community groups with real, user-generated, easy to
+understand stories about the day-to-day importance of encryption in order to strengthen these
+organizations’ advocacy and educational efforts.

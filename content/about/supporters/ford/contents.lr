@@ -1,0 +1,21 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2021
+---
+name: Ford Foundation
+---
+key: 27
+---
+logo: /static/images/supporters/ford_logo.png
+---
+_hidden: yes
+---
+link: https://www.fordfoundation.org/
+---
+description:
+The Ford Foundation is an independent, nonprofit grant-making organization. For more than 80 years it has worked with courageous people on the frontlines of social change worldwide, guided by its mission to strengthen democratic values, reduce poverty and injustice, promote international cooperation, and advance human achievement.
+The Ford Foundation has made a general support grant to the Tor Project.
