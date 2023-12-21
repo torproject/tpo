@@ -1,0 +1,13 @@
+_model: supporter
+---
+type: green_onions
+---
+active: true
+---
+name: DuckDuckGo
+---
+key: 02
+---
+_hidden: yes
+---
+link: https://www.duckduckgo.com/
