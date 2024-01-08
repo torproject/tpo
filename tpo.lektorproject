@@ -11,7 +11,7 @@ url_prefix = /
 locale = en
 
 [alternatives.ar]
-name = عربي (ar)
+name = العربية (ar)
 url_prefix = /ar/
 locale = ar
 
