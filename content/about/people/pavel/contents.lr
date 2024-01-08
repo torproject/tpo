@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Pavel Zoneff
+---
+pronoun: he
+---
+nickname: gazebook
+---
+image: /static/images/people/pavelzoneff.png
+---
+description:
+
+Director, Strategic Communications
