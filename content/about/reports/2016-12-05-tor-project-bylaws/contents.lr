@@ -2,7 +2,7 @@ _model: report
 ---
 type: document
 ---
-date: 2016
+date: 2023
 ---
 title: Tor Project Bylaws
 ---
@@ -10,4 +10,4 @@ description: Amended and restated Bylaws for Tor Project, Inc.
 ---
 _hidden: yes
 ---
-link: /static/findoc/2016-TorProject-Bylaws.pdf
+link: /static/findoc/Tor-Project-Bylaws-2023.pdf
