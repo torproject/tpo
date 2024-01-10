@@ -2,7 +2,7 @@ _model: sponsor
 ---
 active: true
 ---
-time: 2012 - 2022
+time: 2012 - 2024
 ---
 name: Open Technology Fund
 ---
@@ -15,5 +15,4 @@ _hidden: yes
 link: https://www.opentech.fund/
 ---
 description:
-
-OTF strives to support technology-centric solutions for anyone affected by censorship, surveillance, and internet blocking in order to protect fundamental human rights. These contracts are used to provide an end-to-end solution for USAGM web content to be distributed in censored or surveilled areas, to facilitate access to news and information in Russia following ongoing censorship events by supporting Russian-language support to Tor users in Russia, and provide increased circumvention services in response to ongoing government censorship in Iran.
+OTF strives to support technology-centric solutions for anyone affected by censorship, surveillance, and internet blocking in order to protect fundamental human rights. These projects are used to provide an end-to-end solution for USAGM web content to be distributed in censored or surveilled areas, to provide increased circumvention services in response to ongoing government censorship in Iran, and to increase Tor connection to users in Turkmenistan by increasing the capacity of bridge connections that are harder for the government to block.
