@@ -141,8 +141,6 @@ This table summarises how each databag file is used
 | menu_footer.ini | Footer menu |
 | links.ini | External links in their respective locale |
 | alternatives.ini | Locales and styling information for each language |
-| download-alternatives-alpha.ini | Locales for the alpha version of Tor Browser |
-| download-alternatives.ini | Locales for Tor Browser |
 | versions.ini | Latest versions for all the downloads |
 | platforms.ini | Supported platforms for the desktop versions |
 | tags.ini | Content tags and styling information |
