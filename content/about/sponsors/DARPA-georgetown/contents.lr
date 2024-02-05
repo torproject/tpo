@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: True
+active: false
 ---
-time: 2019 - Present
+time: 2019-2023
 ---
 name: DARPA via Georgetown University
 ---

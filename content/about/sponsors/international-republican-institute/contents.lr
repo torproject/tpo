@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: true
+active: false
 ---
-time: 2022
+time: 2022-2023
 ---
 name: International Republican Institute
 ---

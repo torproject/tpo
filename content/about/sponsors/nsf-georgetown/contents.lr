@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: true
+active: false
 ---
-time: 2015 - 2020
+time: 2015-2023
 ---
 name: National Science Foundation via Georgetown
 ---

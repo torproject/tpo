@@ -1,8 +1,8 @@
 _model: sponsor
 ---
-active: true
+active: false
 ---
-time: 2021
+time: 2021-2023
 ---
 name: Sloan Foundation
 ---
