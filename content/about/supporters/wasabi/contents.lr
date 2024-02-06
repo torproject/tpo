@@ -1,0 +1,24 @@
+_model: sponsor
+---
+active: true
+---
+time: 2024
+---
+name: Wasabi
+---
+key: 32
+---
+logo: /static/images/supporters/wasabi_logo.png
+---
+_hidden: yes
+---
+link: https://wasabiwallet.io
+---
+description:
+
+Wasabi is a privacy-focused, free and open source, non-custodial Bitcoin wallet
+for desktop that has pioneered several privacy features, including
+sophisticated Tor integration to protect IP addresses, block filters to
+protect Bitcoin addresses, and coinjoins to protect transaction history.
+zkSNACKs, the research and development company behind Wasabi, is a proud
+founding sponsor of the Onion Service Resource Coalition.
