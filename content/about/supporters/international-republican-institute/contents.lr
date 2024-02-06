@@ -2,9 +2,9 @@ _model: supporter
 ---
 type: foundations_and_institutions
 ---
-active: true
+active: false
 ---
-time: 2022
+time: 2022-2023
 ---
 name: International Republican Institute
 ---
