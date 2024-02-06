@@ -1,4 +1,6 @@
-_model: sponsor
+_model: supporter
+---
+type: foundations_and_institutions
 ---
 active: true
 ---
