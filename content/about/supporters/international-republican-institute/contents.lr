@@ -17,5 +17,20 @@ _hidden: yes
 link: https://www.iri.org/
 ---
 description:
-The International Republican Institute (IRI) is a nonprofit, nonpartisan, nongovernmental organization committed to advancing democracy and freedom worldwide. IRI has supported civil society organizations, journalists, democratic governments and other democratic actors in more than 100 countries since 1983—in Africa, Asia, Eurasia, Europe, Latin America and the Caribbean, the Middle East, and North Africa. The IRI Technology and Democracy team works in every region of the world to help grassroots actors turn digitization and the technological revolution into a force for democratic progress, and build their capacity to deploy digital technologies in ways that advance transparency, inclusion, accountability, responsiveness, and citizen engagement, while adjusting to a changing threat landscape. IRI is funding a project which aims to localize Tor Browser, Tor circumvention tools, Tor documentation and training materials, and a Tor-based file sharing tool called OnionShare into Arabic, Chinese, and Swahili. Tor will also create localized demonstration videos on using Tor, circumventing censorship, and using OnionShare.
 
+The International Republican Institute (IRI) is a nonprofit, nonpartisan,
+nongovernmental organization committed to advancing democracy and freedom
+worldwide. IRI has supported civil society organizations, journalists,
+democratic governments and other democratic actors in more than 100 countries
+since 1983—in Africa, Asia, Eurasia, Europe, Latin America and the Caribbean,
+the Middle East, and North Africa. The IRI Technology and Democracy team works
+in every region of the world to help grassroots actors turn digitization and
+the technological revolution into a force for democratic progress, and build
+their capacity to deploy digital technologies in ways that advance
+transparency, inclusion, accountability, responsiveness, and citizen
+engagement, while adjusting to a changing threat landscape. IRI is funding a
+project which aims to localize Tor Browser, Tor circumvention tools, Tor
+documentation and training materials, and a Tor-based file sharing tool called
+OnionShare into Arabic, Chinese, and Swahili. Tor will also create localized
+demonstration videos on using Tor, circumventing censorship, and using
+OnionShare.
