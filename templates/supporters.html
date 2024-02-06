@@ -74,7 +74,11 @@
     <ul class="jobs-ul">
       {% set items = site.query('/about/supporters').include_undiscoverable(true).filter(F.active == False) %}
       {% for item in items.order_by('-time') %}
+        {%- if item.link %}
         <li><a href="{{ item.link}}">{{ item.name }}</a> - <span> {{ item.time }}</span></li>
+        {%- else %}
+        <li>{{ item.name }} - <span> {{ item.time }}</span></li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
