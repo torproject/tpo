@@ -1,0 +1,23 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: True
+---
+time: 2019
+---
+name: Craig Newmark Philanthropies
+---
+key: 16
+---
+logo: /static/images/supporters/craig-newmark-philanthropies.png
+---
+_hidden: yes
+---
+link: https://craignewmarkphilanthropies.org/
+---
+description:
+
+Craig Newmark Philanthropies was created by craigslist founder Craig Newmark to
+support and connect people and drive broad civic engagement. The organization
+has provided Tor Project with an unrestricted gift.

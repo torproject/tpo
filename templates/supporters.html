@@ -1,0 +1,86 @@
+{% from "macros/supporters.html" import render_supporter %}
+{% set foundations_and_institutions = site.query('/about/supporters').include_undiscoverable(true).filter((F.active == True).and(F.type == "foundations_and_institutions")) %}
+{% set shallot_onions = site.query('/about/supporters').include_undiscoverable(true).filter((F.active == True).and(F.type == "shallot_onions")) %}
+{% set vidalia_onions = site.query('/about/supporters').include_undiscoverable(true).filter((F.active == True).and(F.type == "vidalia_onions")) %}
+{% set green_onions = site.query('/about/supporters').include_undiscoverable(true).filter((F.active == True).and(F.type == "green_onions")) %}
+{% set in_kind = site.query('/about/supporters').include_undiscoverable(true).filter((F.active == True).and(F.type == "in_kind")) %}
+<div class="container">
+<p>{{ _('Thank you to all the people and groups who have made Tor possible so far, and thank you especially to the individual volunteers who have made non-financial contributions: coding, testing, documenting, translating, educating, researching, and running the relays that make up the Tor network.') }}</p>
+</div>
+<div class="container py-3">
+  <h3 class="text-primary display-4">{{ _('Foundations and Institutions') }}</h3>
+</div>
+<div class="container fluid-container">
+  <div class="row">
+    {% for item in foundations_and_institutions %}
+      {{ render_supporter(item, render_description=True, render_logo=True) }}
+    {% endfor %}
+  </div>
+</div>
+{%- if shallot_onions %}
+<div class="container py-3">
+  <h3 class="text-primary display-4">{{ _('Shallot Onions') }}</h3>
+</div>
+<div class="container fluid-container">
+  <div class="row">
+    {% for item in shallot_onions %}
+      {{ render_supporter(item, render_description=True, render_logo=True) }}
+    {% endfor %}
+  </div>
+</div>
+{%- endif %}
+{%- if vidalia_onions %}
+<div class="container py-3">
+  <h3 class="text-primary display-4">{{ _('Vidalia Onions') }}</h3>
+</div>
+<div class="container fluid-container">
+  <div class="row">
+    {% for item in vidalia_onions %}
+      {{ render_supporter(item, render_description=False, render_logo=True) }}
+    {% endfor %}
+  </div>
+</div>
+{%- endif %}
+{%- if green_onions %}
+<div class="container py-3">
+  <h3 class="text-primary display-4">{{ _('Green Onions') }}</h3>
+</div>
+<div class="container fluid-container">
+  <div class="row">
+    {% for item in green_onions %}
+      {{ render_supporter(item, render_description=False, render_logo=False) }}
+    {% endfor %}
+  </div>
+</div>
+{%- endif %}
+{%- if in_kind %}
+<div class="container py-3">
+  <h3 class="text-primary display-4">{{ _('In-Kind Supporters') }}</h3>
+</div>
+<div class="container fluid-container">
+  <div class="row">
+    {% for item in in_kind %}
+      {{ render_supporter(item, render_description=False, render_logo=False) }}
+    {% endfor %}
+  </div>
+</div>
+{%- endif %}
+<div class="container py-3">
+<h3 class="text-primary display-5">{{ _('Past Supporters') }}</h3>
+</div>
+<div class="container">
+<div class="row">
+  <div class="col-12">
+    <ul class="jobs-ul">
+      {% set items = site.query('/about/supporters').include_undiscoverable(true).filter(F.active == False) %}
+      {% for item in items.order_by('-time') %}
+        {%- if item.link %}
+        <li><a href="{{ item.link}}">{{ item.name }}</a> - <span> {{ item.time }}</span></li>
+        {%- else %}
+        <li>{{ item.name }} - <span> {{ item.time }}</span></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+</div>

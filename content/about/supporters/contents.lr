@@ -1,0 +1,19 @@
+_model: supporters
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+html: supporters.html
+---
+color: primary
+---
+title: Supporters
+---
+body:
+
+Having a diverse user base means we have diverse funding sources, too. Our goal
+is to continue diversifying our funding. To inquire about sponsorship, please
+email [giving@torproject.org](mailto:giving@torproject.org)

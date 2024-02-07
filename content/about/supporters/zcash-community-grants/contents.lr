@@ -1,0 +1,24 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2021-2022
+---
+name: Zcash Community Grants
+---
+key: 26
+---
+logo: /static/images/supporters/zcash_comm_grants.png
+---
+_hidden: yes
+---
+link: https://zcashcommunitygrants.org/
+---
+description:
+
+The Zcash Community Grants (ZCG) program funds independent teams entering the
+Zcash ecosystem to perform major ongoing development (or other work) for the
+public good of the Zcash ecosystem. ZCG currently supports a project to create
+an implementation of the Tor protocols in Rust (called “Arti”).

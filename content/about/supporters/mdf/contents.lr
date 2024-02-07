@@ -1,0 +1,22 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: false
+---
+time: 2016-2021
+---
+name: Media Democracy Fund
+---
+key: 06
+---
+logo: /static/images/supporters/mdf.png
+---
+_hidden: yes
+---
+link: https://mediademocracyfund.org/
+---
+description:
+
+MDF expertise in media and technology policy and extensive partnerships enable them to guide their funding partners through the rapidly changing issues and develop strategies that address priorities in digital equity and rights.
+These grants were unrestricted, general operating funds for both the Tor Project and the Open Observatory of Network Interference (OONI).

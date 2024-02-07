@@ -1,0 +1,24 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: True
+---
+time: 2017-2023
+---
+name: U.S. Department of State Bureau of Democracy, Human Rights, and Labor
+---
+key: 11
+---
+logo: /static/images/supporters/USSD.png
+---
+_hidden: yes
+---
+link: https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-labor/
+---
+description:
+
+The Bureau of Democracy, Human Rights and Labor (DRL) leads the U.S. efforts to
+promote democracy, protect human rights and international religious freedom,
+and advance labor rights globally. DRL currently supports multiple projects
+related to internet freedom and censorship circumvention.

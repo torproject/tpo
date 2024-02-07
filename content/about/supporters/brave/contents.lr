@@ -1,0 +1,13 @@
+_model: supporter
+---
+type: green_onions
+---
+active: true
+---
+name: Brave
+---
+key: 01
+---
+_hidden: yes
+---
+link: https://www.brave.com/

@@ -1,0 +1,13 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: False
+---
+time: 2015
+---
+name: Reddit
+---
+_hidden: yes
+---
+link: https://www.reddit.com/

@@ -1,0 +1,23 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: True
+---
+time: 2016-Present
+---
+name: Fastly
+---
+key: 11
+---
+logo: /static/images/supporters/fastly.png
+---
+_hidden: yes
+---
+link: https://www.fastly.com/
+---
+description:
+
+Fastly's global edge cloud platform processes, serves, and secures applications
+as close to users as possible, at the edge of the network. Fastly generously
+hosts our Tor Browser update downloads that can be fetched anonymously.

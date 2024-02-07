@@ -1,0 +1,19 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: False
+---
+time: 2009-2011
+---
+name: National Science Foundation via Drexel University
+---
+logo: /static/images/supporters/nsf.png
+---
+_hidden: yes
+---
+link: https://nsf.gov/
+---
+description:
+
+The National Science Foundation funds research and education in most [fields of science and engineering](https://nsf.gov/funding/index.jsp#areas). It does this through grants, and cooperative agreements to more than 2,000 colleges, universities, K-12 school systems, businesses, informal science organizations and other research organizations throughout the United States. The Foundation accounts for about one-fourth of federal support to academic institutions for basic research.

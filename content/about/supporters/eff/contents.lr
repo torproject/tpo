@@ -1,0 +1,13 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: False
+---
+time: 2004-2005
+---
+name: Electronic Frontier Foundation
+---
+_hidden: yes
+---
+link: https://www.eff.org

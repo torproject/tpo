@@ -1,0 +1,25 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: True
+---
+time: 2006, 2023
+---
+name: Omidyar Network
+---
+key: 31
+---
+logo: /static/images/supporters/omidyar_logo.png
+---
+_hidden: yes
+---
+link: https://www.omidyar.com/
+---
+description:
+
+Established by philanthropists Pam and Pierre Omidyar, Omidyar Network is a
+social change venture that has committed more than $1 billion to innovative
+for-profit companies and nonprofit organizations since 2004. Omidyar is
+supporting a project to publish user stories about the importance of
+encryption to support advocacy and educational efforts.

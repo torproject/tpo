@@ -1,0 +1,24 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: false
+---
+time: 2021-2023
+---
+name: Sloan Foundation
+---
+key: 28
+---
+logo: /static/images/supporters/Sloan_logo.png
+---
+_hidden: yes
+---
+link: https://sloan.org/
+---
+description:
+
+The ALFRED P. SLOAN FOUNDATION is a not-for-profit, mission-driven grantmaking
+institution dedicated to improving the welfare of all through the advancement
+of scientific knowledge. The Sloan Foundation has made an unrestricted, general
+operating grant to the Tor Project.
