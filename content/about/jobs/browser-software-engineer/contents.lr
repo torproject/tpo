@@ -1,0 +1,84 @@
+_model: job
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+active: True
+---
+color: primary
+---
+title: Browser Software Engineer (Contractor)
+---
+summary:
+
+# Internet Freedom Non-profit Seeks Browser Software Engineer (Contractor)
+
+February 6th, 2024
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking an experienced browser software engineer to work as a contractor on Mullvad Browser as part of Tor Project's Applications team.
+
+The Mullvad Browser is a privacy-focused web browser developed in collaboration between Mullvad VPN and the Tor Project. It is designed to minimize tracking and browser fingerprinting while allowing users to browse privately. We're now looking for a contractor to scale up our efforts in reclaiming the right to privacy.
+
+Regardless of whether you have all of the required experience, please apply! If you feel that you meet several of the qualifications, or could meet them with a little support, we would love to hear from you.
+
+The team coordinates both synchronously and asynchronously via IRC, email, bug trackers, and some voice meetings. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential. 
+
+This is a full time contractor remote position, for a period of 1 year, with potential for renewal (we're open to part time for the right candidate). Salary for this position will range from $100k to $110k USD (based on candidate experience) and there is voluntary opt-in salary transparency for employees and contractors.
+
+---
+description:
+
+## The Job: 
+
+We are looking for a software engineer with experience working on the Firefox web browser. You will be working closely with the Tor Project's Applications Team on Mullvad Browser-specific features and bug fixes.
+
+**You will be working on:**
+
+- Implementing new Mullvad Browser features and enhancements while maintaining user privacy and security
+- Improving Mullvad Browser's web compatibility
+- Collaborating with Mozilla and directly improve Firefox
+
+## Requirements:
+
+- Be comfortable working remotely with a geographically distributed team
+- Experience interacting with users and other developers online, including experience being confronted with differing ideas and opinions, while maintaining a high level of professionalism
+- Experience in developing web browsers (Firefox strongly preferred)
+- Familiarity with web technologies and how the web works, especially the same-origin model and web tracking
+- Familiarity with: JavaScript, HTML, CSS; C++ and Rust
+
+## Preferred Qualifications:
+
+- Familiarity with Firefox's internal architecture, including its use of multiple processes and sandboxing
+- Experience developing new features in Firefox (Desktop) or Firefox for Android (fenix)
+- Experience developing and debugging software in a Linux / macOS / Android platform
+- Experience developing browser webextensions
+- Familiarity with browser fingerprinting defenses
+
+Again, this is a wish list, and we do not expect any candidate to have experience in all these areas. If you meet at least several of the qualifications, or could meet them with a little support, please apply!
+
+This is a full time contractor position for a period of 1 year, with potential for renewal (we're open to part time for the right candidate).
+
+## How to Apply
+
+Click here to apply https://www.careers-page.com/tor-project/job/QV74X6X6. A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description and why you want to work at Tor.
+
+## About The Tor Project
+
+The Tor Project's workforce is inclusive, talented, and committed. We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+We have long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+    
+- The Tor Project Code of Conduct: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/code_of_conduct.txt
+- The Tor Project Social Contract: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/social_contract.txt
+- The Tor Project Statement of Values: https://gitlab.torproject.org/tpo/community/policies/-/blob/master/statement_of_values.txt
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+
+Applicants must be authorized to work in the country in which they live, we cannot provide visa assistance for this position.
+
+Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
