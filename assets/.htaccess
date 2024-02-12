@@ -8,7 +8,7 @@ RewriteRule ^about/torusers(.*) https://2019.www.torproject.org/about/torusers$1
 RewriteRule ^about/overview(.*) https://2019.www.torproject.org/about/overview$1 [R=302,L]
 RewriteRule ^about/jobs(.*).html.en$ /about/jobs [R=302,L]
 RewriteRule ^about/financials(.*) /about/reports$1 [R=302,L]
-RewriteRule ^about/membership(.*) /about/supporters/1 [R=302,L]
+RewriteRule ^about/membership(.*) /about/supporters/ [R=302,L]
 RewriteRule ^about/sponsors(.*) /about/supporters/ [R=302,L]
 RewriteRule ^about(.*).html.en$ /about$1 [R=302,L]
 RewriteRule ^images/how_tor_works_thumb.png$ https://2019.www.torproject.org/images/how_tor_works_thumb.png [R=302,L]
