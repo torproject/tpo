@@ -1,0 +1,89 @@
+_model: job
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+active: True
+---
+color: primary
+---
+title: Browser Software Engineer (Contractor)
+---
+summary:
+
+# Internet Freedom Nonprofit Seeks Rust Developer
+
+February 13th, 2024
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking experienced Rust developers to be a part of the Network Team.
+
+As a developer on the Network Team, you will be part of a small team that develops and maintains the networking software at the core of the Tor network, keeping it secure and improving it for the future. Over the past decade, we've been developing the Tor implementation in C, but the team is now migrating to Rust as part of our Arti project.
+
+We are currently in the phase of preparing the release of Arti for client usage in 2024 -- this means our wider product portfolio, including the Tor Browser, will be moving to Arti as its Tor client implementation. Once client support has stabilized, the team will move towards implementing relay support in Arti such that we can begin the upgrade of the Tor network.
+
+The team coordinates both synchronously and asynchronously via IRC, email, bug trackers, and some weekly audio/video meetings. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential.
+
+This is a full-time, remote position. Salary for this position will range from $100k to $110k USD (based on candidate experience) and there is voluntary opt-in salary transparency for employees and contractors. The organization is currently experimenting with a four day workweek.
+
+---
+description:
+
+## Summary
+
+In this role, you will:
+
+- Help design, develop, and improve Arti, our Rust implementation of the Tor protocol.
+- Collaborate with other Tor teams to integrate Arti in their workflows.
+- Contribute to other free, open-source Rust projects as needed, especially to ones that Arti depends on.
+
+## Required Technical Skills and Experience
+
+- Familiarity with the Rust programming language, and with system design in Rust.
+- Strong remote work and time management skills.
+- Good communication and documentation skills.
+- Enthusiasm for teaching and learning within a distributed team.
+
+## Preferred Qualifications
+
+These are good to have, but not necessarily required.
+
+- Familiarity with FOSS engineering practices.
+- Experience doing code review of your coworkers' incoming code changes.
+- Experience with async/await programming in Rust.
+- Experience with portable, cross-platform coding. We work on Unix, macOS, Windows, iOS, and Android, and we're hoping to eventually expand to WASM.
+- Experience with developing large software projects, keeping them maintainable and flexible over time.
+- Experience with API design and documentation.
+- Familiarity with privacy, network programming, distributed systems, security, and cryptography.
+- Familiarity with C for reading reference C implementation of Tor's source code.
+- Experience with reading and writing technical specifications.
+
+Academic degrees are great, but not required if you have the right experience!
+
+If you feel that you meet most of these requirements or could meet them with a little support, we would love to hear from you.
+
+## How to Apply
+
+Click here to apply [https://www.careers-page.com/tor-project/job/QY7R5V85]. A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
+
+## About The Tor Project
+
+The Tor Project’s workforce is inclusive, talented, and committed. We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+We have long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+
+- The Tor Project [Code of Conduct](https://community.torproject.org/policies/code_of_conduct/)
+- The Tor Project [Social Contract](https://community.torproject.org/policies/social_contract/)
+- The Tor Project [Statement of Value](https://community.torproject.org/policies/statement_of_values/)
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Years, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+Applicants must be authorized to work in the country in which they live, we cannot provide visa assistance for this position.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+
+Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
