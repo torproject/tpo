@@ -35,7 +35,7 @@ description:
 
 In this role, you will:
 
-- Help design, develop, and improve Arti, our Rust implementation of the Tor protocol.
+- Help design, develop, and improve [Arti](https://blog.torproject.org/announcing-arti/), our Rust implementation of the Tor protocol.
 - Collaborate with other Tor teams to integrate Arti in their workflows.
 - Contribute to other free, open-source Rust projects as needed, especially to ones that Arti depends on.
 
@@ -66,7 +66,7 @@ If you feel that you meet most of these requirements or could meet them with a l
 
 ## How to Apply
 
-Click here to apply [https://www.careers-page.com/tor-project/job/QY7R5V85]. A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
+[Click here to apply](https://www.careers-page.com/tor-project/job/QY7R5V85). A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
 
 ## About The Tor Project
 
