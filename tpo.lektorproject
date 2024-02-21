@@ -15,6 +15,11 @@ name = العربية (ar)
 url_prefix = /ar/
 locale = ar
 
+[alternatives.be]
+name = беларуская (be)
+url_prefix = /be/
+locale = be
+
 [alternatives.ca]
 name = Català (ca)
 url_prefix = /ca/
@@ -24,6 +29,11 @@ locale = ca
 name = Deutsch (de)
 url_prefix = /de/
 locale = de
+
+[alternatives.el]
+name = Ελληνικά (el)
+url_prefix = /el/
+locale = el
 
 [alternatives.es]
 name = Español (es)
@@ -94,6 +104,11 @@ locale = sq
 name = Kiswahili (sw)
 url_prefix = /sw/
 locale = sw
+
+[alternatives.tk]
+name = türkmençe (tk)
+url_prefix = /tk/
+locale = tk
 
 [alternatives.tr]
 name = Türkçe (tr)
