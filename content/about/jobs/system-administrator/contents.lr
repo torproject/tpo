@@ -30,11 +30,7 @@ who are not technical and others who are extremely technical.
 
 This Systems Administrator will work as part of a small team
 responsible for managing the torproject.org servers, which, in turn,
-allow the Tor Project to create the software we know and love. Our
-infrastructure has been growing organically since the project's
-foundation in 2004, and we're looking forward to working with you to
-drag Tor's internal legacy systems kicking and screaming in the new
-millennium.
+allow the Tor Project to create the software we know and love.
 
 Work is both synchronous and asynchronous, coordinated over GitLab
 email, IRC, and some weekly audio/video meetings. A personal
@@ -63,28 +59,23 @@ description:
 
 ## Required skills and background
 
-- Independent problem-solving, self-direction
-- Comfort with working remotely, across time zones
-- Strong interpersonal and communication skills; ability to write
-  purchase justifications, train users in complex topics, make
-  presentations to an internal audience, and interact positively with
-  upper management
-- Strong skills with most Linux commands/utilities and familiarity
+- Independent problem-solving, self-directed
+- Comfortable with working remotely, across time zones
+- Strong interpersonal and communication skills; train users in complex topics, make presentations to an internal audience, introduce projects to, and request feedback from, the community
+- Ability to document systems clearly and explicitly
+- Strong skills with most GNU/Linux commands/utilities and familiarity
   with most basic system administration processes; for example:
-  - ability to boot/shut down a machine
-  - add and remove user accounts,
+  - add and remove user accounts
   - use backup programs
   - manage shared resources (e.g., file systems snapshots, RAID
     arrays)
   - update DNS zone files
-  - install or retire a server
+  - install or retire servers
 - Familiarity with the principles and practices of system
   configuration management using modern declarative tools
 - Experience with Git, "forges" (GitLab, GitHub), issue tracking, and
   "merge-request" based workflows
-- Ability to document systems clearly and explicitly
-- Ability to manage an OpenPGP private/public key pair, verify OpenPGP
-  public keys, and manage SSH private keys securely
+- Ability to manage secrets in a safe and confidential way, familiarity with OpenPGP keys and verification
 - Ability to do minimal debugging and modification of Python programs
 - User experience with the Debian operating system or derivatives
 - Three to five years of system administration experience
@@ -92,7 +83,7 @@ description:
 ## Preferred qualifications
 
 - Significant programming background in Python and/or Puppet
-- Experience with Debian system administration and packaging
+- Experience with Debian system administration and/or packaging
 - Experience with the following systems:
   - large web server deployments (Apache and/or Nginx)
   - virtual machine clusters (Ganeti)
@@ -106,7 +97,7 @@ description:
 - Familiarity with Tor's internal services and the network
   architecture (for example: what are check.torproject.org and
   "bridges" are, the metrics services, what is an "exit relay", etc.)
-- Familiarity with the Diataxis approach to documentation
+- Background in documentation or technical writing
 - Experience with a 100-machine, ~100 TB of disk site, in a
   multi-gigabit-scale heterogeneous network, mostly hosted on bare
   metal and rented servers
