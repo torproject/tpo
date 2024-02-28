@@ -1,0 +1,24 @@
+_model: sponsor
+---
+active: true
+---
+time: 2024
+---
+name: Open Net Fund
+---
+key: 33
+---
+logo: /static/images/sponsors/opennetfund_logo.png
+---
+_hidden: yes
+---
+link: https://opennet.fund/
+---
+description:
+
+OpenNet.fund (ONF) supports solutions that enable online privacy and
+provide open access to the Internet towards the overarching goal of
+improving the free flow of information and the freedom of expression
+online. ONF has provided a grant to make Tor infrastructure and
+tooling related to distributing bridges to users more agile, more
+sustainable, and more resilient against censorship.
