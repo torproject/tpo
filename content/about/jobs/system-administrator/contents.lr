@@ -20,8 +20,8 @@ February 28, 2024
 
 The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing
 human rights and freedoms by creating and deploying free and open
-source anonymity and privacy technologies, is systems administrator to
-be part of the sysadmin team.
+source anonymity and privacy technologies, is seeking a Systems Administrator to
+be part of the Sysadmin Team.
 
 The ideal candidate is resourceful, creative, and able to diagnose and
 resolve problems quickly. You must have the patience to communicate
@@ -71,25 +71,25 @@ description:
     arrays)
   - update DNS zone files
   - install or retire servers
-- Familiarity with the principles and practices of system
-  configuration management using modern declarative tools
+- Familiarity with the principles and practices of system configuration management 
+    using modern declarative tools
 - Experience with Git, "forges" (GitLab, GitHub), issue tracking, and
   "merge-request" based workflows
-- Ability to manage secrets in a safe and confidential way, familiarity with OpenPGP keys and verification
+- Ability to manage secrets in a safe and confidential way, familiarity with OpenPGP 
+    keys and verification
 - Ability to do minimal debugging and modification of Python programs
 - User experience with the Debian operating system or derivatives
 - Three to five years of system administration experience
 
 ## Preferred qualifications
 
-- Significant programming background in Python and/or Puppet
-- Experience with Debian system administration and/or packaging
+- Experience with Debian systems administration
 - Experience with the following systems:
   - large web server deployments (Apache and/or Nginx)
   - virtual machine clusters (Ganeti)
   - monitoring and alerting (Prometheus, Grafana)
   - backup services (Bacula)
-  - relational databases (PostrgeSQL)
+  - relational databases (PostgreSQL)
   - DNS (BIND)
   - email services (Postfix, Dovecot)
 - Experience performing forensic investigations, including proper
@@ -101,6 +101,7 @@ description:
 - Experience with a 100-machine, ~100 TB of disk site, in a
   multi-gigabit-scale heterogeneous network, mostly hosted on bare
   metal and rented servers
+- Significant programming background in Python and/or Puppet
 
 Academic degrees are great, but not required if you have the right experience!
 
@@ -108,7 +109,7 @@ If you feel that you meet most of these requirements or could meet them with a l
 
 ## How to apply
 
-[Click here to apply](https://www.careers-page.com/tor-project/job/TODO). A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
+[Click here to apply](link will be generated once we publish in Manatal). A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
 
 ## About The Tor Project
 
@@ -131,3 +132,4 @@ Applicants must be authorized to work in the country in which they live, we cann
 The Tor Project, Inc., is an equal opportunity, affirmative action employer.
 
 Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
+
