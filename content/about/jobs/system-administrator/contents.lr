@@ -16,7 +16,7 @@ summary:
 
 # Internet Freedom Nonprofit Seeks Systems Administrator
 
-February 28, 2024
+March 04, 2024
 
 The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing
 human rights and freedoms by creating and deploying free and open
@@ -39,7 +39,7 @@ documentation skills, and passion for contributing to the greater good
 are all essential.
 
 This is a full-time, remote position. Salary for this position will
-range from $100k to $110k USD (based on candidate experience) and
+range from $80k to $90k USD (based on candidate experience) and
 there is voluntary opt-in salary transparency for employees and
 contractors. The organization is currently experimenting with a four
 day workweek.
@@ -72,11 +72,11 @@ description:
   - update DNS zone files
   - install or retire servers
 - Familiarity with the principles and practices of system configuration management 
-    using modern declarative tools
+using modern declarative tools
 - Experience with Git, "forges" (GitLab, GitHub), issue tracking, and
   "merge-request" based workflows
 - Ability to manage secrets in a safe and confidential way, familiarity with OpenPGP 
-    keys and verification
+keys and verification
 - Ability to do minimal debugging and modification of Python programs
 - User experience with the Debian operating system or derivatives
 - Three to five years of system administration experience
@@ -109,7 +109,7 @@ If you feel that you meet most of these requirements or could meet them with a l
 
 ## How to apply
 
-[Click here to apply](link will be generated once we publish in Manatal). A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
+[Click here to apply](https://www.careers-page.com/tor-project/job/L68837VW). A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
 
 ## About The Tor Project
 
@@ -132,4 +132,3 @@ Applicants must be authorized to work in the country in which they live, we cann
 The Tor Project, Inc., is an equal opportunity, affirmative action employer.
 
 Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
-
