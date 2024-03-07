@@ -61,7 +61,9 @@ description:
 
 - Independent problem-solving, self-directed
 - Comfortable with working remotely, across time zones
-- Strong interpersonal and communication skills; train users in complex topics, make presentations to an internal audience, introduce projects to, and request feedback from, the community
+- Strong interpersonal and communication skills; train users in complex
+  topics, make presentations to an internal audience, introduce projects
+  to, and request feedback from, the community
 - Ability to document systems clearly and explicitly
 - Strong skills with most GNU/Linux commands/utilities and familiarity
   with most basic system administration processes; for example:
@@ -72,11 +74,11 @@ description:
   - update DNS zone files
   - install or retire servers
 - Familiarity with the principles and practices of system configuration management 
-using modern declarative tools
+  using modern declarative tools
 - Experience with Git, "forges" (GitLab, GitHub), issue tracking, and
   "merge-request" based workflows
 - Ability to manage secrets in a safe and confidential way, familiarity with OpenPGP 
-keys and verification
+  keys and verification
 - Ability to do minimal debugging and modification of Python programs
 - User experience with the Debian operating system or derivatives
 - Three to five years of system administration experience
@@ -105,30 +107,63 @@ keys and verification
 
 Academic degrees are great, but not required if you have the right experience!
 
-If you feel that you meet most of these requirements or could meet them with a little support, we would love to hear from you.
+If you feel that you meet most of these requirements or could meet them
+with a little support, we would love to hear from you.
 
 ## How to apply
 
-[Click here to apply](https://www.careers-page.com/tor-project/job/L68837VW). A cover letter is required and you will be prompted to enter this in plain text. In your cover letter, please explain your experience as it relates to the job description, say why you want to work at Tor, and include and a link to a code sample or some non-trivial software project you have significantly contributed to.
+[Click here to apply](https://www.careers-page.com/tor-project/job/L68837VW).
+
+A cover letter is required and you will be prompted to enter this in
+plain text. In your cover letter, please explain your experience as it
+relates to the job description, say why you want to work at Tor, and
+include and a link to a code sample or some non-trivial software project
+you have significantly contributed to.
 
 ## About The Tor Project
 
-The Tor Project’s workforce is inclusive, talented, and committed. We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+The Tor Project’s workforce is inclusive, talented, and committed. We
+currently have a global paid and contract staff of around 50 developers
+and operational support people, plus many thousands of volunteers who
+contribute to our work world-wide. The Tor Project is funded in part by
+government research and development grants, and in part by individual,
+foundation, and corporate donations.
 
 ## About The Tor Project
 
-Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+Tor is for everyone, and we are actively working to build a team that
+represents people from all over the world - people from diverse ethnic,
+national, and cultural backgrounds; people from all walks of life. We
+encourage people subject to systemic bias to apply, including people of
+color, indigenous people, LGBTQIA+ people, women, and any other person
+who is part of a group that is underrepresented in tech.
 
-We have long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+We have long-standing community guidelines and cultural norms. Our
+community is committed to creating an inclusive and welcoming
+environment. Please read more here:
 
-- The Tor Project [Code of Conduct](https://community.torproject.org/policies/code_of_conduct/)
-- The Tor Project [Social Contract](https://community.torproject.org/policies/social_contract/)
-- The Tor Project [Statement of Value](https://community.torproject.org/policies/statement_of_values/)
+- The Tor Project [Code of Conduct][]
+- The Tor Project [Social Contract][]
+- The Tor Project [Statement of Value][]
 
-The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Years, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+ [Code of Conduct]: https://community.torproject.org/policies/code_of_conduct/
+ [Social Contract]: https://community.torproject.org/policies/social_contract/
+ [Statement of Value]: https://community.torproject.org/policies/statement_of_values/
 
-Applicants must be authorized to work in the country in which they live, we cannot provide visa assistance for this position.
+The Tor Project has a competitive benefits package, including a generous
+PTO policy, 16 paid holidays per year (including the week between
+Christmas and New Years, when the office is closed), and flexible work
+schedule. Insurance benefits vary by employment status and country of
+residence.
+
+Applicants must be authorized to work in the country in which they live,
+we cannot provide visa assistance for this position.
 
 The Tor Project, Inc., is an equal opportunity, affirmative action employer.
 
-Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
+Notice: Due to [U.S. sanctions and embargo regulations][], The Tor
+Project, Inc. is not able to hire individuals with citizenship *and*
+residency in certain countries, including but not limited to Russia,
+North Korea, Cuba, Iraq, China, Iran, and Syria.
+
+[U.S. sanctions and embargo regulations]: https://ofac.treasury.gov/sanctions-programs-and-country-information
