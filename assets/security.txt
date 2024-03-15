@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 # Canonical URI
 Canonical: https://torproject.org/.well-known/security.txt
 # Our security address
@@ -6,28 +9,23 @@ Contact: mailto:security@torproject.org
 Encryption: openpgp4fpr:835B4E04F6F7421104C4751A3EF9EF996604DE41
 # Our security acknowledgements
 Acknowledgments: https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/TROVE
-# Our security policy
-Policy: For tor (the network daemon) see
-        https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/SecurityPolicy
------BEGIN PGP MESSAGE-----
+# For tor (the network daemon) see
+Policy: https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/SecurityPolicy
+# Expires is required, formatted according to [ISO.8601-1] and [ISO.8601-2]
+Expires: 2025-04-15T18:00:00z
+-----BEGIN PGP SIGNATURE-----
 
-owGbwMvMwMVo9/P9zDSWe46Mpw8aJDEkv3lnrKzgnJiXn5eZnJijEBrkyQXnWSlk
-lJQUFFvp65fkFxUU5WelJpfo5Rel6+uVp+bk6Gbn5Zfn6RenJpcWZZZU6pVUlHAp
-K/iXFinAhBQSU1KKUouLuZzz80oSk0usFHITM3NK8q1gChxQzYVq9y9IzQtwD1DI
-Tq3kcs1LLqosKMnMz7NSyAeKF6QXmKQVFFlZGJs6mbgamLiZuZmbGBkaGpg4m5ib
-Gjoau7pZApGlmZmBiYuriSGGi5JBrs5JTUlPzU3NKynmcoQLgPkIL6dnluQkJumh
-+bykIF8/Ob8oVb8kNTFXX1e/PDM7s1jfL7WkPL8oOwQkFhLkH+aKbm1Bfk5mciVX
-AJiyUnDLL1IAGqygUZKRqpAH0ayQkpiam5+nCdSUyqUABZQ6JhjqAIjFXJ1MOiwM
-jFwM08QUWZqj/Vi+fXcSZDlSKgVLE6xMwPRgGi/SwAAEegwamcXFpalFusAAd8jL
-L0kERUOxHjQa9NIy00oyMvKLilNzE/P0gL4gNk4kZHDEPwMXpwDMKQZi3H8lIuvk
-LnYt7qiL8+U+Z7yK9ZeppqC7pWbzuju9Cft3fneOM9nLN+Ol1o1l2on2BlOZOX1u
-f9Gfe4p/8fLgFS6XTMPLt5g3Puu6uMJ6w/+wd4sTdtbMKI2Y9/Dwx0mfmtvtVqap
-dCdfbYhvOPQy+kTN5ipVrnUWvenKIWlH7QOdJy/vLQra7bttYYIRf7yu0VvDk+cv
-XkrQLr6Z9mOB6wEV4Z3ax8+mfnGsSNod3NX4/+XevQ1H4yYYSim7LBO6vylpbZdD
-hsEM1l1ylzYE3VOsSDufsviZ+BzdZIM7P4sd06xcF/oVlDrYZPX+DVZdZvWxuuXQ
-991LpqxcE8BU6sd86mD5xTmbrQ+p3K08+HXa6ojidp2JoquSfh0VjFhj+Z/3MX8Q
-071JbelWc80nX3gZeWZ7xe0jC87Mv2FpWMJw2tf0d2XNY26J9/ll/+vdX3XMKRfl
-aJmza733ZD6Jl367txo9dYwInNjSIzWHfZbH2xO7r7oHPvp0KDiBZ96jJyuixWzX
-i6nK1PEveq5Vuu/Ni3vLD9gDAA==
-=Af7R
------END PGP MESSAGE-----
+iQITBAEBCgB9FiEEg1tOBPb3QhEExHUaPvnvmWYE3kEFAmX0i/tfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDgz
+NUI0RTA0RjZGNzQyMTEwNEM0NzUxQTNFRjlFRjk5NjYwNERFNDEACgkQPvnvmWYE
+3kEiWAv/TnaFhbwXFgP1HvoWN9YUZwZU5VsTa4uNodnmC36ivZsuzlp3riLRfCNk
+VFormtVxKU8SjVqpq3YHi1e2NgC6qLBZ1eWGi5lqJORJbOxB6tSlEOLmtm3GBkjO
+jqSlpQmEkSmEYcl5M4t59fIu7z/HmMiOt5g84upvAU1YQcsneHPXHSAoJIeOqW+u
+hJdziR4etzxPy6lOlbV3FfW5sYuVE+NA9Sktl0G3tWeQB79vOymCEp5Xb7cE/r1q
+qxyu5geibryRpQR/ZOChWY1JaFiUzx7vMU96HOexLmz99m4gdWhjsR4Xps/22zVt
+LjHANn6gAjOrJcnQGVIyPV/vJhO6zzN8ZMIEXtNvH/t6hT/J64E0YDzCEWk85FkO
+SdrMtFn9HG7wGU+iyQYoageBEV53TlGXlh8r3i1kHGuXCwbEQ+S+WYzQbYkkKFdY
+JtAC3kGaxwCPHijShWL/Wm5tEGksmDIaHQTXHgP+2h6ZC+aBAdNYPnLs0oEOZqnm
+Gek/ZUSO
+=X+Pz
+-----END PGP SIGNATURE-----
