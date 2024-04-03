@@ -6,77 +6,137 @@ section: About
 ---
 section_id: about
 ---
-active: no
+active: True
 ---
 title: Product Designer
 ---
 color: primary
 ---
 summary:
-The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Product Designer to be a part of the User Experience & Design (UX) Team.
 
-This position will be an integral part of a small, "full stack" design team, encompassing the disciplines of UX design, ethical user research and brand design. The team coordinates via IRC, email, gitlab, on audio/video calls and in-person meetings twice per year. A personal commitment to free and open source software, good communication and documentation skills, and passion for contributing to the greater good are all essential. This position will also require occasional international travel.
+# Internet Freedom Non-Profit Seeks Product Designer (12 month period)
 
-This is a **one-year, remote, full-time (40 hour/week) contract** with the possibility of extension. This position could be performed from most places in the world (please see below for the US sanctions & embargo disclaimer). 
+April 3rd, 2024
 
-The salary for this position is **$90,000 USD/year**.
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human
+rights and freedoms by creating and deploying free and open source anonymity
+and privacy technologies, is seeking a Product Designer with 4-7 years of
+related work experience to be a part of the User Experience & Design (UX) Team.
+
+Are you passionate about making software usable and fun for all types of
+people? Do you want to design software that helps people protect their privacy
+and freedom online? If so, this may be the job for you.
+
+This position will be an integral part of a small, "full stack" design team,
+encompassing the disciplines of UX, brand design, and ethical user research.
+The team coordinates via IRC, email, GitLab, on audio/video calls, and
+in-person meetings once per year. A personal commitment to free and open source
+software, good communication and documentation skills, and passion for
+contributing to the greater good are all essential.
+
+This is a one-year, full-time, remote position, with the possibility of
+extension. This position could be performed from most places in the world –
+please see below for the US sanctions & embargo disclaimer. The organization is
+also currently experimenting with a four day workweek.
+
+The salary for this position ranges from $80,000 - $93,000 USD/year (based on
+experience) and there is voluntary opt-in salary transparency for employees and
+contractors.
 ---
 description:
+
 ## Responsibilities
 
 In this role, you will:
 
-* Design and prototype new features for browser and circumvention apps on desktop and Android.
-* Adhere to, maintain and expand our design systems.
-* Support our developers to ensure product changes deliver the best possible user experience.
-* Engage with users and translate their feedback to meaningful product improvements.
+- Design and prototype new features for Tor Browser and other circumvention
+  apps on desktop and Android.
+- Adhere to, maintain, and expand our design systems and associated
+  documentation.
+- Support our developers to ensure product changes deliver the best possible
+  user experience.
+- Engage with users and translate their feedback to meaningful product
+  improvements.
+
 
 ## Skills & Experience
 
-### Required
+The ideal candidate for this job will have the following skills and experience:
 
-* Good understanding of platform conventions, common patterns and best practices.
-* Excellent proficiency with Figma and related design tools.
-* Great eye for detail and well organized design files.
-* History of working with comprehensive design systems.
-* Experience designing for both desktop and mobile audiences.
-* Experience conducting user research both remotely and in-person.
-* Fluency in written and spoken English.
-* **3+ years of industry experience covering the above.**
+- Excellent proficiency with Figma and related design tools.
+- Experience designing for both desktop and mobile audiences, including a
+  comprehensive understanding of platform conventions, UX patterns and common
+  components for each.
+- Experience designing for localization (including RTL scripts) and
+  accessibility, to meet the needs of a diverse user-base.
+- A history of working with comprehensive design systems.
+- A great eye for detail and well organized design files.
+- Fluency in written and spoken English, plus, as a bonus, proficiency in a
+  non-English language – especially Arabic, French, Mandarin, Persian,
+  Portuguese, Russian, Swahili or Spanish.
 
-### Preferred
+In addition to:
 
-* Proficiency in a non-English language, especially Chinese, Persian, Portuguese, Russian, and/or Spanish.
-* A history of designing or advocating for the causes of free-software, open source technology, human-rights, privacy, censorship-circumvention or an interest in internet-freedom in general.
-* Familiarity with the challenges faced by Internet users who are subject to surveillance and censorship.
+- A history of designing or advocating for the causes of free-software, open
+  source technology, human-rights, privacy, censorship-circumvention or an
+  interest in internet-freedom in general.
+- Familiarity with the challenges faced by internet users who are subject to
+  surveillance and censorship, and/or the concept of threat modeling in
+  general.
 
-If you feel that you meet most of these requirements or could meet them with a little time and support, we would love to hear from you!
+If you feel that you meet most of these requirements or could meet them with a
+little time and support, we would love to hear from you!
 
-## How to apply
+## How to Apply
 
-Please include the following in your application:
+[Click here to apply](https://www.careers-page.com/tor-project/job/QX7V3X3Y).
 
-* Your resumé and a cover letter in a single PDF.
-* Attach or link to a portfolio featuring recent samples of your work.
-
-In your cover letter, please include the reason you want to work at the Tor Project, and summarize your experience as it relates to the job description.
-
-[Submit your application here](https://www.careers-page.com/tor-project/job/L6XVW7RR/apply).
+A resumé, cover letter and portfolio featuring recent case studies is required.
+Please use the cover letter as an opportunity to tell us about how your
+experience relates to the job description and why you want to work at Tor.
 
 ## About The Tor Project
 
-The Tor Project's workforce is smart, committed, and hard working. We currently have a paid and contract staff of around 48 developers and operational support people, plus many volunteers who contribute to our work and thousands of volunteers who run relays. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+The Tor Project's workforce is inclusive, talented, and committed. We
+currently have a global paid and contract staff of around 50 developers
+and operational support people, plus many thousands of volunteers who
+contribute to our work world-wide. The Tor Project is funded in part by
+government research and development grants, and in part by individual,
+foundation, and corporate donations.
 
-Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+Tor is for everyone, and we are actively working to build a team that
+represents people from all over the world - people from diverse ethnic,
+national, and cultural backgrounds; people from all walks of life. We
+encourage people subject to systemic bias to apply, including people of
+color, indigenous people, LGBTQIA+ people, women, and any other person
+who is part of a group that is underrepresented in tech.
 
-The Tor Project has a strong culture of transparency and democratic processes, and long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+We have long-standing community guidelines and cultural norms. Our
+community is committed to creating an inclusive and welcoming
+environment. Please read more here:
 
-* Our Code of Conduct: https://gitweb.torproject.org/community/policies.git/tree/code_of_conduct.txt
-* Our Social Contract: https://gitweb.torproject.org/community/policies.git/tree/social_contract.txt
-* Our Statement of Values: https://gitweb.torproject.org/community/policies.git/tree/statement_of_values.txt
+- The Tor Project [Code of Conduct][]
+- The Tor Project [Social Contract][]
+- The Tor Project [Statement of Value][]
 
-The Tor Project has a competitive benefits package, including a generous PTO policy, at least 16 paid holidays per year (including the week between Christmas and New Year's, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+ [Code of Conduct]: https://community.torproject.org/policies/code_of_conduct/
+ [Social Contract]: https://community.torproject.org/policies/social_contract/
+ [Statement of Value]: https://community.torproject.org/policies/statement_of_values/
 
-**Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship of certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, Iran, and Syria.**
+The Tor Project has a competitive benefits package, including a generous
+PTO policy, 16 paid holidays per year (including the week between
+Christmas and New Years, when the office is closed), and flexible work
+schedule. Insurance benefits vary by employment status and country of
+residence.
 
-The Tor Project, Inc. is an equal opportunity, affirmative action employer.
+Applicants must be authorized to work in the country in which they live,
+we cannot provide visa assistance for this position.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+
+Notice: Due to [U.S. sanctions and embargo regulations][], The Tor
+Project, Inc. is not able to hire individuals with citizenship *and*
+residency in certain countries, including but not limited to Russia,
+North Korea, Cuba, Iraq, China, Iran, and Syria.
+
+[U.S. sanctions and embargo regulations]: https://ofac.treasury.gov/sanctions-programs-and-country-information
