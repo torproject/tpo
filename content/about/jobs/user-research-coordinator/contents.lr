@@ -1,0 +1,149 @@
+_model: job
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+active: True
+---
+color: primary
+---
+title: User Research Coordinator
+---
+summary:
+
+# Internet Freedom Nonprofit Seeks User Research Coordinator
+
+April 3rd, 2024
+
+The Tor Project, a 501(c)(3) nonprofit organization advancing human rights and
+freedoms by creating and deploying free and open source anonymity and privacy
+technologies, is seeking a User Research Coordinator with 4-7 years of related
+work experience to be a part of the User Experience & Design (UX) Team.
+
+Are you passionate about making software usable and fun for all types of
+people? Do you want to coordinate user research for software that helps people
+protect their privacy and freedom online? If so, this may be the job for you.
+
+This position will be an integral part of a small, "full stack" design team,
+encompassing the disciplines of UX, brand design, and ethical user research.
+
+The team coordinates via IRC, email, GitLab, on audio/video calls, and
+in-person meetings once per year. In addition, this position will also require
+international travel at multiple points throughout the year.
+
+A personal commitment to free and open source software, good communication and
+documentation skills, and passion for contributing to the greater good are all
+essential. At the Tor Project, we reject invasive data gathering practices and
+adhere to the principles of consent, respect, and empathy.
+
+This is a full-time, remote position, which could be performed from most places
+in the world – please see below for the US sanctions & embargo disclaimer. The
+organization is also currently experimenting with a four day workweek.
+
+The salary for this position ranges from $70,000 - $80,000 USD (based on
+candidate experience), and there is voluntary opt-in salary transparency for
+employees and contractors.
+
+---
+description:
+
+## Responsibilities
+
+In this role, you will:
+
+- Create detailed research plans for various Tor-powered products using a
+  diverse range of research methods.
+- Engage with regional experts to conduct country-level risk assessments for
+  our participants.
+- Conduct some user research activities first-hand, and coordinate others with
+  partners from our wider community.
+- Translate user feedback into actionable findings for our product designers
+  and developers.
+- Maintain and expand the documentation we provide about open user research at
+  Tor.
+- Work with a multidisciplinary team of people from different cultures and
+  backgrounds.
+
+## Skills & Experience
+
+The ideal candidate for this job will have the following skills and experience:
+
+- Experience conducting user research both in-person and remotely, including
+  usability testing, diary studies, surveys, interviews or other research
+  methods.
+- An emphasis on producing high-quality documentation to support your user
+  research activities, including research plans, survey scripts, reports, user
+  personas and more.
+- An excellent eye for detail and high degree of organization.
+- Fluency in written and spoken English, plus proficiency in a non-English
+  language – especially Arabic, French, Mandarin, Persian, Portuguese, Russian,
+  Swahili or Spanish.
+
+In addition to:
+
+- A history of designing or advocating for the causes of free-software, open
+  source technology, human-rights, privacy, censorship-circumvention or an
+  interest in internet-freedom in general.
+- Familiarity with the challenges faced by internet users who are subject to
+  surveillance and censorship, and/or the concept of threat modeling in
+  general.
+
+If you feel that you meet most of these requirements or could meet them with a
+little time and support, we would love to hear from you!
+ 
+## How to Apply
+
+[Please click here to apply](https://www.careers-page.com/tor-project/job/L9VV9W9Y).
+
+A resumé, cover letter and portfolio featuring recent case studies is required.
+Please use the cover letter as an opportunity to tell us about how your
+experience relates to the job description and why you want to work at Tor.
+
+## About The Tor Project
+
+The Tor Project’s workforce is inclusive, talented, and committed. We
+currently have a global paid and contract staff of around 50 developers
+and operational support people, plus many thousands of volunteers who
+contribute to our work world-wide. The Tor Project is funded in part by
+government research and development grants, and in part by individual,
+foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that
+represents people from all over the world - people from diverse ethnic,
+national, and cultural backgrounds; people from all walks of life. We
+encourage people subject to systemic bias to apply, including people of
+color, indigenous people, LGBTQIA+ people, women, and any other person
+who is part of a group that is underrepresented in tech.
+
+We have long-standing community guidelines and cultural norms. Our
+community is committed to creating an inclusive and welcoming
+environment. Please read more here:
+
+- The Tor Project [Code of Conduct][]
+- The Tor Project [Social Contract][]
+- The Tor Project [Statement of Value][]
+
+ [Code of Conduct]: https://community.torproject.org/policies/code_of_conduct/
+ [Social Contract]: https://community.torproject.org/policies/social_contract/
+ [Statement of Value]: https://community.torproject.org/policies/statement_of_values/
+
+The Tor Project has a competitive benefits package, including a generous
+PTO policy, 16 paid holidays per year (including the week between
+Christmas and New Years, when the office is closed), and flexible work
+schedule. Insurance benefits vary by employment status and country of
+residence.
+
+Applicants must be authorized to work in the country in which they live,
+we cannot provide visa assistance for this position.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+
+Notice: Due to [U.S. sanctions and embargo regulations][], The Tor
+Project, Inc. is not able to hire individuals with citizenship *and*
+residency in certain countries, including but not limited to Russia,
+North Korea, Cuba, Iraq, China, Iran, and Syria.
+
+[U.S. sanctions and embargo regulations]: https://ofac.treasury.gov/sanctions-programs-and-country-information
