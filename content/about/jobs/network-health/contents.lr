@@ -1,0 +1,67 @@
+_model: job
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+active: True
+---
+color: primary
+---
+title: Network Health Engineer
+---
+summary:
+
+## Internet Freedom Nonprofit Seeks Network Health Engineer
+
+April 24, 2024
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a Network Health Engineer with 1 to 2 years of related work experience to improve our network health and metrics tooling.
+
+This is a full-time remote position.  Salary for this position will range from $75,000 to $78,750 USD (based on candidate experience) and there is voluntary opt-in salary transparency for employees and contractors.
+
+---
+description:
+
+### The Job
+The person in this position will work directly with helping us maintain existing systems, and design new systems for gathering and analyzing Tor network data. 
+They will help the rest of the teams understand the data available to improve both our tools and the overall Tor network health. The bulk of our code is currently written in Java, smaller portions are written in R, Python, PostgreSQL, and JavaScript. We are transitioning to a new pipeline mainly in Rust and Python.  Part of this job will be to analyze and fix bugs in our current code, review patches and implement the new pipeline design.  You will be working within the network health team in Tor and, additionally, collaborating with other teams providing support and advice on data collection and measurements for their needs in their respective projects.  The network health team meets in-person once or twice each year.
+
+### Requirements
+Technical Abilities/Experience:
+- Have experience finding your way into existing Java, R, Python, Rust and PostgreSQL-based code bases and the ability to review patches and make changes to fix bugs/smaller enhancements.
+- Have experience with web application development in the Python programming language.  Experience with known frameworks is a plus. 
+- Some knowledge of APIs development and RESTful patterns.
+- Ability to identify shortcomings in our data pipeline and suggest improvements to reduce complexity and future maintenance efforts. 
+- Have experience working with Git and Gitlab or similar issue tracking tools. 
+- Ability to learn quickly and can adapt to our current processes.
+- Data analysis: Ability to make sense of data sets and use data analysis tools to find and visualize interesting patterns.  
+- Some knowledge of monitoring tools like Prometheus and standards like openmetrics.
+
+Collaborative Requirements: 
+- Ability to work remotely 100% of the time, as synchronization happens via email, IRC/Matrix or BBB/Jitsi meetings. 
+- Language: write and speak fluent English.
+- Comfortable posting to a public mailing list or speaking up in a public IRC channel to ask/answer questions, even when you think the question might be obvious or silly.
+
+Bonus skills:
+- Open source experience: You have contributed to an open source project before, and you're accustomed to a pattern of early and frequent releases without attempting to finalize things on your own. 
+- Networking background: Experience working with networks and measurements in the past. 
+- You support Internet Freedom!
+
+### How to Apply 
+[Click here to apply](https://www.careers-page.com/tor-project/job/L8RV8553).  A cover letter is required and you will be prompted to enter this in plain text.  In your cover letter, please explain your experience as it relates to the job description and why you want to work at Tor.
+
+### About The Tor Project
+The Tor Project's workforce is inclusive, talented, and committed.  We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide.  The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.  Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life.  We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.  We have long-standing community guidelines and cultural norms.  Our community is committed to creating an inclusive and welcoming environment.  Please read more here:
+
+-  https://community.torproject.org/policies/code_of_conduct/
+-  https://community.torproject.org/policies/social_contract/
+-  https://community.torproject.org/policies/statement_of_values/
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Years, and a flexible work schedule.  Insurance benefits vary by employment status and country of residence.  The organization is also currently experimenting with a four day workweek.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.  Applicants must be authorized to work in the country in which they live; we cannot provide visa assistance for this position.
+
+Notice: Due to U.S. sanctions and embargo regulations, The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria. (https://ofac.treasury.gov/sanctions-programs-and-country-information)
