@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: teor
+---
+nickname: teor
+---
+pronoun: they
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=C8556CED5D90A0C529F64D43450CBA7F968F094B
+---
+description:
+
+Former Tor developer and chutney maintainer, worked on onion services, directory documents, and statistics.
