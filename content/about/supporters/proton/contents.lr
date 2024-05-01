@@ -1,13 +1,15 @@
 _model: supporter
 ---
-type: green_onions
+type: vidalia_onions
 ---
 active: true
 ---
-name: Proton
+name: Proton Mail
+---
+logo: /static/images/supporters/proton_mail.png
 ---
 key: 03
 ---
 _hidden: yes
 ---
-link: https://www.proton.me/
+link: https://mail.proton.me/
