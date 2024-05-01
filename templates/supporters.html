@@ -24,7 +24,7 @@
 <div class="container fluid-container">
   <div class="row">
     {% for item in shallot_onions %}
-      {{ render_supporter(item, render_description=True, render_logo=True) }}
+      {{ render_supporter(item, render_title=True, render_description=True, render_logo=True) }}
     {% endfor %}
   </div>
 </div>
@@ -36,7 +36,7 @@
 <div class="container fluid-container">
   <div class="row">
     {% for item in vidalia_onions %}
-      {{ render_supporter(item, render_description=False, render_logo=True) }}
+      {{ render_supporter(item, render_title=True, render_description=False, render_logo=True) }}
     {% endfor %}
   </div>
 </div>
@@ -48,7 +48,7 @@
 <div class="container fluid-container">
   <div class="row">
     {% for item in green_onions %}
-      {{ render_supporter(item, render_description=False, render_logo=False) }}
+      {{ render_supporter(item, render_title=True, render_description=False, render_logo=False) }}
     {% endfor %}
   </div>
 </div>
@@ -60,7 +60,7 @@
 <div class="container fluid-container">
   <div class="row">
     {% for item in in_kind %}
-      {{ render_supporter(item, render_description=False, render_logo=False) }}
+      {{ render_supporter(item, render_title=True, render_description=False, render_logo=False) }}
     {% endfor %}
   </div>
 </div>

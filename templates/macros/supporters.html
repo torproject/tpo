@@ -1,11 +1,13 @@
-{% macro render_supporter(item, render_description, render_logo) %}
+{% macro render_supporter(item, render_title, render_description, render_logo) %}
 <div class="col-md-4 col-xl-4 my-2">
 <div class="card border-1 h-100">
   {%- if (render_logo) %}<img class="card-img-top" src="{{ item.logo|asseturl }}" alt="Logo of {{ item.name }}">{% endif %}
+  {%- if (render_title or render_description) %}
   <div class="card-body {% if (not render_logo) %}bg-light text-center{% endif %}">
   <h4><a href="{{ item.link }}">{{ item.name }}</a></h4>
   {%- if (render_description) %}{{ item.description }}{% endif %}
   </div>
+  {%- endif -%}
 </div>
 </div>
 {% endmacro %}
