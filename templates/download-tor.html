@@ -18,8 +18,8 @@
         {% set t = bag('versions', 'tor-stable') %}
         {% set a = bag('versions', 'tor-alpha') %}
         {% set download_link = 'https://dist.torproject.org/tor-' + t.version + '.tar.gz' %}
-        {% set changelog_link = 'https://gitlab.torproject.org/tpo/core/tor/-/blob/' + t.version + 'Changelog' %}
-        {% set alpha_changelog_link = 'https://gitlab.torproject.org/tpo/core/tor/-/blob/' + a.version + 'Changelog' %}
+        {% set changelog_link = 'https://gitlab.torproject.org/tpo/core/tor/-/blob/tor-' + t.version + '/ChangeLog' %}
+        {% set alpha_changelog_link = 'https://gitlab.torproject.org/tpo/core/tor/-/blob/tor-' + a.version + '/ChangeLog' %}
         {% set checksum_link = download_link + '.sha256sum' %}
         {% set sig_link = checksum_link + '.asc' %}
         {% set alpha_download_link = 'https://dist.torproject.org/tor-' + a.version + '.tar.gz' %}
