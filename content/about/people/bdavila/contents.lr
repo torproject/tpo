@@ -10,6 +10,8 @@ pronoun: she
 ---
 nickname: bdavila
 ---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=7CDA1E4E0AD0FD16BFEC86A6E8F6DE52E7591EC1
+---
 image: /static/images/people/bdavila.png
 ---
 description:
