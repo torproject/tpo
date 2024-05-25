@@ -1,0 +1,13 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: False
+---
+time: 2022-2023
+---
+name: Blockchair
+---
+_hidden: yes
+---
+link: https://blockchair.com/
