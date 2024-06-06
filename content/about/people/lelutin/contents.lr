@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: lelutin
+---
+pronoun: he
+---
+nickname: LeLutin
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=0D47F1D03740F712AA8C630AA28C297118E9F23D
+---
+description:
+
+Part of the sysadmin team.
