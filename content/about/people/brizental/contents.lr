@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Bea Rizental
+---
+nickname: brizental
+---
+pronoun: she/her
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=15A3246E6CC2B3092CC691E88F25056D6260830B
+---
+image: /static/images/people/bea.png
+---
+description:
+
+Software Engineer on the Applications Team working with quality assurance.
