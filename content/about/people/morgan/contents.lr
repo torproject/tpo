@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role:core
+---
+name: Morgan
+---
+nickname: morganava
+---
+pronoun: they/them
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=B134686F5A2C8DCA475AB4034B60306A5EA28FAE
+---
+image: /static/images/people/morgan.png
+---
+description:
+
+Tor Project applications team lead
