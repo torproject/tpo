@@ -1,4 +1,4 @@
-_model: sponsor
+_model: supporter
 ---
 type: foundations_and_institutions
 ---
@@ -6,7 +6,7 @@ active: true
 ---
 time: 2024
 ---
-name: Open Sats
+name: OpenSats
 ---
 key: 34
 ---
