@@ -1,0 +1,21 @@
+_model: sponsor
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2024
+---
+name: Open Sats
+---
+key: 34
+---
+logo: /static/images/supporters/opensats_logo.png
+---
+_hidden: yes
+---
+link: https://opensats.org/
+---
+description:
+
+Open Sats Initiative, Inc. is a 501(c)(3) public charity which aims to fund Bitcoin-related and Nostr-related free and open-source projects and associated education and research initiatives. Open Sats provided a grant to support two onion service developers.
