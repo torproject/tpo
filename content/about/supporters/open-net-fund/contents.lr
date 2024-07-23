@@ -1,4 +1,4 @@
-_model: sponsor
+_model: supporter
 ---
 type: foundations_and_institutions
 ---
@@ -14,7 +14,7 @@ logo: /static/images/supporters/opennetfund_logo.png
 ---
 _hidden: yes
 ---
-link: https://www.opennet.fund/
+link: https://opennet.fund/
 ---
 description:
 
