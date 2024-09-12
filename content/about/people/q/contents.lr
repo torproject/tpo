@@ -1,0 +1,22 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Q Misell
+---
+pronoun: it/she
+---
+nickname: TheEnbyperor
+---
+mastodon_url: https://glauca.space/@q
+---
+gpg: https://magicalcodewit.ch/pgp-pubkey.pem
+---
+image: /static/images/people/q.jpg
+---
+description:
+
+Researcher at the [Max-Planck Institute for Informatics](https://mpi-inf.mpg.de), Germany.
+Working on ACME and Onion Services.
