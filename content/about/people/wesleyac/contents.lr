@@ -1,0 +1,19 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Wesley Aptekar-Cassels
+---
+nickname: wesleyac
+---
+pronoun: they
+---
+gpg: /static/keys/wesleyac.txt
+---
+image: /static/images/people/wesleyac.jpg
+---
+description:
+
+Developer on the Network team, working on [Arti](https://gitlab.torproject.org/tpo/core/arti).
