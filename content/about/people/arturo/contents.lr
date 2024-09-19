@@ -1,0 +1,14 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Arturo
+---
+nickname: elshrek
+---
+image: /static/images/people/arturo.png
+---
+description:
+Individual Giving Manager. Layer by layer, I make sure supporters are happy and engaged.
