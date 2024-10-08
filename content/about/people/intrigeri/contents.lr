@@ -10,8 +10,10 @@ nickname: intrigeri
 ---
 pronoun: he
 ---
-gpg: https://gaffer.ptitcanardnoir.org/intrigeri/contact/
+gpg: https://gaffer.boum.org/intrigeri/contact/
+---
+image: /static/images/people/intrigeri.png
 ---
 description:
 
-He is one of our main interfaces with the [Tails](https://tails.boum.org/) project.
+Team Lead of the [Tails](https://tails.net/) Team at Tor Project.
