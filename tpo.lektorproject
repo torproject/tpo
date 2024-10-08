@@ -50,6 +50,11 @@ name = Français (fr)
 url_prefix = /fr/
 locale = fr
 
+[alternatives.ga]
+name = Gaeilge (ga)
+url_prefix = /ga/
+locale = ga
+
 [alternatives.hu]
 name =  Magyar nyelv (hu)
 url_prefix = /hu/
@@ -84,6 +89,16 @@ locale = km
 name = 한국어 (ko)
 url_prefix = /ko/
 locale = ko
+
+[alternatives.nl]
+name = Nederlands (nl)
+url_prefix = /nl/
+locale = nl
+
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
 
 [alternatives.pt-BR]
 name = Português Brasil (pt-BR)
