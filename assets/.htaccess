@@ -98,84 +98,18 @@ RewriteRule ^eff/(.*) https://2019.www.torproject.org/eff/$1 [R=302,L]
 # Videos
 RewriteRule ^videos/(.*) https://2019.www.torproject.org/videos/$1 [R=302,L]
 
-# Donation campaign
-# 2017
-# Special-case the donate-options and amazon page so it doesn't get redirected
-RewriteRule ^donate/donate(.*) https://donate.torproject.org [R=302,L]
+# Donation campaigns
+# Handle custom links used for web statistics
+RewriteRule ^donate/donate(.*) https://donate.torproject.org/ [R=302,L]
+
+# Donation campaigns (legacy redirections)
+# Handle URLs that were used in past publications
 RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq [R=302,L]
 RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy [R=302,L]
 RewriteRule ^donate/thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
-
-# The following redirect is necessary because we're using that URL on
-# some external resources (the donate infrastructure in particular) and
-# getting it changed there is apparently hard or something.
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
 
-# Donation campaign
-# Donation campaign
-# 2023 YEC - announcement posts
-RewriteRule ^donate/donate-fb-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-ig-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-li-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-md-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-tw-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-red-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-tel-ann-2023(.*) https://donate.torproject.org/ [R=302,L]
-
-# 2023 YEC - blog posts
-RewriteRule ^donate/donate-bp1-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-bp2-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-bp3-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-bp4-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-bp5-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-bp6-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-bp-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-
-# 2023 YEC - emails
-RewriteRule ^donate/donate-em1-2023(.*) https://donate.torproject.org [R=302,L]
-RewriteRule ^donate/donate-em2-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-em3-2023(.*) https://donate.torproject.org [R=302,L]
-RewriteRule ^donate/donate-em4-2023(.*) https://donate.torproject.org [R=302,L]
-RewriteRule ^donate/donate-em-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-em-lc-2023(.*) https://donate.torproject.org [R=302,L]
-
-# 2023 YEC - social media
-RewriteRule ^donate/donate-fb-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-fb-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-gp-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-ig-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-ig-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-li-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-li-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-md-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-md-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-tw-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-tw-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-yt-2023(.*) https://donate.torproject.org/ [R=302,L]
-
-# 2023 YEC - tor newsletter
-RewriteRule ^donate/donate-tn1-2023(.*) https://donate.torproject.org [R=302,L]
-RewriteRule ^donate/donate-tn2-2023(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-tn3-2023(.*) https://donate.torproject.org [R=302,L]
-RewriteRule ^donate/donate-tn-fot-2023(.*) https://donate.torproject.org/ [R=302,L]
-
-# 2023 YEC - about:tor & website
-RewriteRule ^donate/donate-2023-banner(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/2023-.+ https://donate.torproject.org/ [L,R=302]
-RewriteRule ^2023-(.+) /donate/2023-$1 [L,R=302]
-
-# Donate page carryovers - evaluate sometime
-RewriteRule ^donate(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-amazon(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-button(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-download(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-foot(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-options(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate-pbp-hp1(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate/donate(.*) https://donate.torproject.org/ [R=302,L]
-
-#
 # Redirects for languages still not translated, and other language situations
 # forward requests in /en to the root folder
 RewriteRule ^(en-US|en)$ / [R=302,L]
