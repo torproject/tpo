@@ -12,7 +12,7 @@ pronoun: he
 ---
 nickname: anarcat
 ---
-gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=8DC901CE64146C048AD50FBB792152527B75921E
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=BBB6CD4C98D74E1358A752A602293A6FA4E53473
 ---
 description:
-Senior sysadmin and chief documentation apologist.
+Sysadmin team lead and chief documentation apologist.
