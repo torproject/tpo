@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Zen Fu
+---
+pronoun: he
+---
+nickname: zen-fu
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=3F64CC01730A3FA30E1E3076E10DD837303AD566
+---
+description:
+
+Member of the sysadmin team.
