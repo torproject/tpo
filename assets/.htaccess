@@ -72,6 +72,9 @@ RewriteRule ^newsletter(.*) https://newsletter.torproject.org [R=302,L]
 # Press
 RewriteRule ^press/press(.*) /press [R=302,L]
 
+# .well-known/
+RewriteRule ^\.well-known/org.flathub.VerifiedApps.txt$ /org.flathub.VerifiedApps.txt [R=302,L]
+
 # other (feel free to categorize)
 RewriteRule ^people(.*) /about/people$1 [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
