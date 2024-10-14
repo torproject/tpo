@@ -8,10 +8,12 @@ name: juga
 ---
 nickname: juga
 ---
-gpg: https://juga.space/files/juga.asc
+pronoun: they
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=2DA81D01455C3A0032198850F305447AF806D46B
 ---
 image: /static/images/people/juga.png
 ---
 description:
 
-Contributed to OONI, bug tracker features, wrote tordyguards. Currently working on bandwidth scanner.
+Senior software enginner on the Network Health team.
