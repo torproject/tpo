@@ -25,6 +25,7 @@
           {% set download_link = download_prefix + 'tor-browser-windows-x86_64-portable-' + t.version + '.exe' %}
           {% set sig_link = download_link + '.asc' %}
         {% elif id == 'apple' %}
+          {% set t = bag('versions', 'torbrowser-macos-stable') %}
           {% set download_link = download_prefix + 'tor-browser-macos-' + t.version + '.dmg' %}
           {% set sig_link = download_link + '.asc' %}
         {% else %}
