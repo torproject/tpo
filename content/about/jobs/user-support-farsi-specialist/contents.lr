@@ -1,0 +1,115 @@
+_model: job
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+active: no
+---
+title: User Support Specialist in Farsi
+---
+color: primary
+---
+summary:
+Internet Freedom Nonprofit Seeks User Support in Farsi
+
+October XX, 2024
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a User Support Specialist to assist Farsi-speaking users as part of its Community Team.
+
+Are you passionate about helping people around the world access the Internet freely, safely, and anonymously?
+
+As the User Support Specialist for Farsi, you will be responsible for providing technical support and digital security best practices with Farsi-speaking Tor users. You will assist users remotely via various communication methods such as email, Telegram, Signal, WhatsApp, tickets, text-based live chat (IRC), and online forums. You will also collaborate with the Anti-censorship Team to improve Tor circumvention settings and other Tor products by identifying, reproducing, and tracking bugs.
+
+This position will be a contract for 2 years and reports directly to the Tor Project Community Team.
+
+The Community Team at the Tor Project coordinates digital security trainings and user education, localization, user support, and documentation. The team is composed of volunteers and The Tor Project staff members.
+
+We are looking for someone with a personal commitment to free and open source software, excellent communication and documentation skills, and a passion for helping others.
+
+This is a part-time, remote position, estimated at 20 hours per week. Hourly rate will be between $XX USD, depending on experience.
+
+---
+description:
+
+## Tor User Support in Farsi
+
+Internet Freedom Nonprofit Seeks User Support in Farsi
+
+October XX, 2024
+
+The Tor Project, Inc., a 501(c)(3) nonprofit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, is seeking a User Support Specialist to assist Farsi-speaking users as part of its Community Team.
+
+Are you passionate about helping people around the world access the Internet freely, safely, and anonymously?
+
+As the User Support Specialist for Farsi, you will be responsible for providing technical support and digital security best practices with Farsi-speaking Tor users. You will assist users remotely via various communication methods such as email, Telegram, Signal, WhatsApp, tickets, text-based live chat (IRC), and online forums. You will also collaborate with the Anti-censorship Team to improve Tor circumvention settings and other Tor products by identifying, reproducing, and tracking bugs.
+
+This position will be a contract for 2 years and reports directly to the Tor Project Community Team.
+
+The Community Team at the Tor Project coordinates digital security trainings and user education, localization, user support, and documentation. The team is composed of volunteers and The Tor Project staff members.
+
+We are looking for someone with a personal commitment to free and open source software, excellent communication and documentation skills, and a passion for helping others.
+
+This is a part-time, remote position, estimated at 20 hours per week. Hourly rate will be between $XX USD, depending on experience.
+
+## Job Requirements
+
+In this role, you will:
+
+- Answer Farsi users' requests on our support forums and channels.
+- Provide support to community organizations that speak Farsi.
+- Collaborate on identifying Tor product bugs and other issues.
+- Compile and share usability issues with the UX and Applications teams.
+- Collaborate with Tor Anti-censorship team
+- Collaborate on maintenance and improvement of user documentation.
+- Help with QA for Tor Browser and other feature releases
+
+### Required qualifications
+
+- Fluency in Farsi and English.
+- Knowledge of how Tor works and understanding of Tor Browser features.
+- Experience providing user support in a remote setting.
+- Strong experience with helpdesk tools like Request Tracker (RT) and forum platforms like Discourse.
+- Familiarity with markdown (e.g. wiki markdown formatting, basic HTML, etc.)
+- Strong experience with bug trackers like GitLab and GitHub.
+- Cross-platform technical skills, including troubleshooting and familiarity with Android, iOS, Microsoft Windows, macOS, and Linux-based operating systems.
+- Awareness of privacy-by-design practices and respect for our users' privacy and anonymity.
+- Largely self-directed, motivated, and organized.
+- Excellent documentation skills.
+
+### Preferred qualifications
+
+- Familiarity with tools that are part of the Tor ecosystem like Tails, Orbot, and OnionShare.
+- General understanding of Internet privacy and security issues.
+- Interest in user education.
+- Good understanding of threat models for users in high-risk regions.
+- Past contributions to and familiarity with the practices of free software projects.
+- Passion and dedication to Internet freedom is an added plus.
+
+## How to Apply
+
+[Please click here to apply](link-to-manatal).
+
+A resumé, cover letter, and a sample of your work (ideally something that demonstrates your documentation or user support skills). Please use the cover letter as an opportunity to tell us about how your experience relates to the job description and why you want to work at Tor.
+
+## About The Tor Project
+
+The Tor Project’s workforce is inclusive, talented, and committed. We currently have a global paid and contract staff of around 50 developers and operational support people, plus many thousands of volunteers who contribute to our work world-wide. The Tor Project is funded in part by government research and development grants, and in part by individual, foundation, and corporate donations.
+
+Tor is for everyone, and we are actively working to build a team that represents people from all over the world - people from diverse ethnic, national, and cultural backgrounds; people from all walks of life. We encourage people subject to systemic bias to apply, including people of color, indigenous people, LGBTQIA+ people, women, and any other person who is part of a group that is underrepresented in tech.
+
+We have long-standing community guidelines and cultural norms. Our community is committed to creating an inclusive and welcoming environment. Please read more here:
+
+- The Tor Project [Code of Conduct](https://community.torproject.org/policies/code_of_conduct/) 
+- The Tor Project [Social Contract](https://community.torproject.org/policies/social_contract/)
+- The Tor Project [Statement of Value](https://community.torproject.org/policies/statement_of_values/)
+
+The Tor Project has a competitive benefits package, including a generous PTO policy, 16 paid holidays per year (including the week between Christmas and New Years, when the office is closed), and flexible work schedule. Insurance benefits vary by employment status and country of residence.
+
+Applicants must be authorized to work in the country in which they live, we cannot provide visa assistance for this position.
+
+The Tor Project, Inc., is an equal opportunity, affirmative action employer.
+
+Notice: Due to [U.S. sanctions and embargo regulations](https://ofac.treasury.gov/sanctions-programs-and-country-information), The Tor Project, Inc. is not able to hire individuals with citizenship *and* residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria.
