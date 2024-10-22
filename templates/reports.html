@@ -13,7 +13,7 @@
 </table>
 </div>
 <div class="container py-3">
-<h3 class="text-primary display-5">{{ _('Reports') }}</h3>
+<h3 class="text-primary display-5">{{ _('Tax and Financial Reports') }}</h3>
 </div>
 <div class="container py-3">
   <table class="table">
@@ -28,6 +28,28 @@
   <tbody>
     {% from "macros/reports.html" import render_report %}
     {% set items = site.query('/about/reports').include_undiscoverable(true).filter(F.type == "report")%}
+    {% for item in items %}
+      {{ render_report(item, this.alt) }}
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<div class="container py-3">
+<h3 class="text-primary display-5">{{ _('Code Audits') }}</h3>
+</div>
+<div class="container py-3">
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">{{ _('Year') }}</th>
+      <th scope="col">{{ _('Type') }}</th>
+      <th scope="col">{{ _('Title') }}</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% from "macros/reports.html" import render_report %}
+    {% set items = site.query('/about/reports').include_undiscoverable(true).filter(F.type == "code_audit")%}
     {% for item in items %}
       {{ render_report(item, this.alt) }}
     {% endfor %}
