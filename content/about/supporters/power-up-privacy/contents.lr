@@ -1,0 +1,25 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2024
+---
+name: Power Up Privacy
+---
+key: 35
+---
+logo: /static/images/supporters/power-up-privacy.png
+---
+_hidden: yes
+---
+link: https://powerupprivacy.com/
+---
+description:
+
+Power Up Privacy is an advocacy group that funds privacy-related research and
+development projects. They seek to make maximum impact by identifying key,
+underfunded areas in the privacy software ecosystem and injecting resources,
+financial and otherwise, in order to strengthen the necessary infrastructure we
+need to preserve freedom and human rights.
