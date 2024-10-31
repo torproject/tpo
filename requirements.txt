@@ -1,4 +1,4 @@
-lektor-markdown-image-attrs==0.2.1
 ./lego/packages/i18n
 ./lego/packages/lektor-md-tag
-./packages/lektor-scss
+./lego/packages/markdown-image-attrs
+./lego/packages/scss

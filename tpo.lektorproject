@@ -144,8 +144,3 @@ locale = zh-CN
 name = 正體中文 (zh-TW)
 url_prefix = /zh-TW/
 locale = zh-TW
-
-[packages]
-lektor-i18n = 0.4.4
-lektor-scss = 1.4.1
-Markdown = 3.4.3
