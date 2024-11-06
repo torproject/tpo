@@ -1,0 +1,20 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2024
+---
+name: U.S. Department of State
+---
+key: 36
+---
+logo: /static/images/supporters/USSD.png
+---
+_hidden: yes
+---
+link: https://www.state.gov/
+---
+description:
+The mission of The U.S. Department of State is to protect and promote U.S. security, prosperity, and democratic values and shape an international environment in which all Americans can thrive. The U.S. Department of State is supporting a grant to improve censorship circumvention through Tor tools.
