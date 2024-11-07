@@ -1,0 +1,18 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: boyska
+---
+nickname: boyska
+---
+pronoun: he
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=0617ACD88207FDD8BE390BE03D72E31D55CC34E6
+---
+image: /static/images/people/boyska.png
+---
+description:
+[Tails](https://tails.net/) developer
