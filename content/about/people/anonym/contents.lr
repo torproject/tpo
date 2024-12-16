@@ -1,0 +1,14 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: anonym
+---
+nickname: anonym
+---
+pronoun: he/him
+---
+description:
+[Tails](https://tails.net/) developer
