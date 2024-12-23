@@ -1,0 +1,141 @@
+{
+   "entity" : {
+      "description" : "The Tor Project is a nonprofit organization that develops and maintains open source, privacy-focused tools to advance human rights and defend online freedom. We are best known for creating and maintaining the Tor network and Tor Browser, which enable secure, anonymous communication and browsing for millions worldwide. Our other most widely used projects include Tails – focused on offering privacy and anonymity at the level of the operating system – and Onion Services – which provide a way to offer a variety of crucial services with all the privacy and security goodness of the Tor network.",
+      "email" : "grants@torproject.org",
+      "name" : "Tor Project, Inc.",
+      "phone" : "",
+      "role" : "steward",
+      "type" : "organisation",
+      "webpageUrl" : {
+         "url" : "https://www.torproject.org"
+      }
+   },
+   "funding" : {
+      "channels" : [
+         {
+            "address" : "",
+            "description" : "We prefer receiving donations and grants via direct bank transfers. Please e-mail us at grants@torproject.org for details.",
+            "guid" : "mybank",
+            "type" : "bank"
+         },
+         {
+            "address" : "https://donate.torproject.org/cryptocurrency/",
+            "description" : "We support the following cryptocurrencies: BTC, DOGE, ETH, LTC, XMR, XLM, ZEC. The corresponding wallet addresses are in the link provided under the ‘Address’ column.",
+            "guid" : "crypto",
+            "type" : "other"
+         }
+      ],
+      "history" : [
+         {
+            "currency" : "USD",
+            "description" : "FY ended on 30 June 2024",
+            "expenses" : 8102921,
+            "income" : 8055978,
+            "taxes" : 0,
+            "year" : 2024
+         },
+         {
+            "currency" : "USD",
+            "description" : "FY ended on 30 June 2023",
+            "expenses" : 7521348,
+            "income" : 9301317,
+            "taxes" : 0,
+            "year" : 2023
+         },
+         {
+            "currency" : "USD",
+            "description" : "FY ended on 30 June 2022",
+            "expenses" : 5807987,
+            "income" : 6954269,
+            "taxes" : 0,
+            "year" : 2022
+         },
+         {
+            "currency" : "USD",
+            "description" : "FY ended on 30 June 2021",
+            "expenses" : 4734743,
+            "income" : 8211146,
+            "taxes" : 0,
+            "year" : 2021
+         },
+         {
+            "currency" : "USD",
+            "description" : "FY ended on 30 June 2020",
+            "expenses" : 4811395,
+            "income" : 4851486,
+            "taxes" : 0,
+            "year" : 2020
+         }
+      ],
+      "plans" : [
+         {
+            "amount" : 60000,
+            "channels" : [
+               "mybank",
+               "crypto"
+            ],
+            "currency" : "USD",
+            "description" : "This will cover the cost of two systems administrators working part-time on the project.",
+            "frequency" : "yearly",
+            "guid" : "sysadmin-time",
+            "name" : "Sysadmin compensation",
+            "status" : "active"
+         },
+         {
+            "amount" : 20000,
+            "channels" : [
+               "mybank",
+               "crypto"
+            ],
+            "currency" : "USD",
+            "description" : "This will cover the cost of one Tails developer working part-time on the project.",
+            "frequency" : "yearly",
+            "guid" : "developer-time",
+            "name" : "Developer compensation",
+            "status" : "active"
+         },
+         {
+            "amount" : 8000,
+            "channels" : [
+               "mybank",
+               "crypto"
+            ],
+            "currency" : "USD",
+            "description" : "This will cover the costs of running the organisation, such as those incurred for running financial, administrative, and human resource systems.",
+            "frequency" : "yearly",
+            "guid" : "overhead",
+            "name" : "Overhead support",
+            "status" : "active"
+         }
+      ]
+   },
+   "projects" : [
+      {
+         "description" : "Tails is a live operating system that can be started on almost any computer from a USB stick or a DVD. Tails preserves its users’ privacy and anonymity, and is widely used by journalists, activists, and everyday users to stay safe from surveillance and censorship. Tails is designed to be accessible for users across levels of technological comfort as it is packaged with ready-to-use essential tools for secure communications, including the Tor Browser, OnionShare and Metadata Cleaner.\nFor over 15 years, Tails operated as a small workers’ collective that was able to distribute an entire operating system because of a consistent emphasis on technical sustainability through strong upstream and downstream relationships. In July 2024, Tails became a part of the Tor Project’s to become even more impactful in delivering on its core mission, by unlocking technological complementarities with the Tor Project, and by relying on the stronger organisational structure of the Tor Project.\nOne of the key aspects of sustaining this organisational merger will be the successful integration of the Tails infrastructure within Tor. This will be a mammoth exercise, and will be progressively completed over the next 3 years. Parallely, we want to continue delivering on our core mission, and continue improving Tails OS to be more usable for our current and potential users. These works, together, will be crucial to ensuring the sustainability of Tails’s growth. And for this, we are requesting support from the FLOSS/fund.",
+         "guid" : "tails",
+         "licenses" : [
+            "spdx:GPL-3.0-or-later"
+         ],
+         "name" : "Tails: The Amnesic Incognito Live System",
+         "repositoryUrl" : {
+            "url" : "https://gitlab.tails.boum.org/tails/tails",
+            "wellKnown" : "https://gitlab.tails.boum.org/tails/tails/-/raw/99b29fca61e16b690d63edf9e41b2ffcdd16df03/wiki/src/.well-known/funding-manifest-urls"
+         },
+         "tags" : [
+            "cryptography",
+            "developer-tools",
+            "linux",
+            "networking",
+            "operating-systems",
+            "privacy",
+            "security",
+            "user-experience"
+         ],
+         "webpageUrl" : {
+            "url" : "https://tails.net/",
+            "wellKnown" : "https://tails.net/.well-known/funding-manifest-urls"
+         }
+      }
+   ],
+   "version" : "v1.0.0"
+}
