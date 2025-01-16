@@ -112,7 +112,7 @@ RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/priva
 RewriteRule ^donate/thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
-RewriteRule ^donate$ https://donate.torproject.org/ [R=302,L]
+RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 
 # Redirects for languages still not translated, and other language situations
 # forward requests in /en to the root folder
