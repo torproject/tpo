@@ -2,9 +2,9 @@ _model: supporter
 ---
 type: foundations_and_institutions
 ---
-active: True
+active: False
 ---
-time: 2006, 2023
+time: 2006, 2023-2024
 ---
 name: Omidyar Network
 ---
