@@ -1,0 +1,22 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Clara Engler
+---
+nickname: cve
+---
+pronoun: she/they
+---
+mastodon_url: https://tech.lgbt/@cve
+---
+gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=772628464C6E8F56DBB5ACEC4CBE96203A1A78A7
+---
+image: /static/images/people/cve.png
+---
+description:
+
+Rust Developer on the Network Team during the week.
+Train connoisseur during the weekend.
