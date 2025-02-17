@@ -15,19 +15,31 @@
         <h3 class="mx-auto text-center text-white">{{ _('Protect yourself against tracking, surveillance, and censorship.') }}</h3>
       </div>
       <div class="row my-5">
-        <div class="col-xl-6 mx-auto">
+        <div class="col-xl-6 mx-auto px-0">
           {% set t = bag('versions', 'torbrowser-android-stable') %}
-          <a class="btn btn-lg btn-light text-primary py-1 px-2 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-aarch64-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">aarch64</small></a>
-          <a class="btn btn-primary btn-sm nick" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-aarch64-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          {% set download_apk_container = 'd-flex flex-row justify-content-between align-items-center' %}
+          {% set download_apk_button_class = 'btn btn-lg btn-light text-primary py-1 px-2 my-2 w-100 mr-2 border-0' %}
+          {% set download_apk_button_class_sig = 'btn btn-primary btn-sm nick py-2' %}
 
-          <a class="btn btn-lg btn-light text-primary py-1 px-2 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-armv7-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
-          <a class="btn btn-primary btn-sm nick" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-armv7-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          <div class="{{ download_apk_container }}">
+            <a class="{{ download_apk_button_class }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-aarch64-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">aarch64</small></a>
+            <a class="{{ download_apk_button_class_sig }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-aarch64-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          </div>
 
-          <a class="btn btn-lg btn-light text-primary py-1 px-2 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86_64-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86_64</small></a>
-          <a class="btn btn-primary btn-sm nick" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86_64-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          <div class="{{ download_apk_container }}">
+            <a class="{{ download_apk_button_class }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-armv7-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">arm</small></a>
+            <a class="{{ download_apk_button_class_sig }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-armv7-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          </div>
 
-          <a class="btn btn-lg btn-light text-primary py-1 px-2 my-2" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
-          <a class="btn btn-primary btn-sm nick" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          <div class="{{ download_apk_container }}">
+            <a class="{{ download_apk_button_class }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86_64-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86_64</small></a>
+            <a class="{{ download_apk_button_class_sig }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86_64-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          </div>
+
+          <div class="{{ download_apk_container }}">
+            <a class="{{ download_apk_button_class }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86-{{ t.version }}.apk">{{ _('Download .apk') }}  <small class="badge-pill badge-dark mx-1 nick">x86</small></a>
+            <a class="{{ download_apk_button_class_sig }}" href="https://dist.torproject.org/torbrowser/{{ t.version }}/tor-browser-android-x86-{{ t.version }}.apk.asc"><small>{{ _('Sig') }}</small></a>
+          </div>
 
           <a class="btn btn-block btn-lg btn-light text-primary my-2" href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser">{{ _('Go to Google Play') }}</a>
           {% from "macros/downloads.html" import render_fdroid %}
