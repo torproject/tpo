@@ -1,0 +1,29 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2025
+---
+name: eQualitie
+---
+key: 37
+---
+logo: /static/images/supporters/equalitie_logo.png
+---
+_hidden: yes
+---
+link: https://equalitie.org/
+---
+description:
+
+eQualitie develops open technologies to promote digital resilience, especially
+in environments threatened by censorship, surveillance, climate change, and
+network isolation. eQualitie, through its Breakout Program, seeks to support
+innovative projects that advance public benefit by promoting secure and
+unrestricted communications, particularly in regions with restricted access.
+eQualitie is supporting the Conjure Project which aims to strengthen Tor’s
+ability to function in increasingly restrictive Internet environments by
+transitioning Conjure from its current MVP stage to a deployable, real-world
+solution.
