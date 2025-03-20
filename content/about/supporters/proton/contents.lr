@@ -4,12 +4,12 @@ type: vidalia_onions
 ---
 active: true
 ---
-name: Proton Mail
+name: Proton VPN
 ---
-logo: /static/images/supporters/proton_mail.png
+logo: /static/images/supporters/proton_vpn.png
 ---
 key: 03
 ---
 _hidden: yes
 ---
-link: https://mail.proton.me/
+link: https://protonvpn.com/?ref=pmehpherolink
