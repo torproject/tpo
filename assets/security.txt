@@ -12,20 +12,20 @@ Acknowledgments: https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam
 # For tor (the network daemon) see
 Policy: https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/SecurityPolicy
 # Expires is required, formatted according to [ISO.8601-1] and [ISO.8601-2]
-Expires: 2025-04-15T18:00:00z
+Expires: 2026-12-15T18:00:00z
 -----BEGIN PGP SIGNATURE-----
 
-iQITBAEBCgB9FiEEg1tOBPb3QhEExHUaPvnvmWYE3kEFAmX0i/tfFIAAAAAALgAo
+iQITBAEBCgB9FiEEg1tOBPb3QhEExHUaPvnvmWYE3kEFAmftMEdfFIAAAAAALgAo
 aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDgz
 NUI0RTA0RjZGNzQyMTEwNEM0NzUxQTNFRjlFRjk5NjYwNERFNDEACgkQPvnvmWYE
-3kEiWAv/TnaFhbwXFgP1HvoWN9YUZwZU5VsTa4uNodnmC36ivZsuzlp3riLRfCNk
-VFormtVxKU8SjVqpq3YHi1e2NgC6qLBZ1eWGi5lqJORJbOxB6tSlEOLmtm3GBkjO
-jqSlpQmEkSmEYcl5M4t59fIu7z/HmMiOt5g84upvAU1YQcsneHPXHSAoJIeOqW+u
-hJdziR4etzxPy6lOlbV3FfW5sYuVE+NA9Sktl0G3tWeQB79vOymCEp5Xb7cE/r1q
-qxyu5geibryRpQR/ZOChWY1JaFiUzx7vMU96HOexLmz99m4gdWhjsR4Xps/22zVt
-LjHANn6gAjOrJcnQGVIyPV/vJhO6zzN8ZMIEXtNvH/t6hT/J64E0YDzCEWk85FkO
-SdrMtFn9HG7wGU+iyQYoageBEV53TlGXlh8r3i1kHGuXCwbEQ+S+WYzQbYkkKFdY
-JtAC3kGaxwCPHijShWL/Wm5tEGksmDIaHQTXHgP+2h6ZC+aBAdNYPnLs0oEOZqnm
-Gek/ZUSO
-=X+Pz
+3kFv0wv+N5rg2zohSVrfsAsUgL2iN3Qp1/qzZ2zqXw8p+r0CSd6b1R1610IgIK0k
+TODW6xTgklRDbxCYY35fn8m56bGvtZ8RAiMiSc6y2IqKaO34TBZrxGQ0VvXxsW9R
+cZ8/tkBZDNUoblWuTXzkJj9fuPsOCD1pETNdZ2ivRAyeLvinnXIBEU+tQXkVHyrZ
+E8He7BJ7f5EqRfTSqXcPWUv5NTBj7hdnlYHu2qOk7q4h7kjjmicvzMhdj/gYlbvZ
+ztTWZdwZxa4hZKeJWDsLpcx40KnYVAcE7XeNrnkl85Q4tjD35MtEA+XT76CdFjKE
+5kP3xrOCLbHp3gMU7s6VhpHJA0DJqsgA9IyeZKFZTdT/VYkq3Reyoj2GJNs9Xbp6
+GBKB+ChsUgUrCrcnhviRxHSnxWjpajxqtRGrKb6Y7+Lm2ElpP2wZmz4fkAKVra3v
+dLCXP+KKhjizfk8EBfj9TO7QEhjV0/vm3ST8eOb4OJPtyy30Fn9+3342oMGLc50i
+S6siz/x4
+=tMhK
 -----END PGP SIGNATURE-----
