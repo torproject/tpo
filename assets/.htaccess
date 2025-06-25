@@ -132,4 +132,4 @@ RewriteRule ^(ga-IE)(.*) /ga$2 [R=302,L]
 # but don't have a community page
 # You can see them at https://dist.torproject.org/torbrowser/, pick the last alpha for the most languages
 # this languages are the translation priority for the website!
-RewriteRule ^(bn|bn-BD|bn-IN|cs|da|he|id|lt|mk|ms|my|nb-NO|pt-PT|ro|sv-SE|th|uk)/(.*) /$2 [R=302,L]
+RewriteRule ^(bn|bn-BD|bn-IN|da|he|id|lt|mk|ms|my|nb-NO|pt-PT|ro|sv-SE|th)/(.*) /$2 [R=302,L]
