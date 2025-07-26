@@ -1,8 +1,17 @@
+_model: privacy
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+color: primary
+---
+html: privacy.html
 ---
 title: Privacy Policy
-layout: default
-permalink: /privacy/
----
+body: 
 
 # Privacy Policy for Tor Browser for Desktop, Tor Browser for Android
 
