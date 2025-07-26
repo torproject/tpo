@@ -1,0 +1,122 @@
+_model: privacy
+---
+_template: about.html
+---
+section: About
+---
+section_id: about
+---
+html: privacy.html
+---
+color: primary
+---
+title: Privacy Policy
+---
+body: |
+# Privacy Policy for Tor Browser for Desktop, Tor Browser for Android
+
+**Effective Date:** July 26, 2025
+
+This privacy policy covers:
+
+- **Tor Browser for Android**
+- **Tor Browser for Desktop**
+
+It explains how each application accesses, collects, uses, and shares user data.
+
+## 1. Developer & Contact Information
+
+**Developer:** The Tor Project, Inc.  
+**Website:** [https://www.torproject.org](https://www.torproject.org)  
+**Support/Inquiries:** [https://support.torproject.org/](https://support.torproject.org/)  
+**Privacy Contact Email:** [privacy contact](mailto:frontdesk@torproject.org)
+
+## 2. Shared Privacy Principles
+
+We design all Tor applications to maximize user privacy and anonymity:
+
+- **No collection of personal or sensitive user data**
+- **No tracking, telemetry, or analytics**
+- **No user accounts or identity linkage**
+- Open-source and privacy-by-design
+
+## 3. Application-Specific Data Practices
+
+### Tor Browser (Android & Desktop)
+
+- Does **not collect IP addresses, browsing history, device IDs, or location**
+- All connections routed through the Tor network for anonymity
+- **Temporary session cache only**, cleared on exit or "New Identity"
+
+## 4. Permissions (Android)
+
+**Tor Browser for Android:**
+
+- `INTERNET` — to route through the Tor network  
+- `FOREGROUND_SERVICE` — to maintain active connections
+
+Tor Browser for Android does **not** request access to:
+
+- Contacts
+- Location
+- Camera, microphone, or sensors
+- Device identifiers (e.g., IMEI, Android ID)
+- External storage or files
+- Phone call logs or SMS data
+- User accounts or login credentials
+
+## 5. Data Sharing & Third Parties
+
+- **No user data is shared** with third parties at all — no advertisers, analytics providers, or others.
+
+- Tor Project–run **`https://check.torproject.org`** may be contacted, over Tor, to verify Tor connectivity within the app; no identifying information is logged or stored.
+
+- For **Tor Browser on Desktop**, the application may check for available software updates from Tor Project servers. These update checks:
+  - Are conducted over the Tor network  
+  - Are not linked to user identity or device information
+
+- For **Android apps**, updates are delivered via app distribution platforms (e.g., Google Play) and not directly from Tor Project servers.
+
+- In those cases, when we distribute our applications through Google Play services, our hands are tied and [their terms and policies](https://play.google.com/about/play-terms.html) apply.
+
+- **No syncing or cloud backups** of user activity, configuration, or identity are performed.
+
+## 6. Data Retention & Deletion
+
+- **No persistent personal data**
+- Session data is erased:
+  - When the app is closed
+  - When user resets identity
+- Uninstallation removes all local data
+
+## 7. Children’s Privacy
+
+These apps are **not intended for children under 13**. We do not knowingly collect data from minors. If we learn of such data, it will be deleted.
+
+## 8. Security & Anonymity
+
+- All traffic is encrypted and routed through Tor
+- Tor Browser for Desktop and Android includes built-in defenses against tracking and fingerprinting, such as:
+  - Uniform user-agent strings
+  - Screen size normalization
+  - Isolation of website content
+- Code is open for public audit
+
+## 9. Changes to This Policy
+
+Material changes will be reflected by:
+
+- Updating the "Effective Date"
+- Publishing an updated policy on this page
+
+## 10. Consent
+
+By using Tor Browser for Desktop or Android, you agree to this policy. If you do not agree with this policy, please do not use the applications.
+
+## 11. GDPR and Data Protection
+
+The Tor Project is committed to protecting user privacy and supporting the principles of the European Union's General Data Protection Regulation (GDPR).
+
+Because Tor Browser for Desktop and Android are designed not to collect, process, or store personal data, the GDPR does not apply to these applications.
+
+If you have questions about data protection or our privacy practices, you may contact us at: **frontdesk@torproject.org**.
