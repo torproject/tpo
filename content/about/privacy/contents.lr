@@ -54,10 +54,14 @@ We design all Tor applications to maximize user privacy and anonymity:
 
 ## 4. Permissions (Android)
 
-**Tor Browser for Android:**
+Tor Browser for Android **currently** requires the following permissions:
 
-- `INTERNET` — to route through the Tor network  
-- `FOREGROUND_SERVICE` — to maintain active connections
+- `INTERNET` — to connect to the Tor network
+- `WAKE_LOCK` — used to keep the device from sleeping during active use (e.g., video playback)
+- `MODIFY_AUDIO_SETTINGS` — required by WebRTC-related components (WebRTC is disabled by default)
+- `HIGH_SAMPLING_RATE_SENSORS` — related to JavaScript APIs, but throttled by Tor Browser’s privacy protections
+
+Additionally, the Android version includes a number of permissions inherited from the Mozilla Firefox (Fenix) codebase. These are reviewed periodically, and we aim to minimize and audit them to reduce unnecessary access or exposure. Users should be aware that permissions are limited in scope and subject to Tor Browser’s strong privacy protections.
 
 Tor Browser for Android does **not** request access to:
 
