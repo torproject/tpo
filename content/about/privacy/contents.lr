@@ -97,11 +97,23 @@ All such requests are subject to Android’s runtime permission model, and users
 
 ## 6. Data Retention & Deletion
 
-- **No persistent personal data**
-- Session data is erased:
-  - When the app is closed
-  - When user resets identity
-- Uninstallation removes all local data
+- **No persistent personal data is collected or transmitted by Tor Browser**
+
+However, users should be aware of the following cases where some data may persist locally:
+
+  - **Bookmarks and downloads** created by users are saved to the local device and are not deleted automatically.
+
+  - **Tor State** files necessary for Tor network connectivity (such as guard nodes and consensus info). This data is non-identifying and used only for Tor functionality.
+
+  - **Private Browsing Mode (PBM)** behavior:
+
+        On **Android**, PBM is always-on, and prevents local storage of history, cookies, or session data.
+
+        On **Desktop**, PBM is enabled by default, but can be disabled in browser settings, in which case, in which case browsing history, cookies, and cached site data may persist across sessions unless cleared manually.
+
+  - **Session Data** (e.g. tabs, site data, cookies, history) is erased when the app is closed (Android), or the user choses "New Identity" or closes the browser (Desktop with PBM enabled)
+
+  - **Uninstalling** Tor browser removes all local data.
 
 ## 7. Children’s Privacy
 
