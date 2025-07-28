@@ -67,17 +67,20 @@ Tor Browser for Android does **not** request access to:
 
 ## 5. Data Sharing & Third Parties
 
-- **No user data is shared** with third parties at all — no advertisers, analytics providers, or others.
+- **No user data is shared** with third parties — no advertisers, analytics providers, or others.
 
 - Tor Project–run **`https://check.torproject.org`** may be contacted, over Tor, to verify Tor connectivity within the app; no identifying information is logged or stored.
 
 - For **Tor Browser on Desktop**, the application may check for available software updates from Tor Project servers. These update checks:
-  - Are conducted over the Tor network  
-  - Are not linked to user identity or device information
+  - Check for software updates from Tor Project servers, over the Tor network
+  - Fetch extension updates from Mozilla’s Add-ons service (e.g., for bundled extensions like NoScript)
+  - These update requests are not linked to user identity or device information.
 
 - For **Android apps**, updates are delivered via app distribution platforms (e.g., Google Play) and not directly from Tor Project servers.
 
 - In those cases, when we distribute our applications through Google Play services, our hands are tied and [their terms and policies](https://play.google.com/about/play-terms.html) apply.
+
+- **Add-ons and extensions**: Users may install additional extensions in Tor Browser. These extensions might independently fetch updates or blocklists (e.g., uBlock Origin downloads filter lists). All such requests are routed through the Tor network to preserve anonymity.
 
 - **No syncing or cloud backups** of user activity, configuration, or identity are performed.
 
