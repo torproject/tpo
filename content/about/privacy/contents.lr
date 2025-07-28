@@ -85,7 +85,7 @@ All such requests are subject to Android’s runtime permission model, users are
 
 - In **Tor Browser for Desktop**, users may manually choose to visit https://check.torproject.org via a link in about:tor to verify their connection. This is optional, user-initiated, and routed over Tor. No identifying information is logged or stored. This check is not performed automatically and is not present on **Android**.
 
-- For **Tor Browser on Desktop**, the application may check for available software updates from Tor Project servers. These update checks:
+- For **Tor Browser on Desktop**, the application may **anonymously** check for available software updates from Tor Project servers. These update checks:
   - Check for software updates from Tor Project servers, over the Tor network
   - Fetch extension updates from Mozilla’s Add-ons service (e.g., for bundled extensions like NoScript)
   - These update requests are not linked to user identity or device information.
