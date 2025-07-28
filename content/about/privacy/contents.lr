@@ -128,7 +128,7 @@ These apps are **not intended for children under 13**. We do not knowingly colle
 - All traffic is encrypted and routed through Tor
 - Tor Browser for Desktop and Android includes built-in defenses against tracking and fingerprinting, such as:
   - Uniform user-agent strings
-  - Screen size normalization
+  - Screen size normalization (**Desktop only**)
   - Isolation of website content
 - Code is open for public audit
 
