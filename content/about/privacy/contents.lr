@@ -57,11 +57,11 @@ We design all Tor applications to maximize user privacy and anonymity:
 Tor Browser for Android **currently** requires the following permissions:
 
 - `INTERNET` — to connect to the Tor network
-- `WAKE_LOCK` — used to keep the device from sleeping during active use (e.g., video playback)
-- `MODIFY_AUDIO_SETTINGS` — required by WebRTC-related components (WebRTC is disabled by default)
-- `HIGH_SAMPLING_RATE_SENSORS` — related to JavaScript APIs, but throttled by Tor Browser’s privacy protections
+- `WAKE_LOCK` — prevents the device from sleeping during active use (e.g., video playback)
+- `MODIFY_AUDIO_SETTINGS` — required by WebRTC-related components (note: WebRTC is permanently disabled at build time)
+- `HIGH_SAMPLING_RATE_SENSORS` — used for certain JavaScript APIs; timing is throttled by Tor Browser’s privacy protections
 
-Additionally, the Android version includes a number of permissions inherited from the Mozilla Firefox (Fenix) codebase. These are reviewed periodically, and we aim to minimize and audit them to reduce unnecessary access or exposure. Users should be aware that permissions are limited in scope and subject to Tor Browser’s strong privacy protections.
+These permissions are **not** related to data collection, and are scoped to support functionality inherited from the Firefox (Fenix) base. We regularly review and audit inherited permissions to ensure they do not compromise user privacy or exposure.
 
 Tor Browser for Android does **not** request access to:
 
@@ -72,13 +72,12 @@ Tor Browser for Android does **not** request access to:
 - Phone call logs or SMS data
 - User accounts or login credentials
 
-Access to camera, microphone, or device sensors is not requested by default.
-However, users may optionally grant these permissions in specific contexts, such as:
+Access to camera, microphone, or device sensors is not requested by default. However, users may optionally grant these permissions in specific contexts, such as:
 
   - Scanning QR codes using the URL bar
   - Allowing site-specific functionality (e.g., video conferencing)
 
-All such requests are subject to Android’s runtime permission model, and users are in control of granting or denying access. Any granted access is scoped and temporary.
+All such requests are subject to Android’s runtime permission model, users are in control of granting or denying said access, and is limited in scope and durtation.
 
 ## 5. Data Sharing & Third Parties
 
