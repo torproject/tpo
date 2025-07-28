@@ -59,11 +59,18 @@ Tor Browser for Android does **not** request access to:
 
 - Contacts
 - Location
-- Camera, microphone, or sensors
 - Device identifiers (e.g., IMEI, Android ID)
 - External storage or files
 - Phone call logs or SMS data
 - User accounts or login credentials
+
+Access to camera, microphone, or device sensors is not requested by default.
+However, users may optionally grant these permissions in specific contexts, such as:
+
+  - Scanning QR codes using the URL bar
+  - Allowing site-specific functionality (e.g., video conferencing)
+
+All such requests are subject to Android’s runtime permission model, and users are in control of granting or denying access. Any granted access is scoped and temporary.
 
 ## 5. Data Sharing & Third Parties
 
