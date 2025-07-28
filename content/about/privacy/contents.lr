@@ -45,7 +45,11 @@ We design all Tor applications to maximize user privacy and anonymity:
 ### Tor Browser (Android & Desktop)
 
 - Does **not collect IP addresses, browsing history, device IDs, or location**
-- All connections routed through the Tor network for anonymity
+- All connections routed through the Tor network for anonymity, with **one exception:**
+  - In environments with restricted or censored internet access, Tor Browser may use anti-censorship tools such as pluggable transports (PTs) (e.g., Moat) to obtain bridge information.
+  - These tools require a **brief pre-Tor** connection, known as a signaling channel, to fetch data necessary to connect to the Tor network.
+  - This fallback may occur automatically when Tor cannot connect directly, or it may be manually selected by the user.
+  - The Tor Project does not log any personally identifiable information during these signaling requests.
 - **Temporary session cache only**, cleared on exit or "New Identity"
 
 ## 4. Permissions (Android)
