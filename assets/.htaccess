@@ -79,7 +79,7 @@ RewriteRule ^\.well-known/org.flathub.VerifiedApps.txt$ /org.flathub.VerifiedApp
 RewriteRule ^people(.*) /about/people$1 [R=302,L]
 RewriteRule ^about/contact(.*) /contact$1 [R=302,L]
 RewriteRule ^contact.html$  /contact/ [R=302,L]
-RewriteRule ^badge/?$ https://github.com/seeess/Defcon-Tor-29-Badge [R=302,L]
+RewriteRule ^badge/?$ https://github.com/seeess/Defcon-Tor-31-Badge [R=302,L]
 
 # Download websites
 RewriteRule ^download/download/$ /download [R=302,L]
