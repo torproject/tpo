@@ -1,4 +1,0 @@
-./lego/packages/i18n
-./lego/packages/lektor-md-tag
-./lego/packages/markdown-image-attrs
-./lego/packages/scss
