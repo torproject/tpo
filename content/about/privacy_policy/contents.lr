@@ -77,7 +77,7 @@ Access to camera, microphone, or device sensors is not requested by default. How
   - Scanning QR codes using the URL bar
   - Allowing site-specific functionality (e.g., video conferencing)
 
-All such requests are subject to Android’s runtime permission model, users are in control of granting or denying said access, and is limited in scope and durtation.
+All such requests are subject to Android’s runtime permission model, users are in control of granting or denying said access, and is limited in scope and duration.
 
 ## 5. Data Sharing & Third Parties
 
