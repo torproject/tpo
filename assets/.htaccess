@@ -115,16 +115,13 @@ RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 
-# Redirects for languages still not translated, and other language situations
-# forward requests in /en to the root folder
-RewriteRule ^(en-US|en)$ / [R=302,L]
-RewriteRule ^(en-US|en)/(.*) /$2 [R=302,L]
+# Redirects for languages
 #
-# forward requests in /en and /en-US to the root folder
+# redirect requests in /en and /en-US to the root folder
 RewriteRule ^(en|en-US)$ / [R=302,L]
 RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
 #
-# Rewrites for languages that have a different mapping in the page than in TBB
+# redirect languages that have a different mapping in the page than in TBB
 RewriteRule ^(es-ES|es-MX|es-CO|es-AR)(.*) /es$2 [R=302,L]
 RewriteRule ^(ga-IE)(.*) /ga$2 [R=302,L]
 #
