@@ -120,33 +120,24 @@ RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 # redirect requests in /en and /en-US to the root folder
 RewriteRule ^(en|en-US)$ / [R=302,L]
 RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
-#
-# gracefully degrade to non-regional translation variant
-# if language with regional code is not found
-#
-# consider only requests for nonexistent pages
+
+# if page doesn't exist and is prefixed with a language code
+# set environment variables to attempt a redirect, see rules below
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-# match urls which start with a language code
 RewriteCond "%{REQUEST_URI}" "^/([a-z]{2})(?:-[A-Z]{2})/(.*)"
-# verify if default language version exists
-# %1 is a backreference to the capture group above
-RewriteCond %{DOCUMENT_ROOT}/%1/%2 -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/%1/%2 -d
-# redirect to default language version of url
-RewriteRule ^ /%1/%2 [R=302,L]
-#
-# gracefully degrade to default language version
-# if translated page is not found
-#
-# consider only requests for nonexistent pages
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-# match urls which start with a language code
-RewriteCond "%{REQUEST_URI}" "^/[a-z]{2}(?:-[A-Z]{2})?/(.*)"
-# verify if default language version exists
-# %1 is a backreference to the capture group above
-RewriteCond %{DOCUMENT_ROOT}/%1 -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/%1 -d
-# redirect to default language version of url
-RewriteRule ^ /%1 [R=302,L]
+RewriteRule ^ - [E=langredir:1,E=langredir_code:%1,E=langredir_subpath:%2]
+
+# redirect if the language code without region variant exists
+# eg. redirect /es-AR to /es
+RewriteCond %{ENV:langredir} =1
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}/%{ENV:langredir_subpath} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}/%{ENV:langredir_subpath} -d
+RewriteRule ^ /%{ENV:langredir_code}/%{ENV:langredir_subpath} [R=302,L]
+
+# redirect if the translation requested isn't available
+# to the default language version of the page
+RewriteCond %{ENV:langredir} =1
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_subpath} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_subpath} -d
+RewriteRule ^ /%{ENV:langredir_subpath} [R=302,L]
