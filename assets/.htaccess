@@ -125,19 +125,19 @@ RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
 # set environment variables to attempt a redirect, see rules below
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-RewriteCond "%{REQUEST_URI}" "^/([a-z]{2})(?:-[A-Z]{2})/(.*)"
+RewriteCond "%{REQUEST_URI}" "^/([a-z]{2})(?:-[A-Z]{2})(.*)"
 RewriteRule ^ - [E=langredir:1,E=langredir_code:%1,E=langredir_subpath:%2]
 
 # redirect if the language code without region variant exists
 # eg. redirect /es-AR to /es
 RewriteCond %{ENV:langredir} =1
-RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}/%{ENV:langredir_subpath} -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}/%{ENV:langredir_subpath} -d
-RewriteRule ^ /%{ENV:langredir_code}/%{ENV:langredir_subpath} [R=302,L]
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}%{ENV:langredir_subpath} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}%{ENV:langredir_subpath} -d
+RewriteRule ^ /%{ENV:langredir_code}%{ENV:langredir_subpath} [R=302,L]
 
 # redirect if the translation requested isn't available
 # to the default language version of the page
 RewriteCond %{ENV:langredir} =1
-RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_subpath} -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_subpath} -d
-RewriteRule ^ /%{ENV:langredir_subpath} [R=302,L]
+RewriteCond %{DOCUMENT_ROOT}%{ENV:langredir_subpath} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}%{ENV:langredir_subpath} -d
+RewriteRule ^ %{ENV:langredir_subpath} [R=302,L]
