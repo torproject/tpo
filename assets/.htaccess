@@ -121,9 +121,20 @@ RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 RewriteRule ^(en|en-US)$ / [R=302,L]
 RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
 #
-# redirect languages that have a different mapping in the page than in TBB
-RewriteRule ^(es-ES|es-MX|es-CO|es-AR)(.*) /es$2 [R=302,L]
-RewriteRule ^(ga-IE)(.*) /ga$2 [R=302,L]
+# gracefully degrade to non-regional translation variant
+# if language with regional code is not found
+#
+# consider only requests for nonexistent pages
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+# match urls which start with a language code
+RewriteCond "%{REQUEST_URI}" "^/([a-z]{2})(?:-[A-Z]{2})/(.*)"
+# verify if default language version exists
+# %1 is a backreference to the capture group above
+RewriteCond %{DOCUMENT_ROOT}/%1/%2 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/%1/%2 -d
+# redirect to default language version of url
+RewriteRule ^ /%1/%2 [R=302,L]
 #
 # gracefully degrade to default language version
 # if translated page is not found
