@@ -117,6 +117,15 @@ RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 
 # Redirects for languages
 
+# inhibit language negotiation for /en and /en/ urls
+RewriteRule ^en(?:-[A-Z]{2})?/?$ /?noredirect=1 [R=302,L]
+
+# render homepage in language negotiated with browser
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{QUERY_STRING} !^noredirect
+RewriteCond %{DOCUMENT_ROOT}/index.html.var -f
+RewriteRule ^ /index.html.var [L]
+
 # if page doesn't exist and is prefixed with a language code
 # set environment variables to attempt a redirect, see rules below
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
