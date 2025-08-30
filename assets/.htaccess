@@ -117,9 +117,9 @@ RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 
 # Redirects for languages
 #
-# redirect requests in /en and /en-US to the root folder
-RewriteRule ^(en|en-US)$ / [R=302,L]
-RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
+# redirect requests in /en and /en-<region> to the root folder
+RewriteRule ^en(?:-[A-Z]{2})?$ / [R=302,L]
+RewriteRule ^en(?:-[A-Z]{2})?/(.*) /$1 [R=302,L]
 
 # if page doesn't exist and is prefixed with a language code
 # set environment variables to attempt a redirect, see rules below
