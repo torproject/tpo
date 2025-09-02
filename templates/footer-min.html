@@ -57,7 +57,7 @@
       	  <div class="dropdown-menu">
             {% for id, item in bag('alternatives').items() %}
               {% if this.alt != id %}
-   	          <a class="dropdown-item" href="{{ this.path|url(alt=id) }}">{{ item.language }} ({{ id }})</a>
+   	          <a class="dropdown-item" href="{{ this.path|url(alt=id) }}{{ '?noredirect=1' if id == config.primary_alternative }}">{{ item.language }} ({{ id }})</a>
               {% endif %}
             {% endfor %}
         	</div>
