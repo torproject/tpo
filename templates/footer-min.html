@@ -13,31 +13,15 @@
         <ul class="nav flex-column mt-sm-5">
           {% set menubag = 'menu_footer' %}
           {% for id, item in bag(menubag).items() %}
-          <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-          {% set link = site.get(item.path) %}
-          {% if link %}
-            <a class="nav-link text-light" href="{{ item.path|url(alt=this.alt) }}">
-          {% else %}
-            {% set local = bag('links', this.alt, id) %}
-            {% if local %}
-              <a class="nav-link text-light" href="{{ local }}">
-            {% else %}
-              <a class="nav-link text-light" href="{{ item.path }}">
-            {% endif %}
-          {% endif %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ item.path.format(config.get_alternative(this.alt)["url_prefix"]) }}">
               {{ _(item.label) }}
-              {% if this.is_child_of(item.path) %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
             </a>
           </li>
           {% endfor %}
         </ul>
-        {% set link = bag('links', this.alt, 'donate') %}
-        {% if link %}
-          <a href="{{ link }}" title="{{ _("Donate") }}" class="h5"><span class="badge badge-warning p-2 mt-2">{{ _("Donate Now") }}</span></a>
-        {% else %}
-          <a href="https://www.torproject.org/donate/{{ this.alt }}" title="{{ _("Donate") }}"><span class="badge badge-warning p-2 h4">{{ _("Donate Now") }}</span></a>
+        {% if config.base_url != "https://donate.torproject.org/" %}
+          <a href="https://donate.torproject.org/" title="{{ _("Donate") }}" class="h5"><span class="badge badge-warning p-2 mt-2">{{ _("Donate Now") }}</span></a>
         {% endif %}
       </div>
     </div>
