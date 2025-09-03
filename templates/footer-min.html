@@ -14,7 +14,7 @@
           {% set menubag = 'menu_footer' %}
           {% for id, item in bag(menubag).items() %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ item.path.format(config.get_alternative(this.alt)["url_prefix"]) }}">
+            <a class="nav-link text-light" href="{{ item.path.format(config.get_alternative(this.alt)["url_prefix"]) }}">
               {{ _(item.label) }}
             </a>
           </li>
