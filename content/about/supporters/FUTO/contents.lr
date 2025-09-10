@@ -2,9 +2,9 @@ _model: supporter
 ---
 type: foundations_and_institutions
 ---
-active: false
+active: true
 ---
-time: 2022-2023
+time: 2022-2023, 2025
 ---
 name: FUTO
 ---
@@ -18,6 +18,7 @@ link: https://futo.org/grants/
 ---
 description:
 
-FUTO is a software lab and a grant and investment fund that is dedicated to the
-development of open-source software that returns control of technology back to
-the people. The fund has provided Tor Project with an unrestricted grant.
+FUTO is committed to funding open source projects that champion
+digital freedom, develop privacy-focused applications, and advocate
+for increased user autonomy. FUTO supports projects such as Tor, that
+enable others to challenge technological control and censorship.
