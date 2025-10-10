@@ -120,6 +120,12 @@ RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 # inhibit language negotiation for /en and /en/ urls
 RewriteRule ^en(?:-[A-Z]{2})?/?$ /?noredirect=1 [R=302,L]
 
+# Send "noindex" to robots on URLs with noredirect query string
+# this should avoid duplicate homepage entries in search engines
+RewriteCond %{QUERY_STRING} ^noredirect
+RewriteRule .* - [E=noindex:1]
+Header set X-Robots-Tag "noindex" env=noindex
+
 # render homepage in language negotiated with browser
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{QUERY_STRING} !^noredirect
