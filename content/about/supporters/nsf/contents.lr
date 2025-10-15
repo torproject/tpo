@@ -1,0 +1,26 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2025
+---
+name: U.S. National Science Foundation
+---
+key: 46
+---
+logo: /static/images/sponsors/NSF_logo.png
+---
+_hidden: yes
+---
+link: https://www.nsf.gov/
+---
+description:
+The U.S. National Science Foundation (NSF) is an independent federal agency that
+supports science and engineering in all 50 states and U.S. territories. In the
+current project supported by NSF, the Tor Project will focus on transitioning
+Tor to use quantum-safe cryptography and hardening it against other
+vulnerabilities that could potentially compromise the safety, security, or
+privacy of Tor users. The result of this project will be increased protection
+for all Tor users against these threats.
