@@ -28,13 +28,13 @@
         <tr>
           <td>{{ t.version }}</td>
           <td><a href="{{ changelog_link }}">{{ _('Changelog') }}</a></td>
-          <td class="text-right"><a href="{{ download_link }}">{{ _('Download') }}</a> (<a href="{{ checksum_link }}">{{ _('checksum') }}</a> | <a href="{{ sig_link }}">{{ _('sig') }}</a>) <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/little-t-tor/verify-little-t-tor/' }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ _('Learn how to verify a signature') }}"><i style="font-size:10px;" class="fas fa-question-circle"></i></a></td>
+          <td class="text-right"><a href="{{ download_link }}">{{ _('Download') }}</a> (<a href="{{ checksum_link }}">{{ _('checksum') }}</a> | <a href="{{ sig_link }}">{{ _('sig') }}</a>) <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/little-t-tor/getting-started/verifying/' }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ _('Learn how to verify a signature') }}"><i style="font-size:10px;" class="fas fa-question-circle"></i></a></td>
         </tr>
         {% if t.version != a.version %}
           <tr>
             <td>{{ a.version }}</td>
             <td><a href="{{ alpha_changelog_link }}">{{ _('Changelog') }}</a></td>
-            <td class="text-right"><a href="{{ alpha_download_link }}">{{ _('Download') }}</a> (<a href="{{ alpha_checksum_link }}">{{ _('checksum') }}</a> | <a href="{{ alpha_sig_link }}">{{ _('sig') }}</a>) <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/little-t-tor/verify-little-t-tor/' }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ _('Learn how to verify a signature') }}"><i style="font-size:10px;" class="fas fa-question-circle"></i></a></td>
+            <td class="text-right"><a href="{{ alpha_download_link }}">{{ _('Download') }}</a> (<a href="{{ alpha_checksum_link }}">{{ _('checksum') }}</a> | <a href="{{ alpha_sig_link }}">{{ _('sig') }}</a>) <a class="link" href="{{ 'https://support.torproject.org/' + this.alt + '/little-t-tor/getting-started/verifying/' }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ _('Learn how to verify a signature') }}"><i style="font-size:10px;" class="fas fa-question-circle"></i></a></td>
           </tr>
         {% endif %}
       </tbody>
