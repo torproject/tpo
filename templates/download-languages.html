@@ -1,6 +1,6 @@
 <div class="container py-3 mt-5">
   <div class="row">
-    <p>{{ md(_('Tor Browser is available in [multiple languages](https://support.torproject.org/tbb/tbb-37/) in a single multi-locale download, which can be changed using the menu in General settings.\n\nWant to help us translate? [Become a Tor translator!](https://community.torproject.org/localization/)')) }}
+    <p>{{ md(_('Tor Browser is available in [multiple languages](https://support.torproject.org/tor-browser/getting-started/languages/) in a single multi-locale download, which can be changed using the menu in General settings.\n\nWant to help us translate? [Become a Tor translator!](https://community.torproject.org/localization/)')) }}
   </div>
 </div>
 <div class="container py-3">
@@ -19,7 +19,7 @@
         {% set t_macos = bag('versions', 'torbrowser-macos-stable') %}
         {% set t_linux = bag('versions', 'torbrowser-linux-stable') %}
         <tr>
-            <td><a href="https://support.torproject.org/tbb/tbb-37/">{{ _('See supported languages') }}</a></td>
+            <td><a href="https://support.torproject.org/tor-browser/getting-started/languages/">{{ _('See supported languages') }}</a></td>
           <td>
             {% from "macros/downloads.html" import render_windows %}
             {{ render_windows(t_win.version) }}
