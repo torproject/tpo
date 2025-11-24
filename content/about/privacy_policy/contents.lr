@@ -72,7 +72,8 @@ These preferences:
 - **Local-only** session logs, visible in the Logs view, are discarded after the VPN is stopped and the app is quit
 - **No** access to contacts, files, or personal identifiers
 
-In order to provide user control and customization, Tor VPN stores certain user-configured settings locally on the device. These settings are **never** transmitted to The Tor Project or any third party, and are **not** linked to user identity or device information. 
+In order to provide user control and customization, Tor VPN stores certain user-configured settings locally on the device.
+These settings are **never** transmitted to The Tor Project or any third party, and are **not** linked to user identity or device information. 
 
 These include:
 
@@ -102,7 +103,8 @@ Tor Browser for Android **currently** requires the following permissions:
 - `MODIFY_AUDIO_SETTINGS` — required by WebRTC-related components (note: WebRTC is permanently disabled at build time)
 - `HIGH_SAMPLING_RATE_SENSORS` — used for certain JavaScript APIs; timing is throttled by Tor Browser’s privacy protections
 
-These permissions are **not** related to data collection, and are scoped to support functionality inherited from the Firefox (Fenix) base. We regularly review and audit inherited permissions to ensure they do not compromise user privacy or exposure.
+These permissions are **not** related to data collection, and are scoped to support functionality inherited from the Firefox (Fenix) base.
+We regularly review and audit inherited permissions to ensure they do not compromise user privacy or exposure.
 
 Tor Browser for Android does **not** request access to:
 
@@ -113,15 +115,19 @@ Tor Browser for Android does **not** request access to:
 - Phone call logs or SMS data
 - User accounts or login credentials
 
-Access to camera, microphone, or device sensors is not requested by default. However, users may optionally grant these permissions in specific contexts, such as:
+Access to camera, microphone, or device sensors is not requested by default.
+However, users may optionally grant these permissions in specific contexts, such as:
 
   - Scanning QR codes using the URL bar
   - Allowing site-specific functionality (e.g., video conferencing)
 
 All such requests are subject to Android’s runtime permission model, users are in control of granting or denying said access, and is limited in scope and durtation.
 
-**Tor VPN**
-Tor VPN requests the following Android permissions in order to function properly. These are limited to what is strictly necessary for VPN operation, user control, and system integration. No permissions are used for telemetry, user tracking, or personal data collection.
+### Tor VPN
+
+Tor VPN requests the following Android permissions in order to function properly.
+These are limited to what is strictly necessary for VPN operation, user control, and system integration.
+No permissions are used for telemetry, user tracking, or personal data collection.
 
 Permissions required:
 - `INTERNET` — to connect to the Tor network and route traffic
@@ -134,7 +140,9 @@ Permissions required:
 - `VIBRATE` — used only for optional in-app notifications (e.g., connection status)
 - `POST_NOTIFICATIONS` — used for connection status notifications when enabled (Android 13+)
 
-These permissions are **not** used to collect, transmit, or share personal data. All permissions are either essential for VPN functionality or provide local-only features controlled by the user. We routinely audit all permissions to ensure they remain aligned with our privacy-preserving principles.
+These permissions are **not** used to collect, transmit, or share personal data.
+All permissions are either essential for VPN functionality or provide local-only features controlled by the user.
+We routinely audit all permissions to ensure they remain aligned with our privacy-preserving principles.
 
 Tor VPN does **not** request access to:
 - Contacts
@@ -186,7 +194,8 @@ However, users should be aware of the following cases where some data may persis
 
 ## 7. Children’s Privacy
 
-These apps are **not intended for children under 13**. We do not collect **any** data from anyone. If we learn of such data, it will be deleted.
+These apps are **not intended for children under 13**.
+We do not collect **any** data from anyone. If we learn of such data, it will be deleted.
 
 ## 8. Security & Anonymity
 
@@ -207,7 +216,8 @@ Material changes will be reflected by:
 
 ## 10. Consent
 
-By using Tor Browser for Desktop or Android, or Tor VPN you agree to this policy. If you do not agree with this policy, please do not use the applications.
+By using Tor Browser for Desktop or Android, or Tor VPN you agree to this policy.
+If you do not agree with this policy, please do not use the applications.
 
 ## 11. GDPR and Data Protection
 
