@@ -1,0 +1,27 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2025
+---
+name: Heising-Simons Foundation
+---
+key: 47
+---
+logo: /static/images/supporters/HSF_logo.png
+---
+_hidden: yes
+---
+link: https://www.hsfoundation.org/
+---
+description:
+
+The Heising-Simons Foundation is a family foundation based in Los Altos and San
+Francisco, California. The Foundation works with its many partners to advance
+sustainable solutions in climate and clean energy, enable groundbreaking
+research in science, enhance the education of our youngest learners, and
+support human rights for all people. Through its technology and society line of
+grantmaking, Heising-Simons Foundation provided a grant for technical
+safeguards supporting journalists, whistleblowers, and human rights activists.
