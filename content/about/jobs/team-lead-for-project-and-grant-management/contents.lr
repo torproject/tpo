@@ -1,6 +1,29 @@
-Team Lead for Project and Grant Management
+_model: job
+---
+_template: about.html
+---
+section_id: about
+---
+color: primary
+---
+title: Team Lead for Project and Grant Management
+---
+active: True
+---
+summary:
 
-**Who we are**
+We are seeking a **Team Lead-Project & Grant Management** to help lead
+the Project Management and Grant Management teams to. This role is
+responsible for ensuring work is delivered on time, in scope, and in
+alignment with organizational priorities while building a healthy,
+high-performing team.
+
+---
+description:
+
+## Team Lead for Project and Grant Management
+
+### Who we are
 
 The Tor Project, Inc. (TPI) is a 501(c)(3) nonprofit organization
 advancing human rights and freedoms by creating and deploying free and
@@ -16,7 +39,7 @@ responsible for ensuring work is delivered on time, in scope, and in
 alignment with organizational priorities while building a healthy,
 high-performing team.
 
-**Overview of the role**
+### Overview of the role
 
 TPI is a non-profit where we are building tech for privacy and this role
 will work across teams with the engineering teams who are leading and
@@ -25,9 +48,9 @@ possible. The Team Lead role ensures the system works: clear priorities,
 strong people management, consistent standards, and early identification
 of risk across projects and grants.
 
-**What you'll do**
+### What you'll do
 
--   [Team Leadership]{.underline}
+-   *Team Leadership*
 
     -   Directly manage Project Managers and Grants' team Manager and
         Coordinator
@@ -41,7 +64,7 @@ of risk across projects and grants.
 
     -   Foster a culture of accountability, collaboration, and agency
 
--   [Core Functions]{.underline}
+-   *Core Functions*
 
     -   Establish and maintain consistent standards for project and
         grant management
@@ -61,7 +84,7 @@ of risk across projects and grants.
         realities and proactively surface issues that may affect
         outcomes or funding
 
--   [Project Management]{.underline}
+-   *Project Management*
 
     -   Collaborate with the Senior Director and the other project
         managers to design a cohesive approach to project management at
@@ -75,7 +98,7 @@ of risk across projects and grants.
 
     -   Serve as direct Project Manager on a limited number of projects.
 
--   [Grant Management & Compliance]{.underline}
+-   *Grant Management & Compliance*
 
     -   Oversee grant compliance, reporting deadlines, and documentation
         standards.
@@ -88,7 +111,7 @@ of risk across projects and grants.
 
     -   Own the integrity and quality of grant delivery and reporting.
 
-**Who you are**
+### Who you are
 
 -   Experience leading project management (experience with grant
     management teams a plus but not required)
@@ -118,7 +141,7 @@ of risk across projects and grants.
 -   A plus (not mandatory) if you are experienced in a variety of
     open-source services and platforms (such as Gitlab and Nextcloud)
 
-**Compensation**
+### Compensation
 
 This is a full-time, remote position with flexible geographic location.
 The salary range for this position is \$120,000- \$130,000 USD. If
@@ -141,15 +164,15 @@ any applicant or employee because of race, color, religion, sex,
 national origin, disability, genetic information, age, or military or
 veteran status in accordance with federal law. Applicants must be
 authorized to work in the country in which they live, we cannot provide
-visa assistance for this position. Due to U.S. [[sanctions and embargo
-regulations]{.underline}](https://ofac.treasury.gov/sanctions-programs-and-country-information),
-TPI is not able to hire individuals with citizenship [and]{.underline}
+visa assistance for this position. Due to U.S. [sanctions and embargo
+regulations](https://ofac.treasury.gov/sanctions-programs-and-country-information),
+TPI is not able to hire individuals with citizenship *and*
 residency in certain countries, including but not limited to Russia,
 North Korea, Cuba, Iraq, China, Iran, and Syria.
 
-**How to apply**
+### How to apply
 
-To apply please use [[this link]{.underline}](https://ideali.st/vRCnTN)
+To apply please use [this link](https://ideali.st/vRCnTN)
 which will take you to a brief application. You will be asked to answer
 a few initial questions and upload your CV or resume. We do not ask for
 references or cover letters at this time. Please do not include them.
