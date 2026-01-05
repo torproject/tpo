@@ -184,9 +184,9 @@ However, users should be aware of the following cases where some data may persis
 
   - **Private Browsing Mode (PBM)** behavior:
 
-        On **Android**, PBM is always-on, and prevents local storage of history, cookies, or session data.
+    - On **Android**, PBM is always-on, and prevents local storage of history, cookies, or session data.
 
-        On **Desktop**, PBM is enabled by default, but can be disabled in browser settings. In this case, data such as browsing history, cookies, and cached site data may persist across sessions unless cleared manually.
+    - On **Desktop**, PBM is enabled by default, but can be disabled in browser settings. In this case, data such as browsing history, cookies, and cached site data may persist across sessions unless cleared manually.
 
   - **Session Data** (e.g. tabs, site data, cookies, history) is erased when the app is closed (Android), or the user choses "New Identity" or closes the browser (Desktop with PBM enabled)
 
