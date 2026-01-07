@@ -112,7 +112,6 @@
             {{ render_tor_expert_bundle(linux_stable.version, stable.tor, 'linux', 'i686') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'i686') }}
           </td>
         </tr>
         </tr>
@@ -125,6 +124,14 @@
             {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'x86_64') }}
           </td>
         </tr>
+        <tr>
+          <td>{{ _('GNU/Linux') }} (aarch64)</td>
+          <td>
+          </td>
+          <td>
+            {{ render_tor_expert_bundle(linux_alpha.version, alpha.tor, 'linux', 'aarch64') }}
+          </td>
+        </tr>
         </tr>
         <!-- Android -->
         <tr>
@@ -133,7 +140,6 @@
             {{ render_tor_expert_bundle(android_stable.version, stable.tor, 'android', 'x86') }}
           </td>
           <td>
-            {{ render_tor_expert_bundle(android_alpha.version, alpha.tor, 'android', 'x86') }}
           </td>
         </tr>
         </tr>
