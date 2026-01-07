@@ -29,8 +29,8 @@
             {{ render_mac(t_macos.version) }}
           </td>
           <td>
-            {% from "macros/downloads.html" import render_linux %}
-            {{ render_linux(t_linux.version) }}
+            {% from "macros/downloads.html" import render_linux_alpha %}
+            {{ render_linux_alpha(t_linux.version) }}
           </td>
         </tr>
       </tbody>
@@ -59,11 +59,6 @@
         <tr>
           <td>
             {{ render_android(t.version, "armv7") }}
-          </td>
-        </tr>
-        <tr>
-          <td>
-            {{ render_android(t.version, "x86") }}
           </td>
         </tr>
         <tr>
