@@ -2,9 +2,9 @@ _model: supporter
 ---
 type: foundations_and_institutions
 ---
-active: true
+active: false
 ---
-time: 2023
+time: 2023-2025
 ---
 name: Open Society Foundations
 ---

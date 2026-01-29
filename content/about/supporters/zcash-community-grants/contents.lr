@@ -2,9 +2,9 @@ _model: supporter
 ---
 type: foundations_and_institutions
 ---
-active: true
+active: false
 ---
-time: 2021-2022
+time: 2021-2025
 ---
 name: Zcash Community Grants
 ---
