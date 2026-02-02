@@ -2,9 +2,9 @@ _model: supporter
 ---
 type: foundations_and_institutions
 ---
-active: true
+active: false
 ---
-time: 2024
+time: 2024-2025
 ---
 name: Wasabi
 ---
