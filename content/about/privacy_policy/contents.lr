@@ -48,10 +48,10 @@ We design all Tor applications to maximize user privacy and anonymity:
 - Does **not collect IP addresses, browsing history, device IDs, or location**
 - All connections routed through the Tor network for anonymity, with **one exception:**
   - In environments with restricted or censored internet access, Tor Browser may use anti-censorship tools such as pluggable transports (PTs) (e.g., Moat) to obtain bridge information.
-  - These tools require a **brief non-Tor** connection, known as a signaling channel, to fetch data necessary to connect to the Tor network.
-  - This fallback may occur automatically when Tor Browser cannot connect directly, or it may be manually selected by the user.
+  - These tools require **brief non-Tor** connections, known as signaling channels, to fetch data necessary to connect to the Tor network.
+  - This may occur automatically, or it may be triggered by a user action.
   - The Tor Project does not log any personally identifiable information during these signaling requests.
-- **Temporary session cache only**, cleared on exit or "New Identity"
+- **Temporary session cache only** by default, cleared on exit or "New Identity"
 
 In order to provide user control and ensure privacy-preserving functionality, Tor VPN stores certain user-configured settings locally on the device. 
 
@@ -157,7 +157,7 @@ Tor VPN does **not** request access to:
 
 - **No user data is shared** with third parties — no advertisers, analytics providers, or others.
 
-- In **Tor Browser for Desktop**, users may manually choose to visit https://check.torproject.org via a link in about:tor to verify their connection. This is optional, user-initiated, and routed over Tor. No identifying information is logged or stored. This check is not performed automatically and is not present on **Android**.
+- In **Tor Browser for Desktop**, users may manually choose to visit https://check.torproject.org via a link in the Tor Browser home page (about:tor) to verify their connection. This is optional, user-initiated, and routed over Tor. No identifying information is logged or stored. This check is not performed automatically and is not present on **Android**.
 
 - For **Tor Browser on Desktop**, the application may **anonymously** check for available software updates from Tor Project servers. These update checks:
   - Check for software updates from Tor Project servers, over the Tor network
@@ -182,6 +182,8 @@ However, users should be aware of the following cases where some data may persis
 
   - **Tor State** files necessary for Tor network connectivity (such as guard nodes and consensus info). This data is non-identifying and used only for Tor functionality.
 
+  - **Local browser preferences and configuration data** such as settings, saved passwords, site exceptions, search engine selections, preferences for showing dialogs, and other locally stored user-configured information.
+
   - **Private Browsing Mode (PBM)** behavior:
 
     - On **Android**, PBM is always-on, and prevents local storage of history, cookies, or session data.
@@ -190,7 +192,6 @@ However, users should be aware of the following cases where some data may persis
 
   - **Session Data** (e.g. tabs, site data, cookies, history) is erased when the app is closed (Android), or the user choses "New Identity" or closes the browser (Desktop with PBM enabled)
 
-  - **Uninstalling** Tor browser removes all local data.
 
 ## 7. Children’s Privacy
 
