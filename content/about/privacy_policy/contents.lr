@@ -61,9 +61,9 @@ Examples of such settings include:
 - Per-app routing rules (which apps should or should not be routed over Tor)
 
 These preferences:
-- Are stored only on the user's device
-- Are used solely for local functionality and configuration
-- Can be deleted at any time via in-app settings or by uninstalling the app
+- Are stored **only on the user's device**
+- Are used **solely** for local functionality and configuration
+- Can be deleted at **any time** via in-app settings or by uninstalling the app
 
 ### Tor VPN
 - **No user sign-in, tracking, or identity linkage**
@@ -121,7 +121,7 @@ However, users may optionally grant these permissions in specific contexts, such
   - Scanning QR codes using the URL bar
   - Allowing site-specific functionality (e.g., video conferencing)
 
-All such requests are subject to Android’s runtime permission model, users are in control of granting or denying said access, and is limited in scope and durtation.
+All such requests are subject to Android’s runtime permission model, users are in control of granting or denying said access, and is limited in scope and duration.
 
 ### Tor VPN
 
