@@ -13,9 +13,13 @@ title: Senior Android Engineer
 color: primary
 ---
 summary:
-We are seeking a Senior Android Engineer focused on building and maintaining TPI's mobile products. You will work closely with engineers and cross-functional partners to design, implement, and ship privacy-preserving features used by people around the world.
 
-This role emphasizes technical depth, strong collaboration, and mentorship through day-to-day engineering work. You will help shape technical approaches, contribute to architectural decisions, and take ownership of complex work, while supporting the growth of other members of the team.
+We are seeking a Senior Android Engineer to serve as the lead for a newly formed mobile team. This role provides technical leadership across Tor’s Android products, including Tor Browser for Android, while establishing sustainable ways of working for a growing team.
+
+You will lead technical direction and delivery for the mobile team across multiple related products, working closely with product design, desktop browser, and other teams. While this is a lead role, you are expected to remain hands-on in architecture and development work. This role is accountable for Android technical direction and delivery across Tor’s mobile products.
+
+Tor operates in a high-risk domain where technical decisions may directly impact user safety, privacy, and anonymity. Success in this role requires recognizing when decisions intersect with specialized domains and working closely with experienced Tor contributors to inform sound, responsible mobile decisions.
+
 ---
 description:
 
@@ -27,41 +31,40 @@ This role emphasizes technical depth, strong collaboration, and mentorship throu
 
 ## What You'll Do
 
-- Design, implement, test, and maintain features across Tor's Android applications, including debugging and resolving complex issues
-- Contribute to maintaining and evolving long-lived mobile applications across multiple release cycles
-- Take ownership of complex or cross-cutting technical work from design through delivery
-- Participate in technical design and architecture discussions, helping evaluate tradeoffs and implementation approaches
-- Write and review code with a strong focus on quality, security, and long-term maintainability
-- Work within a complex upstream ecosystem, including integrating and adapting changes from upstream projects and helping triage and review related changes
-- Collaborate with engineers across Tor teams to align mobile work with cross-platform and shared components
-- Engage with upstream dependencies and open source projects as needed, including contributing patches and participating in technical discussions
-- Help improve development practices, tooling, testing, and documentation over time
-- Provide technical mentorship to other team members through code review, pairing, and shared problem-solving
+- Lead planning and coordination for development across Tor’s mobile products
+- Translate organizational and product priorities into clear, capacity-aware mobile plans and milestones
+- Take technical ownership of Android architecture, performance, and long-term maintainability
+- Contribute hands-on development, particularly in complex or cross-cutting areas of the codebase
+- Review and guide code contributions, setting expectations for quality, security, and correctness
+- Identify and surface technical risks, dependencies, and tradeoffs early, to support informed decision-making
+- Mentor and support Android engineers, building technical judgment, ownership, and sustainable development practices
+- Collaborate across teams to align planning and delivery, while ensuring shared technical decisions reflect Android/mobile constraints and long-term viability.
 
 ## Who you are
 
-- A senior Android engineer with substantial experience building, shipping, and maintaining Android applications using Kotlin and Java
-- Deep familiarity with Android application architecture, lifecycle (activities, fragments, and composables), background execution (services/workers, coroutines), IPC, and release processes
-- Comfortable working across unfamiliar domains and in complex, multi-language codebases that may include native components (e.g., C/C++ or Rust)
-- Comfortable owning complex technical work end-to-end, from design through delivery and follow-through
-- Comfortable working with CI-driven development workflows and non-trivial build systems
-- Curious and collaborative across adjacent parts of the stack, and comfortable learning enough to integrate effectively with shared components
-- Able to make pragmatic architectural decisions that balance correctness, privacy, performance, and long-term maintainability across large code-bases
-- Strong code review and debugging skills, with experience collaborating in large, long-lived, open-source codebases
-- Experience mentoring and supporting engineers through day-to-day technical collaboration
-- Clear and thoughtful communicator, including in asynchronous, distributed collaboration environments
-- Motivated by Tor's mission and aligned with building privacy-preserving software that serves real users
-- Preferred but not required:
-  - Experience improving accessibility of Android applications, including familiarity with screen readers
-  - Experience contributing to or maintaining open source software, including constructive engagement with users and other contributors in public technical spaces
-  - Familiarity with browser-based applications, or Firefox-derived codebases
-  - Experience working on privacy, security, or anonymity-focused software
+- A senior Android engineer with experience delivering and maintaining large, long-lived applications using Kotlin and Java
+- Deep familiarity with Android application architecture, build systems, and release processes
+- Comfortable owning outcomes end-to-end, from shaping scope and technical approach through delivery
+- Able to make pragmatic architectural decisions that balance correctness, privacy, performance, and long-term maintainability
+- Hands-on in your work, contributing directly to development, code reviews, and technical problem-solving
+- Experienced mentoring and supporting engineers through guidance, review, and shared ownership
+- Clear and thoughtful communicator, including in asynchronous collaboration
+- Comfortable coordinating across teams with sufficient understanding of browser architecture to reason about tradeoffs and downstream consequences of shared technical decisions
+- Motivated by Tor’s mission and aligned with building privacy-preserving software that serves real users
+
+Preferred but not required:
+
+- Experience contributing to or maintaining open source software, including constructive engagement with users and other contributors in public technical spaces
+- Experience working in large, or legacy Android codebases
+- Familiarity with browser-based applications, or Firefox-derived codebases
+- Experience working on privacy, security, or anonymity-focused software
+- Familiarity with Rust, C++, or cross-language systems
 
 ## Compensation
 
-This is a full-time, remote position with flexible geographic location. The salary range for this position is $120,000- $150,000 USD. If provided an offer, TPI will determine the specific compensation package based on skills and years of experience. TPI provides an attractive benefits package that currently includes flexible Fridays, unlimited responsible personal time off (RPTO), generous leave options, healthcare (type is dependent on geographic location), and a monthly phone and internet stipend, and a tech stipend.
+This is a full-time, remote position with flexible geographic location. The salary range for this position is $120,000-$150,000 USD. If provided an offer, TPI will determine the specific compensation package based on skills and years of experience. TPI provides an attractive benefits package that currently includes flexible Fridays, unlimited responsible personal time off (RPTO), generous leave options, healthcare (type is dependent on geographic location), a monthly phone and internet stipend, and a tech stipend.
 
-TPI has a strong culture of transparency and democratic processes, and long-standing community guidelines and cultural norms. At TPI, we are invested in discussing the depth and breadth of each candidate's background and experience during the interview process and using that information to determine the best offer while considering internal pay equity. 
+TPI has a strong culture of transparency and democratic processes, and long-standing community guidelines and cultural norms. At TPI, we are invested in discussing the depth and breadth of each candidate’s background and experience during the interview process and using that information to determine the best offer while considering internal pay equity. 
 
 TPI is an equal opportunity employer and does not discriminate against any applicant or employee because of race, color, religion, sex, national origin, disability, genetic information, age, or military or veteran status in accordance with federal law. Applicants must be authorized to work in the country in which they live, we cannot provide visa assistance for this position. Due to [U.S. sanctions and embargo regulations](https://ofac.treasury.gov/sanctions-programs-and-country-information), TPI is not able to hire individuals with citizenship _and_ residency in certain countries, including but not limited to Russia, North Korea, Cuba, Iraq, China, Iran, and Syria.
 
@@ -69,4 +72,4 @@ TPI is an equal opportunity employer and does not discriminate against any app
 
 To apply please use [this link](https://www.idealist.org/en/nonprofit-job/7bb6a3c65a514f93925940e405a2928b-senior-android-engineer-the-tor-project-winchester) which will take you to a brief application. You will be asked to answer a few initial questions and upload your CV or resume. We do not ask for references or cover letters at this time. Please do not include them. Additionally, please do not use AI for the creation of your application or at any point in the process. Applications will be considered on a rolling basis and we reserve the right to close this process early due to high applicant volume. As part of the application, please include a brief response explaining why TPI's mission resonates with you and why you are interested in working at a nonprofit focused on privacy and human rights.
 
-**Deadline: 2026-04-10 by 21:00 UTC**
+**Deadline: 27 March 2026 by 2100 UTC**
