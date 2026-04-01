@@ -8,7 +8,7 @@ section_id: about
 ---
 active: true
 ---
-title: Senior Android Engineer
+title: Senior Android Engineer / Mobile Team Lead
 ---
 color: primary
 ---
@@ -19,7 +19,6 @@ We are seeking a Senior Android Engineer to serve as the lead for a newly formed
 You will lead technical direction and delivery for the mobile team across multiple related products, working closely with product design, desktop browser, and other teams. While this is a lead role, you are expected to remain hands-on in architecture and development work. This role is accountable for Android technical direction and delivery across Tor’s mobile products.
 
 Tor operates in a high-risk domain where technical decisions may directly impact user safety, privacy, and anonymity. Success in this role requires recognizing when decisions intersect with specialized domains and working closely with experienced Tor contributors to inform sound, responsible mobile decisions.
-
 ---
 description:
 
