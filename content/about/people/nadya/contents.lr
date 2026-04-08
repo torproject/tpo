@@ -1,0 +1,17 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Nadya
+---
+pronoun: she
+---
+nickname: nadya
+---
+image: /static/images/people/nadya.jpg
+---
+description:
+
+operations ninja
