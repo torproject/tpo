@@ -49,7 +49,7 @@
   </thead>
   <tbody>
     {% from "macros/reports.html" import render_report %}
-    {% set items = site.query('/about/reports').include_undiscoverable(true).filter(F.type == "code_audit")%}
+    {% set items = site.query('/about/reports').include_undiscoverable(true).filter(F.type == "code_audit").order_by('date', '_id')%}
     {% for item in items %}
       {{ render_report(item, this.alt) }}
     {% endfor %}
