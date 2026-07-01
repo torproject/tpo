@@ -82,12 +82,10 @@ RewriteRule ^contact.html$  /contact/ [R=302,L]
 RewriteRule ^badge/?$ https://github.com/seeess/Defcon-Tor-31-Badge [R=302,L]
 
 # Download websites
-RewriteRule ^download/download/$ /download [R=302,L]
-RewriteRule ^download/download$ /download [R=302,L]
-RewriteRule ^download/download.html(.*) /download [R=302,L]
-RewriteRule ^download.html(.*) /download [R=302,L]
-RewriteRule ^download/easy-download(.*) /download [R=302,L]
-RewriteRule ^download/download-easy(.*) /download [R=302,L]
+RewriteRule ^download/?$ https://download.torproject.org/ [R=302,L]
+RewriteRule ^download\.html$ https://download.torproject.org/ [R=302,L]
+RewriteRule ^download/tor/?$ https://download.torproject.org/tor/ [R=302,L]
+RewriteRule ^download/(.*) https://download.torproject.org/ [R=302,L]
 
 # Relays
 RewriteRule ^relays(.*) https://community.torproject.org/relay/ [R=302,L]
