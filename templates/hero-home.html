@@ -8,8 +8,7 @@
   <h3 class="mx-auto p-3 text-center text-white">{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }}</h3>
 </div>
 <div class="row col-12 p-5 mx-auto justify-content-center">
-  {% set download = site.get('/download') %}
-  <a class="btn btn-lg btn-outline-light" href="{{ this.url_to(download, alt=this.alt) }}">
+  <a class="btn btn-lg btn-outline-light" href="https://download.torproject.org/{{ this.alt if this.alt != config.primary_alternative }}">
     {{ _("Download Tor Browser") }}<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
   </a>
 </div>
