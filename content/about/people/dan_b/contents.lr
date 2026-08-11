@@ -12,8 +12,6 @@ pronoun: he
 ---
 mastodon_url: https://kolektiva.social/@dan_ballard
 ---
-twitter_handle: dan_ballard
----
 gpg: /static/keys/dan_b.txt
 ---
 image: /static/images/people/dan_b.png

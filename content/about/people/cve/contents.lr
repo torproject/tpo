@@ -8,15 +8,14 @@ name: Clara Engler
 ---
 nickname: cve
 ---
-pronoun: she/they
+pronoun: she/her
 ---
-mastodon_url: https://tech.lgbt/@cve
+mastodon_url: https://sisyphus.gay/cve
 ---
 gpg: https://db.torproject.org/fetchkey.cgi?fingerprint=772628464C6E8F56DBB5ACEC4CBE96203A1A78A7
 ---
-image: /static/images/people/cve.png
+image: /static/images/people/cve.jpg
 ---
 description:
 
-Rust Developer on the Network Team during the week.
-Train connoisseur during the weekend.
+Member of the Network Team, working on [Arti](https://gitlab.torproject.org/tpo/core/arti).

@@ -1,11 +1,11 @@
 {% macro render_windows(version) %}
   {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + version + '/' %}
-  {% set download_link_64 = download_prefix + 'tor-browser-windows-x86_64-portable-' + version + '.exe' %}
-  {% set download_link_32 = download_prefix + 'tor-browser-windows-i686-portable-' + version + '.exe' %}
-  {% set sig_link_64 = download_link_64 + '.asc' %}
-  {% set sig_link_32 = download_link_32 + '.asc' %}
+  {% set download_link_x86_64 = download_prefix + 'tor-browser-windows-x86_64-portable-' + version + '.exe' %}
+  {% set download_link_i686 = download_prefix + 'tor-browser-windows-i686-portable-' + version + '.exe' %}
+  {% set sig_link_x86_64 = download_link_x86_64 + '.asc' %}
+  {% set sig_link_i686 = download_link_i686 + '.asc' %}
 
-  <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
+  <a class="downloadLink" href="{{ download_link_i686 }}">i686</a> (<a href="{{ sig_link_i686 }}">sig</a>) / <a href="{{ download_link_x86_64 }}">x86_64</a> (<a href="{{ sig_link_x86_64 }}">sig<a/>)
 {% endmacro %}
 
 {% macro render_mac(version) %}
@@ -13,17 +13,27 @@
   {% set download_link = download_prefix + 'tor-browser-macos-' + version + '.dmg' %}
   {% set sig_link = download_link + '.asc' %}
 
-  <a class="downloadLink" href="{{ download_link }}">64-bit</a> (<a href="{{ sig_link }}">sig</a>)
+  <a class="downloadLink" href="{{ download_link }}">Universal</a> (<a href="{{ sig_link }}">sig</a>)
 {% endmacro %}
 
 {% macro render_linux(version) %}
   {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + version + '/' %}
-  {% set download_link_64 = download_prefix + 'tor-browser-linux-x86_64-' + version + '.tar.xz' %}
-  {% set download_link_32 = download_prefix + 'tor-browser-linux-i686-' + version + '.tar.xz' %}
-  {% set sig_link_64 = download_link_64 + '.asc' %}
-  {% set sig_link_32 = download_link_32 + '.asc' %}
+  {% set download_link_x86_64 = download_prefix + 'tor-browser-linux-x86_64-' + version + '.tar.xz' %}
+  {% set download_link_i686 = download_prefix + 'tor-browser-linux-i686-' + version + '.tar.xz' %}
+  {% set sig_link_x86_64 = download_link_x86_64 + '.asc' %}
+  {% set sig_link_i686 = download_link_i686 + '.asc' %}
 
-  <a class="downloadLink" href="{{ download_link_32 }}">32-bit</a> (<a href="{{ sig_link_32 }}">sig</a>) / <a href="{{ download_link_64 }}">64-bit</a> (<a href="{{ sig_link_64 }}">sig<a/>)
+  <a class="downloadLink" href="{{ download_link_i686 }}">i686</a> (<a href="{{ sig_link_i686 }}">sig</a>) / <a href="{{ download_link_x86_64 }}">x86_64</a> (<a href="{{ sig_link_x86_64 }}">sig<a/>)
+{% endmacro %}
+
+{% macro render_linux_alpha(version) %}
+  {% set download_prefix = 'https://dist.torproject.org/torbrowser/' + version + '/' %}
+  {% set download_link_x86_64 = download_prefix + 'tor-browser-linux-x86_64-' + version + '.tar.xz' %}
+  {% set download_link_aarch64 = download_prefix + 'tor-browser-linux-aarch64-' + version + '.tar.xz' %}
+  {% set sig_link_x86_64 = download_link_x86_64 + '.asc' %}
+  {% set sig_link_aarch64 = download_link_aarch64 + '.asc' %}
+
+  <a class="downloadLink" href="{{ download_link_x86_64 }}">x86_64</a> (<a href="{{ sig_link_x86_64 }}">sig</a>) / <a href="{{ download_link_aarch64 }}">aarch64</a> (<a href="{{ sig_link_aarch64 }}">sig<a/>)
 {% endmacro %}
 
 {% macro render_android(version, arch) %}

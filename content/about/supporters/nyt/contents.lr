@@ -1,0 +1,15 @@
+_model: supporter
+---
+type: green_onions
+---
+active: false
+---
+time: 2024
+---
+name: The New York Times
+---
+key: 03
+---
+_hidden: yes
+---
+link: https://www.nytimes.com/

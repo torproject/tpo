@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:web:torproject.org",
+  "controller": "did:plc:tnyyuxpjrcuf2sispj2m7bdc",
+  "alsoKnownAs": [
+    "did:plc:tnyyuxpjrcuf2sispj2m7bdc",
+    "at://torproject.org",
+    "http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:torproject.org#atproto",
+      "type": "Multikey",
+      "controller": "did:plc:tnyyuxpjrcuf2sispj2m7bdc",
+      "publicKeyMultibase": "zQ3shTZ1CokgE6es2cCSrRwh2ceU2G2MM1ZrgGtbqQGGwSAum"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://lepista.us-west.host.bsky.network"
+    }
+  ]
+}

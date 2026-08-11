@@ -115,21 +115,41 @@ RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
 
-# Redirects for languages still not translated, and other language situations
-# forward requests in /en to the root folder
-RewriteRule ^(en-US|en)$ / [R=302,L]
-RewriteRule ^(en-US|en)/(.*) /$2 [R=302,L]
-#
-# forward requests in /en and /en-US to the root folder
-RewriteRule ^(en|en-US)$ / [R=302,L]
-RewriteRule ^(en|en-US)/(.*) /$2 [R=302,L]
-#
-# Rewrites for languages that have a different mapping in the page than in TBB
-RewriteRule ^(es-ES|es-MX|es-CO|es-AR)(.*) /es$2 [R=302,L]
-RewriteRule ^(ga-IE)(.*) /ga$2 [R=302,L]
-#
-# Rewrites for languages that have a Tor Browser release
-# but don't have a community page
-# You can see them at https://dist.torproject.org/torbrowser/, pick the last alpha for the most languages
-# this languages are the translation priority for the website!
-RewriteRule ^(bn|bn-BD|bn-IN|da|he|id|lt|mk|ms|my|nb-NO|pt-PT|ro|sv-SE|th)/(.*) /$2 [R=302,L]
+# Redirects for languages
+
+# inhibit language negotiation for /en and /en/ urls
+RewriteRule ^en(?:-[A-Z]{2})?/?$ /?noredirect=1 [R=302,L]
+
+# Send "noindex" to robots on URLs with noredirect query string
+# this should avoid duplicate homepage entries in search engines
+RewriteCond %{QUERY_STRING} ^noredirect
+RewriteRule .* - [E=noindex:1]
+Header set X-Robots-Tag "noindex" env=noindex
+
+# render homepage in language negotiated with browser
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{QUERY_STRING} !^noredirect
+RewriteCond %{DOCUMENT_ROOT}/index.html.var -f
+RewriteRule ^ /index.html.var [L]
+
+# if page doesn't exist and is prefixed with a language code
+# set environment variables to attempt a redirect, see rules below
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteCond "%{REQUEST_URI}" "^/([a-z]{2})(?:-[A-Z]{2})?/(.*)" [OR]
+RewriteCond "%{REQUEST_URI}" "^/([a-z]{2})(?:-[A-Z]{2})?$"
+RewriteRule ^ - [E=langredir:1,E=langredir_code:%1,E=langredir_subpath:%2]
+
+# redirect if the language code without region variant exists
+# eg. redirect /es-AR to /es
+RewriteCond %{ENV:langredir} =1
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}/%{ENV:langredir_subpath} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_code}/%{ENV:langredir_subpath} -d
+RewriteRule ^ /%{ENV:langredir_code}/%{ENV:langredir_subpath} [R=302,L]
+
+# redirect if the translation requested isn't available
+# to the default language version of the page
+RewriteCond %{ENV:langredir} =1
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_subpath} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/%{ENV:langredir_subpath} -d
+RewriteRule ^ /%{ENV:langredir_subpath} [R=302,L]

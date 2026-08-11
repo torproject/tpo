@@ -1,0 +1,27 @@
+_model: supporter
+---
+type: foundations_and_institutions
+---
+active: true
+---
+time: 2026
+---
+name: Ethereum Foundation
+---
+key: 48
+---
+logo: /static/images/supporters/eth-sponsor-card.png
+---
+_hidden: yes
+---
+link: https://esp.ethereum.foundation/
+---
+description:
+
+The Ethereum Foundation is a non-profit that supports the Ethereum ecosystem.
+They are a part of a larger community of organizations and individuals that fund
+protocol development, grow the ecosystem, and advocate for Ethereum. The
+Ethereum Foundation awarded a grant to Tor to assist developers in advancing
+network-level privacy for Ethereum. This work includes new features and
+documentation designed to benefit the broader ecosystem of tools integrating
+Tor.
