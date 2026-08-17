@@ -25,6 +25,11 @@ name = Català (ca)
 url_prefix = /ca/
 locale = ca
 
+[alternatives.cs]
+name = česky (cs)
+url_prefix = /cs/
+locale = cs
+
 [alternatives.de]
 name = Deutsch (de)
 url_prefix = /de/
@@ -129,6 +134,11 @@ locale = tk
 name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
+
+[alternatives.uk]
+name = українська (uk)
+url_prefix = /uk/
+locale = uk
 
 [alternatives.vi]
 name = Tiếng Việt (vi)
