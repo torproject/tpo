@@ -100,18 +100,18 @@ RewriteRule ^eff/(.*) https://2019.www.torproject.org/eff/$1 [R=302,L]
 # Videos
 RewriteRule ^videos/(.*) https://2019.www.torproject.org/videos/$1 [R=302,L]
 
-# Donation campaigns
-# Handle custom links used for web statistics
-RewriteRule ^donate/donate(.*) https://donate.torproject.org/ [R=302,L]
-
 # Donation campaigns (legacy redirections)
 # Handle URLs that were used in past publications
-RewriteRule ^donate/donor-faq(.*) https://donate.torproject.org/donor-faq [R=302,L]
-RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy [R=302,L]
-RewriteRule ^donate/thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
-RewriteRule ^thankyou(.*) https://donate.torproject.org/thank-you [R=302,L]
+RewriteRule ^donate/donor-faq(.*) https://support.torproject.org/donation/ [R=302,L]
+RewriteRule ^donate/donor-privacy-policy(.*) https://donate.torproject.org/privacy-policy/ [R=302,L]
+RewriteRule ^donate/thankyou(.*) https://donate.torproject.org/donate-thank-you/ [R=302,L]
+RewriteRule ^thankyou(.*) https://donate.torproject.org/donate-thank-you/ [R=302,L]
 RewriteRule ^donate-email(.*) https://donate.torproject.org/ [R=302,L]
 RewriteRule ^donate/?$ https://donate.torproject.org/ [R=302,L]
+
+# Donation campaigns
+# Handle custom links used for web statistics
+RewriteRule ^donate/(.*) https://donate.torproject.org/ [R=302,L]
 
 # Redirects for languages
 
