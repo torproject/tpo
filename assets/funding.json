@@ -118,8 +118,8 @@
          ],
          "name" : "Tails: The Amnesic Incognito Live System",
          "repositoryUrl" : {
-            "url" : "https://gitlab.tails.boum.org/tails/tails",
-            "wellKnown" : "https://gitlab.tails.boum.org/tails/tails/-/raw/99b29fca61e16b690d63edf9e41b2ffcdd16df03/wiki/src/.well-known/funding-manifest-urls"
+            "url" : "https://gitlab.tails.net/tails/tails",
+            "wellKnown" : "https://gitlab.tails.net/tails/tails/-/raw/99b29fca61e16b690d63edf9e41b2ffcdd16df03/wiki/src/.well-known/funding-manifest-urls"
          },
          "tags" : [
             "cryptography",
