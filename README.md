@@ -60,3 +60,14 @@ To help us to translate, please join the Tor Project team in [Transifex](https:/
 ### Getting help
 
 If you want to contribute to the Tor Project website, we will be happy to help you. Join us at #tor-www in [irc.oftc.net](https://support.torproject.org/get-in-touch/irc-help/).
+
+## License
+
+The code in this repository is licensed under the [MIT license](LICENSE).
+Unless otherwise noted, the content (text, images and other non-code material)
+is licensed under the [Creative Commons Attribution 4.0 International
+license](LICENSE-CC-BY-4.0).
+
+Please see our [copyright, trademark and brand
+policy](https://www.torproject.org/about/trademark/) for information about
+using Tor Project and related trademarks.
