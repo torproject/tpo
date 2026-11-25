@@ -1,0 +1,23 @@
+_model: person
+---
+_hidden: yes
+---
+role: core
+---
+name: Ed Holloway-George
+---
+twitter_handle: Sp4ghettiCode
+---
+mastodon_url: https://bsky.app/profile/spght.dev
+---
+nickname: edhg
+---
+pronoun: he/him
+---
+gpg: /static/keys/edhg.txt
+---
+image: /static/images/people/edhg.jpg
+---
+description:
+
+Mobile Team Lead within Tor's Applications Dev Team, vetran Android developer and speaker.
